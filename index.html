@@ -26,6 +26,12 @@
       td.skip { color: silver; }
       td.pass { color: royalblue; }
       td.fail { color: indianred; }
+
+      pre {
+        font: 1em "Courier", "Courier New", monospace;
+        margin: 0;
+        padding: 0;
+      }
     </style>
   </head>
 
@@ -49,122 +55,148 @@
         and don't generally contain punctuation. -->
 
         <tr>
-          <td class="input"><kbd>(title (condition clear))</kbd></td>
+          <td class="input"><pre>(title
+  (condition clear))</pre></td>
           <td class="en">Clear</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition very-light-rain))</kbd></td>
+          <td class="input"><pre>(title
+  (condition very-light-rain))</pre></td>
           <td class="en">Drizzle</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition light-rain))</kbd></td>
+          <td class="input"><pre>(title
+  (condition light-rain))</pre></td>
           <td class="en">Light Rain</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition medium-rain))</kbd></td>
+          <td class="input"><pre>(title
+  (condition medium-rain))</pre></td>
           <td class="en">Rain</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition heavy-rain))</kbd></td>
+          <td class="input"><pre>(title
+  (condition heavy-rain))</pre></td>
           <td class="en">Heavy Rain</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition very-light-sleet))</kbd></td>
+          <td class="input"><pre>(title
+  (condition very-light-sleet))</pre></td>
           <td class="en">Light Sleet</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition light-sleet))</kbd></td>
+          <td class="input"><pre>(title
+  (condition light-sleet))</pre></td>
           <td class="en">Light Sleet</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition medium-sleet))</kbd></td>
+          <td class="input"><pre>(title
+  (condition medium-sleet))</pre></td>
           <td class="en">Sleet</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition heavy-sleet))</kbd></td>
+          <td class="input"><pre>(title
+  (condition heavy-sleet))</pre></td>
           <td class="en">Heavy Sleet</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition very-light-snow))</kbd></td>
+          <td class="input"><pre>(title
+  (condition very-light-snow))</pre></td>
           <td class="en">Flurries</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition light-snow))</kbd></td>
+          <td class="input"><pre>(title
+  (condition light-snow))</pre></td>
           <td class="en">Light Snow</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition medium-snow))</kbd></td>
+          <td class="input"><pre>(title
+  (condition medium-snow))</pre></td>
           <td class="en">Snow</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition heavy-snow))</kbd></td>
+          <td class="input"><pre>(title
+  (condition heavy-snow))</pre></td>
           <td class="en">Heavy Snow</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition light-wind))</kbd></td>
+          <td class="input"><pre>(title
+  (condition light-wind))</pre></td>
           <td class="en">Breezy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition medium-wind))</kbd></td>
+          <td class="input"><pre>(title
+  (condition medium-wind))</pre></td>
           <td class="en">Windy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition heavy-wind))</kbd></td>
+          <td class="input"><pre>(title
+  (condition heavy-wind))</pre></td>
           <td class="en">Dangerously Windy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition very-heavy-wind))</kbd></td>
+          <td class="input"><pre>(title
+  (condition very-heavy-wind))</pre></td>
           <td class="en">Violently Windy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition low-humidity))</kbd></td>
+          <td class="input"><pre>(title
+  (condition low-humidity))</pre></td>
           <td class="en">Dry</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition high-humidity))</kbd></td>
+          <td class="input"><pre>(title
+  (condition high-humidity))</pre></td>
           <td class="en">Humid</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition fog))</kbd></td>
+          <td class="input"><pre>(title
+  (condition fog))</pre></td>
           <td class="en">Foggy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition light-clouds))</kbd></td>
+          <td class="input"><pre>(title
+  (condition light-clouds))</pre></td>
           <td class="en">Partly Cloudy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition medium-clouds))</kbd></td>
+          <td class="input"><pre>(title
+  (condition medium-clouds))</pre></td>
           <td class="en">Mostly Cloudy</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (condition heavy-clouds))</kbd></td>
+          <td class="input"><pre>(title
+  (condition heavy-clouds))</pre></td>
           <td class="en">Overcast</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(title (and<br>&nbsp;&nbsp;(condition high-humidity)<br>&nbsp;&nbsp;(condition light-clouds)))</kbd></td>
+          <td class="input"><pre>(title
+  (and
+    (condition high-humidity)
+    (condition light-clouds)))</pre></td>
           <td class="en">Humid and Partly Cloudy</td>
         </tr>
 
@@ -176,27 +208,43 @@
         minutes. -->
 
         <tr>
-          <td class="input"><kbd>(sentence (for-hour<br>&nbsp;&nbsp;(condition clear)))</kbd></td>
+          <td class="input"><pre>(sentence
+  (for-hour
+    (condition clear)))</pre></td>
           <td class="en">Clear for the hour.</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(sentence (starting<br>&nbsp;&nbsp;(condition very-light-snow)<br>&nbsp;&nbsp;(quantity minute 35)))</kbd></td>
+          <td class="input"><pre>(sentence
+  (starting
+    (condition very-light-snow)
+    (quantity minute 35)))</pre></td>
           <td class="en">Flurries in 35 min.</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(sentence (stopping<br>&nbsp;&nbsp;(condition light-rain)<br>&nbsp;&nbsp;(quantity minute 15)))</kbd></td>
+          <td class="input"><pre>(sentence
+  (stopping
+    (condition light-rain)
+    (quantity minute 15)))</pre></td>
           <td class="en">Light rain for 15 min.</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(sentence<br>&nbsp;&nbsp;(starting-then-stopping<br>&nbsp;&nbsp;&nbsp;&nbsp;(condition heavy-sleet)<br>&nbsp;&nbsp;&nbsp;&nbsp;(quantity minute 20)<br>&nbsp;&nbsp;&nbsp;&nbsp;(quantity minute 30)))</kbd></td>
+          <td class="input"><pre>(sentence
+  (starting-then-stopping
+    (condition heavy-sleet)
+    (quantity minute 20)
+    (quantity minute 30)))</pre></td>
           <td class="en">Heavy sleet starting in 20 min., stopping 30 min. later.</td>
         </tr>
 
         <tr>
-          <td class="input"><kbd>(sentence<br>&nbsp;&nbsp;(stopping-then-starting<br>&nbsp;&nbsp;&nbsp;&nbsp;(condition medium-rain)<br>&nbsp;&nbsp;&nbsp;&nbsp;(quantity minute 25)<br>&nbsp;&nbsp;&nbsp;&nbsp;(quantity minute 8)))</kbd></td>
+          <td class="input"><pre>(sentence
+  (stopping-then-starting
+    (condition medium-rain)
+    (quantity minute 25)
+    (quantity minute 8)))</pre></td>
           <td class="en">Rain stopping in 25 min., starting again 8 min. later.</td>
         </tr>
 
