@@ -6,8 +6,11 @@ var DarkSky;
   var LANGUAGES = {};
 
   DarkSky = {
+    hasLanguage: function(code) {
+      return LANGUAGES.hasOwnProperty(code);
+    },
     language: function(code, predicates) {
-      if(LANGUAGES.hasOwnProperty(code))
+      if(DarkSky.hasLanguage(code))
         throw new Error("DarkSky already has the language code \"" + code + "\" defined.");
 
       LANGUAGES[code] = predicates;

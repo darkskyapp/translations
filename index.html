@@ -1,14 +1,190 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Dark Sky Multilingual Text Summaries</title>
+
+    <style type="text/css">
+      body {
+        margin: 3em;
+        font: 87.5%/1em "Helvetica";
+      }
+
+      th, td {
+        text-align: left;
+        vertical-align: top;
+      }
+
+      td.skip { color: silver; }
+      td.pass { color: royalblue; }
+      td.fail { color: indianred; }
+    </style>
   </head>
 
   <body>
+    <h1>Dark Sky Multilingual Text Summaries</h1>
+
+    <table id="tests">
+      <thead>
+        <tr>
+          <th>Dark Sky Output</th>
+          <th>English</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="input"><kbd>(title (condition clear))</kbd></td>
+          <td class="en">Clear</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition very-light-rain))</kbd></td>
+          <td class="en">Drizzle</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition light-rain))</kbd></td>
+          <td class="en">Light Rain</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition medium-rain))</kbd></td>
+          <td class="en">Rain</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition heavy-rain))</kbd></td>
+          <td class="en">Heavy Rain</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition very-light-sleet))</kbd></td>
+          <td class="en">Light Sleet</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition light-sleet))</kbd></td>
+          <td class="en">Light Sleet</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition medium-sleet))</kbd></td>
+          <td class="en">Sleet</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition heavy-sleet))</kbd></td>
+          <td class="en">Heavy Sleet</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition very-light-snow))</kbd></td>
+          <td class="en">Flurries</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition light-snow))</kbd></td>
+          <td class="en">Light Snow</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition medium-snow))</kbd></td>
+          <td class="en">Snow</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition heavy-snow))</kbd></td>
+          <td class="en">Heavy Snow</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition light-wind))</kbd></td>
+          <td class="en">Breezy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition medium-wind))</kbd></td>
+          <td class="en">Windy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition heavy-wind))</kbd></td>
+          <td class="en">Dangerously Windy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition very-heavy-wind))</kbd></td>
+          <td class="en">Violently Windy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition low-humidity))</kbd></td>
+          <td class="en">Dry</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition high-humidity))</kbd></td>
+          <td class="en">Humid</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition fog))</kbd></td>
+          <td class="en">Foggy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition light-clouds))</kbd></td>
+          <td class="en">Partly Cloudy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition medium-clouds))</kbd></td>
+          <td class="en">Mostly Cloudy</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (condition heavy-clouds))</kbd></td>
+          <td class="en">Overcast</td>
+        </tr>
+
+        <tr>
+          <td class="input"><kbd>(title (and (condition high-humidity)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(condition light-clouds)))</kbd></td>
+          <td class="en">Humid and Partly Cloudy</td>
+        </tr>
+      </tbody>
+    </table>
+
     <script type="text/javascript" src="./src/darksky.js"></script>
+    <script type="text/javascript" src="./src/sexp.js"></script>
     <script type="text/javascript" src="./src/lang/en.js"></script>
 
     <script>
-      document.write("<p>" + DarkSky.translate("en", ["title", ["and", ["condition", "heavy-wind"], ["condition", "medium-clouds"]]]) + "</p>");
+      var rows = document.getElementById("tests").getElementsByTagName("tr"),
+          i, cells, input, j, output;
+
+      for(i = 0; i !== rows.length; ++i) {
+        cells = rows[i].getElementsByTagName("td");
+        input = undefined;
+
+        for(j = 0; j !== cells.length; ++j) {
+          if(cells[j].className === "input")
+            input = SExp.parse(cells[j].textContent);
+
+          else if(!input || !DarkSky.hasLanguage(cells[j].className))
+            cells[j].className += " skip";
+
+          else {
+            try {
+              output = DarkSky.translate(cells[j].className, input);
+              cells[j].className += output === cells[j].textContent ? " pass" : " fail";
+            }
+
+            catch(e) {
+              cells[j].className += " fail";
+            }
+          }
+        }
+      }
     </script>
   </body>
 </html>
