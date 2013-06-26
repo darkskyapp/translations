@@ -1,5 +1,5 @@
 DarkSky.language("en", {
-  condition: function(word) {
+  "condition": function(word) {
     switch(word) {
       case            "clear": return "clear";
 
@@ -33,7 +33,12 @@ DarkSky.language("en", {
       case     "heavy-clouds": return "overcast";
     }
   },
-  and: function() {
+  "quantity": function(unit, count) {
+    switch(unit) {
+      case "minute": return count + " min.";
+    }
+  },
+  "and": function() {
     switch(arguments.length) {
       case  1: return arguments[0];
       case  2: return arguments[0] + " and " + arguments[1];
@@ -41,10 +46,25 @@ DarkSky.language("en", {
         ", and " + arguments[arguments.length - 1];
     }
   },
+  "for-hour": function(condition, duration) {
+    return condition + " for the hour";
+  },
+  "starting": function(condition, duration) {
+    return condition + " in " + duration;
+  },
+  "stopping": function(condition, duration) {
+    return condition + " for " + duration;
+  },
+  "starting-then-stopping": function(condition, duration1, duration2) {
+    return condition + " starting in " + duration1 + ", stopping " + duration2 + " later";
+  },
+  "stopping-then-starting": function(condition, duration1, duration2) {
+    return condition + " stopping in " + duration1 + ", starting again " + duration2 + " later";
+  },
   /* Capitalize the first letter of every word, except if that word is "and".
    * (This is a very crude bastardization of proper English titling rules, but
    * it is adequate for the purposes of this module.) */
-  title: function(str) {
+  "title": function(str) {
     return str.replace(
       /\b(?:a(?!nd\b)|[^\Wa])/g,
       function(letter) {
@@ -53,7 +73,14 @@ DarkSky.language("en", {
     );
   },
   /* Capitalize the first word of the sentence and end with a period. */
-  sentence: function(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1) + ".";
+  "sentence": function(str) {
+    /* Capitalize. */
+    str = str.charAt(0).toUpperCase() + str.slice(1);
+
+    /* Add a period if there isn't already one. */
+    if(str.charAt(str.length - 1) !== ".")
+      str += ".";
+
+    return str;
   }
 });
