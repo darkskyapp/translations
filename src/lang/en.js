@@ -1,42 +1,72 @@
 DarkSky.language("en", {
   "condition": function(word) {
     switch(word) {
-      case            "clear": return "clear";
+      case                    "clear": return "clear";
 
-      case  "very-light-rain": return "drizzle";
-      case       "light-rain": return "light rain";
-      case      "medium-rain": return "rain";
-      case       "heavy-rain": return "heavy rain";
+      case         "no-precipitation": return "no precipitation";
+      case      "mixed-precipitation": return "mixed precipitation";
+      case "very-light-precipitation": return "light precipitation";
+      case      "light-precipitation": return "light precipitation";
+      case     "medium-precipitation": return "precipitation";
+      case      "heavy-precipitation": return "heavy precipitation";
 
-      case "very-light-sleet": return "light sleet";
-      case      "light-sleet": return "light sleet";
-      case     "medium-sleet": return "sleet";
-      case      "heavy-sleet": return "heavy sleet";
+      case          "very-light-rain": return "drizzle";
+      case               "light-rain": return "light rain";
+      case              "medium-rain": return "rain";
+      case               "heavy-rain": return "heavy rain";
 
-      case  "very-light-snow": return "flurries";
-      case       "light-snow": return "light snow";
-      case      "medium-snow": return "snow";
-      case       "heavy-snow": return "heavy snow";
+      case         "very-light-sleet": return "light sleet";
+      case              "light-sleet": return "light sleet";
+      case             "medium-sleet": return "sleet";
+      case              "heavy-sleet": return "heavy sleet";
 
-      case       "light-wind": return "breezy";
-      case      "medium-wind": return "windy";
-      case       "heavy-wind": return "dangerously windy";
-      case  "very-heavy-wind": return "violently windy";
+      case          "very-light-snow": return "flurries";
+      case               "light-snow": return "light snow";
+      case              "medium-snow": return "snow";
+      case               "heavy-snow": return "heavy snow";
 
-      case     "low-humidity": return "dry";
-      case    "high-humidity": return "humid";
+      case               "light-wind": return "breezy";
+      case              "medium-wind": return "windy";
+      case               "heavy-wind": return "dangerously windy";
+      case          "very-heavy-wind": return "violently windy";
 
-      case              "fog": return "foggy";
+      case             "low-humidity": return "dry";
+      case            "high-humidity": return "humid";
 
-      case     "light-clouds": return "partly cloudy";
-      case    "medium-clouds": return "mostly cloudy";
-      case     "heavy-clouds": return "overcast";
+      case                      "fog": return "foggy";
+
+      case             "light-clouds": return "partly cloudy";
+      case            "medium-clouds": return "mostly cloudy";
+      case             "heavy-clouds": return "overcast";
+    }
+  },
+  "day": function(word) {
+    switch(word) {
+      case     "today": return "today";
+      case  "tomorrow": return "tomorrow";
+
+      case    "sunday": return "Sunday";
+      case    "monday": return "Monday";
+      case   "tuesday": return "Tuesday";
+      case "wednesday": return "Wednesday";
+      case  "thursday": return "Thursday";
+      case    "friday": return "Friday";
+      case  "saturday": return "Saturday";
     }
   },
   "quantity": function(unit, count) {
     switch(unit) {
-      case "minute": return count + " min.";
+      case     "minute": return count + " min.";
+
+      case       "inch": return count + " in.";
+      case "centimeter": return count + " cm.";
+
+      case "fahrenheit": return count + "°F";
+      case    "celsius": return count + "°C";
     }
+  },
+  "qualify": function(phrase, qualifier) {
+    return phrase + " (" + qualifier + ")";
   },
   "and": function() {
     switch(arguments.length) {
@@ -46,20 +76,35 @@ DarkSky.language("en", {
         ", and " + arguments[arguments.length - 1];
     }
   },
+  "clause": function() {
+    var separator = ", ",
+        i;
+
+    for(i = arguments.length; i--; )
+      if(arguments[i].indexOf(",") !== -1) {
+        separator = "; ";
+        break;
+      }
+
+    return Array.prototype.join.call(arguments, separator);
+  },
   "for-hour": function(condition, duration) {
     return condition + " for the hour";
   },
+  "for-week": function(condition, duration) {
+    return condition + " throughout the week";
+  },
   "starting": function(condition, duration) {
-    return condition + " in " + duration;
+    return condition + " starting in " + duration;
   },
   "stopping": function(condition, duration) {
-    return condition + " for " + duration;
+    return condition + " stopping in " + duration;
   },
-  "starting-then-stopping": function(condition, duration1, duration2) {
-    return condition + " starting in " + duration1 + ", stopping " + duration2 + " later";
+  "starting-later": function(duration) {
+    return "starting again " + duration + " later";
   },
-  "stopping-then-starting": function(condition, duration1, duration2) {
-    return condition + " stopping in " + duration1 + ", starting again " + duration2 + " later";
+  "stopping-later": function(duration) {
+    return "stopping " + duration + " later";
   },
   /* Capitalize the first letter of every word, except if that word is "and".
    * (This is a very crude bastardization of proper English titling rules, but
