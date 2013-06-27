@@ -88,6 +88,9 @@ DarkSky.language("en", {
 
     return Array.prototype.join.call(arguments, separator);
   },
+  "range": function(start, end) {
+    return start + " through " + end;
+  },
   "for-hour": function(condition, duration) {
     return condition + " for the hour";
   },
