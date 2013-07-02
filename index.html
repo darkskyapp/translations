@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Dark Sky Multilingual Text Summaries</title>
+    <meta charset="utf-8"/>
 
     <style type="text/css">
       body {
@@ -299,8 +300,10 @@
   (clause
     (for-week
       (condition no-precipitation))
-    (...)))</pre></td>
-          <td class="en">No precipitation throughout the week, ...</td>
+    (temperatures-peaking
+      (quantity fahrenheit 85)
+      (day tomorrow))))</pre></td>
+          <td class="en">No precipitation throughout the week, temperatures peaking at 85°F tomorrow.</td>
         </tr>
 
         <tr>
@@ -308,8 +311,10 @@
   (clause
     (over-weekend
       (condition mixed-precipitation))
-    (...)))</pre></td>
-          <td class="en">Mixed precipitation over the weekend, ...</td>
+    (temperatures-rising
+      (quantity celsius 32)
+      (day thursday))))</pre></td>
+          <td class="en">Mixed precipitation over the weekend, temperatures rising to 32°C on Thursday.</td>
         </tr>
 
         <tr>
@@ -317,9 +322,11 @@
   (clause
     (on
       (condition medium-rain)
-      (day sunday))
-    (...)))</pre></td>
-          <td class="en">Rain on Sunday, ...</td>
+      (day today))
+    (temperatures-valleying
+      (quantity fahrenheit 15)
+      (day friday))))</pre></td>
+          <td class="en">Rain today, temperatures bottoming out at 15°F on Friday.</td>
         </tr>
 
         <tr>
@@ -330,8 +337,10 @@
       (and
         (day monday)
         (day tuesday)))
-    (...)))</pre></td>
-          <td class="en">Flurries on Monday and Tuesday, ...</td>
+    (temperatures-falling
+      (quantity celsius 0)
+      (day sunday))))</pre></td>
+          <td class="en">Flurries on Monday and Tuesday, temperatures falling to 0°C on Sunday.</td>
         </tr>
 
         <tr>
@@ -346,11 +355,6 @@
           <td class="en">Precipitation on Wednesday through Saturday, ...</td>
         </tr>
       </tbody>
-
-      <!-- FIXME: today -->
-      <!-- FIXME: tomorrow -->
-      <!-- FIXME: thursday -->
-      <!-- FIXME: friday -->
     </table>
 
     <script type="text/javascript" src="./src/darksky.js"></script>

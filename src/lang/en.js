@@ -109,6 +109,18 @@ DarkSky.language("en", {
   "stopping-later": function(duration) {
     return "stopping " + duration + " later";
   },
+  "temperatures-peaking": function(max, day) {
+    "temperatures peaking at " + max + " on " + day;
+  },
+  "temperatures-rising": function(max, day) {
+    "temperatures rising to " + max + " on " + day;
+  },
+  "temperatures-valleying": function(min, day) {
+    "temperatures bottoming out at " + min + " on " + day;
+  },
+  "temperatures-falling": function(min, day) {
+    "temperatures falling to " + min + " on " + day;
+  },
   /* Capitalize the first letter of every word, except if that word is "and".
    * (This is a very crude bastardization of proper English titling rules, but
    * it is adequate for the purposes of this module.) */
