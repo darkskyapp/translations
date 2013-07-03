@@ -38,8 +38,8 @@ var DarkSkyEnglish = {
       "friday": "Friday",
       "saturday": "Saturday",
       "minutes": "$1 min.",
-      "fahrenheit": "$1°F",
-      "celsius": "$1°C",
+      "fahrenheit": "$1\u00B0F",
+      "celsius": "$1\u00B0C",
       "and": "$1 and $2",
       "clauses": function(one, two) {
         return one +
