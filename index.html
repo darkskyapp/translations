@@ -247,7 +247,7 @@
 
         <tr>
           <td class="input"><pre>(sentence
-  (starting
+  (starting-in
     very-light-snow
     (minutes
       35)))</pre></td>
@@ -256,7 +256,7 @@
 
         <tr>
           <td class="input"><pre>(sentence
-  (stopping
+  (stopping-in
     light-rain
     (minutes
       15)))</pre></td>
@@ -266,7 +266,7 @@
         <tr>
           <td class="input"><pre>(sentence
   (clauses
-    (starting
+    (starting-in
       heavy-sleet
       (minutes
         20))
@@ -279,11 +279,11 @@
         <tr>
           <td class="input"><pre>(sentence
   (clauses
-    (stopping
+    (stopping-in
       medium-rain
       (minutes
         25))
-    (starting-later
+    (starting-again-later
       (minutes
         8))))</pre></td>
           <td class="en">Rain stopping in 25 min., starting again 8 min. later.</td>
@@ -292,6 +292,13 @@
         <!-- 24-HOUR SUMMARIES. These summaries are used on the "hourly" data
         block and the "daily" data points, and represent the weather conditions
         over a period of twenty-four hours. -->
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (for-day
+    clear))</pre></td>
+          <td class="en">Clear throughout the day.</td>
+        </tr>
 
         <!-- FIXME -->
 
@@ -307,7 +314,8 @@
     (for-week
       no-precipitation)
     (on
-      (temperatures-peaking
+      (peaking
+        temperatures
         (fahrenheit
           85))
       tomorrow)))</pre></td>
@@ -320,7 +328,8 @@
     (over-weekend
       mixed-precipitation)
     (on
-      (temperatures-rising
+      (rising
+        temperatures
         (celsius
           32))
       thursday)))</pre></td>
@@ -334,7 +343,8 @@
       medium-rain
       today)
     (on
-      (temperatures-valleying
+      (valleying
+        temperatures
         (fahrenheit
           15))
       friday)))</pre></td>
@@ -350,7 +360,8 @@
         monday
         tuesday))
     (on
-      (temperatures-falling
+      (falling
+        temperatures
         (celsius
           0))
       sunday)))</pre></td>
@@ -366,7 +377,8 @@
         wednesday
         saturday))
     (on
-      (temperatures-peaking
+      (peaking
+        temperatures
         (fahrenheit
           100))
       monday)))</pre></td>

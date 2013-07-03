@@ -28,6 +28,23 @@ var DarkSkyEnglish = {
       "light-clouds": "partly cloudy",
       "medium-clouds": "mostly cloudy",
       "heavy-clouds": "overcast",
+      "temperatures": "temperatures",
+      "today-morning": "this morning",
+      "later-today-morning": "later this morning",
+      "today-afternoon": "this afternoon",
+      "later-today-afternoon": "later this afternoon",
+      "today-evening": "this evening",
+      "later-today-evening": "later this evening",
+      "today-night": "tonight",
+      "later-today-night": "later tonight",
+      "tomorrow-morning": "tomorrow morning",
+      "tomorrow-afternoon": "tomorrow afternoon",
+      "tomorrow-evening": "tomorrow evening",
+      "tomorrow-night": "tomorrow night",
+      "morning": "morning",
+      "afternoon": "afternoon",
+      "evening": "evening",
+      "night": "night",
       "today": "today",
       "tomorrow": "tomorrow",
       "sunday": "Sunday",
@@ -40,29 +57,60 @@ var DarkSkyEnglish = {
       "minutes": "$1 min.",
       "fahrenheit": "$1\u00B0F",
       "celsius": "$1\u00B0C",
-      "and": "$1 and $2",
+      "and": function(/* ... */) {
+        switch(arguments.length) {
+          case 1:
+            return arguments[0];
+
+          case 2:
+            return arguments[0] + " and " + arguments[1];
+
+          default:
+            return Array.prototype.slice.call(arguments, 0, -1).join(", ") +
+              ", and " + arguments[arguments.length - 1];
+        }
+      },
+      "range": "$1 through $2",
       "clauses": function(one, two) {
         return one +
           (one.indexOf(",") === -1 && two.indexOf(",") === -1 ? ", " : "; ") +
           two;
       },
-      "range": "$1 through $2",
-      "for-hour": "$1 for the hour",
-      "starting": "$1 starting in $2",
-      "stopping": "$1 stopping in $2",
-      "starting-later": "starting again $1 later",
-      "stopping-later": "stopping $1 later",
-      "for-week": "$1 throughout the week",
-      "over-weekend": "$1 over the weekend",
-      "temperatures-peaking": "temperatures peaking at $1",
-      "temperatures-rising": "temperatures rising to $1",
-      "temperatures-valleying": "temperatures bottoming out at $1",
-      "temperatures-falling": "temperatures falling to $1",
+      "during": function(period) {
+        switch(period) {
+          case "morning":
+          case "afternoon":
+          case "evening":
+            return "in the " + period;
+
+          case "night":
+            return "overnight";
+
+          default:
+            return period;
+        }
+      },
       "on": function(condition, day) {
         return condition +
           (day === "today" || day === "tomorrow" ? " " : " on ") +
           day;
       },
+      "for-hour": "$1 for the hour",
+      "for-day": "$1 throughout the day",
+      "for-week": "$1 throughout the week",
+      "over-weekend": "$1 over the weekend",
+      "starting": "$1 starting $2",
+      "starting-in": "$1 starting in $2",
+      "stopping-in": "$1 stopping in $2",
+      "until": "$1 until $2",
+      "continuing-until": "$1 continuing until $2",
+      "peaking": "$1 peaking at $2",
+      "rising": "$1 rising to $2",
+      "valleying": "$1 bottoming out at $2",
+      "falling": "$1 falling to $2",
+      "starting-again": "starting again $1",
+      "starting-again-later": "starting again $1 later",
+      "stopping-later": "stopping $1 later",
       /* Capitalize the first letter of every word, except if that word is
        * "and". (This is a very crude bastardization of proper English titling
        * rules, but it is adequate for the purposes of this module.) */
