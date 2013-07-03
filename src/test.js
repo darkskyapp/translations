@@ -1,4 +1,5 @@
-var rows = document.getElementById("tests").getElementsByTagName("tr"),
+var mapping = {"en": DarkSkyEnglish},
+    rows = document.getElementById("tests").getElementsByTagName("tr"),
     i, cells, input, j, output;
 
 for(i = 0; i !== rows.length; ++i) {
@@ -15,12 +16,12 @@ for(i = 0; i !== rows.length; ++i) {
         input = undefined;
       }
 
-    else if(!input || !DarkSky.hasLanguage(cells[j].className))
+    else if(!input || !mapping.hasOwnProperty(cells[j].className))
       cells[j].className += " skip";
 
     else
       try {
-        output = DarkSky.translate(cells[j].className, input);
+        output = DarkSky.translate(mapping[cells[j].className], input);
 
         if(output === cells[j].textContent)
           cells[j].className += " pass";

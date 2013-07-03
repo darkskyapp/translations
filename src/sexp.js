@@ -20,8 +20,11 @@ var SExp;
           stack[stack.length - 1].push(top);
         }
 
-        else
+        else if(isNaN(str[i]))
           stack[stack.length - 1].push(str[i]);
+
+        else
+          stack[stack.length - 1].push(+str[i]);
 
       return stack[0][0];
     }
