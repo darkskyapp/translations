@@ -57,40 +57,15 @@ var DarkSkyEnglish = {
       "minutes": "$1 min.",
       "fahrenheit": "$1\u00B0F",
       "celsius": "$1\u00B0C",
-      "and": function(/* ... */) {
-        switch(arguments.length) {
-          case 1:
-            return arguments[0];
-
-          case 2:
-            return arguments[0] + " and " + arguments[1];
-
-          default:
-            return Array.prototype.slice.call(arguments, 0, -1).join(", ") +
-              ", and " + arguments[arguments.length - 1];
-        }
-      },
+      "and": "$1 and $2",
+      "then": "$1, then $2",
       "range": "$1 through $2",
       "clauses": function(one, two) {
         return one +
           (one.indexOf(",") === -1 && two.indexOf(",") === -1 ? ", " : "; ") +
           two;
       },
-      "during": function(period) {
-        switch(period) {
-          case "morning":
-          case "afternoon":
-          case "evening":
-            return "in the " + period;
-
-          case "night":
-            return "overnight";
-
-          default:
-            return period;
-        }
-      },
-      "on": function(condition, day) {
+      "during": function(condition, day) {
         return condition +
           (day === "today" || day === "tomorrow" ? " " : " on ") +
           day;

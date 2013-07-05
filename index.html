@@ -63,12 +63,6 @@
 
         <tr>
           <td class="input"><pre>(title
-  clear)</pre></td>
-          <td class="en">Clear</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
   very-light-precipitation)</pre></td>
           <td class="en">Light Precipitation</td>
         </tr>
@@ -81,32 +75,8 @@
 
         <tr>
           <td class="input"><pre>(title
-  medium-precipitation)</pre></td>
-          <td class="en">Precipitation</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
   heavy-precipitation)</pre></td>
           <td class="en">Heavy Precipitation</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  very-light-rain)</pre></td>
-          <td class="en">Drizzle</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  light-rain)</pre></td>
-          <td class="en">Light Rain</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  medium-rain)</pre></td>
-          <td class="en">Rain</td>
         </tr>
 
         <tr>
@@ -117,56 +87,14 @@
 
         <tr>
           <td class="input"><pre>(title
-  very-light-sleet)</pre></td>
-          <td class="en">Light Sleet</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  light-sleet)</pre></td>
-          <td class="en">Light Sleet</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
   medium-sleet)</pre></td>
           <td class="en">Sleet</td>
         </tr>
 
         <tr>
           <td class="input"><pre>(title
-  heavy-sleet)</pre></td>
-          <td class="en">Heavy Sleet</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  very-light-snow)</pre></td>
-          <td class="en">Flurries</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  light-snow)</pre></td>
-          <td class="en">Light Snow</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  medium-snow)</pre></td>
-          <td class="en">Snow</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
   heavy-snow)</pre></td>
           <td class="en">Heavy Snow</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  light-wind)</pre></td>
-          <td class="en">Breezy</td>
         </tr>
 
         <tr>
@@ -195,32 +123,8 @@
 
         <tr>
           <td class="input"><pre>(title
-  high-humidity)</pre></td>
-          <td class="en">Humid</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
   fog)</pre></td>
           <td class="en">Foggy</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  light-clouds)</pre></td>
-          <td class="en">Partly Cloudy</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  medium-clouds)</pre></td>
-          <td class="en">Mostly Cloudy</td>
-        </tr>
-
-        <tr>
-          <td class="input"><pre>(title
-  heavy-clouds)</pre></td>
-          <td class="en">Overcast</td>
         </tr>
 
         <tr>
@@ -230,9 +134,6 @@
     light-clouds))</pre></td>
           <td class="en">Humid and Partly Cloudy</td>
         </tr>
-
-        <!-- FIXME: Do a few other combined cases? Maybe remove the original
-        plaintext cases for those? -->
 
         <!-- SINGLE-HOUR SUMMARIES. These summaries are used on the "minutely"
         data block, and represent the weather conditions over a period of sixty
@@ -296,11 +197,112 @@
         <tr>
           <td class="input"><pre>(sentence
   (for-day
-    clear))</pre></td>
-          <td class="en">Clear throughout the day.</td>
+    medium-clouds))</pre></td>
+          <td class="en">Mostly cloudy throughout the day.</td>
         </tr>
 
-        <!-- FIXME -->
+        <tr>
+          <td class="input"><pre>(sentence
+  (starting
+    very-light-sleet
+    morning))</pre></td>
+          <td class="en">Light sleet starting in the morning.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (until
+    medium-wind
+    today-night))</pre></td>
+          <td class="en">Windy until tonight.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (during
+    light-wind
+    afternoon))</pre></td>
+          <td class="en">Breezy in the afternoon.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (during
+    medium-snow
+    (and
+      later-today-evening
+      tomorrow-morning)))</pre></td>
+          <td class="en">Snow later this evening and tomorrow morning.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (clauses
+    (until
+      medium-snow
+      later-today-morning)
+    (starting-again
+      today-evening)))</pre></td>
+          <td class="en">Snow until later this morning, starting again this evening.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (clauses
+    (starting
+      heavy-clouds
+      evening)
+    (continuing-until
+      night)))</pre></td>
+          <td class="en">Overcast starting in the evening, continuing overnight.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (then
+    (during
+      light-sleet
+      later-today-afternoon)
+    (during
+      medium-snow
+      tomorrow-morning)))</pre></td>
+          <td class="en">Light sleet later this afternoon, then snow tomorrow morning.</td>
+        </tr>
+
+        <tr>
+          <td class="input"><pre>(sentence
+  (then
+    (during
+      light-sleet
+      later-today-afternoon)
+    (during
+      medium-snow
+      tomorrow-morning)))</pre></td>
+          <td class="en">Light sleet later this afternoon, then snow tomorrow morning.</td>
+        </tr>
+
+<!-- FIXME: we need to test a few more "X, then Y" cases, where X and Y are any
+of the below:
+
+template:
+  (starting X Y)
+  (until X Y)
+  (during X Y)
+  (during X (and Y Z))
+  (clauses (until X Y) (starting-again (in Z)))
+  (clauses (starting X Y) (continuing-until Z))
+
+The following periods still need to get tested:
+
+today-morning
+today-afternoon
+today-night
+later-today-night
+tomorrow-afternoon
+tomorrow-evening
+tomorrow-night
+
+-->
 
         <!-- 7-DAY SUMMARIES. These summaries are used on the "daily" data
         block, and represent the general weather conditions over a period of
@@ -313,7 +315,7 @@
   (clauses
     (for-week
       no-precipitation)
-    (on
+    (during
       (peaking
         temperatures
         (fahrenheit
@@ -327,7 +329,7 @@
   (clauses
     (over-weekend
       mixed-precipitation)
-    (on
+    (during
       (rising
         temperatures
         (celsius
@@ -339,44 +341,44 @@
         <tr>
           <td class="input"><pre>(sentence
   (clauses
-    (on
-      medium-rain
+    (during
+      very-light-rain
       today)
-    (on
+    (during
       (valleying
         temperatures
         (fahrenheit
           15))
       friday)))</pre></td>
-          <td class="en">Rain today, temperatures bottoming out at 15°F on Friday.</td>
+          <td class="en">Drizzle today, temperatures bottoming out at 15°F on Friday.</td>
         </tr>
 
         <tr>
           <td class="input"><pre>(sentence
   (clauses
-    (on
-      very-light-snow
+    (during
+      light-snow
       (and
         monday
         tuesday))
-    (on
+    (during
       (falling
         temperatures
         (celsius
           0))
       sunday)))</pre></td>
-          <td class="en">Flurries on Monday and Tuesday, temperatures falling to 0°C on Sunday.</td>
+          <td class="en">Light snow on Monday and Tuesday, temperatures falling to 0°C on Sunday.</td>
         </tr>
 
         <tr>
           <td class="input"><pre>(sentence
   (clauses
-    (on
+    (during
       medium-precipitation
       (range
         wednesday
         saturday))
-    (on
+    (during
       (peaking
         temperatures
         (fahrenheit
