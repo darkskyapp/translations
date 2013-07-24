@@ -57,6 +57,42 @@
       ["starting-again-later", ["minutes", 8]]]],
 
 
+  "Mostly cloudy throughout the day.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "Light sleet starting in the morning.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Windy until tonight.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Breezy in the afternoon.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Snow later this evening and tomorrow morning.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Snow until later this morning, starting again this evening.":
+    ["sentence", ["clauses",
+      ["until", "medium-snow", "later-today-morning"],
+      ["starting-again", "today-evening"]]],
+
+  "Overcast starting in the evening, continuing overnight.":
+    ["sentence", ["clauses",
+      ["starting", "heavy-clouds", "evening"],
+      ["continuing-until", "night"]]],
+
+  "Light sleet later this afternoon, then snow tomorrow morning.":
+    ["sentence", ["then",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "medium-snow", "tomorrow-morning"]]],
+
+  "Light sleet later this afternoon, then snow tomorrow morning.":
+    ["sentence", ["then",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "medium-snow", "tomorrow-morning"]]],
 
 
   "No precipitation throughout the week, temperatures peaking at 85°F tomorrow.":

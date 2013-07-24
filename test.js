@@ -18,7 +18,7 @@ describe("translation", function() {
         var source = cases[summary];
 
         it(
-          util.format("should translate %d to \"%s\"", source, summary),
+          util.format("should translate %j to \"%s\"", source, summary),
           function() {
             expect(translate(source)).to.equal(summary);
           }
