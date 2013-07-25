@@ -1,7 +1,4 @@
 {
-  "Dangerously Windy":
-    ["title", "heavy-wind"],
-
   "Violently Windy":
     ["title", "very-heavy-wind"],
 
@@ -71,10 +68,10 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Foggy starting this morning, continuing until this afternoon, and sleet tomorrow morning.":
+  "Dangerously windy starting this morning, continuing until this afternoon, and sleet tomorrow morning.":
     ["sentence", ["and",
       ["starting-continuing-until",
-        "fog",
+        "heavy-wind",
         "today-morning",
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
