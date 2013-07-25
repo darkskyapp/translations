@@ -1,30 +1,9 @@
 {
-  "Light Precipitation":
-    ["title", "very-light-precipitation"],
-
-  "Light Precipitation":
-    ["title", "light-precipitation"],
-
-  "Heavy Precipitation":
-    ["title", "heavy-precipitation"],
-
-  "Heavy Rain":
-    ["title", "heavy-rain"],
-
-  "Sleet":
-    ["title", "medium-sleet"],
-
-  "Heavy Snow":
-    ["title", "heavy-snow"],
-
   "Dangerously Windy":
     ["title", "heavy-wind"],
 
   "Violently Windy":
     ["title", "very-heavy-wind"],
-
-  "Dry":
-    ["title", "low-humidity"],
 
   "Humid and Partly Cloudy":
     ["title",
@@ -64,8 +43,8 @@
   "Windy until tonight.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Foggy until afternoon.":
-    ["sentence", ["until", "fog", "afternoon"]],
+  "Heavy precipitation until afternoon.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Breezy in the afternoon.":
     ["sentence", ["during", "light-wind", "afternoon"]],
@@ -75,9 +54,9 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Snow until later this morning, starting again this evening.":
+  "Heavy rain until later this morning, starting again this evening.":
     ["sentence", ["until-starting-again",
-      "medium-snow",
+      "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
@@ -92,24 +71,24 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Foggy starting this morning, continuing until this afternoon, and windy tomorrow morning.":
+  "Foggy starting this morning, continuing until this afternoon, and sleet tomorrow morning.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "fog",
         "today-morning",
         "today-afternoon"],
-      ["during", "medium-wind", "tomorrow-morning"]]],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcast starting later tonight and snow tomorrow afternoon.":
+  "Overcast starting later tonight and heavy snow tomorrow afternoon.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
-      ["during", "medium-snow", "tomorrow-afternoon"]]],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Dry tonight and rain starting tomorrow evening, continuing until tomorrow night.":
+  "Dry tonight and light precipitation starting tomorrow evening, continuing until tomorrow night.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
-        "medium-rain",
+        "light-precipitation",
         "tomorrow-evening",
         "tomorrow-night"]]],
 
