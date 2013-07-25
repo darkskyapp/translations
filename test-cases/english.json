@@ -17,9 +17,6 @@
   "Heavy Snow":
     ["title", "heavy-snow"],
 
-  "Windy":
-    ["title", "medium-wind"],
-
   "Dangerously Windy":
     ["title", "heavy-wind"],
 
@@ -28,9 +25,6 @@
 
   "Dry":
     ["title", "low-humidity"],
-
-  "Foggy":
-    ["title", "fog"],
 
   "Humid and Partly Cloudy":
     ["title",
@@ -47,14 +41,18 @@
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
   "Heavy sleet starting in 20 min., stopping 30 min. later.":
-    ["sentence", ["clauses",
-      ["starting-in", "heavy-sleet", ["minutes", 20]],
-      ["stopping-later", ["minutes", 30]]]],
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
 
   "Rain stopping in 25 min., starting again 8 min. later.":
-    ["sentence", ["clauses",
-      ["stopping-in", "medium-rain", ["minutes", 25]],
-      ["starting-again-later", ["minutes", 8]]]],
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
 
 
   "Mostly cloudy throughout the day.":
@@ -66,6 +64,9 @@
   "Windy until tonight.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
+  "Foggy until afternoon.":
+    ["sentence", ["until", "fog", "afternoon"]],
+
   "Breezy in the afternoon.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
@@ -75,60 +76,78 @@
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
   "Snow until later this morning, starting again this evening.":
-    ["sentence", ["clauses",
-      ["until", "medium-snow", "later-today-morning"],
-      ["starting-again", "today-evening"]]],
+    ["sentence", ["until-starting-again",
+      "medium-snow",
+      "later-today-morning",
+      "today-evening"]],
 
-  "Overcast starting in the evening, continuing overnight.":
-    ["sentence", ["clauses",
-      ["starting", "heavy-clouds", "evening"],
-      ["continuing", "night"]]],
+  "Overcast starting in the evening, continuing until night.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
 
-  "Light sleet later this afternoon, then snow tomorrow morning.":
-    ["sentence", ["then",
+  "Light sleet later this afternoon and foggy tomorrow morning.":
+    ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
-      ["during", "medium-snow", "tomorrow-morning"]]],
+      ["during", "fog", "tomorrow-morning"]]],
 
-  "Light sleet later this afternoon, then snow tomorrow morning.":
-    ["sentence", ["then",
-      ["during", "light-sleet", "later-today-afternoon"],
-      ["during", "medium-snow", "tomorrow-morning"]]],
+  "Foggy starting this morning, continuing until this afternoon, and windy tomorrow morning.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "fog",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-wind", "tomorrow-morning"]]],
+
+  "Overcast starting later tonight and snow tomorrow afternoon.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "medium-snow", "tomorrow-afternoon"]]],
+
+  "Dry tonight and rain starting tomorrow evening, continuing until tomorrow night.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "medium-rain",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
 
 
-  "No precipitation throughout the week, temperatures peaking at 85°F tomorrow.":
-    ["sentence", ["clauses",
+  "No precipitation throughout the week, with temperatures peaking at 85°F tomorrow.":
+    ["sentence", ["with",
       ["for-week", "no-precipitation"],
-      ["during",
-        ["peaking", "temperatures", ["fahrenheit", 85]],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Mixed precipitation over the weekend, temperatures rising to 32°C on Thursday.":
-    ["sentence", ["clauses",
+  "Mixed precipitation over the weekend, with temperatures rising to 32°C on Thursday.":
+    ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
-      ["during",
-        ["rising", "temperatures", ["celsius", 32]],
+      ["temperatures-rising",
+        ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle today, temperatures bottoming out at 15°F on Friday.":
-    ["sentence", ["clauses",
+  "Drizzle today, with temperatures bottoming out at 15°F on Friday.":
+    ["sentence", ["with",
       ["during", "very-light-rain", "today"],
-      ["during",
-        ["valleying", "temperatures", ["fahrenheit", 15]],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
         "friday"]]],
 
-  "Light snow on Monday and Tuesday, temperatures falling to 0°C on Sunday.":
-    ["sentence", ["clauses",
+  "Light snow on Monday and Tuesday, with temperatures falling to 0°C on Sunday.":
+    ["sentence", ["with",
       ["during", "light-snow", ["and", "monday", "tuesday"]],
-      ["during",
-        ["falling", "temperatures", ["celsius", 0]],
+      ["temperatures-falling",
+        ["celsius", 0],
         "sunday"]]],
 
-  "Precipitation on Wednesday through Saturday, temperatures peaking at 100°F on Monday.":
-    ["sentence", ["clauses",
+  "Precipitation on Wednesday through Saturday, with temperatures peaking at 100°F on Monday.":
+    ["sentence", ["with",
       ["during",
         "medium-precipitation",
-        ["range", "wednesday", "saturday"]],
-      ["during",
-        ["peaking", "temperatures", ["fahrenheit", 100]],
+        ["through", "wednesday", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
         "monday"]]]
 }

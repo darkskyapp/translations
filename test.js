@@ -6,6 +6,9 @@ var expect      = require("chai").expect,
 
 describe("translation", function() {
   fs.readdirSync(path.join(__dirname, "test-cases")).forEach(function(lang) {
+    if(lang.charAt(0) === ".")
+      return;
+
     var name      = path.basename(lang, ".json"),
         translate = translation[name];
 
