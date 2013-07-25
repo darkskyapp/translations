@@ -82,7 +82,7 @@
   "Overcast starting in the evening, continuing overnight.":
     ["sentence", ["clauses",
       ["starting", "heavy-clouds", "evening"],
-      ["continuing-until", "night"]]],
+      ["continuing", "night"]]],
 
   "Light sleet later this afternoon, then snow tomorrow morning.":
     ["sentence", ["then",
