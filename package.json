@@ -6,6 +6,12 @@
     "name": "The Dark Sky Company",
     "email": "developer@forecast.io"
   },
+  "contributors": [
+    {
+      "name": "Jay LaPorte",
+      "email": "jay@forecast.io"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/darkskyapp/forecast-api-translations"
