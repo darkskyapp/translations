@@ -112,14 +112,27 @@ Appendix A: Forecast Summary Format
 
 #### Weather Conditions
 
-*   `"clear"`
-*   `"no-precipitation"`
-*   `"mixed-precipitation"`
-*   `"very-light-precipitation"`
-*   `"light-precipitation"`
-*   `"medium-precipitation"`
-*   `"heavy-precipitation"`
-*   `"very-light-rain"`
+*   `"clear"` (Eng. "clear"): no significant weather of any kind.
+*   `"no-precipitation"` (Eng. "no precipitation"): no precipitation (though
+    other weather conditions may or may not be occuring). Used in weekly
+    summaries where "clear" is not appropriate.
+*   `"mixed-precipitation"` (Eng. "mixed precipitation"): multiple types of
+    precipitation (e.g. rain *and* snow). Used in weekly summaries where more
+    than one type of precipitation is expected.
+*   `"very-light-precipitation"` (Eng. "light precipitation"): very light
+    precipitation of an unknown type. Used when the intensity, but not the
+    type, of precipitation is known. (This is a rare occurrance.)
+*   `"light-precipitation"` (Eng. "light precipitation"): light precipitation
+    of an unknown type. Used when the intensity, but not the type, of
+    precipitation is known. (This is a rare occurrance.)
+*   `"medium-precipitation"` (Eng. "precipitation"): moderate precipitation of
+    an unknown type. Used when the intensity, but not the type, of
+    precipitation is known. (This is a rare occurrance.)
+*   `"heavy-precipitation"` (Eng. "heavy precipitation"): heavy precipitation
+    of an unknown type. Used when the intensity, but not the type, of
+    precipitation is known. (This is a rare occurrance.)
+*   `"very-light-rain"` (Eng. "drizzle"): very light liquid rain, of occasional
+    small droplets.
 *   `"light-rain"`
 *   `"medium-rain"`
 *   `"heavy-rain"`
@@ -127,7 +140,8 @@ Appendix A: Forecast Summary Format
 *   `"light-sleet"`
 *   `"medium-sleet"`
 *   `"heavy-sleet"`
-*   `"very-light-snow"`
+*   `"very-light-snow"` (Eng. "flurries"): very light solid rain in the form of
+    occasional, small snowflakes.
 *   `"light-snow"`
 *   `"medium-snow"`
 *   `"heavy-snow"`
@@ -137,13 +151,18 @@ Appendix A: Forecast Summary Format
 *   `"very-heavy-wind"`
 *   `"low-humidity"`
 *   `"high-humidity"`
-*   `"fog"`
+*   `"fog"` (Eng. "foggy"): airborne water particles causing visibility of less
+    than a kilometer or so.
 *   `"light-clouds"`
 *   `"medium-clouds"`
 *   `"heavy-clouds"`
 
 #### Times of Day
 
+*   `"morning"`
+*   `"afternoon"`
+*   `"evening"`
+*   `"night"`
 *   `"today-morning"`
 *   `"later-today-morning"`
 *   `"today-afternoon"`
@@ -156,10 +175,6 @@ Appendix A: Forecast Summary Format
 *   `"tomorrow-afternoon"`
 *   `"tomorrow-evening"`
 *   `"tomorrow-night"`
-*   `"morning"`
-*   `"afternoon"`
-*   `"evening"`
-*   `"night"`
 
 #### Days of Week
 
