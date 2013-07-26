@@ -89,6 +89,25 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
+  "Snow (5 in.) overnight.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Light snow (2 cm.) later this morning.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Heavy snow (8\u201312 in.) throughout the day.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Snow (under 1 cm.) in the afternoon.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      "afternoon"]],
+
 
   "No precipitation throughout the week, with temperatures peaking at 85\u00B0F tomorrow.":
     ["sentence", ["with",

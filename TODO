@@ -11,12 +11,3 @@ hacky prefix-stripping we currently do on days of the week and let us pass a
     }
 
 This would be a lot cleaner.
-
----
-
-I think I neglected the tests for snow accumulation! Oops.
-
-    (parenthetical X (inches 2)) => "X (2 in.)"
-    (parenthetical X (centimeters 4)) => "X (4 cm.)"
-    (parenthetical X (inches (less-than 1))) => "X (under 1 in.)"
-    (parenthetical X (centimeters (range 6 10))) => "X (6-10 cm.)"
