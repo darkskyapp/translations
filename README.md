@@ -64,7 +64,6 @@ verify that everything is working by running the tests:
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
     
       36 passing (30 ms)
-    
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: http://chaijs.com/
@@ -100,10 +99,116 @@ and structural compositions is given below in Appendix A anyway.
 
 [8]: https://en.wikipedia.org/wiki/S-expression
 
-Writing a Translation Submodule
--------------------------------
+Adding a Translation
+--------------------
 
-FIXME
+### Translation Submodules
+
+There is one translation submodule per language, all found in the `/lib/lang`
+directory. Each submodule is a single JavaScript function, taking a single
+argument (the expression described in the previous section) and returning a
+string representing that expression translated into the desired expression.
+
+    module.exports = function(expression) {
+      var translation;
+
+      /* ... do magic here ... */
+
+      return translation;
+    }
+
+Any JavaScript source files in the `/lib/lang` directory are automatically
+loaded by the library at run-time, so nothing further needs to be done once
+that file is created.
+
+### The Template Helper Library
+
+There is a small library sitting in `/lib/template.js` that can simplify the
+process of creating a translation submodule. If given an associative array of
+*translation templates* and an expression (as described above), it will look up
+the relevant template in the array and apply it to the expression, recursively
+as necessary.
+
+For example, suppose we have the following associative array:
+
+    {
+      "very-light-rain": "drizzle",
+      "minutes": function(n) {
+        return n + " minutes";
+      },
+      "starting-in": function(rain, time) {
+        return rain + " starting in " + time;
+      }
+    }
+
+And the expression noted above:
+
+    ["starting-in", "very-light-rain", ["minutes", 15]]
+
+The following algorithm will be applied:
+
+1.  The function will first look at the expression `["starting-in", X, Y]` and
+    find that there is a corresponding function in the associative array with
+    two arguments. It will then recursively apply the procedure on these two
+    arguments.
+
+2.  The function will then look at the expression `"very-light-rain"`. There is
+    also a match in the associative array, so this expression will be replaced
+    with `"drizzle"`.
+
+3.  The function will then look at the expression `["minutes", 15]`. There is
+    once again a match in the associative array, for a function with a single
+    argument. The function will once again recursively apply the procedure on
+    the argument.
+
+4.  The function will look at the expression `15`. Being a simple number, it
+    will simply return it verbatim.
+
+5.  Having it's single argument collected, `["minutes", 15]` is now replaced
+    with the expression `"15 minutes"`.
+
+6.  Finally, with the two arguments of `["starting-in", X, Y]` collected, they
+    are substituted in and a final expression is returned: `"drizzle starting
+    in 15 minutes"`.
+
+Any arbitrary JavaScript code may be used in a function, but in many templating
+scenarios, only simple string concatenation is necessary. In these cases, a
+shortcut syntax is also allowed:
+
+    {
+      "very-light-rain": "drizzle",
+      "minutes": "$1 minutes",
+      "starting-in": "$1 starting in $2"
+    }
+
+The sigiled expressions are replaced with the numbered argument to the function
+(`$1` with the first argument, `$2` with the second, and so on).
+
+Making use of this library is straightforward: simply call it with an
+associative array, and it will return your submodule function for you:
+
+    module.exports = require("../template")(/* INSERT ASSOC. ARRAY HERE */);
+
+Finally, see `/lib/lang/english.js` for an example of this in action.
+
+### Writing Tests
+
+Once a new translation module has been created, it is advisable to write tests
+for it to ensure its correctness. (In fact, it may be advisable to write the
+tests beforehand!) Much of the work of this has been done for you; simply
+create the file `/test-cases/<language>.json`. This file should contain an
+associative array of translated sentences to the expression used to generate
+them:
+
+    {
+      "drizzle starting in 15 minutes":
+        ["starting-in", "very-light-rain", ["minutes", 15]]
+    }
+
+The English test cases (`/test-cases/english.json`) may be used as an example
+and starting place. As noted above, you can verify your tests by running
+`./node_modules/.bin/mocha`. Pull requests without a full suite of passing
+tests will not be accepted.
 
 Appendix A: Forecast Summary Format
 -----------------------------------
