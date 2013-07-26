@@ -309,12 +309,17 @@ number of arguments.)
 *   `"minutes"`/1
 *   `"fahrenheit"`/1
 *   `"celsius"`/1
+*   `"inches"`/1
+*   `"centimeters"`/1
 
 #### Conjunctions
 
 *   `"and"`/2
 *   `"through"`/2
 *   `"with"`/2
+*   `"range"`/2
+*   `"parenthetical"`/2
+*   `"less-than"`/1
 
 #### Clauses
 

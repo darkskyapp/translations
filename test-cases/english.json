@@ -90,35 +90,35 @@
         "tomorrow-night"]]],
 
 
-  "No precipitation throughout the week, with temperatures peaking at 85°F tomorrow.":
+  "No precipitation throughout the week, with temperatures peaking at 85\u00B0F tomorrow.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Mixed precipitation over the weekend, with temperatures rising to 32°C on Thursday.":
+  "Mixed precipitation over the weekend, with temperatures rising to 32\u00B0C on Thursday.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle today, with temperatures bottoming out at 15°F on Friday.":
+  "Drizzle today, with temperatures bottoming out at 15\u00B0F on Friday.":
     ["sentence", ["with",
       ["during", "very-light-rain", "today"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Light snow on Monday and Tuesday, with temperatures falling to 0°C on Sunday.":
+  "Light snow on Monday and Tuesday, with temperatures falling to 0\u00B0C on Sunday.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "monday", "tuesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitation on Wednesday through Saturday, with temperatures peaking at 100°F on Monday.":
+  "Precipitation on Wednesday through Saturday, with temperatures peaking at 100\u00B0F on Monday.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",

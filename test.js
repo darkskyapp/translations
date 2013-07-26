@@ -74,7 +74,7 @@ describe("translation", function() {
 
       describe(name, function() {
         var cases = JSON.parse(
-              fs.readFileSync(path.join(__dirname, "test-cases", lang))
+              fs.readFileSync(path.join(__dirname, "test-cases", lang), "utf8")
             );
             
         Object.keys(cases).forEach(function(summary) {
