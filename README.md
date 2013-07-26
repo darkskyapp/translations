@@ -76,9 +76,9 @@ The data passed from the Forecast API to this translation module is a simple,
 structured format reminiscent of [s-expressions][8], consisting only of
 numbers, strings, and arrays. Some examples produced by the API are below:
 
-    "heavy-rain"
-    ["and", "light-wind", "light-clouds"]
-    ["starting-in", "very-light-rain", ["minutes", 15]]
+*   `"heavy-rain"`
+*   `["and", "light-wind", "light-clouds"]`
+*   `["starting-in", "very-light-rain", ["minutes", 15]]`
 
 Each of these expressions corresponds to a text summary in English:
 
@@ -295,39 +295,62 @@ Appendix A: Forecast Summary Format
 
 ### Structural Compositions
 
+All compositions listed below are followed by a slash and the number of
+arguments they take. (There are no cases when a composition can have a variable
+number of arguments.)
+
 #### Structural
 
-*   `"title"`
-*   `"sentence"`
+*   `"title"`/1
+*   `"sentence"`/1
 
 #### Units
 
-*   `"minutes"`
-*   `"fahrenheit"`
-*   `"celsius"`
+*   `"minutes"`/1
+*   `"fahrenheit"`/1
+*   `"celsius"`/1
 
 #### Conjunctions
 
-*   `"and"`
-*   `"through"`
-*   `"with"`
+*   `"and"`/2
+*   `"through"`/2
+*   `"with"`/2
 
 #### Clauses
 
-*   `"for-hour"`
-*   `"for-day"`
-*   `"for-week"`
-*   `"over-weekend"`
-*   `"during"`
-*   `"starting-in"`
-*   `"stopping-in"`
-*   `"starting-then-stopping-later"`
-*   `"stopping-then-starting-later"`
-*   `"starting"`
-*   `"until"`
-*   `"starting-continuing-until"`
-*   `"until-starting-again"`
-*   `"temperatures-peaking"`
-*   `"temperatures-rising"`
-*   `"temperatures-valleying"`
-*   `"temperatures-falling"`
+*   `"for-hour"`/1 (Eng. "X for the hour"): used for next-hour summaries. X is
+    always either `"clear"` or a type of precipitation.
+*   `"for-day"`/1
+*   `"for-week"`/1
+*   `"over-weekend"`/1
+*   `"during"`/2
+*   `"starting-in"`/2 (Eng. "X starting in Y"): used for next-hour summaries. X
+    is always a type of precipitation, and Y is always a time in minutes.
+*   `"stopping-in"`/2 (Eng. "X stopping in Y"): used for next-hour summaries. X
+    is always a type of precipitation, and Y is always a time in minutes.
+*   `"starting-then-stopping-later"`/3
+*   `"stopping-then-starting-later"`/3
+*   `"starting"`/2 (Eng. "X starting Y"): as `"starting-in"` but used for
+    next-24-hour summaries. X is a weather condition (or two weather conditions
+    combined with `"and"`) and Y is a time of day.
+*   `"until"`/2 (Eng. "X until Y"): as `"stopping-in"` but used for
+    next-24-hour summaries. X is a weather condition (or two weather conditions
+    combined with `"and"`) and Y is a time of day.
+*   `"starting-continuing-until"`/3
+*   `"until-starting-again"`/3
+*   `"temperatures-peaking"`/2 (Eng. "temperatures peaking at X on Y"): used
+    for next-week summaries, is used to convey which day will be hottest in the
+    next week. X is always a temperature in Fahrenheit or Celsius, and Y is a
+    day of the week.
+*   `"temperatures-rising"`/2 (Eng. "temperatures rising to X on Y"): used for
+    next-week summaries, is used to convey that temperatures gradually rise for
+    the entire week. X is always a temperature in Fahrenheit or Celsius, and Y
+    is a day of the week.
+*   `"temperatures-valleying"`/2 (Eng. "temperatures bottoming out at X on Y"):
+    used for next-week summaries, is used to convey which day will be coldest
+    in the next week. X is always a temperature in Fahrenheit or Celsius, and Y
+    is a day of the week.
+*   `"temperatures-falling"`/2 (Eng. "temperatures falling to X on Y"): used
+    for next-week summaries, is used to convey that temperatures gradually fall
+    for the entire week. X is always a temperature in Fahrenheit or Celsius,
+    and Y is a day of the week.

@@ -11,3 +11,7 @@ hacky prefix-stripping we currently do on days of the week and let us pass a
     }
 
 This would be a lot cleaner.
+
+---
+
+I think I neglected the case for snow accumulation! Oops.
