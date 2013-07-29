@@ -210,56 +210,50 @@ and starting place. As noted above, you can verify your tests by running
 `./node_modules/.bin/mocha`. Pull requests without a full suite of passing
 tests will not be accepted.
 
+General Considerations
+----------------------
+
+*   Text summaries are often used by API consumers in headings: **be as brief
+    as possible,** and use abbreviations where appropriate.
+*   It is simpler to maintain one version of a language than two: **avoid
+    dialectal or regional variations** if at all possible. (For example, we try
+    to maintain one version of English, despite the several major, distinct
+    English variants. We have had to alter terminology a few times to avoid
+    generating insulting summaries!)
+*   **Try to keep the text as natural as possible,** so that it is easily
+    intelligible to an average reader. (Yes, we know this conflicts with
+    brevity, but try your best!)
+
 Appendix A: Forecast Summary Format
 -----------------------------------
 
-### Terms
+### Moment Summaries
 
-#### Weather Conditions
+*   `["title", WEATHER_CONDITION]`
+*   `["title", ["and", WEATHER_CONDITION, WEATHER_CONDITION]]`
 
-*   `"clear"` (Eng. "clear"): no significant weather of any kind.
-*   `"no-precipitation"` (Eng. "no precipitation"): no precipitation (though
-    other weather conditions may or may not be occuring). Used in weekly
-    summaries where "clear" is not appropriate.
-*   `"mixed-precipitation"` (Eng. "mixed precipitation"): multiple types of
-    precipitation (e.g. rain *and* snow). Used in weekly summaries where more
-    than one type of precipitation is expected.
-*   `"very-light-precipitation"` (Eng. "light precipitation"): very light
-    precipitation of an unknown type. Used when the intensity, but not the
-    type, of precipitation is known. (This is a rare occurrance.)
-*   `"light-precipitation"` (Eng. "light precipitation"): light precipitation
-    of an unknown type. Used when the intensity, but not the type, of
-    precipitation is known. (This is a rare occurrance.)
-*   `"medium-precipitation"` (Eng. "precipitation"): moderate precipitation of
-    an unknown type. Used when the intensity, but not the type, of
-    precipitation is known. (This is a rare occurrance.)
-*   `"heavy-precipitation"` (Eng. "heavy precipitation"): heavy precipitation
-    of an unknown type. Used when the intensity, but not the type, of
-    precipitation is known. (This is a rare occurrance.)
-*   `"very-light-rain"` (Eng. "drizzle"): very light liquid rain, of occasional
-    small droplets.
-*   `"light-rain"`
-*   `"medium-rain"`
-*   `"heavy-rain"`
-*   `"very-light-sleet"`
-*   `"light-sleet"`
-*   `"medium-sleet"`
-*   `"heavy-sleet"`
-*   `"very-light-snow"` (Eng. "flurries"): very light solid rain in the form of
-    occasional, small snowflakes.
-*   `"light-snow"`
-*   `"medium-snow"`
-*   `"heavy-snow"`
-*   `"light-wind"`
-*   `"medium-wind"`
-*   `"heavy-wind"`
-*   `"low-humidity"`
-*   `"high-humidity"`
-*   `"fog"` (Eng. "foggy"): airborne water particles causing visibility of less
-    than a kilometer or so.
-*   `"light-clouds"`
-*   `"medium-clouds"`
-*   `"heavy-clouds"`
+### Hour Summaries
+
+*   `["sentence", ["for-hour", WEATHER_CONDITION]]`
+*   `["sentence", ["starting-in", PRECIPITATION_TYPE, ["minutes", NUMBER]]]`
+*   `["sentence", ["stopping-in", PRECIPITATION_TYPE, ["minutes", NUMBER]]]`
+*   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
+*   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
+
+### Day Summaries
+
+*   `["sentence", DAY_CONDITION_SUMMARY]`
+*   `["sentence", ["and", DAY_CONDITION_SUMMARY, DAY_CONDITION_SUMMARY]]`
+
+#### Day Condition Summaries
+
+*   `["for-day", WEATHER_CONDITION]`
+*   `["during", WEATHER_CONDITION, TIME_OF_DAY]`
+*   `["during", WEATHER_CONDITION, ["and", TIME_OF_DAY, TIME_OF_DAY]]`
+*   `["starting", WEATHER_CONDITION, TIME_OF_DAY]`
+*   `["until", WEATHER_CONDITION, TIME_OF_DAY]`
+*   `["starting-continuing-until", WEATHER_CONDITION, TIME_OF_DAY, TIME_OF_DAY]`
+*   `["until-starting-again", WEATHER_CONDITION, TIME_OF_DAY, TIME_OF_DAY]`
 
 #### Times of Day
 
@@ -268,19 +262,43 @@ Appendix A: Forecast Summary Format
 *   `"evening"`
 *   `"night"`
 *   `"today-morning"`
-*   `"later-today-morning"`
 *   `"today-afternoon"`
-*   `"later-today-afternoon"`
 *   `"today-evening"`
-*   `"later-today-evening"`
 *   `"today-night"`
+*   `"later-today-morning"`
+*   `"later-today-afternoon"`
+*   `"later-today-evening"`
 *   `"later-today-night"`
 *   `"tomorrow-morning"`
 *   `"tomorrow-afternoon"`
 *   `"tomorrow-evening"`
 *   `"tomorrow-night"`
 
-#### Days of Week
+### Week Summaries
+
+*   `["sentence", ["with", WEEKLY_PRECIPITATION_SUMMARY, WEEKLY_TEMPERATURE_SUMMARY]]`
+
+#### Weekly Precipitation Summary
+
+*   `["for-week", PRECIPITATION_TYPE]`
+*   `["over-weekend", PRECIPITATION_TYPE]`
+*   `["during", DAY_OF_WEEK]`
+*   `["during", ["through", DAY_OF_WEEK, DAY_OF_WEEK]]`
+*   `["during", ["and", DAY_OF_WEEK, DAY_OF_WEEK]]`
+
+#### Weekly Temperature Summary
+
+*   `["temperatures-peaking", TEMPERATURE, DAY_OF_WEEK]`
+*   `["temperatures-valleying", TEMPERATURE, DAY_OF_WEEK]`
+*   `["temperatures-rising", TEMPERATURE, DAY_OF_WEEK]`
+*   `["temperatures-falling", TEMPERATURE, DAY_OF_WEEK]`
+
+#### Temperatures
+
+*   `["fahrenheit", NUMBER]`
+*   `["celsius", NUMBER]`
+
+#### Days of the Week
 
 *   `"today"`
 *   `"tomorrow"`
@@ -292,69 +310,64 @@ Appendix A: Forecast Summary Format
 *   `"friday"`
 *   `"saturday"`
 
-### Structural Compositions
+### Weather Conditions
 
-All compositions listed below are followed by a slash and the number of
-arguments they take. (There are no cases when a composition can have a variable
-number of arguments.)
+#### Precipitation Types
 
-#### Structural
+*   `"clear"`
+*   `"no-precipitation"`
+*   `"mixed-precipitation"`
+*   `GENERIC_TYPE`
+*   `RAIN_TYPE`
+*   `SLEET_TYPE`
+*   `SNOW_TYPE`
+*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]
 
-*   `"title"`/1
-*   `"sentence"`/1
+##### Generic Types
 
-#### Units
+*   `"very-light-precipitation"`
+*   `"light-precipitation"`
+*   `"medium-precipitation"`
+*   `"heavy-precipitation"`
 
-*   `"minutes"`/1
-*   `"fahrenheit"`/1
-*   `"celsius"`/1
-*   `"inches"`/1
-*   `"centimeters"`/1
+##### Rain Types
 
-#### Conjunctions
+*   `"very-light-rain"`
+*   `"light-rain"`
+*   `"medium-rain"`
+*   `"heavy-rain"`
 
-*   `"and"`/2
-*   `"through"`/2
-*   `"with"`/2
-*   `"range"`/2
-*   `"parenthetical"`/2
-*   `"less-than"`/1
+##### Sleet Types
 
-#### Clauses
+*   `"very-light-sleet"`
+*   `"light-sleet"`
+*   `"medium-sleet"`
+*   `"heavy-sleet"`
 
-*   `"for-hour"`/1 (Eng. "X for the hour"): used for next-hour summaries. X is
-    always either `"clear"` or a type of precipitation.
-*   `"for-day"`/1
-*   `"for-week"`/1
-*   `"over-weekend"`/1
-*   `"during"`/2
-*   `"starting-in"`/2 (Eng. "X starting in Y"): used for next-hour summaries. X
-    is always a type of precipitation, and Y is always a time in minutes.
-*   `"stopping-in"`/2 (Eng. "X stopping in Y"): used for next-hour summaries. X
-    is always a type of precipitation, and Y is always a time in minutes.
-*   `"starting-then-stopping-later"`/3
-*   `"stopping-then-starting-later"`/3
-*   `"starting"`/2 (Eng. "X starting Y"): as `"starting-in"` but used for
-    next-24-hour summaries. X is a weather condition (or two weather conditions
-    combined with `"and"`) and Y is a time of day.
-*   `"until"`/2 (Eng. "X until Y"): as `"stopping-in"` but used for
-    next-24-hour summaries. X is a weather condition (or two weather conditions
-    combined with `"and"`) and Y is a time of day.
-*   `"starting-continuing-until"`/3
-*   `"until-starting-again"`/3
-*   `"temperatures-peaking"`/2 (Eng. "temperatures peaking at X on Y"): used
-    for next-week summaries, is used to convey which day will be hottest in the
-    next week. X is always a temperature in Fahrenheit or Celsius, and Y is a
-    day of the week.
-*   `"temperatures-rising"`/2 (Eng. "temperatures rising to X on Y"): used for
-    next-week summaries, is used to convey that temperatures gradually rise for
-    the entire week. X is always a temperature in Fahrenheit or Celsius, and Y
-    is a day of the week.
-*   `"temperatures-valleying"`/2 (Eng. "temperatures bottoming out at X on Y"):
-    used for next-week summaries, is used to convey which day will be coldest
-    in the next week. X is always a temperature in Fahrenheit or Celsius, and Y
-    is a day of the week.
-*   `"temperatures-falling"`/2 (Eng. "temperatures falling to X on Y"): used
-    for next-week summaries, is used to convey that temperatures gradually fall
-    for the entire week. X is always a temperature in Fahrenheit or Celsius,
-    and Y is a day of the week.
+##### Snow Types
+
+*   `"very-light-snow"`
+*   `"light-snow"`
+*   `"medium-snow"`
+*   `"heavy-snow"`
+
+##### Snow Accumulation
+
+*   `["inches", NUMBER]`
+*   `["centimeters", NUMBER]`
+*   `["inches", ["less-than", NUMBER]]`
+*   `["centimeters", ["less-than", NUMBER]]`
+*   `["inches", ["range", NUMBER, NUMBER]]`
+*   `["centimeters", ["range", NUMBER, NUMBER]]`
+
+#### Other Weather Conditions
+
+*   `"light-wind"`
+*   `"medium-wind"`
+*   `"heavy-wind"`
+*   `"low-humidity"`
+*   `"high-humidity"`
+*   `"fog"`
+*   `"light-clouds"`
+*   `"medium-clouds"`
+*   `"heavy-clouds"`
