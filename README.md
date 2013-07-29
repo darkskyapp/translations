@@ -253,7 +253,6 @@ Appendix A: Forecast Summary Format
 *   `"light-wind"`
 *   `"medium-wind"`
 *   `"heavy-wind"`
-*   `"very-heavy-wind"`
 *   `"low-humidity"`
 *   `"high-humidity"`
 *   `"fog"` (Eng. "foggy"): airborne water particles causing visibility of less

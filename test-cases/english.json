@@ -1,6 +1,72 @@
 {
-  "Violently Windy":
-    ["title", "very-heavy-wind"],
+  "Clear":
+    ["title", "clear"],
+
+  "Light Precipitation":
+    ["title", "very-light-precipitation"],
+
+  "Light Precipitation":
+    ["title", "light-precipitation"],
+
+  "Precipitation":
+    ["title", "medium-precipitation"],
+
+  "Heavy Precipitation":
+    ["title", "heavy-precipitation"],
+
+  "Drizzle":
+    ["title", "very-light-rain"],
+
+  "Light Rain":
+    ["title", "light-rain"],
+
+  "Rain":
+    ["title", "medium-rain"],
+
+  "Heavy Rain":
+    ["title", "heavy-rain"],
+
+  "Light Sleet":
+    ["title", "very-light-sleet"],
+
+  "Light Sleet":
+    ["title", "light-sleet"],
+
+  "Sleet":
+    ["title", "medium-sleet"],
+
+  "Heavy Sleet":
+    ["title", "heavy-sleet"],
+
+  "Flurries":
+    ["title", "very-light-snow"],
+
+  "Light Snow":
+    ["title", "light-snow"],
+
+  "Snow":
+    ["title", "medium-snow"],
+
+  "Heavy Snow":
+    ["title", "heavy-snow"],
+
+  "Windy":
+    ["title", "medium-wind"],
+
+  "Dangerously Windy":
+    ["title", "heavy-wind"],
+
+  "Foggy":
+    ["title", "fog"],
+
+  "Mostly Cloudy":
+    ["title", "medium-clouds"],
+
+  "Overcast":
+    ["title", "heavy-clouds"],
+
+  "Dry and Breezy":
+    ["title", ["and", "low-humidity", "light-wind"]],
 
   "Humid and Partly Cloudy":
     ["title",
