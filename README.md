@@ -321,7 +321,7 @@ Appendix A: Forecast Summary Format
 *   `RAIN_TYPE`
 *   `SLEET_TYPE`
 *   `SNOW_TYPE`
-*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]
+*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]`
 
 ##### Generic Types
 
