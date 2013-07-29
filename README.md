@@ -355,8 +355,8 @@ Appendix A: Forecast Summary Format
 
 *   `["inches", NUMBER]`
 *   `["centimeters", NUMBER]`
-*   `["inches", ["less-than", NUMBER]]`
-*   `["centimeters", ["less-than", NUMBER]]`
+*   `["inches", ["less-than", 1]]`
+*   `["centimeters", ["less-than", 1]]`
 *   `["inches", ["range", NUMBER, NUMBER]]`
 *   `["centimeters", ["range", NUMBER, NUMBER]]`
 
