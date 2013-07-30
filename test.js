@@ -10,7 +10,8 @@ describe("translation", function() {
     var convert = template({
           "foo": "bar",
           "bar": "meeple $2",
-          "baz": function(a, b) { return "meeple " + b; }
+          "baz": function(a, b) { return "meeple " + b; },
+          "quux": function() { return "glorple"; }
         });
 
     it("should return a number in string form", function() {
@@ -61,6 +62,14 @@ describe("translation", function() {
 
     it("should throw an error given an object", function() {
       expect(function() { convert({}); }).to.throw();
+    });
+
+    it("should apply an expected value conversion given a zero-argument function", function() {
+      expect(convert("quux")).to.equal("glorple");
+    });
+
+    it("should fail to apply a function template given a value", function() {
+      expect(function() { convert("baz"); }).to.throw();
     });
   });
 
