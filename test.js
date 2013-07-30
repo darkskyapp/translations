@@ -42,6 +42,10 @@ describe("translation", function() {
       expect(convert(["bar", 10, 20])).to.equal("meeple 20");
     });
 
+    it("should fail to apply a function template given the wrong number of arguments", function() {
+      expect(function() { convert(["baz", 10, 20, 30]); }).to.throw();
+    });
+
     it("should apply a function template", function() {
       expect(convert(["baz", 10, 20])).to.equal("meeple 20");
     });
@@ -66,6 +70,10 @@ describe("translation", function() {
 
     it("should apply an expected value conversion given a zero-argument function", function() {
       expect(convert("quux")).to.equal("glorple");
+    });
+
+    it("should fail to apply a zero-argument function given arguments", function() {
+      expect(function() { convert(["quux"]); }).to.throw();
     });
 
     it("should fail to apply a function template given a value", function() {
