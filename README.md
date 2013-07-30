@@ -227,12 +227,33 @@ General Considerations
 Appendix A: Forecast Summary Format
 -----------------------------------
 
+Below is a listing of every possible machine-readable summary produced by
+Forecast. The listing is recursive so as to better describe how the various
+structural components interact.
+
 ### Moment Summaries
+
+When the API is producing a text summary for a single moment in time (that is,
+`currently.summary` and `hourly.data[N].summary`), summaries of the following
+structure are produced:
 
 *   `["title", WEATHER_CONDITION]`
 *   `["title", ["and", WEATHER_CONDITION, WEATHER_CONDITION]]`
 
+The `"title"` component is never used in any other situation, and signifies
+that (in English, anyway) these conditions represent phrases rather than
+complete sentences; as such, they are capitalized like a *title* (that is, each
+word is capitalized and there is no punctuation). For all below cases, the
+`"summary"` component wraps the construction (signifying that the summary
+represents a full, English sentence, meaning that only the first word is
+capitalized, and the sentence is to end with a period).
+
+`"and"` is used all over the place. Sorry.
+
 ### Hour Summaries
+
+For text summaries for the next hour (that is, `minutely.summary`), summaries
+of the following formats are produced:
 
 *   `["sentence", ["for-hour", WEATHER_CONDITION]]`
 *   `["sentence", ["starting-in", PRECIPITATION_TYPE, ["minutes", NUMBER]]]`
@@ -240,12 +261,28 @@ Appendix A: Forecast Summary Format
 *   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
 *   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
 
+Except for the first case, each such summary only takes precipitation into
+account, and tells how the intensity of precipitation will vary over the next
+hour or so.
+
+`"for-hour"`, `"starting-in"`, `"stopping-in"`,
+`"starting-then-stopping-later"`, `"stopping-then-starting-later"`, and
+`"minutes"` are only used as above.
+
 ### Day Summaries
+
+Day summaries are produced by the API when a duration of 24 hours is under
+consideration (that is, `hourly.summary` and `daily.data[N].summary`). They are
+the most complex summaries in the API, owing to the number of possible
+combinations of the various terms. They are of the following formats:
 
 *   `["sentence", DAY_CONDITION_SUMMARY]`
 *   `["sentence", ["and", DAY_CONDITION_SUMMARY, DAY_CONDITION_SUMMARY]]`
 
 #### Day Condition Summaries
+
+A "day condition" represents a specific weather condition at a specific time of
+day. (Or a larger period of the day, as the case may be.)
 
 *   `["for-day", WEATHER_CONDITION]`
 *   `["during", WEATHER_CONDITION, TIME_OF_DAY]`
@@ -255,12 +292,23 @@ Appendix A: Forecast Summary Format
 *   `["starting-continuing-until", WEATHER_CONDITION, TIME_OF_DAY, TIME_OF_DAY]`
 *   `["until-starting-again", WEATHER_CONDITION, TIME_OF_DAY, TIME_OF_DAY]`
 
+`"for-day"`, `"starting"`, `"until"`, `"starting-continuing-until"`, and
+`"until-starting-again"` are only used in the above manner, and may be
+considered analagous to the five similar cases in hourly summaries. `"during"`
+is used both here and in weekly summaries, below.
+
 #### Times of Day
+
+Daily summaries covering a specific day use the following time periods:
 
 *   `"morning"`
 *   `"afternoon"`
 *   `"evening"`
 *   `"night"`
+
+Daily summaries covering the next 24 hours (as in a forecast) use the following
+time periods instead:
+
 *   `"today-morning"`
 *   `"today-afternoon"`
 *   `"today-evening"`
@@ -274,29 +322,70 @@ Appendix A: Forecast Summary Format
 *   `"tomorrow-evening"`
 *   `"tomorrow-night"`
 
+In general, the most specific case is used. (For example, if it is currently
+afternoon and a weather condition would occur later in the afternoon,
+`"later-today-afternoon"` would be used. If it was any other time of day,
+`"today-afternoon"` would be used.)
+
+The exact times that each duration begins or ends is not intended to be
+critical, and nonprecise terminology should be used if possible. However, for
+aid in translation, the time periods currently correspond to the following:
+
+*   **morning:**   04:00  (4am) to 12:00 (12pm)
+*   **afternoon:** 12:00 (12pm) to 17:00  (5pm)
+*   **evening:**   17:00  (5pm) to 22:00 (10pm)
+*   **night:**     22:00 (10pm) to 04:00  (4am)
+
 ### Week Summaries
+
+For summaries spanning an entire week (`daily.summary`), the following format
+is used:
 
 *   `["sentence", ["with", WEEKLY_PRECIPITATION_SUMMARY, WEEKLY_TEMPERATURE_SUMMARY]]`
 
+Since an entire week is a very broad span of time, we concern ourselves only
+with the most broadly applicable information: which days will have rain, and
+how the temperatures will fluctuate. The sentence is broken into two parts,
+which each comprise one of the above.
+
+`"with"` is not used in any other way.
+
 #### Weekly Precipitation Summary
+
+A "weekly precipitation summary" is used to describe which days of the week are
+expected to have rain, as compactly as possible.
 
 *   `["for-week", PRECIPITATION_TYPE]`
 *   `["over-weekend", PRECIPITATION_TYPE]`
 *   `["during", DAY_OF_WEEK]`
-*   `["during", ["through", DAY_OF_WEEK, DAY_OF_WEEK]]`
 *   `["during", ["and", DAY_OF_WEEK, DAY_OF_WEEK]]`
+*   `["during", ["through", DAY_OF_WEEK, DAY_OF_WEEK]]`
+
+`"for-week"`, `"over-weekend"`, and `"through"` are both only used as above.
+`"during"` is used both here and in daily summaries.
 
 #### Weekly Temperature Summary
 
-*   `["temperatures-peaking", TEMPERATURE, DAY_OF_WEEK]`
-*   `["temperatures-valleying", TEMPERATURE, DAY_OF_WEEK]`
+A "weekly temperature summary" describes the general pattern of temperatures
+over the course of the next week: whether they'll get hotter, colder,
+hotter-then-colder, or colder-then-hotter.
+
 *   `["temperatures-rising", TEMPERATURE, DAY_OF_WEEK]`
 *   `["temperatures-falling", TEMPERATURE, DAY_OF_WEEK]`
+*   `["temperatures-peaking", TEMPERATURE, DAY_OF_WEEK]`
+*   `["temperatures-valleying", TEMPERATURE, DAY_OF_WEEK]`
+
+`"temperatures-peaking"`, `"temperatures-valleying"`, `"temperatures-rising"`,
+and `"temperatures-falling"` are all only used as above.
 
 #### Temperatures
 
 *   `["fahrenheit", NUMBER]`
 *   `["celsius", NUMBER]`
+
+Every language should support both temperature units, as the choice of language
+and units are separate options in the API (and can be mixed-and-matched as
+desired).
 
 #### Days of the Week
 
@@ -309,6 +398,8 @@ Appendix A: Forecast Summary Format
 *   `"thursday"`
 *   `"friday"`
 *   `"saturday"`
+
+`"today"` and `"tomorrow"` are used in preference to the other cases.
 
 ### Weather Conditions
 
