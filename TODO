@@ -1,11 +1,11 @@
-- We should allow some way of passing variables or data down the tree.
-
-Doing the above would allow us, at least in English, to remove the hacky
-prefix-stripping we currently do on days of the week and let us pass a
-"use_preposition" flag to them:
-
-    "morning": function() {
-      return this.use_preposition ? "in the morning" : "morning";
-    }
-
-This would be a lot cleaner.
+*   We should allow some way of passing variables or data down the tree.
+    
+    Doing the above would allow us, at least in English, to remove the hacky
+    prefix-stripping we currently do on days of the week and let us pass a
+    "use_preposition" flag to them:
+    
+        "morning": function() {
+          return this.use_preposition ? "in the morning" : "morning";
+        }
+    
+    This would be a lot cleaner.
