@@ -2,8 +2,14 @@
   "Clear":
     ["title", "clear"],
 
+  "Possible Light Precipitation":
+    ["title", "possible-very-light-precipitation"],
+
   "Light Precipitation":
     ["title", "very-light-precipitation"],
+
+  "Possible Light Precipitation":
+    ["title", "possible-light-precipitation"],
 
   "Light Precipitation":
     ["title", "light-precipitation"],
@@ -14,8 +20,14 @@
   "Heavy Precipitation":
     ["title", "heavy-precipitation"],
 
+  "Possible Drizzle":
+    ["title", "possible-very-light-rain"],
+
   "Drizzle":
     ["title", "very-light-rain"],
+
+  "Possible Light Rain":
+    ["title", "possible-light-rain"],
 
   "Light Rain":
     ["title", "light-rain"],
@@ -26,8 +38,14 @@
   "Heavy Rain":
     ["title", "heavy-rain"],
 
+  "Possible Light Sleet":
+    ["title", "possible-very-light-sleet"],
+
   "Light Sleet":
     ["title", "very-light-sleet"],
+
+  "Possible Light Sleet":
+    ["title", "possible-light-sleet"],
 
   "Light Sleet":
     ["title", "light-sleet"],
@@ -38,8 +56,14 @@
   "Heavy Sleet":
     ["title", "heavy-sleet"],
 
+  "Possible Flurries":
+    ["title", "possible-very-light-snow"],
+
   "Flurries":
     ["title", "very-light-snow"],
+
+  "Possible Light Snow":
+    ["title", "possible-light-snow"],
 
   "Light Snow":
     ["title", "light-snow"],
