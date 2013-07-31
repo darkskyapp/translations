@@ -18,10 +18,11 @@ impractical, requiring a *very* large table to support!
 
 This software module was developed in order to work around these issues. We are
 modifying the Forecast API text summary code to generate a machine-readable
-format rather than English; summaries of this format are then handed off to
-this module for translation into the desired language. Since this module is
-open-source, anyone may contribute additional language components to it, so
-that the desired language can be used in the Forecast API.
+format (described below) rather than it's usual English; summaries in this new
+format are then handed off to this module for translation into the desired
+language. Since this module is open-source, anyone may contribute additional
+language components to it, so that the desired language can be used in the
+Forecast API.
 
 The API (and therefore this module as well) is written in JavaScript, and meant
 to be used as a [Node.JS][3] [module][4]. Knowledge of that environment is
@@ -40,16 +41,16 @@ You will need to have [Node.JS][3] installed. You can check to see whether you
 its installed by running:
 
     $ node -v
-    v0.10.13
+    v0.10.15
 
 If it gives an error message (or a version below 0.10), you should install it
-from its website and try again.
+from the Node.JS website and try again.
 
 ### Install Dependencies
 
-While this package requires no dependencies to run, if you want to develop
-against it you will need the test libraries [Mocha][5] and [Chai][6].
-Installing them is simple:
+While this package requires no dependencies to run in production, if you want
+to develop against it you will need the testing libraries [Mocha][5] and
+[Chai][6]. Installing them is simple:
 
     $ cd /path/to/forecast-api-translations
     $ npm install
@@ -61,9 +62,10 @@ verify that everything is working by running the tests:
 
     $ ./node_modules/.bin/mocha
     
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․
     
-      36 passing (30 ms)
+      64 passing (58 ms)
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: http://chaijs.com/
@@ -87,15 +89,15 @@ Each of these expressions corresponds to a text summary in English:
 *   "drizzle starting in 15 minutes"
 
 Generally speaking, numbers and strings represent specific terms, while arrays
-represent structure compositions of those terms (with the first element in that
-array representing the *type* of composition). For example, in the sentence
-above, `"light-wind"` represents the English term "breezy", `"light-clouds"`
-represents the English term "partly cloudy", and the array `["and", X, Y]`
-represents the English phrase "X and Y".
+represent templates dependent upon some number of arguments (with the first
+element in that array representing the form of the template). For example, in
+the sentence above, `"light-wind"` represents the English term "breezy",
+`"light-clouds"` represents the English term "partly cloudy", and the array
+`["and", X, Y]` represents the English phrase "X and Y".
 
 In this way, the meaning (in English) of any given (machine-readable)
-expression is intended to be fairly intuitive. However, a full list of terms
-and structural compositions is given below in Appendix A anyway.
+expression is intended to be fairly intuitive. However, a complete description
+of the input format is given below in Appendix A anyway.
 
 [8]: https://en.wikipedia.org/wiki/S-expression
 
@@ -161,15 +163,16 @@ The following algorithm will be applied:
     argument. The function will once again recursively apply the procedure on
     the argument.
 
-4.  The function will look at the expression `15`. Being a simple number, it
-    will simply return it verbatim.
+4.  The function will look at the expression `15`. Being a number, it will
+    simply return it verbatim.
 
 5.  Having it's single argument collected, `["minutes", 15]` is now replaced
-    with the expression `"15 minutes"`.
+    with the expression `"15 minutes"`, as per the code of the function for
+    `"minutes"`.
 
 6.  Finally, with the two arguments of `["starting-in", X, Y]` collected, they
-    are substituted in and a final expression is returned: `"drizzle starting
-    in 15 minutes"`.
+    are substituted into the function and a final expression is returned:
+    `"drizzle starting in 15 minutes"`.
 
 Any arbitrary JavaScript code may be used in a function, but in many templating
 scenarios, only simple string concatenation is necessary. In these cases, a
@@ -181,15 +184,17 @@ shortcut syntax is also allowed:
       "starting-in": "$1 starting in $2"
     }
 
-The sigiled expressions are replaced with the numbered argument to the function
-(`$1` with the first argument, `$2` with the second, and so on).
+The [sigiled][9] expressions are replaced with the numbered argument to the
+function (`$1` with the first argument, `$2` with the second, and so on).
 
 Making use of this library is straightforward: simply call it with an
 associative array, and it will return your submodule function for you:
 
     module.exports = require("../template")(/* INSERT ASSOC. ARRAY HERE */);
 
-Finally, see `/lib/lang/english.js` for an example of this in action.
+Please see `/lib/lang/english.js` for an example of this in action.
+
+[9]: http://en.wikipedia.org/wiki/Sigil_(computer_programming)
 
 ### Writing Tests
 
@@ -208,18 +213,21 @@ them:
 The English test cases (`/test-cases/english.json`) may be used as an example
 and starting place. As noted above, you can verify your tests by running
 `./node_modules/.bin/mocha`. Pull requests without a full suite of passing
-tests will not be accepted.
+tests will not be accepted. Please make every effort to ensure that your tests
+provide as full code coverage as possible.
 
 General Considerations
 ----------------------
+
+When translating text summaries, please keep the following in mind:
 
 *   Text summaries are often used by API consumers in headings: **be as brief
     as possible,** and use abbreviations where appropriate.
 *   It is simpler to maintain one version of a language than two: **avoid
     dialectal or regional variations** if at all possible. (For example, we try
     to maintain one version of English, despite the several major, distinct
-    English variants. We have had to alter terminology a few times to avoid
-    generating insulting summaries!)
+    English variants--American English, British English, etc. We have had to
+    alter terminology a few times to avoid generating insulting summaries!)
 *   **Try to keep the text as natural as possible,** so that it is easily
     intelligible to an average reader. (Yes, we know this conflicts with
     brevity, but try your best!)
@@ -405,60 +413,99 @@ desired).
 
 #### Precipitation Types
 
-*   `"clear"`
-*   `"no-precipitation"`
-*   `"mixed-precipitation"`
+*   `"no-precipitation"`: Represents no precipitation. Only used in "weekly
+    precipitation summary" blocks. (This condition is in contrast to `"clear"`,
+    which represents no significant weather of any kind.)
+*   `"mixed-precipitation"`: Represents multiple types of precipitation, such
+    as both rain and snow. Only used in "weekly precipitation summary" blocks;
+    in all other cases, the predominate type of precipitation is used.
 *   `GENERIC_TYPE`
 *   `RAIN_TYPE`
 *   `SLEET_TYPE`
 *   `SNOW_TYPE`
-*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]`
+*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]`: For daily or weekly
+    summaries, if a significant amount of snow is expected, we will qualify it
+    with the amount of expected snow accumulation on the ground. (For example,
+    "snow (3-4 in.) throughout the day".)
 
 ##### Generic Types
 
+Generic precipitation forms are used when we don't have information regarding
+the exact type of precipitation expected. (This is a rare occurance.)
+
+*   `"possible-very-light-precipitation"`
 *   `"very-light-precipitation"`
+*   `"possible-light-precipitation"`
 *   `"light-precipitation"`
 *   `"medium-precipitation"`
 *   `"heavy-precipitation"`
 
 ##### Rain Types
 
+Rain precipitation forms represent liquid precipitation.
+
+*   `"possible-very-light-rain"`
 *   `"very-light-rain"`
+*   `"possible-light-rain"`
 *   `"light-rain"`
 *   `"medium-rain"`
 *   `"heavy-rain"`
 
 ##### Sleet Types
 
+Sleet precipitation forms represent sleet, freezing rain, or ice pellets, of
+the sort that generally occur in winter when temperatures are around freezing.
+
+*   `"possible-very-light-sleet"`
 *   `"very-light-sleet"`
+*   `"possible-light-sleet"`
 *   `"light-sleet"`
 *   `"medium-sleet"`
 *   `"heavy-sleet"`
 
 ##### Snow Types
 
+Snow precipitation forms represent solid precipitation in the form of
+snowflakes.
+
+*   `"possible-very-light-snow"`
 *   `"very-light-snow"`
+*   `"possible-light-snow"`
 *   `"light-snow"`
 *   `"medium-snow"`
 *   `"heavy-snow"`
 
 ##### Snow Accumulation
 
+Represents a distance measurement indicating the amount of snow accumulation is
+expected. These take the form of "N inches", "under N inches", or "M-N inches"
+in English, respectively.
+
 *   `["inches", NUMBER]`
-*   `["centimeters", NUMBER]`
 *   `["inches", ["less-than", 1]]`
-*   `["centimeters", ["less-than", 1]]`
 *   `["inches", ["range", NUMBER, NUMBER]]`
+*   `["centimeters", NUMBER]`
+*   `["centimeters", ["less-than", 1]]`
 *   `["centimeters", ["range", NUMBER, NUMBER]]`
 
 #### Other Weather Conditions
 
-*   `"light-wind"`
-*   `"medium-wind"`
-*   `"heavy-wind"`
-*   `"low-humidity"`
-*   `"high-humidity"`
-*   `"fog"`
-*   `"light-clouds"`
-*   `"medium-clouds"`
-*   `"heavy-clouds"`
+*   `"clear"`: Represents the lack of *any* significant weather occurring.
+*   `"light-wind"`: Represents light wind at a location. (3 or 4 on the
+    [Beaufort scale][10], but only when this is historically unusual.)
+*   `"medium-wind"`: Represents moderate wind at a location. (5, 6, or 7 on the
+    [Beaufort scale][10], but only when this is historically unusual.)
+*   `"heavy-wind"`: Represents strong wind at a location. (8+ on the
+    [Beaufort scale][10].)
+*   `"low-humidity"`: Represents when the air is unusually dry.
+*   `"high-humidity"`: Represents when the air is unusually humid.
+*   `"fog"`: Represents when there is less than 1 mile (1.6 kilometers) of
+    visibility.
+*   `"light-clouds"`: Represents when clouds cover less than half of the sky.
+    (Usually called "partly cloudy" in English.)
+*   `"medium-clouds"`: Represents when clouds cover more than half (but not
+    all) of the sky. (Usually called "mostly cloudy" in English.)
+*   `"heavy-clouds"`: Represents complete (or nearly-complete) cloud cover.
+    (Usually called "overcast" in English.)
+
+[10]: https://en.wikipedia.org/wiki/Beaufort_scale
