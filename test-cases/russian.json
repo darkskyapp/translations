@@ -1,0 +1,238 @@
+{
+  "Ясно":
+    ["title", "clear"],
+
+  "Возможны слабые осадки":
+    ["title", "possible-very-light-precipitation"],
+
+  "Слабые осадки":
+    ["title", "very-light-precipitation"],
+
+  "Возможны слабые осадки":
+    ["title", "possible-light-precipitation"],
+
+  "Слабые осадки":
+    ["title", "light-precipitation"],
+
+  "Осадки":
+    ["title", "medium-precipitation"],
+
+  "Сильные осадки":
+    ["title", "heavy-precipitation"],
+
+  "Возможен слабый дождь":
+    ["title", "possible-very-light-rain"],
+
+  "Слабый дождь":
+    ["title", "very-light-rain"],
+
+  "Возможен слабый дождь":
+    ["title", "possible-light-rain"],
+
+  "Слабый дождь":
+    ["title", "light-rain"],
+
+  "Дождь":
+    ["title", "medium-rain"],
+
+  "Сильный дождь":
+    ["title", "heavy-rain"],
+
+  "Возможен слабый дождь со снегом":
+    ["title", "possible-very-light-sleet"],
+
+  "Слабый дождь со снегом":
+    ["title", "very-light-sleet"],
+
+  "Возможен слабый дождь со снегом":
+    ["title", "possible-light-sleet"],
+
+  "Слабый дождь со снегом":
+    ["title", "light-sleet"],
+
+  "Дождь со снегом":
+    ["title", "medium-sleet"],
+
+  "Сильный дождь со снегом":
+    ["title", "heavy-sleet"],
+
+  "Возможен слабый снег":
+    ["title", "possible-very-light-snow"],
+
+  "Слабый снег":
+    ["title", "very-light-snow"],
+
+  "Возможен слабый снег":
+    ["title", "possible-light-snow"],
+
+  "Слабвй снег":
+    ["title", "light-snow"],
+
+  "Снег":
+    ["title", "medium-snow"],
+
+  "Сильный снег":
+    ["title", "heavy-snow"],
+
+  "Умеренный ветер":
+    ["title", "medium-wind"],
+
+  "Сильный ветер":
+    ["title", "heavy-wind"],
+
+  "Туманно":
+    ["title", "fog"],
+
+  "Облачно с прояснениями":
+    ["title", "medium-clouds"],
+
+  "Облачно":
+    ["title", "heavy-clouds"],
+
+  "Сухо и ветрено":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Влажно и переменная облачность":
+    ["title",
+      ["and", "high-humidity", "light-clouds"]],
+
+
+  "Ясно в ближайший час.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "Слабый снег через 35 минут.":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "Слабый дождь закончится через 15 минут.":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Сильный дождь со снегом начнется через 20 мин., и будет идти 30 мин.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Дождь закончится через 25 мин., и начнется опять через 8 мин.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "Облачно с прояснениями весь день.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "Слабый дождь со снегом утром.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Ветренно до наступления ночи":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Сильные осадки до обеда.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "Ветрено после обеда.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Снег сегодня вечером и завтра утром.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Тяжелый дождь сегодня утром и вечером.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Сильная облачность вечером и всю ночь.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Слабый дождь со снегом после обеда и туманно завтра утром.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "Сильный ветер сегодня с утра до вечера и дождь со снегом завтра утром.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Сильная облачность сегодня ночью и сильный снег завтра после обеда.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Сухая погода ночью и слабые осадки завтра с вечера до ночи.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Снег (5 дюймов) всю ночь.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Слабый снег (2 см.) этим утром.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Сильный снег (8\u201312 дюймов) весь день":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Снег (менее 1 см.) после обеда.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      "afternoon"]],
+
+
+  "Без осадков всю неделю с максимальной температурой 85\u00B0F завтра.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "Смешанные осадки всю неделю, с максимальной температурой до 32\u00B0C в четверг.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Изморось сегодня, с минимальной температурой 15\u00B0F в пятницу.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "today"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "Слабый снег в понедельник и вторник, с минимальной температурой 0\u00B0C в воскресенье.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "monday", "tuesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Осадки со среды по субботу, с максимальной температурой до 100\u00B0F в понедельник.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "wednesday", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]]
+}
