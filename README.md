@@ -9,8 +9,8 @@ producing textual weather summaries][2] from its weather data.  These summaries
 have always been in English (since that's the only language we know) and have
 always been procedurally generated (since there are so many possible weather
 conditions). Procedural generation makes translating these summaries into other
-languages especially difficult, because the naive approach--using a table
-lookup to replace an English sentence with one of a different language--becomes
+languages especially difficult, because the naive approach—using a table
+lookup to replace an English sentence with one of a different language—becomes
 impractical, requiring a *very* large table to support!
 
 [1]: https://developer.forecast.io/
@@ -226,7 +226,7 @@ When translating text summaries, please keep the following in mind:
 *   It is simpler to maintain one version of a language than two: **avoid
     dialectal or regional variations** if at all possible. (For example, we try
     to maintain one version of English, despite the several major, distinct
-    English variants--American English, British English, etc. We have had to
+    English variants—American English, British English, etc. We have had to
     alter terminology a few times to avoid generating insulting summaries!)
 *   **Try to keep the text as natural as possible,** so that it is easily
     intelligible to an average reader. (Yes, we know this conflicts with
@@ -431,9 +431,9 @@ desired).
 In each of the below precipitation types, the intensity of precipitation is
 (very approximately) as follows:
 
-*   `"very-light-X"`: 0--0.4 mm/hr
-*   `"light-X"`: 0.4--2.5 mm/hr
-*   `"medium-X"`: 2.5--10 mm/hr
+*   `"very-light-X"`: 0–0.4 mm/hr
+*   `"light-X"`: 0.4–2.5 mm/hr
+*   `"medium-X"`: 2.5–10 mm/hr
 *   `"heavy-X"`: 10 mm/hr
 
 Snow intensities are (also very approximately) one-third of these. (That is,
