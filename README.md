@@ -428,6 +428,18 @@ desired).
     with the amount of expected snow accumulation on the ground. (For example,
     "snow (3-4 in.) throughout the day".)
 
+In each of the below precipitation types, the intensity of precipitation is
+(very approximately) as follows:
+
+*   `"very-light-X"`: 0--0.4 mm/hr
+*   `"light-X"`: 0.4--2.5 mm/hr
+*   `"medium-X"`: 2.5--10 mm/hr
+*   `"heavy-X"`: 10 mm/hr
+
+Snow intensities are (also very approximately) one-third of these. (That is,
+`"heavy-snow"` is more like 3 mm/hr.) However, these are only intended as a
+rough guide, as these values change over time as we fine-tune our system.
+
 ##### Generic Types
 
 Generic precipitation forms are used when we don't have information regarding
