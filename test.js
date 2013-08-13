@@ -79,6 +79,37 @@ describe("translation", function() {
     it("should fail to apply a function template given a value", function() {
       expect(function() { convert("baz"); }).to.throw();
     });
+
+    it("should provide context to functions", function() {
+      var convert = template({
+            "foo": function(a, b, c) {
+              expect(this).to.deep.equal(["foo"]);
+              return "Moop.";
+            },
+            "bar": function() {
+              expect(this).to.deep.equal(["foo", "bar"]);
+              return "Boop.";
+            },
+            "baz": function(a) {
+              expect(this).to.deep.equal(["foo", "baz"]);
+              return "Soup.";
+            },
+            "quux": function() {
+              expect(this).to.deep.equal(["foo", "baz", "quux"]);
+              return "Floop.";
+            },
+            "neem": function(a) {
+              expect(this).to.deep.equal(["foo", "neem"]);
+              return "Bloop.";
+            },
+            "glorp": function(a) {
+              expect(this).to.deep.equal(["foo", "neem", "glorp"]);
+              return "Rope?";
+            }
+          });
+
+      convert(["foo", "bar", ["baz", "quux"], ["neem", ["glorp", 42]]]);
+    });
   });
 
   describe("language", function() {
