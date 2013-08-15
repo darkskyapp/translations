@@ -187,6 +187,13 @@ shortcut syntax is also allowed:
 The [sigiled][9] expressions are replaced with the numbered argument to the
 function (`$1` with the first argument, `$2` with the second, and so on).
 
+Finally, if you need the extra power, each function's `this` parameter is set
+to an array representing the called function's position in the expression tree.
+For example, in the example above, the `"minutes"` function is passed `this`
+with a value of `["starting-in", "minutes"]` since `"minutes"` is a child of
+the `"starting-in"` template. (This is handy for languages like Dutch or German
+where, I hear, that the ordering of words are important.)
+
 Making use of this library is straightforward: simply call it with an
 associative array, and it will return your submodule function for you:
 
