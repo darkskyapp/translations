@@ -195,7 +195,7 @@
 
   "Salju (1 cm. mai kraik) lokraik.":
     ["sentence", ["during",
-      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
   "Udan la iha durante semana ida, ho temperatur la sai liu 85\u00B0F aban.":

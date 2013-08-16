@@ -501,10 +501,10 @@ expected. These take the form of "N inches", "under N inches", or "M-N inches"
 in English, respectively.
 
 *   `["inches", NUMBER]`
-*   `["inches", ["less-than", 1]]`
+*   `["less-than", ["inches", 1]]`
 *   `["inches", ["range", NUMBER, NUMBER]]`
 *   `["centimeters", NUMBER]`
-*   `["centimeters", ["less-than", 1]]`
+*   `["less-than", ["centimeters", 1]]`
 *   `["centimeters", ["range", NUMBER, NUMBER]]`
 
 #### Other Weather Conditions

@@ -1,6 +1,6 @@
 {
   "name": "forecast-api-translations",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -10,6 +10,10 @@
     {
       "name": "Jay LaPorte",
       "email": "jay@forecast.io"
+    },
+    {
+      "name": "Anders Hofstee",
+      "email": "info@catalpainternational.org"
     }
   ],
   "repository": {
