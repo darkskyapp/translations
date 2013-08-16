@@ -1,0 +1,214 @@
+{
+  "Helder":
+    ["title", "clear"],
+
+  "Lichte neerslag":
+    ["title", "very-light-precipitation"],
+
+  "Lichte neerslag":
+    ["title", "light-precipitation"],
+
+  "Neerslag":
+    ["title", "medium-precipitation"],
+
+  "Zware neerslag":
+    ["title", "heavy-precipitation"],
+
+  "Motregen":
+    ["title", "very-light-rain"],
+
+  "Lichte regen":
+    ["title", "light-rain"],
+
+  "Regen":
+    ["title", "medium-rain"],
+
+  "Zware regen":
+    ["title", "heavy-rain"],
+
+  "Hele lichte natte sneeuw":
+    ["title", "very-light-sleet"],
+
+  "Lichte natte sneeuw":
+    ["title", "light-sleet"],
+
+  "Natte sneeuw":
+    ["title", "medium-sleet"],
+
+  "Zware natte sneeuw":
+    ["title", "heavy-sleet"],
+
+  "Fijne sneeuw":
+    ["title", "very-light-snow"],
+
+  "Lichte sneeuwval":
+    ["title", "light-snow"],
+
+  "Sneeuw":
+    ["title", "medium-snow"],
+
+  "Zware sneeuwval":
+    ["title", "heavy-snow"],
+
+  "Matige wind":
+    ["title", "medium-wind"],
+
+  "Zware wind":
+    ["title", "heavy-wind"],
+
+  "Mistig":
+    ["title", "fog"],
+
+  "Veelal bewolkt":
+    ["title", "medium-clouds"],
+
+  "Zwaar bewolkt":
+    ["title", "heavy-clouds"],
+
+  "Droog en lichte wind":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Vochtig en licht bewolkt":
+    ["title",
+      ["and", "high-humidity", "light-clouds"]],
+
+
+  "Het komende uur helder.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "Over 35 min. fijne sneeuw.":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "Regen stopt over 15 min.":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Zware natte sneeuw begint over 20 min. en stopt 30 min. later.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Regen stopt over 25 min. en begint opnieuw over 8 min.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "De hele dag veelal bewolkt.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "In de ochtend lichte natte sneeuw.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Vannacht matige wind.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Tot de namiddag zware neerslag.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "In de namiddag lichte wind.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Later deze avond en morgenochtend.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Heavy rain until later this morning, starting again this evening.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Overcast starting in the evening, continuing until night.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Light sleet later this afternoon and foggy tomorrow morning.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "Dangerously windy starting this morning, continuing until this afternoon, and sleet tomorrow morning.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Overcast starting later tonight and heavy snow tomorrow afternoon.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Dry tonight and light precipitation starting tomorrow evening, continuing until tomorrow night.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Snow (5 in.) overnight.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Light snow (2 cm.) later this morning.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Heavy snow (8\u201312 in.) throughout the day.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Snow (under 1 cm.) in the afternoon.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      "afternoon"]],
+
+
+  "No precipitation throughout the week, with temperatures peaking at 85\u00B0F tomorrow.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "Mixed precipitation over the weekend, with temperatures rising to 32\u00B0C on Thursday.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Drizzle today, with temperatures bottoming out at 15\u00B0F on Friday.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "today"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "Light snow on Monday and Tuesday, with temperatures falling to 0\u00B0C on Sunday.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "monday", "tuesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Precipitation on Wednesday through Saturday, with temperatures peaking at 100\u00B0F on Monday.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "wednesday", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]]
+}
