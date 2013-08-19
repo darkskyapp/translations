@@ -9,8 +9,8 @@ producing textual weather summaries][2] from its weather data.  These summaries
 have always been in English (since that's the only language we know) and have
 always been procedurally generated (since there are so many possible weather
 conditions). Procedural generation makes translating these summaries into other
-languages especially difficult, because the naive approach--using a table
-lookup to replace an English sentence with one of a different language--becomes
+languages especially difficult, because the naive approach—using a table
+lookup to replace an English sentence with one of a different language—becomes
 impractical, requiring a *very* large table to support!
 
 [1]: https://developer.forecast.io/
@@ -187,6 +187,13 @@ shortcut syntax is also allowed:
 The [sigiled][9] expressions are replaced with the numbered argument to the
 function (`$1` with the first argument, `$2` with the second, and so on).
 
+Finally, if you need the extra power, each function's `this` parameter is set
+to an array representing the called function's position in the expression tree.
+For example, in the example above, the `"minutes"` function is passed `this`
+with a value of `["starting-in", "minutes"]` since `"minutes"` is a child of
+the `"starting-in"` template. (This is handy for languages like Dutch or German
+where, I hear, that the ordering of words are important.)
+
 Making use of this library is straightforward: simply call it with an
 associative array, and it will return your submodule function for you:
 
@@ -226,7 +233,7 @@ When translating text summaries, please keep the following in mind:
 *   It is simpler to maintain one version of a language than two: **avoid
     dialectal or regional variations** if at all possible. (For example, we try
     to maintain one version of English, despite the several major, distinct
-    English variants--American English, British English, etc. We have had to
+    English variants—American English, British English, etc. We have had to
     alter terminology a few times to avoid generating insulting summaries!)
 *   **Try to keep the text as natural as possible,** so that it is easily
     intelligible to an average reader. (Yes, we know this conflicts with
@@ -428,6 +435,18 @@ desired).
     with the amount of expected snow accumulation on the ground. (For example,
     "snow (3-4 in.) throughout the day".)
 
+In each of the below precipitation types, the intensity of precipitation is
+(very approximately) as follows:
+
+*   `"very-light-X"`: 0–0.4 mm/hr
+*   `"light-X"`: 0.4–2.5 mm/hr
+*   `"medium-X"`: 2.5–10 mm/hr
+*   `"heavy-X"`: 10 mm/hr
+
+Snow intensities are (also very approximately) one-third of these. (That is,
+`"heavy-snow"` is more like 3 mm/hr.) However, these are only intended as a
+rough guide, as these values change over time as we fine-tune our system.
+
 ##### Generic Types
 
 Generic precipitation forms are used when we don't have information regarding
@@ -482,10 +501,10 @@ expected. These take the form of "N inches", "under N inches", or "M-N inches"
 in English, respectively.
 
 *   `["inches", NUMBER]`
-*   `["inches", ["less-than", 1]]`
+*   `["less-than", ["inches", 1]]`
 *   `["inches", ["range", NUMBER, NUMBER]]`
 *   `["centimeters", NUMBER]`
-*   `["centimeters", ["less-than", 1]]`
+*   `["less-than", ["centimeters", 1]]`
 *   `["centimeters", ["range", NUMBER, NUMBER]]`
 
 #### Other Weather Conditions

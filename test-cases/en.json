@@ -195,7 +195,7 @@
 
   "Snow (under 1 cm.) in the afternoon.":
     ["sentence", ["during",
-      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
