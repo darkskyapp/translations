@@ -113,7 +113,7 @@ describe("translation", function() {
   });
 
   describe("language", function() {
-    fs.readdirSync(path.join(__dirname, "test-cases")).forEach(function(lang) {
+    fs.readdirSync(path.join(__dirname, "test_cases")).forEach(function(lang) {
       if(lang.charAt(0) === ".")
         return;
 
@@ -122,7 +122,7 @@ describe("translation", function() {
 
       describe(name, function() {
         var cases = JSON.parse(
-              fs.readFileSync(path.join(__dirname, "test-cases", lang), "utf8")
+              fs.readFileSync(path.join(__dirname, "test_cases", lang), "utf8")
             );
             
         Object.keys(cases).forEach(function(summary) {
