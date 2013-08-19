@@ -92,9 +92,11 @@
   "Dry and Breezy":
     ["title", ["and", "low-humidity", "light-wind"]],
 
+  "Drizzle and Dangerously Windy":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
   "Humid and Partly Cloudy":
-    ["title",
-      ["and", "high-humidity", "light-clouds"]],
+    ["title", ["and", "high-humidity", "light-clouds"]],
 
 
   "Clear for the hour.":
