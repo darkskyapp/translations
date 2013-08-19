@@ -63,9 +63,10 @@ verify that everything is working by running the tests:
     $ ./node_modules/.bin/mocha
     
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
     
-      64 passing (58 ms)
+      170 passing (59 ms)
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: http://chaijs.com/
