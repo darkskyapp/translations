@@ -56,7 +56,7 @@
   "Zware windstoten":
     ["title", "heavy-wind"],
 
-  "Mistig":
+  "Mist":
     ["title", "fog"],
 
   "Overwegend bewolkt":
@@ -98,7 +98,7 @@
   "Overwegend bewolkt gedurende de dag.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "In de ochtend begint lichte ijzel.":
+  "In de ochtend lichte ijzel.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Veel wind tot vannacht.":
@@ -107,32 +107,33 @@
   "Zware neerslag tot de middag.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Weinig wind de middag.":
+  "Weinig wind gedurende de middag.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Sneeuw later vanavond en morgenochtend.":
+  "Sneeuw gedurende later vanavond en morgenochtend.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
   
-  "Zware regenbuien tot later vanmorgen en vanavond weer opnieuw.":
+  "Zware regenbuien tot later vanochtend en vanavond weer opnieuw.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Zwaar bewolkt vanaf de avond continuerend tot aan de nacht.":
+  "Zwaar bewolkt vanaf de avond dat door blijft gaan tot de nacht.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
+      
       "night"]],
 
-  "Lichte ijzel later vanmiddag en morgenochtend mistig.":
+  "Later vanmiddag lichte ijzel en morgenochtend mist.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Harde wind vanaf de ochtend die doorgaat tot in de middag en morgenochtend ijzel.":
+  "Zware windstoten vanaf de ochtend dat door blijft gaan tot de middag en morgenochtend ijzel.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -140,12 +141,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Later vanavond bewolkt en morgenmiddag zware sneeuwval.":
+  "Later vannacht zwaar bewolkt en morgenmiddag zware sneeuwbuien.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Vanavond droog en vanaf morgenavond lichte neerslag die door gaat tot morgenavond.":
+  "Vannacht lage luchtvochtigheid en lichte neerslag vanaf morgenavond dat door blijft gaan tot morgennacht.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -154,21 +155,21 @@
         "tomorrow-night"]]],
 
   
-  "Vannacht sneeuw (5 inch).":
+  "Sneeuw (5 inch) gedurende de nacht.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Later vanochtend lichte sneeuwval (2 cm).":
+  "Lichte sneeuwbuien (2 cm) gedurende later vanochtend.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
   
-  "De hele dag zware sneeuwval (8 tot u201312 inch).":
+  "Zware sneeuwbuien (8 tot 12 inch) gedurende de dag.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "In de middag sneeuw (minder dan 1 cm).":
+  "Sneeuw (minder dan 1 cm) gedurende de middag.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
       "afternoon"]],
@@ -180,7 +181,7 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Wisselende neerslag dit weekend met temperaturen oplopend tot 32\u00B0C op donderdag.":
+  "Wisselende neerslag dit weekend met temperaturen stijgend tot 32\u00B0C op donderdag.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
@@ -194,18 +195,18 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Lichte sneeuwval op maandag en dinsdag met temperaturen dalend to 0\u00B0C op zondag.":
+  "Lichte sneeuwbuien op maandag en dinsdag met temperaturen dalend tot 0\u00B0C op zondag.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "monday", "tuesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Neerslag van woensdag tot zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
+  "Neerslag van donderdag tot zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
-        ["through", "wednesday", "saturday"]],
+        ["through", "thursday", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]]
