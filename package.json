@@ -1,6 +1,6 @@
 {
   "name": "forecast-api-translations",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -24,6 +24,10 @@
     {
       "name": "basvdijk",
       "web": "https://github.com/basvdijk"
+    },
+    {
+      "name": "TheMikeGraz",
+      "web": "https://github.com/TheMikeGraz"
     }
   ],
   "repository": {
