@@ -41,7 +41,7 @@ You will need to have [Node.JS][3] installed. You can check to see whether you
 its installed by running:
 
     $ node -v
-    v0.10.15
+    v0.10.24
 
 If it gives an error message (or a version below 0.10), you should install it
 from the Node.JS website and try again.
@@ -65,9 +65,10 @@ verify that everything is working by running the tests:
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
 
-      219 passing (65 ms)
+      278 passing (80ms)
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: http://chaijs.com/
