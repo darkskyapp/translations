@@ -1,6 +1,6 @@
 {
   "name": "forecast-api-translations",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -28,6 +28,10 @@
     {
       "name": "TheMikeGraz",
       "web": "https://github.com/TheMikeGraz"
+    },
+    {
+      "name": "ltressens",
+      "web": "https://github.com/ltressens"
     }
   ],
   "repository": {
@@ -35,7 +39,7 @@
     "url": "git://github.com/darkskyapp/forecast-api-translations"
   },
   "devDependencies": {
-    "mocha": "1.12.x",
-    "chai": "1.7.x"
+    "mocha": "1.17.x",
+    "chai": "1.8.x"
   }
 }
