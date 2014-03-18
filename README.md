@@ -41,7 +41,7 @@ You will need to have [Node.JS][3] installed. You can check to see whether you
 its installed by running:
 
     $ node -v
-    v0.10.24
+    v0.10.26
 
 If it gives an error message (or a version below 0.10), you should install it
 from the Node.JS website and try again.
@@ -52,7 +52,7 @@ While this package requires no dependencies to run in production, if you want
 to develop against it you will need the testing libraries [Mocha][5] and
 [Chai][6]. Installing them is simple:
 
-    $ cd /path/to/forecast-api-translations
+    $ cd /path/to/forecast-io-translations
     $ npm install
 
 [NPM][7] is the Node Package Manager, and is part of the Node software
