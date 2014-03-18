@@ -1,5 +1,5 @@
 {
-  "name": "forecast-api-translations",
+  "name": "forecast-io-translations",
   "version": "1.6.0",
   "description": "translate the Forecast API into any language",
   "author": {
@@ -39,7 +39,7 @@
     "url": "git://github.com/darkskyapp/forecast-api-translations"
   },
   "devDependencies": {
-    "mocha": "1.17.x",
-    "chai": "1.8.x"
+    "mocha": "1.18.x",
+    "chai": "1.9.x"
   }
 }
