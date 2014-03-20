@@ -375,9 +375,9 @@ expected to have rain, as compactly as possible.
 
 *   `["for-week", PRECIPITATION_TYPE]`
 *   `["over-weekend", PRECIPITATION_TYPE]`
-*   `["during", DAY_OF_WEEK]`
-*   `["during", ["and", DAY_OF_WEEK, DAY_OF_WEEK]]`
-*   `["during", ["through", DAY_OF_WEEK, DAY_OF_WEEK]]`
+*   `["during", PRECIPITATION_TYPE, DAY_OF_WEEK]`
+*   `["during", PRECIPITATION_TYPE, ["and", DAY_OF_WEEK, DAY_OF_WEEK]]`
+*   `["during", PRECIPITATION_TYPE, ["through", DAY_OF_WEEK, DAY_OF_WEEK]]`
 
 `"for-week"`, `"over-weekend"`, and `"through"` are both only used as above.
 `"during"` is used both here and in daily summaries.
