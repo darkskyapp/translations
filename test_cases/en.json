@@ -215,25 +215,25 @@
         ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle today, with temperatures bottoming out at 15\u00B0F on Friday.":
+  "Drizzle on Monday, with temperatures bottoming out at 15\u00B0F on Friday.":
     ["sentence", ["with",
-      ["during", "very-light-rain", "today"],
+      ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Light snow on Monday and Tuesday, with temperatures falling to 0\u00B0C on Sunday.":
+  "Light snow on Tuesday and Wednesday, with temperatures falling to 0\u00B0C on Sunday.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "monday", "tuesday"]],
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitation on Wednesday through Saturday, with temperatures peaking at 100\u00B0F on Monday.":
+  "Precipitation today through Saturday, with temperatures peaking at 100\u00B0F on Monday.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
-        ["through", "wednesday", "saturday"]],
+        ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]]
