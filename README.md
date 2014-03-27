@@ -202,7 +202,7 @@ associative array, and it will return your submodule function for you:
 
     module.exports = require("../template")(/* INSERT ASSOC. ARRAY HERE */);
 
-Please see `/lib/lang/english.js` for an example of this in action.
+Please see `/lib/lang/en.js` for an example of this in action.
 
 [9]: http://en.wikipedia.org/wiki/Sigil_(computer_programming)
 
