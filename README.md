@@ -37,14 +37,14 @@ Getting Started
 
 ### Install Node
 
-You will need to have [Node.JS][3] installed. You can check to see whether you
-its installed by running:
+You will need to have [Node.JS][3] installed. You can check to see whether it
+is installed by running:
 
     $ node -v
     v0.10.26
 
-If it gives an error message (or a version below 0.10), you should install it
-from the Node.JS website and try again.
+If the command gives an error message (or a version below 0.10), you should
+install Node from the Node.JS website and try again.
 
 ### Install Dependencies
 
