@@ -20,10 +20,10 @@
   "Precipitación":
     ["title", "heavy-precipitation"],
 
-  "Posible Drizzle":
+  "Posible Llovizna":
     ["title", "possible-very-light-rain"],
 
-  "Drizzle":
+  "Llovizna":
     ["title", "very-light-rain"],
 
   "Posible Ligera Lluvia":
@@ -92,7 +92,7 @@
   "Dry and Breezy":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Drizzle and Dangerously Windy":
+  "Llovizna and Dangerously Windy":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
   "Humid and Partly Cloudy":
@@ -215,7 +215,7 @@
         ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle el Lunes, con temperaturas bottoming out at 15\u00B0F el Viernes.":
+  "Llovizna el Lunes, con temperaturas bottoming out at 15\u00B0F el Viernes.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
