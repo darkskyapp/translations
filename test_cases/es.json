@@ -38,13 +38,13 @@
   "Fuertes Lluvias":
     ["title", "heavy-rain"],
 
-  "Posible Ligera Aguanieve":
+  "Posible Aguanieve Ligera ":
     ["title", "possible-very-light-sleet"],
 
   "Ligera Aguanieve":
     ["title", "very-light-sleet"],
 
-  "Posible Ligera Aguanieve":
+  "Posible Aguanieve Ligera ":
     ["title", "possible-light-sleet"],
 
   "Ligera Aguanieve":
@@ -53,7 +53,7 @@
   "Aguanieve":
     ["title", "medium-sleet"],
 
-  "Fuertes Aguanieve":
+  "Fuerte Aguanieve":
     ["title", "heavy-sleet"],
 
   "Posible Flurries":
@@ -62,10 +62,10 @@
   "Flurries":
     ["title", "very-light-snow"],
 
-  "Posible Nieve Ligera":
+  "Posible Nevada Ligera":
     ["title", "possible-light-snow"],
 
-  "Nieve Ligera":
+  "Nevada Ligera":
     ["title", "light-snow"],
 
   "Nieve":
@@ -99,7 +99,7 @@
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
-  "Clear por la hora.":
+  "Claro por la hora.":
     ["sentence", ["for-hour", "clear"]],
 
   "Flurries starting in 35 min.":
@@ -108,7 +108,7 @@
   "LLuvia ligera parando en 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Fuertes sleet starting in 20 min., stopping 30 min. despues.":
+  "Fuertes lloviznas comenzando in 20 min., parando 30 min. despues.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
@@ -126,7 +126,7 @@
   "Mostly cloudy durante el dia.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Ligera sleet comenzando en la mañana.":
+  "Lloviznas ligeras comenzando en la mañana.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Windy until tonight.":
@@ -138,24 +138,24 @@
   "Breezy en la tarde.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Nieve despues esta noche and tomorrow mañana.":
+  "Nevadas esta noche y mmañana en la mañana.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Fuertes lluvias until despues esta mañana, starting again esta noche.":
+  "Fuertes lluvias hasta despues esta mañana, comenzando otra vez esta noche.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Overcast starting in the noche, continuing until night.":
+  "Overcast comenzando en la tarde, continuando en la noche.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Ligera sleet despues esta tarde and foggy mañana en la mañana.":
+  "Lloviznas ligeras despues en la tarde y nublado mañana en la mañana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
