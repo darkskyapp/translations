@@ -2,13 +2,13 @@
   "Claro":
     ["title", "clear"],
 
-  "Possible Precipitación Lijera":
+  "Posible Precipitación Lijera":
     ["title", "possible-very-light-precipitation"],
 
   "Precipitación Lijera":
     ["title", "very-light-precipitation"],
 
-  "Possible Precipitación Lijera":
+  "Posible Precipitación Lijera":
     ["title", "possible-light-precipitation"],
 
   "Precipitación Lijera":
@@ -20,34 +20,34 @@
   "Precipitación":
     ["title", "heavy-precipitation"],
 
-  "Possible Drizzle":
+  "Posible Drizzle":
     ["title", "possible-very-light-rain"],
 
   "Drizzle":
     ["title", "very-light-rain"],
 
-  "Possible Light Rain":
+  "Posible Ligera Lluvia":
     ["title", "possible-light-rain"],
 
-  "Light Rain":
+  "Ligera Lluvia":
     ["title", "light-rain"],
 
-  "Rain":
+  "Lluvia":
     ["title", "medium-rain"],
 
-  "Heavy Rain":
+  "Heavy Lluvia":
     ["title", "heavy-rain"],
 
-  "Possible Light Sleet":
+  "Posible Ligera Sleet":
     ["title", "possible-very-light-sleet"],
 
-  "Light Sleet":
+  "Ligera Sleet":
     ["title", "very-light-sleet"],
 
-  "Possible Light Sleet":
+  "Posible Ligera Sleet":
     ["title", "possible-light-sleet"],
 
-  "Light Sleet":
+  "Ligera Sleet":
     ["title", "light-sleet"],
 
   "Sleet":
@@ -56,16 +56,16 @@
   "Heavy Sleet":
     ["title", "heavy-sleet"],
 
-  "Possible Flurries":
+  "Posible Flurries":
     ["title", "possible-very-light-snow"],
 
   "Flurries":
     ["title", "very-light-snow"],
 
-  "Possible Light Nieve":
+  "Posible Ligera Nieve":
     ["title", "possible-light-snow"],
 
-  "Light Nieve":
+  "Nieve Ligera":
     ["title", "light-snow"],
 
   "Nieve":
@@ -105,7 +105,7 @@
   "Flurries starting in 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Light rain stopping in 15 min.":
+  "Ligera rain stopping in 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
   "Heavy sleet starting in 20 min., stopping 30 min. despues.":
@@ -115,7 +115,7 @@
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Rain stopping in 25 min., starting again 8 min. despues.":
+  "Lluvia stopping in 25 min., starting again 8 min. despues.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -126,7 +126,7 @@
   "Mostly cloudy durante the day.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Light sleet starting en la mañana.":
+  "Ligera sleet starting en la mañana.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Windy until tonight.":
@@ -155,7 +155,7 @@
       "evening",
       "night"]],
 
-  "Light sleet despues esta tarde and foggy mañana en la manana.":
+  "Ligera sleet despues esta tarde and foggy mañana en la manana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
@@ -186,7 +186,7 @@
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Light nieve (2 cm.) despues esta mañana.":
+  "Ligera nieve (2 cm.) despues esta mañana.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
@@ -208,28 +208,28 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Mixed precipitación sobre el fin de la semana, con temperaturas rising to 32\u00B0C on Thursday.":
+  "Mixed precipitación sobre el fin de la semana, con temperaturas rising to 32\u00B0C el Jueves.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle on Monday, con temperaturas bottoming out at 15\u00B0F on Friday.":
+  "Drizzle el Lunes, con temperaturas bottoming out at 15\u00B0F el Viernes.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Light nieve on Tuesday and Wednesday, con temperaturas falling to 0\u00B0C on Sunday.":
+  "Nieve ligera el Martes y Miércoles, con temperaturas falling to 0\u00B0C el Domingo.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitación hoy through Saturday, con temperaturas peaking at 100\u00B0F on Monday.":
+  "Precipitación hoy through Saturday, con temperaturas peaking at 100\u00B0F el Lunes.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
