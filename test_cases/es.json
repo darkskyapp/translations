@@ -38,22 +38,22 @@
   "Fuertes Lluvias":
     ["title", "heavy-rain"],
 
-  "Posible Ligera Sleet":
+  "Posible Ligera Aguanieve":
     ["title", "possible-very-light-sleet"],
 
-  "Ligera Sleet":
+  "Ligera Aguanieve":
     ["title", "very-light-sleet"],
 
-  "Posible Ligera Sleet":
+  "Posible Ligera Aguanieve":
     ["title", "possible-light-sleet"],
 
-  "Ligera Sleet":
+  "Ligera Aguanieve":
     ["title", "light-sleet"],
 
-  "Sleet":
+  "Aguanieve":
     ["title", "medium-sleet"],
 
-  "Fuertes Sleet":
+  "Fuertes Aguanieve":
     ["title", "heavy-sleet"],
 
   "Posible Flurries":
