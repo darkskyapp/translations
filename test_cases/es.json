@@ -2,16 +2,16 @@
   "Claro":
     ["title", "clear"],
 
-  "Posible Precipitación Lijera":
+  "Posible Precipitación Ligera":
     ["title", "possible-very-light-precipitation"],
 
-  "Precipitación Lijera":
+  "Precipitación Ligera":
     ["title", "very-light-precipitation"],
 
-  "Posible Precipitación Lijera":
+  "Posible Precipitación Ligera":
     ["title", "possible-light-precipitation"],
 
-  "Precipitación Lijera":
+  "Precipitación Ligera":
     ["title", "light-precipitation"],
 
   "Precipitación":
@@ -35,7 +35,7 @@
   "Lluvia":
     ["title", "medium-rain"],
 
-  "Heavy Lluvia":
+  "Fuertes Lluvias":
     ["title", "heavy-rain"],
 
   "Posible Ligera Sleet":
@@ -53,7 +53,7 @@
   "Sleet":
     ["title", "medium-sleet"],
 
-  "Heavy Sleet":
+  "Fuertes Sleet":
     ["title", "heavy-sleet"],
 
   "Posible Flurries":
@@ -62,7 +62,7 @@
   "Flurries":
     ["title", "very-light-snow"],
 
-  "Posible Ligera Nieve":
+  "Posible Nieve Ligera":
     ["title", "possible-light-snow"],
 
   "Nieve Ligera":
@@ -71,7 +71,7 @@
   "Nieve":
     ["title", "medium-snow"],
 
-  "Heavy Nieve":
+  "Fuertes Nevadas":
     ["title", "heavy-snow"],
 
   "Windy":
@@ -80,7 +80,7 @@
   "Dangerously Windy":
     ["title", "heavy-wind"],
 
-  "Foggy":
+  "Nublado":
     ["title", "fog"],
 
   "Mostly Cloudy":
@@ -99,23 +99,23 @@
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
-  "Clear for the hour.":
+  "Clear por la hora.":
     ["sentence", ["for-hour", "clear"]],
 
   "Flurries starting in 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Ligera rain stopping in 15 min.":
+  "LLuvia ligera parando en 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Heavy sleet starting in 20 min., stopping 30 min. despues.":
+  "Fuertes sleet starting in 20 min., stopping 30 min. despues.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Lluvia stopping in 25 min., starting again 8 min. despues.":
+  "Lluvia parando en 25 min., comenzando de nuevo 8 min. despues.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -123,16 +123,16 @@
         ["minutes", 8]]],
 
 
-  "Mostly cloudy durante the day.":
+  "Mostly cloudy durante el dia.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Ligera sleet starting en la mañana.":
+  "Ligera sleet comenzando en la mañana.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Windy until tonight.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Heavy precipitación until afternoon.":
+  "Fuerte precipitación hasta la tarde.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Breezy en la tarde.":
@@ -143,7 +143,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Heavy rain until despues esta mañana, starting again esta noche.":
+  "Fuertes lluvias until despues esta mañana, starting again esta noche.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -155,12 +155,12 @@
       "evening",
       "night"]],
 
-  "Ligera sleet despues esta tarde and foggy mañana en la manana.":
+  "Ligera sleet despues esta tarde and foggy mañana en la mañana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Dangerously windy starting esta mañana, continuing until esta tarde, and sleet mañana en la manana.":
+  "Dangerously windy starting esta mañana, continuing until esta tarde, and sleet mañana en la mañana.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +168,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcast starting despues tonight and heavy nieve manana en la tarde.":
+  "Nublado comenzando esta noche y fuertes nevadas mañana en la tarde.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Dry tonight and light precipitación starting manana en la noche, continuing until manana en la noche.":
+  "Dry tonight and light precipitación starting mañana en la noche, continuing until mañana en la noche.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,7 +181,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Nieve (5 in.) overnight.":
+  "Nieve (5 in.) sobre la noche.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -191,24 +191,24 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Heavy nieve (8\u201312 in.) durante the day.":
+  "Fuertes nevadas (8\u201312 in.) durante el dia.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Nieve (under 1 cm.) en la tarde.":
+  "Nieve (bajo 1 cm.) en la tarde.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
-  "No precipitación durante la semana, con temperaturas peaking at 85\u00B0F manana.":
+  "No precipitación durante la semana, con temperaturas peaking at 85\u00B0F mañana.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Mixed precipitación sobre el fin de la semana, con temperaturas rising to 32\u00B0C el Jueves.":
+  "Precipitación mixta sobre el fin de la semana, con temperaturas rising to 32\u00B0C el Jueves.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
