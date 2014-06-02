@@ -2,13 +2,13 @@
   "Claro":
     ["title", "clear"],
 
-  "Posible Precipitacion Ligera":
+  "Posible Lluvias Ligeras":
     ["title", "possible-very-light-precipitation"],
 
   "Precipitacion Ligera":
     ["title", "very-light-precipitation"],
 
-  "Posible Precipitacion Ligera":
+  "Posible Lluvias Ligeras":
     ["title", "possible-light-precipitation"],
 
   "Precipitacion Ligera":
