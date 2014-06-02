@@ -2,22 +2,22 @@
   "Claro":
     ["title", "clear"],
 
-  "Posible Precipitación Ligera":
+  "Posible Precipitacion Ligera":
     ["title", "possible-very-light-precipitation"],
 
-  "Precipitación Ligera":
+  "Precipitacion Ligera":
     ["title", "very-light-precipitation"],
 
-  "Posible Precipitación Ligera":
+  "Posible Precipitacion Ligera":
     ["title", "possible-light-precipitation"],
 
-  "Precipitación Ligera":
+  "Precipitacion Ligera":
     ["title", "light-precipitation"],
 
-  "Precipitación":
+  "Precipitacion":
     ["title", "medium-precipitation"],
 
-  "Precipitación":
+  "Fuerte Precipitacion":
     ["title", "heavy-precipitation"],
 
   "Posible Llovizna":
@@ -26,10 +26,10 @@
   "Llovizna":
     ["title", "very-light-rain"],
 
-  "Posible Ligera Lluvia":
+  "Posible Lluvia Ligera":
     ["title", "possible-light-rain"],
 
-  "Ligera Lluvia":
+  "Lluvia Ligera":
     ["title", "light-rain"],
 
   "Lluvia":
@@ -41,34 +41,34 @@
   "Posible Aguanieve Ligera":
     ["title", "possible-very-light-sleet"],
 
-  "Ligera Aguanieve":
+  "Aguanieve Ligera":
     ["title", "very-light-sleet"],
 
   "Posible Aguanieve Ligera":
     ["title", "possible-light-sleet"],
 
-  "Ligera Aguanieve":
+  "Aguanieve Ligera":
     ["title", "light-sleet"],
 
   "Aguanieve":
     ["title", "medium-sleet"],
 
-  "Fuerte Aguanieve":
+  "Fuertes Aguanieves":
     ["title", "heavy-sleet"],
 
-  "Posible Nevada Breve":
+  "Posible Nevada Ligera":
     ["title", "possible-very-light-snow"],
 
-  "Nevada Breve":
+  "Nevadas Ligeras":
     ["title", "very-light-snow"],
 
   "Posible Nevada Ligera":
     ["title", "possible-light-snow"],
 
-  "Nevada Ligera":
+  "Nevadas Ligeras":
     ["title", "light-snow"],
 
-  "Nieve":
+  "Nevadas":
     ["title", "medium-snow"],
 
   "Fuertes Nevadas":
@@ -89,7 +89,7 @@
   "Nublado":
     ["title", "heavy-clouds"],
 
-  "Seco y Poco Ventoso":
+  "Seco y Pocos Vientos":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Llovizna y Peligrosamente Ventoso":
@@ -130,10 +130,10 @@
   "Ventoso hasta esta noche.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Fuerte precipitación hasta en la tarde.":
+  "Fuerte precipitacion hasta en la tarde.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Vientos ligeros en la tarde.":
+  "Pocos vientos en la tarde.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
   "Nevadas despues esta noche y mañana en la mañana.":
@@ -171,7 +171,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Seco esta noche y precipitación ligera comenzando mañana en la noche, continuando hasta mañana en la noche.":
+  "Seco esta noche y precipitacion ligera comenzando mañana en la noche, continuando hasta mañana en la noche.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -199,14 +199,14 @@
       "afternoon"]],
 
 
-  "No precipitación durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
+  "No precipitacion durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Precipitación mixta sobre el fin de semana, con temperaturas llegando a 32\u00B0C el Jueves.":
+  "Precipitacion mixta sobre el fin de semana, con temperaturas llegando a 32\u00B0C el Jueves.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
@@ -227,7 +227,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitación hoy hasta el Sabado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
+  "Precipitacion hoy hasta el Sabado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
