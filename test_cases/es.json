@@ -92,22 +92,22 @@
   "Seco y Poco Ventoso":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Llovizna and Peligrosamente Ventoso":
+  "Llovizna y Peligrosamente Ventoso":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Húmedo and Pacialmente Nublado":
+  "Humedo y Parcialmente Nublado":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
   "Claro por la hora.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Nevada ligera comenzando en 35 min.":
+  "Nevadas ligeras comenzando en 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "LLuvia ligera parando en 15 min.":
+  "Lluvia ligera parando en 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Fuertes lloviznas comenzando in 20 min., despues parando en 30 min.":
+  "Fuertes aguanieves comenzando en 20 min., despues parando en 30 min.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
@@ -124,19 +124,19 @@
   "Mayormente nublado durante el dia.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Lloviznas ligeras comenzando en la mañana.":
+  "Aguanieve ligera comenzando en la mañana.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Mucho viento hasta esta noche.":
+  "Ventoso hasta esta noche.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Fuerte precipitación hasta la tarde.":
+  "Fuerte precipitación hasta en la tarde.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Vientos ligeros en la tarde.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Nevadas esta noche y mmañana en la mañana.":
+  "Nevadas despues esta noche y mañana en la mañana.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
@@ -147,7 +147,7 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Nublado comenzando en la tarde, continuando en la noche.":
+  "Nublado comenzando en la noche, continuando hasta en la noche.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -179,7 +179,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Nevadas (5 in.) sobre la noche.":
+  "Nevadas (5 in.) en la noche.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
