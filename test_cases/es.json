@@ -5,19 +5,19 @@
   "Posible Lluvias Ligeras":
     ["title", "possible-very-light-precipitation"],
 
-  "Precipitacion Ligera":
+  "Precipitación Ligera":
     ["title", "very-light-precipitation"],
 
   "Posible Lluvias Ligeras":
     ["title", "possible-light-precipitation"],
 
-  "Precipitacion Ligera":
+  "Precipitación Ligera":
     ["title", "light-precipitation"],
 
-  "Precipitacion":
+  "Precipitación":
     ["title", "medium-precipitation"],
 
-  "Fuerte Precipitacion":
+  "Fuerte Precipitación":
     ["title", "heavy-precipitation"],
 
   "Posible Llovizna":
@@ -95,7 +95,7 @@
   "Llovizna y Peligrosamente Ventoso":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Humedo y Parcialmente Nublado":
+  "Húmedo y Parcialmente Nublado":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
   "Claro por la hora.":
@@ -130,7 +130,7 @@
   "Ventoso hasta esta noche.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Fuerte precipitacion hasta en la tarde.":
+  "Fuerte precipitación hasta en la tarde.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Pocos vientos en la tarde.":
@@ -171,7 +171,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Seco esta noche y precipitacion ligera comenzando mañana en la noche, continuando hasta mañana en la noche.":
+  "Seco esta noche y precipitación ligera comenzando mañana en la noche, continuando hasta mañana en la noche.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -199,14 +199,14 @@
       "afternoon"]],
 
 
-  "No precipitacion durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
+  "No precipitación durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Precipitacion mixta sobre el fin de semana, con temperaturas llegando a 32\u00B0C el Jueves.":
+  "Precipitación mixta sobre el fin de semana, con temperaturas llegando a 32\u00B0C el Jueves.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
@@ -227,7 +227,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitacion hoy hasta el Sabado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
+  "Precipitación hoy hasta el Sabado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
