@@ -1,0 +1,240 @@
+{
+  "Ясно":
+    ["title", "clear"],
+
+  "Възможни леки превалявания":
+    ["title", "possible-very-light-precipitation"],
+
+  "Леки превалявания":
+    ["title", "very-light-precipitation"],
+
+  "Възможност за превалявания с гръмотевици":
+    ["title", "possible-light-precipitation"],
+
+  "Дъжд с гръмотевици":
+    ["title", "light-precipitation"],
+
+  "Дъжд":
+    ["title", "medium-precipitation"],
+
+  "Силен дъжд":
+    ["title", "heavy-precipitation"],
+
+  "Възможност за слабо преваляване":
+    ["title", "possible-very-light-rain"],
+
+  "Ситен дъжд":
+    ["title", "very-light-rain"],
+
+  "Възможност за слаб дъжд":
+    ["title", "possible-light-rain"],
+
+  "Слаб дъжд":
+    ["title", "light-rain"],
+
+  "Дъжд":
+    ["title", "medium-rain"],
+
+  "Силен дъжд":
+    ["title", "heavy-rain"],
+
+  "Възможност за слаба градушка":
+    ["title", "possible-very-light-sleet"],
+
+  "Слаба градушка":
+    ["title", "very-light-sleet"],
+
+  "Възможна е слаба градушка":
+    ["title", "possible-light-sleet"],
+
+  "Лека градушка":
+    ["title", "light-sleet"],
+
+  "Градушка":
+    ["title", "medium-sleet"],
+
+  "Голяма градушка":
+    ["title", "heavy-sleet"],
+
+  "Възможни са леки снежни виелици":
+    ["title", "possible-very-light-snow"],
+
+  "Лека снежна виелица":
+    ["title", "very-light-snow"],
+
+  "Вероятен снеговалеж":
+    ["title", "possible-light-snow"],
+
+  "Слаб сняг":
+    ["title", "light-snow"],
+
+  "Сняг":
+    ["title", "medium-snow"],
+
+  "Обилни снеговалежи":
+    ["title", "heavy-snow"],
+
+  "Ветровито":
+    ["title", "medium-wind"],
+
+  "Опасно ветровито":
+    ["title", "heavy-wind"],
+
+  "Мъгливо":
+    ["title", "fog"],
+
+  "Облачно":
+    ["title", "medium-clouds"],
+
+  "Плътна облачност":
+    ["title", "heavy-clouds"],
+
+  "Сухо и прохладно":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Ситен дъжд и опасно ветровито":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "Влажно и плътна облачно":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+
+  "Предимно ясно за час.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "Виелици, които ще започват след 35 мин..":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "Слабия дъжд спря за 15 мин.":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Силна градушка започваща до 20 мин. ще спре 30 мин. по-късно":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Дъждът спря преди 25 мин., и започна пак преди 8 мин.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "Предимно облачно през целия ден.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "Лека градушка сутринта.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Ветровито през вечерта.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Силен дъжд следобед.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "Прохладна в следобедните часове.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Валежеи от сняг тази вече и утре сутрин.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Ще вали силен дъжд, който ще спре преди обед и ще продължи отново вечерта.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Облачност започваща късно следобед, ще продължи до вечерта.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Лека градушка ще превали по-късно този следобед и утре сутринта ще бъде мъглива.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "Опасни ветрове започващи тази сутрин, продължаващи до следобед и градушка утре сутрин.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Ще преобладава облачност започваща късно довечера и силен снеговалеж утре следобед.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Тази нощ влажността ше е ниска, а слаб валеж започващ утре вечер ще продължи до късно през нощта.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Сняг (5 инч.) ще вали през цялата нощ.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Очаква се слаб снеговалеж (2см) по-късно тази сутрин.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Силен снеговалеж (8\u201312 in.) през деня.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Сняг (по-малко от 1 см) следобед.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+
+  "Без валежи през цялата седмица, с температури достигащи до 85\u00B0F утре.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "Смесен валеж в края на седмицата с температури, които се повишат до 32\u00B0C в Четвъртък.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Ситен дъжд в Понеделник, с температури, достигащи най-ниско до 15\u00B0F в Петък.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "Слаб снеговалеж във вторник и сряда, с температури падащи до 0\u00B0C в Неделя":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Ще вали от днес до Неделя, с температури  достигащи до 100\u00B0F в Понеделник.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]]
+}
