@@ -49,20 +49,20 @@ install Node from the Node.JS website and try again.
 ### Install Dependencies
 
 While this package requires no dependencies to run in production, if you want
-to develop against it you will need the testing libraries [Mocha][5] and
-[Chai][6]. Installing them is simple:
+to develop against it you will need the testing library [Mocha][5]. Installing
+it is simple:
 
     $ cd /path/to/forecast-io-translations
     $ npm install
 
-[NPM][7] is the Node Package Manager, and is part of the Node software
+[NPM][6] is the Node Package Manager, and is part of the Node software
 distribution. The above command will create the directory `node_modules` which
-will contain the two libraries used for development. After this, you can
-verify that everything is working by running the tests:
+will contain the testing library. After this, you can verify that everything is
+working by running the tests:
 
     $ npm test
     
-    > forecast-io-translations@1.7.0 test /Users/jason/src/forecast-io-translations
+    > forecast-io-translations@1.7.1 test /Users/jason/src/forecast-io-translations
     > mocha --reporter dot --check-leaks
     
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
@@ -76,14 +76,13 @@ verify that everything is working by running the tests:
       386 passing (196ms)
 
 [5]: http://visionmedia.github.io/mocha/
-[6]: http://chaijs.com/
-[7]: https://npmjs.org/
+[6]: https://npmjs.org/
 
 Input Format
 ------------
 
 The data passed from the Forecast API to this translation module is a simple,
-structured format reminiscent of [s-expressions][8], consisting only of
+structured format reminiscent of [s-expressions][7], consisting only of
 numbers, strings, and arrays. Some examples produced by the API are below:
 
 *   `"heavy-rain"`
@@ -107,7 +106,7 @@ In this way, the meaning (in English) of any given (machine-readable)
 expression is intended to be fairly intuitive. However, a complete description
 of the input format is given below in Appendix A anyway.
 
-[8]: https://en.wikipedia.org/wiki/S-expression
+[7]: https://en.wikipedia.org/wiki/S-expression
 
 Adding a Translation
 --------------------
@@ -192,7 +191,7 @@ shortcut syntax is also allowed:
       "starting-in": "$1 starting in $2"
     }
 
-The [sigiled][9] expressions are replaced with the numbered argument to the
+The [sigiled][8] expressions are replaced with the numbered argument to the
 function (`$1` with the first argument, `$2` with the second, and so on).
 
 Finally, if you need the extra power, each function's `this` parameter is set
@@ -209,7 +208,7 @@ associative array, and it will return your submodule function for you:
 
 Please see `/lib/lang/en.js` for an example of this in action.
 
-[9]: http://en.wikipedia.org/wiki/Sigil_(computer_programming)
+[8]: http://en.wikipedia.org/wiki/Sigil_(computer_programming)
 
 ### Writing Tests
 
@@ -519,11 +518,11 @@ in English, respectively.
 
 *   `"clear"`: Represents the lack of *any* significant weather occurring.
 *   `"light-wind"`: Represents light wind at a location. (3 or 4 on the
-    [Beaufort scale][10], but only when this is historically unusual.)
+    [Beaufort scale][9], but only when this is historically unusual.)
 *   `"medium-wind"`: Represents moderate wind at a location. (5, 6, or 7 on the
-    [Beaufort scale][10], but only when this is historically unusual.)
+    [Beaufort scale][9], but only when this is historically unusual.)
 *   `"heavy-wind"`: Represents strong wind at a location. (8+ on the
-    [Beaufort scale][10].)
+    [Beaufort scale][9].)
 *   `"low-humidity"`: Represents when the air is unusually dry.
 *   `"high-humidity"`: Represents when the air is unusually humid.
 *   `"fog"`: Represents when there is less than 1 mile (1.6 kilometers) of
@@ -535,4 +534,4 @@ in English, respectively.
 *   `"heavy-clouds"`: Represents complete (or nearly-complete) cloud cover.
     (Usually called "overcast" in English.)
 
-[10]: https://en.wikipedia.org/wiki/Beaufort_scale
+[9]: https://en.wikipedia.org/wiki/Beaufort_scale
