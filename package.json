@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -37,6 +37,10 @@
       "name": "Pamela Ocampo",
       "email": "pamela.ocampo@gmail.com",
       "web": "https://github.com/pamo"
+    },
+    {
+      "name": "Lukino2000",
+      "web": "https://github.com/Lukino2000"
     }
   ],
   "repository": {
