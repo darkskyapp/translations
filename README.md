@@ -60,15 +60,20 @@ distribution. The above command will create the directory `node_modules` which
 will contain the two libraries used for development. After this, you can
 verify that everything is working by running the tests:
 
-    $ ./node_modules/.bin/mocha
+    $ npm test
     
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+    > forecast-io-translations@1.7.0 test /Users/jason/src/forecast-io-translations
+    > mocha --reporter dot --check-leaks
+    
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-
-      278 passing (80ms)
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․
+    
+      386 passing (196ms)
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: http://chaijs.com/

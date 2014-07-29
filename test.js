@@ -1,4 +1,4 @@
-var expect      = require("chai").expect,
+var assert      = require("assert"),
     fs          = require("fs"),
     path        = require("path"),
     template    = require("./lib/template"),
@@ -15,95 +15,95 @@ describe("translation", function() {
         });
 
     it("should return a number in string form", function() {
-      expect(convert(42)).to.equal("42");
+      assert.strictEqual(convert(42), "42");
     });
 
     it("should throw an error given an unrecognized string", function() {
-      expect(function() { convert("42"); }).to.throw();
+      assert.throws(function() { convert("42"); });
     });
 
     it("should apply an expected value conversion", function() {
-      expect(convert("foo")).to.equal("bar");
+      assert.strictEqual(convert("foo"), "bar");
     });
 
     it("should throw an error given a value that's expected to be a string template", function() {
-      expect(function() { convert("bar"); }).to.throw();
+      assert.throws(function() { convert("bar"); });
     });
 
     it("should throw an error given a value that's expected to be a function template", function() {
-      expect(function() { convert("baz"); }).to.throw();
+      assert.throws(function() { convert("baz"); });
     });
 
     it("should throw an error given an empty array", function() {
-      expect(function() { convert([]); }).to.throw();
+      assert.throws(function() { convert([]); });
     });
 
     it("should apply a string template", function() {
-      expect(convert(["bar", 10, 20])).to.equal("meeple 20");
+      assert.strictEqual(convert(["bar", 10, 20]), "meeple 20");
     });
 
     it("should fail to apply a function template given the wrong number of arguments", function() {
-      expect(function() { convert(["baz", 10, 20, 30]); }).to.throw();
+      assert.throws(function() { convert(["baz", 10, 20, 30]); });
     });
 
     it("should apply a function template", function() {
-      expect(convert(["baz", 10, 20])).to.equal("meeple 20");
+      assert.strictEqual(convert(["baz", 10, 20]), "meeple 20");
     });
 
     it("should recursively apply function templates", function() {
       /* Actually, a "meeple meeple bar" sounds like it'd be a pretty tasty
        * candy treat. */
-      expect(convert(["bar", 10, ["baz", 20, "foo"]])).to.equal("meeple meeple bar");
+      assert.strictEqual(convert(["bar", 10, ["baz", 20, "foo"]]), "meeple meeple bar");
     });
 
     it("should throw an error given undefined", function() {
-      expect(function() { convert(undefined); }).to.throw();
+      assert.throws(function() { convert(undefined); });
     });
 
     it("should throw an error given null", function() {
-      expect(function() { convert(null); }).to.throw();
+      assert.throws(function() { convert(null); });
     });
 
     it("should throw an error given an object", function() {
-      expect(function() { convert({}); }).to.throw();
+      assert.throws(function() { convert({}); });
     });
 
     it("should apply an expected value conversion given a zero-argument function", function() {
-      expect(convert("quux")).to.equal("glorple");
+      assert.strictEqual(convert("quux"), "glorple");
     });
 
     it("should fail to apply a zero-argument function given arguments", function() {
-      expect(function() { convert(["quux"]); }).to.throw();
+      assert.throws(function() { convert(["quux"]); });
     });
 
     it("should fail to apply a function template given a value", function() {
-      expect(function() { convert("baz"); }).to.throw();
+      assert.throws(function() { convert("baz"); });
     });
 
     it("should provide context to functions", function() {
       var convert = template({
             "foo": function(a, b, c) {
-              expect(this).to.deep.equal(["foo"]);
+              assert.deepEqual(this, ["foo"]);
               return "Moop.";
             },
             "bar": function() {
-              expect(this).to.deep.equal(["foo", "bar"]);
+              assert.deepEqual(this, ["foo", "bar"]);
               return "Boop.";
             },
             "baz": function(a) {
-              expect(this).to.deep.equal(["foo", "baz"]);
+              assert.deepEqual(this, ["foo", "baz"]);
               return "Soup.";
             },
             "quux": function() {
-              expect(this).to.deep.equal(["foo", "baz", "quux"]);
+              assert.deepEqual(this, ["foo", "baz", "quux"]);
               return "Floop.";
             },
             "neem": function(a) {
-              expect(this).to.deep.equal(["foo", "neem"]);
+              assert.deepEqual(this, ["foo", "neem"]);
               return "Bloop.";
             },
             "glorp": function(a) {
-              expect(this).to.deep.equal(["foo", "neem", "glorp"]);
+              assert.deepEqual(this, ["foo", "neem", "glorp"]);
               return "Rope?";
             }
           });
@@ -131,7 +131,7 @@ describe("translation", function() {
           it(
             util.format("should translate %j to \"%s\"", source, summary),
             function() {
-              expect(translate(source)).to.equal(summary);
+              assert.strictEqual(translate(source), summary);
             }
           );
         });
