@@ -214,5 +214,14 @@
         ["through", "thursday", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Am Nachmittag leichter Regen.":
+    ["sentence", ["starting", "light-rain", "afternoon"]],
+
+  "Leichter Regen bis zum Abend.":
+    ["sentence", ["until", "light-rain", "evening"]],
+
+  "Nieselregen bis zum Nachmittag und Nacht.":
+    ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]]
 }
