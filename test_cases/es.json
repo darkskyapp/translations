@@ -1,14 +1,14 @@
 {
-  "Claro":
+  "Despejado":
     ["title", "clear"],
 
-  "Posible Lluvias Ligeras":
+  "Posibles Lluvias Ligeras":
     ["title", "possible-very-light-precipitation"],
 
   "Precipitación Ligera":
     ["title", "very-light-precipitation"],
 
-  "Posible Lluvias Ligeras":
+  "Posibles Lluvias Ligeras":
     ["title", "possible-light-precipitation"],
 
   "Precipitación Ligera":
@@ -98,7 +98,7 @@
   "Húmedo y Parcialmente Nublado":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-  "Claro por la hora.":
+  "Despejado por la hora.":
     ["sentence", ["for-hour", "clear"]],
 
   "Nevadas ligeras comenzando en 35 min.":
@@ -107,21 +107,21 @@
   "Lluvia ligera parando en 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Fuertes aguanieves comenzando en 20 min., despues parando en 30 min.":
+  "Fuertes aguanieves comenzando en 20 min., después parando en 30 min.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Lluvia parando en 25 min., comenzando de nuevo 8 min. despues.":
+  "Lluvia parando en 25 min., comenzando de nuevo 8 min. después.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Mayormente nublado durante el dia.":
+  "Mayormente nublado durante el día.":
     ["sentence", ["for-day", "medium-clouds"]],
 
   "Aguanieve ligera comenzando en la mañana.":
@@ -136,12 +136,12 @@
   "Pocos vientos en la tarde.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Nevadas despues esta noche y mañana en la mañana.":
+  "Nevadas después esta noche y mañana en la mañana.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Fuertes lluvias hasta despues esta mañana, comenzando otra vez esta noche.":
+  "Fuertes lluvias hasta después esta mañana, comenzando otra vez esta noche.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -153,7 +153,7 @@
       "evening",
       "night"]],
 
-  "Aguanieve ligera despues esta tarde y nublado mañana en la mañana.":
+  "Aguanieve ligera después esta tarde y nublado mañana en la mañana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
@@ -166,7 +166,7 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Nublado comenzando despues esta noche y fuertes nevadas mañana en la tarde.":
+  "Nublado comenzando después esta noche y fuertes nevadas mañana en la tarde.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
@@ -184,12 +184,12 @@
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Nevadas ligeras (2 cm.) despues esta mañana.":
+  "Nevadas ligeras (2 cm.) después esta mañana.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Fuertes nevadas (8\u201312 in.) durante el dia.":
+  "Fuertes nevadas (8\u201312 in.) durante el día.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
@@ -199,7 +199,7 @@
       "afternoon"]],
 
 
-  "No precipitación durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
+  "Sin precipitaciones durante la semana, con temperaturas alcanzando un máximo de 85\u00B0F mañana.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
@@ -213,7 +213,7 @@
         ["celsius", 32],
         "thursday"]]],
 
-  "Llovizna el Lunes, con temperaturas alcanzando un minimo de 15\u00B0F el Viernes.":
+  "Llovizna el Lunes, con temperaturas alcanzando un mínimo de 15\u00B0F el Viernes.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
@@ -227,7 +227,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitación hoy hasta el Sabado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
+  "Precipitación hoy hasta el Sábado, con temperaturas alcanzando un máximo de 100\u00B0F el Lunes.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
