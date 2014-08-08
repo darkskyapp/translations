@@ -1,0 +1,240 @@
+{
+  "صافٍ":
+    ["title", "clear"],
+
+  "احتمال هطول خفيف للأمطار":
+    ["title", "possible-very-light-precipitation"],
+
+  "هطول خفيف للأمطار":
+    ["title", "very-light-precipitation"],
+
+  "احتمال هطول خفيف للأمطار":
+    ["title", "possible-light-precipitation"],
+
+  "هطول خفيف للأمطار":
+    ["title", "light-precipitation"],
+
+  "هطول للأمطار":
+    ["title", "medium-precipitation"],
+
+  "هطول كثيف للأمطار":
+    ["title", "heavy-precipitation"],
+
+  "رذاذ محتمل":
+    ["title", "possible-very-light-rain"],
+
+  "رذاذ":
+    ["title", "very-light-rain"],
+
+   "احتمال أمطار خفيفة":
+    ["title", "possible-light-rain"],
+
+  "أمطار خفيفة":
+    ["title", "light-rain"],
+
+  "مطر":
+    ["title", "medium-rain"],
+
+  "أمطار كثيفة":
+    ["title", "heavy-rain"],
+
+  "احتمال صقيع خفيف":
+    ["title", "possible-very-light-sleet"],
+
+  "صقيع خفيف":
+    ["title", "very-light-sleet"],
+
+  "احتمال صقيع خفيف":
+    ["title", "possible-light-sleet"],
+
+  "صقيع خفيف":
+    ["title", "light-sleet"],
+
+  "صقيع":
+    ["title", "medium-sleet"],
+
+  "صقيع شديد":
+    ["title", "heavy-sleet"],
+
+  "احتمالية لهبوب الرياح":
+    ["title", "possible-very-light-snow"],
+
+  "رياح":
+    ["title", "very-light-snow"],
+
+  "احتمالية لتساقط الثلوج الخفيفة":
+    ["title", "possible-light-snow"],
+
+   "ثلوج خفيفة":
+    ["title", "light-snow"],
+
+  "ثلج":
+    ["title", "medium-snow"],
+
+  "ثلوج كثيفة":
+    ["title", "heavy-snow"],
+
+  "عاصف":
+    ["title", "medium-wind"],
+
+  "عاصف بشدة":
+    ["title", "heavy-wind"],
+
+  "ضبابي":
+    ["title", "fog"],
+
+  "غائم جزئياً":
+    ["title", "medium-clouds"],
+
+  "متلبد بالغيوم":
+    ["title", "heavy-clouds"],
+
+  "جاف وعاصف":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "عاصف مع بعض الرذاذ":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "رطب وغائم جزئياً":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+
+  "صاف لهذه الساعة.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "رياح تبدأ خلال 35 دقيقة":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "أمطار خفيفة تتوقف خلال 15 دقيقة":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "صقيع شديد يبدأ خلال 20 دقيقة، وينتهي خلال 30 دقيقة لاحقاً":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "يتوقف المطر خلال 25 دقيقة، ثم يبدأ مجدداً بعد 8 دقائق":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "غائم على مدى اليوم":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "صقيع خفيف يبدأ في الصباح":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "عاصف حتى الليلة":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "أمطار كثيفة حتى بعد الظهر":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "نسيم بعد الظهر":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "تثلج لاحقاً في المساء وحتى صباح الغد.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "أمطار كثيفة حتى الساعات الأخيرة من الصباح، ثم تبدأ مجدداً في المساء":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "غائم في المساء، ويتواصل حتى الليل":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "صقيع خفيف لاحقاً بعد الظهر، وضبابي صباح الغد":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "رياح شديدة تبدأ هذا الصباح، وتستمر حتى فترة مابعد الظهر، وصقيع في صباح الغد":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "لاحقاً في الليل جو غائم، وثلوج شديدة غداً في فترة مابعد الظهر":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "جاف الليلة، وأمطار خفيفة تبدأ مساء الغد حتى الليل":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "ثلوج (5 بوصات) خلال الليل":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "ثلوج خفيفة (2 سم) لاحقاً هذا الصباح":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "الثلوج الكثيفة (8\u201312 in.) على مدار اليوم.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "ثلوج (اقل من 1 سم) في فترة مابعد الظهر":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+
+  "لا يو85\u00B0Fد هطول مدار الأسبوع، مع درجات حرارة تبلغ ذروتها في 2 غدا.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "أمطار مختلطة في نهاية الأسبوع مع درجة حرارة ترتفع حتى 32\u00B0C يوم الخميس":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "رذاذ يوم الإثنين، مع درجة حرارة  تنخفض حتى 15\u00B0F يوم الجمعة":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "ثلوج خفيفة يومي الثلاثاء والأربعاء، مع درجة حرارة تنخفض حتى 0\u00B0C يوم الأحد":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "هطول للأمطار اليوم، مع درجة حرارة تقترب من 100\u00B0F يوم الإثنين ":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]]
+}
