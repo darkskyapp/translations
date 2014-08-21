@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -54,6 +54,11 @@
       "name": "Adam Grossman",
       "email": "adam@forecast.io",
       "web": "https://github.com/thegrossman"
+    },
+    {
+      "name": "Pedro Oliveira",
+      "email": "pedro@pedroliveira.com",
+      "web": "https://github.com/pedronoliveira"
     }
   ],
   "repository": {
