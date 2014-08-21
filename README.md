@@ -62,7 +62,7 @@ working by running the tests:
 
     $ npm test
     
-    > forecast-io-translations@1.7.1 test /Users/jason/src/forecast-io-translations
+    > forecast-io-translations@1.8.0 test /Users/jason/src/forecast-io-translations
     > mocha --reporter dot --check-leaks
     
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
@@ -71,9 +71,12 @@ working by running the tests:
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․
-    
-      386 passing (196ms)
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
+      ․․․․․․․․․․․․․․․․․․․․․․․․
+
+      564 passing (327ms)
 
 [5]: http://visionmedia.github.io/mocha/
 [6]: https://npmjs.org/

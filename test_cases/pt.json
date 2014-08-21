@@ -101,13 +101,13 @@
   "Muito Nublado":
     ["title", "heavy-clouds"],
 
-  "Seco E Vento Fraco":
+  "Seco e Vento Fraco":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Chuviscos E Vento Forte":
+  "Chuviscos e Vento Forte":
     ["title",["and","very-light-rain","heavy-wind"]],
 
-  "Húmido E Ligeiramente Nublado":
+  "Húmido e Ligeiramente Nublado":
     ["title",["and","high-humidity","light-clouds"]],
 
   "Limpo na próxima hora.":
