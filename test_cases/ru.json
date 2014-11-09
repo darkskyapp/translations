@@ -1,0 +1,245 @@
+{
+  "Чисто":
+    ["title", "clear"],
+
+  "Возможны Незначительные Осадки":
+    ["title", "possible-very-light-precipitation"],
+
+  "Незначительные Осадки":
+    ["title", "very-light-precipitation"],
+
+  "Возможны Небольшие Осадки":
+    ["title", "possible-light-precipitation"],
+
+  "Небольшие Осадки":
+    ["title", "light-precipitation"],
+
+  "Осадки":
+    ["title", "medium-precipitation"],
+
+  "Сильные Осадки":
+    ["title", "heavy-precipitation"],
+
+  "Возможен Незначительный Дождь":
+    ["title", "possible-very-light-rain"],
+
+  "Незначительный Дождь":
+    ["title", "very-light-rain"],
+
+  "Возможен Небольшой Дождь":
+    ["title", "possible-light-rain"],
+
+  "Небольшой Дождь":
+    ["title", "light-rain"],
+
+  "Дождь":
+    ["title", "medium-rain"],
+
+  "Сильный Дождь":
+    ["title", "heavy-rain"],
+
+  "Возможен Незначительный Град":
+    ["title", "possible-very-light-sleet"],
+
+  "Незначительный Град":
+    ["title", "very-light-sleet"],
+
+  "Возможен Небольшой Град":
+    ["title", "possible-light-sleet"],
+
+  "Небольшой Град":
+    ["title", "light-sleet"],
+
+  "Град":
+    ["title", "medium-sleet"],
+
+  "Сильный Град":
+    ["title", "heavy-sleet"],
+
+  "Возможен Незначительный Снег" :
+    ["title", "possible-very-light-snow"],
+
+  "Незначительный Снег" :
+    ["title", "very-light-snow"],
+
+  "Возможен Небольшой Снег":
+    ["title", "possible-light-snow"],
+
+  "Небольшой Снег":
+    ["title", "light-snow"],
+
+  "Снег":
+    ["title","medium-snow"],
+
+  "Снегопад":
+    ["title", "heavy-snow"],
+
+  "Слабый Ветер":
+    ["title", "light-wind"],
+
+  "Ветер":
+    ["title", "medium-wind"],
+
+  "Сильный Ветер":
+    ["title", "heavy-wind"],
+
+  "Сухо":
+    ["title", "low-humidity"],
+
+  "Влажно":
+    ["title", "high-humidity"],
+
+  "Туман":
+    ["title", "fog"],
+
+  "Небольшая Облачность":
+    ["title", "light-clouds"],
+
+  "Облачно":
+    ["title", "medium-clouds"],
+
+  "Сильная Облачность":
+    ["title", "heavy-clouds"],
+
+  "Сухо и Слабый Ветер":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Незначительный Дождь и Сильный Ветер":
+    ["title",["and","very-light-rain","heavy-wind"]],
+
+  "Влажно и Небольшая Облачность":
+    ["title",["and","high-humidity","light-clouds"]],
+
+  "Чисто в течении следующего часа.":
+    ["sentence",["for-hour","clear"]],
+
+  "Незначительный снег начинается в течении 35 мин.":
+    ["sentence",["starting-in","very-light-snow",["minutes", 35]]],
+
+  "Небольшой дождь заканчивается в течении 15 мин.":
+    ["sentence",["stopping-in","light-rain", ["minutes", 15]]],
+
+  "Позднее, сильный град начинается в течении 20 мин, и заканчивается через 30 мин.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Позднее, дождь заканчивается в течении 25 мин, и начинается сново через 8 мин.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+  "Облачно в течении всего дня.":
+    ["sentence",["for-day","medium-clouds"]],
+
+  "Незначительный град начинается в течении утра.":
+    ["sentence",["starting", "very-light-sleet", "morning"]],
+
+  "Ветер до сегодняшней ночи.":
+    ["sentence", ["until","medium-wind", "today-night"]],
+
+  "Сильные осадки до дня.":
+    ["sentence",["until","heavy-precipitation","afternoon"]],
+
+  "Слабый ветер в течении дня.":
+    ["sentence",["during","light-wind","afternoon"]],
+
+  "Снег в течении сегодня поздним вечером и завтра утром.":
+    ["sentence",["during",
+      "medium-snow",
+      ["and","later-today-evening","tomorrow-morning"]]],
+
+  "Сильный дождь до сегодня поздним утром, начиная снова сегодня вечером.":
+    ["sentence",["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Сильная облачность начиная с сегодня вечером, и продолжая до ночи.":
+    ["sentence",["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Небольшой град в течении сегодня поздним днем и туман в течении завтра утром.":
+    ["sentence",["and",
+      ["during","light-sleet", "later-today-afternoon"],
+      ["during","fog","tomorrow-morning"]]],
+
+  "Сильный ветер начиная с утра, и продолжая до дня, и град в течении завтра утром.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "morning",
+        "afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Сильная облачность начинается в течении сегодня поздней ночью и снегопад в течении завтра днем.":
+    ["sentence",["and",
+    ["starting", "heavy-clouds", "later-today-night"],
+    ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Сухо в течении сегодняшней ночи и небольшие осадки начиная с завтра вечером, и продолжая до завтра ночью.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Снег (5 см.) в течении ночи.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["centimeters", 5]],
+      "night"]],
+
+  "Небольшой снег (2 см.) в течении сегодня поздним утром.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Снег (меньше 1 см.) в течении дня.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+  "Без осадков в течении всей недели, с температурой поднимающейся до максимума 35\u00B0C завтра.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["celsius", 35],
+        "tomorrow"]]],
+
+  "Смешаные осадки в течении всех выходных, с температурой поднимающейся до 32\u00B0C четверг.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Незначительный дождь в течении понедельник, с температурой опускающейся до 15\u00B0C пятница.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["celsius", 15],
+        "friday"]]],
+
+  "Небольшой снег в течении вторник и среда, с температурой опускающейся до минимума 0\u00B0C воскресенье.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Осадки в течении сегодняшней на протяжении суббота, с температурой поднимающейся до максимума 37°C понедельник.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["celsius", 37],
+        "monday"]]]
+}
