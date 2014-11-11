@@ -153,7 +153,7 @@
       "medium-snow",
       ["and","later-today-evening","tomorrow-morning"]]],
 
-  "Сильный дождь до сегодня поздним утром, начиная снова сегодня вечером.":
+  "Сильный дождь до сегодняшнего позднего утра, начиная снова сегодня вечером.":
     ["sentence",["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -196,7 +196,7 @@
       ["parenthetical", "medium-snow", ["centimeters", 5]],
       "night"]],
 
-  "Небольшой снег (2 см.) в течении сегодня поздним утром.":
+  "Небольшой снег (2 см.) в течении сегодняшнего позднего утра.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
