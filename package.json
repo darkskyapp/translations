@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -64,6 +64,15 @@
       "name": "William Assaad and Mujo Bektic",
       "email": "info@ivyminds.nl",
       "web": "http://www.ivyminds.nl/"
+    },
+    {
+      "name": "baio",
+      "email": "max.putilov@gmail.com",
+      "web": "https://github.com/baio"
+    },
+    {
+      "name": "Yaroslav Klyuyev",
+      "web": "https://github.com/imposeren"
     }
   ],
   "repository": {
@@ -74,6 +83,6 @@
     "test": "./node_modules/.bin/mocha --reporter dot --check-leaks"
   },
   "devDependencies": {
-    "mocha": "1.21.x"
+    "mocha": "*"
   }
 }
