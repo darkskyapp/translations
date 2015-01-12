@@ -236,5 +236,10 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Mixed precipitation (1\u20133 in. of snow) throughout the day.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]]
 }
