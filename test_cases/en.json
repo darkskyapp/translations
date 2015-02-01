@@ -241,5 +241,11 @@
   "Mixed precipitation (1\u20133 in. of snow) throughout the day.":
     ["sentence",
       ["for-day",
-        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]]
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Heavy Snow (1\u20133 in.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Heavy Snow (3\u20135 cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
 }
