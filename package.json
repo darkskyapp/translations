@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -78,6 +78,11 @@
       "name": "Yuri Bonya",
       "email": "yuri.bonya@gmail.com",
       "web": "https://github.com/bonifatio"
+    },
+    {
+      "name": "Tobias Bohwalli",
+      "email": "hi@futhr.io",
+      "web": "https://github.com/futhr"
     }
   ],
   "repository": {
