@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -87,6 +87,10 @@
     {
       "name": "oleg-sh",
       "web": "https://github.com/oleg-sh"
+    },
+    {
+      "name": "sehers",
+      "web": "https://github.com/sehers"
     }
   ],
   "repository": {
