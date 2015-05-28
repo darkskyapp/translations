@@ -1,2 +1,5 @@
-*.swp
-/node_modules
+.idea/
+*.lock
+*.log
+node_modules
+build
