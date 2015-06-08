@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -96,6 +96,10 @@
       "name": "sofish",
       "email": "sofish@icloud.com",
       "web": "https://github.com/sofish"
+    },
+    {
+      "name": "FajrAljunaid",
+      "web": "https://github.com/FajrAljunaid"
     }
   ],
   "repository": {
