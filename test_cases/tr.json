@@ -8,16 +8,16 @@
   "Çok hafif yağış":
     ["title", "very-light-precipitation"],
 
-  "Olası hafif yağış":
+  "Hafif yağış ihtimali":
     ["title", "possible-light-precipitation"],
 
-  " hafif yağış var":
+  "Hafif yağış":
     ["title", "light-precipitation"],
 
-  "Orta şiddette yağış":
+  "Yağış":
     ["title", "medium-precipitation"],
 
-  "Yoğun yağış":
+  "Yoğun yağış ":
     ["title", "heavy-precipitation"],
 
   "Çok hafif yağmur ihtimali":
@@ -56,10 +56,10 @@
   "Yoğun karla karışık yağmur":
     ["title", "heavy-sleet"],
 
-  "Çok hafif karla karışık yağmur ihtimali":
+  "Çok hafif kar ihtimali":
     ["title", "possible-very-light-snow"],
 
-  "Çok hafif kar yağışı":
+  "Çok hafif kar":
     ["title", "very-light-snow"],
 
   "Hafif kar ihtimali":
@@ -74,7 +74,7 @@
   "Yoğun kar":
     ["title", "heavy-snow"],
 
-  "Rüzgar":
+  "Rüzgar ":
     ["title", "medium-wind"],
 
   "Yoğun rüzgar":
@@ -83,31 +83,31 @@
   "Sis":
     ["title", "fog"],
 
-  "Yoğun bulut":
+  "Bulutlanma":
     ["title", "medium-clouds"],
 
   "Yoğun bulutlanma":
     ["title", "heavy-clouds"],
 
-  "Düşük nem olacak ve hafif rüzgar":
+  "Düşük nem ve hafif rüzgar":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Çok hafif yağmur ve yoğun rüzgar":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Yüksek nemli ve hafif bulutlu":
+  "Yoğun nem ve hafif bulutlanma":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-  " saat boyunca Açık.":
+  " saat boyunca açık.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Çok hafif kar yağışı 35 dk. içinde başlayacak.":
+  "Çok hafif kar 35 dk. içinde başlayacak.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
   "Hafif yağmur 15 dk. içinde duracak.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Yoğun karla karışık yağmur 20 dk. içinde başlayacak ,30 dk. sonra duracak.":
+  "Yoğun karla karışık yağmur 20 dk. içinde başlayacak, 30 dk. sonra duracak.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
@@ -122,67 +122,67 @@
         ["minutes", 8]]],
 
 
-  "Yoğun bulut gün boyunca devam edecek.":
+  "Bulutlanma gün boyunca devam edecek.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Sabah çok hafif karla karışık yağmur başlayacak .":
+  "Sabah çok hafif karla karışık yağmur başlayacak.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Rüzgar kadarbu gece.":
+  "Rüzgar bu gece sona erecek.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Yoğun yağış kadaröğleden sonra.":
+  "Yoğun yağış öğleden sonra sona erecek.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Öğleden sonra hafif rüzgar .":
+  "Öğleden sonra hafif rüzgar.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Bu akşamdan sonra ve yarın sabah kar .":
+  "Bu akşamdan itibaren ve yarın sabah kar.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Yoğun yağmurbu sabahtan sonraya kadar devam edecek bu akşam tekrar başlayacak.":
+  "Yoğun yağmur bu sabahtan itibaren sona erecek, bu akşam tekrar başlayacak.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Akşamdan geceye kadaryoğun bulutlanma.":
+  "Akşam yoğun bulutlanma başlayacak, gece sona erecek.":
     ["sentence", ["starting-continuing-until",
       "evening","night","heavy-clouds"
       ]],
 
-  "Bu öğleden sonra hafif karla karışık yağmur  ve yarın sabah sis .":
+  "Bu öğleden sonradan itibaren hafif karla karışık yağmur ve yarın sabah sis.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Bu sabahdan bu öğleden sonraye kadaryoğun rüzgar ve yarın sabah karla karışık yağmur .":
+  "Bu sabah yoğun rüzgar başlayacak, bugün öğleden sonra sona erecek ve yarın sabah karla karışık yağmur.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "today-morning",
         "today-afternoon","heavy-wind"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Bu geceden sonra yoğun bulutlanma başlayacak  ve yarın öğleden sonra yoğun kar .":
+  "Bu geceden itibaren yoğun bulutlanma başlayacak ve yarın öğleden sonra yoğun kar.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Bu gece düşük nem olacak  ve yarın akşamdan yarın geceye kadar hafif yağış var.":
+  "Bu gece düşük nem ve yarın akşam hafif yağış başlayacak, yarın gece sona erecek.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
         "tomorrow-evening",
         "tomorrow-night","light-precipitation"]]],
 
-  "Gece kar (5 in.) .":
+  "Gece kar (5 in.).":
     ["sentence", ["during",
       ["parenthetical","medium-snow", ["inches", 5]],
       "night"]],
 
-  "Bu sabahtan sonra hafif kar (2 cm.) .":
+  "Bu sabahtan itibaren hafif kar (2 cm.).":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
@@ -191,14 +191,14 @@
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Öğleden sonra kar (1 cm. nin altında) .":
+  "Öğleden sonra kar (1 cm.'nin altında).":
     ["sentence", ["during",
       ["parenthetical","medium-snow",
 	  ["less-than", ["centimeters", 1]]],"afternoon"
       ]],
 
 
-  "Hafta boyunca yağış yok. , yarın yüksek sıcaklık 85\u00B0F .":
+  "Hafta boyunca yağış yok, yarın yüksek sıcaklık 85\u00B0F.":
     ["sentence", ["with",
       ["for-week","no-precipitation"],
       ["temperatures-peaking",
@@ -206,28 +206,28 @@
 		"tomorrow"
         ]]],
 
-  "Karışık yağış hafta sonu, perşembe sıcaklık 32\u00B0C e yükseliyor .":
+  "Hafta sonu karışık yağış, perşembe sıcaklık 32\u00B0C'ye yükseliyor.":
     ["sentence", ["with",
       ["over-weekend","mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Pazartesi çok hafif yağmur , cuma hava soğuyor ve sıcaklık 15\u00B0F e düşüyor.":
+  "Pazartesi çok hafif yağmur, cuma hava soğuyor ve sıcaklık 15\u00B0F'ye düşüyor.":
     ["sentence", ["with",
       ["during", "very-light-rain" ,"monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Salı ve çarşamba hafif kar , pazar sıcaklık 0\u00B0C e düşüyor .":
+  "Salı ve çarşamba hafif kar, pazar sıcaklık 0\u00B0C'ye düşüyor.":
     ["sentence", ["with",
       ["during", "light-snow",["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         "sunday",
         ["celsius", 0]]]],
 
-  "Bugün ile cumartesi arası orta şiddette yağış , pazartesi yüksek sıcaklık 100\u00B0F .":
+  "Bugün ile cumartesi arası yağış, pazartesi yüksek sıcaklık 100\u00B0F.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -236,7 +236,7 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Karışık yağış (1\u20133 in.) gün boyunca devam edecek.":
+  "Karışık yağış (1\u20133 in. kar) gün boyunca devam edecek.":
     ["sentence",
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
