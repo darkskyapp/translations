@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.13.0",
+  "version": "1.14.1",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -100,6 +100,10 @@
     {
       "name": "FajrAljunaid",
       "web": "https://github.com/FajrAljunaid"
+    },
+    {
+      "name": "Martin Sefcik",
+      "web": "https://martinsefcik.sk/"
     }
   ],
   "repository": {
