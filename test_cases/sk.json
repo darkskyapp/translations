@@ -1,101 +1,101 @@
 {
-  "jasno":
+  "Jasno":
     ["title", "clear"],
 
-  "možnosť veľmi slabých zrážok":
+  "Možnosť veľmi slabých zrážok":
     ["title", "possible-very-light-precipitation"],
 
-  "slabé zrážky":
+  "Slabé zrážky":
     ["title", "very-light-precipitation"],
 
-  "možnosť slabých zrážok":
+  "Možnosť slabých zrážok":
     ["title", "possible-light-precipitation"],
 
-  "slabé zrážky":
+  "Slabé zrážky":
     ["title", "light-precipitation"],
 
-  "zrážky":
+  "Zrážky":
     ["title", "medium-precipitation"],
 
-  "silné zrážky":
+  "Silné zrážky":
     ["title", "heavy-precipitation"],
 
-  "možnosť mrholenia":
+  "Možnosť mrholenia":
     ["title", "possible-very-light-rain"],
 
-  "mrholenie":
+  "Mrholenie":
     ["title", "very-light-rain"],
 
-  "možnosť slabého dažďa":
+  "Možnosť slabého dažďa":
     ["title", "possible-light-rain"],
 
-  "slabý dážď":
+  "Slabý dážď":
     ["title", "light-rain"],
 
-  "dážď":
+  "Dážď":
     ["title", "medium-rain"],
 
-  "vydatný dážď":
+  "Vydatný dážď":
     ["title", "heavy-rain"],
 
-  "možnosť slabého dažďa so snehom":
+  "Možnosť slabého dažďa so snehom":
     ["title", "possible-very-light-sleet"],
 
-  "slabý dážď so snehom":
+  "Slabý dážď so snehom":
     ["title", "very-light-sleet"],
 
-  "možnosť slabého dažďa so snehom":
+  "Možnosť slabého dažďa so snehom":
     ["title", "possible-light-sleet"],
 
-  "slabý dážď so snehom":
+  "Slabý dážď so snehom":
     ["title", "light-sleet"],
 
-  "dážď so snehom":
+  "Dážď so snehom":
     ["title", "medium-sleet"],
 
-  "vydatný dážď so snehom":
+  "Vydatný dážď so snehom":
     ["title", "heavy-sleet"],
 
-  "možnosť slabého sneženia":
+  "Možnosť slabého sneženia":
     ["title", "possible-very-light-snow"],
 
-  "slabé sneženie":
+  "Slabé sneženie":
     ["title", "very-light-snow"],
 
-  "možnosť slabého sneženia":
+  "Možnosť slabého sneženia":
     ["title", "possible-light-snow"],
 
-  "slabé sneženie":
+  "Slabé sneženie":
     ["title", "light-snow"],
 
-  "sneženie":
+  "Sneženie":
     ["title", "medium-snow"],
 
-  "vydatné sneženie":
+  "Vydatné sneženie":
     ["title", "heavy-snow"],
 
-  "veterno":
+  "Veterno":
     ["title", "medium-wind"],
 
-  "silný vietor":
+  "Silný vietor":
     ["title", "heavy-wind"],
 
-  "hmlisto":
+  "Hmlisto":
     ["title", "fog"],
 
-  "prevažne zamračené":
+  "Prevažne zamračené":
     ["title", "medium-clouds"],
 
-  "zamračené":
+  "Zamračené":
     ["title", "heavy-clouds"],
 
-  "nízka vlhkosť a slabý vietor":
+  "Nízka vlhkosť a slabý vietor":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "mrholenie a silný vietor":
+  "Mrholenie a silný vietor":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "vysoká vlhkosť a čiastočne zamračené":
+  "Vysoká vlhkosť a čiastočne zamračené":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
@@ -121,7 +121,6 @@
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
-
 
   "Počas dňa prevažne zamračené.":
     ["sentence", ["for-day", "medium-clouds"]],
@@ -154,6 +153,13 @@
       "heavy-clouds",
       "evening",
       "night"]],
+
+  "Od popoludnia čiastočne zamračené a pretrvá až do večera.":
+    ["sentence",
+      ["starting-continuing-until",
+        "light-clouds",
+        "afternoon",
+        "evening"]],
 
   "Dnes podvečer slabý dážď so snehom a zajtra ráno hmlisto.":
     ["sentence", ["and",
@@ -243,9 +249,9 @@
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
 
-  "vydatné sneženie (1-3 in)":
+  "Vydatné sneženie (1-3 in)":
     ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
 
-  "vydatné sneženie (3-5 cm)":
+  "Vydatné sneženie (3-5 cm)":
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
 }
