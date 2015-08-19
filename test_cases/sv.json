@@ -205,7 +205,7 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Blandat nederbörd över helgen, med temperaturer som stiger till 32\u00B0C under torsdagen.":
+  "Blandad nederbörd över helgen, med temperaturer som stiger till 32\u00B0C under torsdagen.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
