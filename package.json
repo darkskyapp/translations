@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.16.0",
+  "version": "1.16.1",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -117,6 +117,11 @@
     {
       "name": "Kostas Dizas",
       "web": "https://github.com/kostasdizas"
+    },
+    {
+      "name": "Jacob Zhang",
+      "email": "jacob-zhang@live.de",
+      "web": "https://github.com/jacbz"
     }
   ],
   "repository": {
