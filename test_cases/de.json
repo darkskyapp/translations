@@ -62,10 +62,10 @@
   "Überwiegend bewölkt":
     ["title", "medium-clouds"],
 
-  "Schwer bewölkt":
+  "Stark bewölkt":
     ["title", "heavy-clouds"],
 
-  "Niedrige Luftfeuchtigkeit und leichte Brise":
+  "Niedrige Luftfeuchtigkeit und leichter Wind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Hohe Luftfeuchtigkeit und leicht bewölkt":
@@ -81,14 +81,14 @@
   "Leichter Regen, endet in 15 Min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Graupelschauer beginnt in 20 Min. und endet 30 Min. später.":
+  "Graupelschauer in 20 Min. für 30 Min.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Regen endet in 25 Min. und beginnt 8 Min. später erneut.":
+  "Regen endet in 25 Min. und beginnt 8 Min. danach erneut.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -98,7 +98,7 @@
   "Überwiegend bewölkt den ganzen Tag.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Am Vormittag leichter Graupelregen.":
+  "Vormittags leichter Graupelregen.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Frische Brise bis heute Nacht.":
@@ -107,7 +107,7 @@
   "Schwerer Niederschlag bis Nachmittag.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Leichte Brise am Nachmittag.":
+  "Leichter Wind am Nachmittag.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
   "Schneefall am späteren Abend und morgen Vormittag.":
@@ -115,19 +115,19 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
   
-  "Regenschauer bis zum späteren Vormittag und wieder heute Abend.":
+  "Regenschauer bis zum späteren Vormittag und heute Abend wieder.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Schwer bewölkt beginnend am Abend gleichbleibend die ganze Nacht.":
+  "Stark bewölkt abends und nächtlich.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Schwer bewölkt beginnend am Vormittag gleichbleibend bis zum Abend.":
+  "Stark bewölkt von vormittags bis abends.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "morning",
@@ -138,7 +138,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Sturm beginnend heute Vormittag gleichbleibend bis heute Nachmittag und morgen Vormittag Graupelregen.":
+  "Sturm von heute Vormittag bis heute Nachmittag sowie morgen Vormittag Graupelregen.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -146,12 +146,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Heute in der späteren Nacht schwer bewölkt und morgen Nachmittag starker Schneefall.":
+  "Heute in der späteren Nacht stark bewölkt und morgen Nachmittag starker Schneefall.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Heute Nacht niedrige Luftfeuchtigkeit und leichter Niederschlag beginnend morgen Abend gleichbleibend bis morgen Nacht.":
+  "Heute Nacht niedrige Luftfeuchtigkeit sowie leichter Niederschlag von morgen Abend bis morgen Nacht.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -207,7 +207,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Niederschlag am Donnerstag bis Samstag mit einem Temperaturmaximum von 100\u00B0F am Montag.":
+  "Niederschlag von Donnerstag bis Samstag mit einem Temperaturmaximum von 100\u00B0F am Montag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -216,10 +216,10 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Am Nachmittag leichter Regen.":
+  "Nachmittags leichter Regen.":
     ["sentence", ["starting", "light-rain", "afternoon"]],
 
-  "Leichter Regen bis zum Abend.":
+  "Leichter Regen bis abends.":
     ["sentence", ["until", "light-rain", "evening"]],
 
   "Nieselregen bis zum Nachmittag und Nacht.":
