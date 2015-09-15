@@ -95,7 +95,7 @@
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Überwiegend bewölkt den ganzen Tag.":
+  "Den ganzen Tag lang überwiegend bewölkt.":
     ["sentence", ["for-day", "medium-clouds"]],
 
   "Vormittags leichter Graupelregen.":
@@ -170,7 +170,7 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
   
-  "Starker Schneefall (8 bis 12 Zoll) den ganzen Tag.":
+  "Den ganzen Tag lang starker Schneefall (8 bis 12 Zoll).":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
@@ -215,7 +215,7 @@
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]],
-
+	
   "Nachmittags leichter Regen.":
     ["sentence", ["starting", "light-rain", "afternoon"]],
 
