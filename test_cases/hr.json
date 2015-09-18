@@ -14,7 +14,7 @@
   "Slabe padaline":
     ["title", "light-precipitation"],
 
-  "padaline":
+  "Padaline":
     ["title", "medium-precipitation"],
 
   "Jake padaline":
@@ -62,7 +62,7 @@
   "Sitan snijeg":
     ["title", "very-light-snow"],
 
-  "Moguće je sitan snijeg":
+  "Moguć je sitan snijeg":
     ["title", "possible-light-snow"],
 
   "Sitan snijeg":
@@ -122,13 +122,13 @@
         ["minutes", 8]]],
 
 
-  "Pretežno oblačno tokom cijelog dana.":
+  "Pretežno oblačno tijekom cijelog dana.":
     ["sentence", ["for-day", "medium-clouds"]],
 
   "Slaba susnježica počinje ujutro.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noć.":
+  "Vjetrovito do noći.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
   "Jake padaline do popodne.":
@@ -148,7 +148,7 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Oblačno počinje večeras, ostaje do u noć.":
+  "Oblačno počinje večeras, ostaje do noći.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -159,7 +159,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Opasno vjetrovito počinje ovo jutro, ostaje do poslijepodne, i susnježica sutra ujutro.":
+  "Jako vjetrovito počinje ovo jutro, ostaje do poslijepodne, i susnježica sutra ujutro.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -172,7 +172,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noć i slabe padaline počinje sutra navečer, ostaje do sutra u noć.":
+  "Suho noći i slabe padaline počinje sutra navečer, ostaje do sutra u noć.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -180,7 +180,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snijeg (5 inča) u noć.":
+  "Snijeg (5 inča) noći.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -190,7 +190,7 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Jak snijeg (8\u201312 inča) tokom cijelog dana.":
+  "Jak snijeg (8\u201312 inča) tijekom cijelog dana.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
@@ -200,14 +200,14 @@
       "afternoon"]],
 
 
-  "Nema padavina tokom tjedna, sa temperaturom najviše do 85°F sutra.":
+  "Nema padalina tokom tjedna, sa temperaturom najviše do 85°F sutra.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padaline tokom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
+  "Različite padaline tijekom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
@@ -221,14 +221,14 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijeda, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "Sitan snijeg u utorak i srijedu, sa temperaturom pada do 0\u00B0C u nedjelju.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "padaline danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
+  "Padaline danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
