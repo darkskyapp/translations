@@ -200,7 +200,7 @@
       "afternoon"]],
 
 
-  "Nema padalina tokom tjedna, sa temperaturom najviše do 85°F sutra.":
+  "Nema padalina tijekom tjedna, sa temperaturom najviše do 85°F sutra.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
