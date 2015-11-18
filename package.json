@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -131,6 +131,10 @@
     {
       "name": "FlatWang",
       "web": "https://github.com/FlatWang"
+    },
+    {
+      "name": "Szilard Pal",
+      "web": "https://github.com/szilardpal"
     }
   ],
   "repository": {
