@@ -202,7 +202,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Neerslag van donderdag tot zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
+  "Neerslag donderdag t/m zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
