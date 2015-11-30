@@ -121,7 +121,7 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Zwaar bewolkt vanaf de avond dat door blijft gaan tot de nacht.":
+  "Zwaar bewolkt vanaf de avond, houdt aan tot de nacht.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -133,7 +133,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Zware windstoten vanaf de ochtend dat door blijft gaan tot de middag en morgenochtend ijzel.":
+  "Zware windstoten vanaf de ochtend, houdt aan tot de middag, en morgenochtend ijzel.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -146,7 +146,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Vannacht lage luchtvochtigheid en lichte neerslag vanaf morgenavond dat door blijft gaan tot morgennacht.":
+  "Vannacht lage luchtvochtigheid en lichte neerslag vanaf morgenavond, houdt aan tot morgennacht.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -202,7 +202,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Neerslag van donderdag tot zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
+  "Neerslag donderdag t/m zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
