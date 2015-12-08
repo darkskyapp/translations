@@ -128,10 +128,10 @@
   "Ónos szitálás lesz reggel.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Mérsékelt szél ma éjjelig.":
+  "Mérsékelt szél ma éjjel.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Intenzív csapadék délutánig.":
+  "Intenzív csapadék délután.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Enyhe szél délután.":
@@ -142,13 +142,13 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Intenzív eső ma késő délelőttig, majd ma este ismét.":
+  "Intenzív eső ma késő délelőtt, majd ma este ismét.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Borult idő kezdődik este, éjjelig folytatódik.":
+  "Borult idő kezdődik este, éjjel folytatódik.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -159,7 +159,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Erős szél kezdődik ma reggel, ma délutánig folytatódik és ónos eső holnap reggel.":
+  "Erős szél kezdődik ma reggel, ma délután folytatódik és ónos eső holnap reggel.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -172,7 +172,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Száraz idő ma éjjel és gyenge csapadék kezdődik holnap este, holnap éjjelig folytatódik.":
+  "Száraz idő ma éjjel és gyenge csapadék kezdődik holnap este, holnap éjjel folytatódik.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
