@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.19.2",
+  "version": "1.19.3",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -139,6 +139,10 @@
     {
       "name": "cygnus6",
       "web": "https://github.com/cygnus6"
+    },
+    {
+      "name": "TiguCZ",
+      "web": "https://github.com/TiguCZ"
     }
   ],
   "repository": {
