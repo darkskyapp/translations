@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.22.2",
+  "version": "1.23.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -165,6 +165,11 @@
       "name": "Bora DAN",
       "email": "bora_dan@hotmail.com",
       "web": "https://github.com/BQRA"
+    },
+    {
+      "name": "Alexander Nilsen",
+      "email": "alexander.nilsen.no@gmail.com",
+      "web": "https://github.com/alni"
     }
   ],
   "repository": {
