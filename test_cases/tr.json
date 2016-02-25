@@ -151,46 +151,51 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Bugün öğleden sonra çok hafif yağmur başlayacak, bu akşamdan itibaren sona erecek.":
+  "Çok hafif yağmur bugün öğleden sonra başlayacak, bu akşamdan itibaren sona erecek.":
     ["sentence", ["starting-continuing-until",
-      "today-afternoon","later-today-evening","very-light-rain"
+      "very-light-rain","today-afternoon","later-today-evening"
       ]],
 
-  "Bu akşam hafif yağmur başlayacak, yarın sabah sona erecek.":
+  "Hafif yağmur bu akşam başlayacak, yarın sabah sona erecek.":
     ["sentence", ["starting-continuing-until",
-      "today-evening","tomorrow-morning","light-rain"
+      "light-rain","today-evening","tomorrow-morning"
       ]],
 
-  "Akşam yoğun bulutlanma başlayacak, gece sona erecek.":
+  "Bulutlanma yarın sabah başlayacak, yarın gece sona erecek.":
     ["sentence", ["starting-continuing-until",
-      "evening","night","heavy-clouds"
+      "medium-clouds","tomorrow-morning","tomorrow-night"
+      ]],  
+
+  "Yoğun bulutlanma akşam başlayacak, gece sona erecek.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds","evening","night"
       ]],
+
+  "Yoğun rüzgar bu sabah başlayacak, bugün öğleden sonra sona erecek ve yarın sabah karla karışık yağmur.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Bu gece düşük nem ve hafif yağış yarın akşam başlayacak, yarın gece sona erecek.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
 
   "Bu öğleden sonradan itibaren hafif karla karışık yağmur ve yarın sabah sis.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Bu sabah yoğun rüzgar başlayacak, bugün öğleden sonra sona erecek ve yarın sabah karla karışık yağmur.":
-    ["sentence", ["and",
-      ["starting-continuing-until",
-        "today-morning",
-        "today-afternoon",
-        "heavy-wind"],
-      ["during", "medium-sleet", "tomorrow-morning"]]],
-
   "Bu geceden itibaren yoğun bulutlanma başlayacak ve yarın öğleden sonra yoğun kar.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
-
-  "Bu gece düşük nem ve yarın akşam hafif yağış başlayacak, yarın gece sona erecek.":
-    ["sentence", ["and",
-      ["during", "low-humidity", "today-night"],
-      ["starting-continuing-until",
-        "tomorrow-evening",
-        "tomorrow-night",
-        "light-precipitation"]]],
 
   "Gece kar (5 in.).":
     ["sentence", ["during",
