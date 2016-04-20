@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.23.2",
+  "version": "1.24.0",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -170,6 +170,10 @@
       "name": "Alexander Nilsen",
       "email": "alexander.nilsen.no@gmail.com",
       "web": "https://github.com/alni"
+    },
+    {
+      "name": "egormetlitsky",
+      "web": "https://github.com/egormetlitsky"
     }
   ],
   "repository": {
@@ -177,7 +181,7 @@
     "url": "git://github.com/darkskyapp/forecast-api-translations"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter dot --check-leaks"
+    "test": "mocha --reporter dot --check-leaks"
   },
   "devDependencies": {
     "mocha": "*"
