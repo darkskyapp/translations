@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.25.1",
+  "version": "1.25.2",
   "description": "translate the Forecast API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -178,6 +178,11 @@
     {
       "name": "Dana",
       "web": "https://github.com/kovloq"
+    },
+    {
+      "name": "Shahin Mursalov",
+      "email": "contact@shahinmursalov.com",
+      "web": "https://github.com/shahinmursalov"
     }
   ],
   "repository": {
