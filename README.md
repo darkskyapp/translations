@@ -1,10 +1,10 @@
-Forecast API Translation Module
+Dark Sky API Translation Module
 ===============================
 
 Introduction
 ------------
 
-The [Forecast API][1] has, since the very beginning, included a [module for
+The [Dark Sky API][1] has, since the very beginning, included a [module for
 producing textual weather summaries][2] from its weather data.  These summaries
 have always been in English (since that's the only language we know) and have
 always been procedurally generated (since there are so many possible weather
@@ -13,16 +13,16 @@ languages especially difficult, because the naive approach—using a table
 lookup to replace an English sentence with one of a different language—becomes
 impractical, requiring a *very* large table to support!
 
-[1]: https://developer.forecast.io/
+[1]: https://darksky.net/dev/
 [2]: http://www.kickstarter.com/projects/jackadam/dark-sky-hyperlocal-weather-prediction-and-visuali/posts/141049
 
 This software module was developed in order to work around these issues. We are
-modifying the Forecast API text summary code to generate a machine-readable
+modifying the Dark Sky API text summary code to generate a machine-readable
 format (described below) rather than it's usual English; summaries in this new
 format are then handed off to this module for translation into the desired
 language. Since this module is open-source, anyone may contribute additional
 language components to it, so that the desired language can be used in the
-Forecast API.
+Dark Sky API.
 
 The API (and therefore this module as well) is written in JavaScript, and meant
 to be used as a [Node.JS][3] [module][4]. Knowledge of that environment is
@@ -85,7 +85,7 @@ working by running the tests:
 Input Format
 ------------
 
-The data passed from the Forecast API to this translation module is a simple,
+The data passed from the Dark Sky API to this translation module is a simple,
 structured format reminiscent of [s-expressions][7], consisting only of
 numbers, strings, and arrays. Some examples produced by the API are below:
 
@@ -250,11 +250,11 @@ When translating text summaries, please keep the following in mind:
     intelligible to an average reader. (Yes, we know this conflicts with
     brevity, but try your best!)
 
-Appendix A: Forecast Summary Format
+Appendix A: Dark Sky Summary Format
 -----------------------------------
 
 Below is a listing of every possible machine-readable summary produced by
-Forecast. The listing is recursive so as to better describe how the various
+Dark Sky. The listing is recursive so as to better describe how the various
 structural components interact.
 
 ### Moment Summaries

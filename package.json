@@ -1,7 +1,7 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.26.0",
-  "description": "translate the Forecast API into any language",
+  "version": "1.26.1",
+  "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
     "email": "developer@forecast.io"
@@ -191,7 +191,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-api-translations"
+    "url": "git://github.com/darkskyapp/forecast-io-translations"
   },
   "scripts": {
     "test": "mocha --reporter dot --check-leaks"
