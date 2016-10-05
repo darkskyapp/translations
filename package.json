@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.26.1",
+  "version": "1.27.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -187,6 +187,10 @@
     {
       "name": "oskarkala",
       "web": "https://github.com/oskarkala"
+    },
+    {
+      "name": "Metik",
+      "web": "https://github.com/Metik"
     }
   ],
   "repository": {
