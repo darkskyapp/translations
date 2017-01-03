@@ -98,7 +98,7 @@
   "Overwegend bewolkt gedurende de dag.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "In de ochtend lichte ijzel.":
+  "Vanaf de ochtend lichte ijzel.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Veel wind tot vannacht.":
@@ -174,7 +174,7 @@
       ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
       "afternoon"]],
 
-  "De hele week geen neerslag van betekenis met een maximum temperatuur van 85\u00B0F morgen.":
+  "De hele week geen neerslag met een maximum temperatuur van 85\u00B0F morgen.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
@@ -202,12 +202,16 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Neerslag donderdag t/m zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
+  "Neerslag donderdag tot en met zaterdag met een maximum temperatuur van 100\u00B0F op maandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "thursday", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Vanaf vannacht lichte regen.":
+    ["sentence", ["starting", "light-rain", "today-night"]]
+
 }
