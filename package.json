@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.28.0",
+  "version": "1.28.1",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -195,6 +195,11 @@
     {
       "name": "Eric Risco de la Torre",
       "web": "http://www.ericrisco.com/"
+    },
+    {
+      "name": "Michaël Arnauts",
+      "email": "michael.arnauts@gmail.com",
+      "web": "https://github.com/michaelarnauts"
     }
   ],
   "repository": {
