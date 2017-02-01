@@ -133,6 +133,7 @@
         ["minutes", 25],
         ["minutes", 80]]],
 
+
   "Облачно през целият ден.":
     ["sentence",["for-day","medium-clouds"]],
 
@@ -201,16 +202,20 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
+  "Силен снеговалеж (8–12 in.) през целият ден.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+	  
   "Снеговалеж (по-малко 1 см.) следобед.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-  "Без превалявания през седмицата, с температури, покачващи се до максимум 35°C утре.":
+  "Без превалявания през седмицата, с температури, покачващи се до максимум 35°F утре.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
-        ["celsius", 35],
+        ["fahrenheit", 35],
         "tomorrow"]]],
 
   "Временни превалявания през уикенда, с температури, покачващи до 32°C в четвъвтък.":
@@ -234,12 +239,18 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Превалявания днес до събота, с температури, покачващи се до максимум 37°C в понеделник.":
+  "Превалявания от днес до събота, с температури, покачващи се до максимум 37°C в понеделник.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["celsius", 37],
-        "monday"]]]
+        "monday"]]],
+		
+  "Временни превалявания (1–3 in.) през целият ден.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]]
+
 }
