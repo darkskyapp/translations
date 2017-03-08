@@ -424,8 +424,18 @@ desired).
 *   `"thursday"`
 *   `"friday"`
 *   `"saturday"`
+*   `"next-sunday"`
+*   `"next-monday"`
+*   `"next-tuesday"`
+*   `"next-wednesday"`
+*   `"next-thursday"`
+*   `"next-friday"`
+*   `"next-saturday"`
 
-`"today"` and `"tomorrow"` are used in preference to the other cases.
+`"today"` and `"tomorrow"` are used in preference to the other cases. The
+`"next-*"` cases are used when the day in question is a week from today (e.g.
+if today is Wednesday, and we expect rain a week from today, then the summary
+would be `["during", "rain", "next-wednesday"]`.
 
 ### Weather Conditions
 
@@ -521,6 +531,8 @@ in English, respectively.
 #### Other Weather Conditions
 
 *   `"clear"`: Represents the lack of *any* significant weather occurring.
+*   `"possible-thunderstorm"`: Represents a chance of thunderstorms occurring.
+*   `"thunderstorm"`: Represents thunderstorms occurring.
 *   `"light-wind"`: Represents light wind at a location. (3 or 4 on the
     [Beaufort scale][9], but only when this is historically unusual.)
 *   `"medium-wind"`: Represents moderate wind at a location. (5, 6, or 7 on the
