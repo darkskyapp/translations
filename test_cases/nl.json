@@ -215,6 +215,12 @@
         "monday"]]],
 
   "Vanaf vannacht lichte regen.":
-    ["sentence", ["starting", "light-rain", "today-night"]]
+    ["sentence", ["starting", "light-rain", "today-night"]],
+
+  "Mogelijk onweer":
+  ["title", "possible-thunderstorm"],
+
+  "Zware regenbuien en onweer":
+  ["title", ["and", "heavy-rain", "thunderstorm"]]
 
 }
