@@ -1,166 +1,164 @@
 {
-  "Earclay":
+  "Klart":
     ["title", "clear"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Sjanse for veldig lett nedbør":
     ["title", "possible-very-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Veldig lett nedbør":
     ["title", "very-light-precipitation"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Sjanse for lett nedbør":
     ["title", "possible-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Lett nedbør":
     ["title", "light-precipitation"],
 
-  "Ecipitationpray":
+  "Nedbør":
     ["title", "medium-precipitation"],
 
-  "Eavyhay Ecipitationpray":
+  "Kraftig regn":
     ["title", "heavy-precipitation"],
 
-  "Ossiblepay Izzledray":
+  "Sjanse for lett duskregn":
     ["title", "possible-very-light-rain"],
 
-  "Izzledray":
+  "Duskregn":
     ["title", "very-light-rain"],
 
-  "Ossiblepay Ightlay Ainray":
+  "Sjanse for lette regnbyger":
     ["title", "possible-light-rain"],
 
-  "Ightlay Ainray":
+  "Regnbyger":
     ["title", "light-rain"],
 
-  "Ainray":
+  "Regn":
     ["title", "medium-rain"],
 
-  "Eavyhay Ainray":
+  "Regnskyll":
     ["title", "heavy-rain"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Sjanse for veldig lett sludd":
     ["title", "possible-very-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Veldig lett sludd":
     ["title", "very-light-sleet"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Sjanse for lett sludd":
     ["title", "possible-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Lett sludd":
     ["title", "light-sleet"],
 
-  "Eetslay":
+  "Sludd":
     ["title", "medium-sleet"],
 
-  "Eavyhay Eetslay":
+  "Kraftig sludd":
     ["title", "heavy-sleet"],
 
-  "Ossiblepay Urriesflay":
+  "Sjanse for vedlig lett snø":
     ["title", "possible-very-light-snow"],
 
-  "Urriesflay":
+  "Veldig lett snø":
     ["title", "very-light-snow"],
 
-  "Ossiblepay Ightlay Owsnay":
+  "Sjanse for lett snø":
     ["title", "possible-light-snow"],
 
-  "Ightlay Owsnay":
+  "Lett snø":
     ["title", "light-snow"],
 
-  "Owsnay":
+  "Snø":
     ["title", "medium-snow"],
 
-  "Eavyhay Owsnay":
+  "Rikelig med snø":
     ["title", "heavy-snow"],
 
-  "Indyway":
+  "Sterk vind":
     ["title", "medium-wind"],
 
-  "Angerouslyday Indyway":
+  "Storm":
     ["title", "heavy-wind"],
 
-  "Oggyfay":
+  "Tåke":
     ["title", "fog"],
 
-  "Ostlymay Oudyclay":
+  "Skyet":
     ["title", "medium-clouds"],
 
-  "Overcastway":
+  "Overskyet":
     ["title", "heavy-clouds"],
 
-  "Ydray andway Eezybray":
+  "Tørke og lett vind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Izzledray andway Angerouslyday Indyway":
+  "Duskregn og storm":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Umidhay andway Artlypay Oudyclay":
+  "Fuktig og lettskyet":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Earclay orfay ethay hourway.":
+  "Klart i løpet av de neste timene.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Urriesflay artingstay inway 35 min.":
+  "Veldig lett snø som starter om 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Ightlay ainray oppingstay inway 15 min.":
+  "Regnbyger som avtar om 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Eavyhay eetslay artingstay inway 20 min., oppingstay 30 min. aterlay.":
+  "Kraftig sludd som starter om 20 min., avtar 30 min. senere.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Ainray oppingstay inway 25 min., artingstay againway 8 min. aterlay.":
+  "Regn avtar om 25 min., starter igjen 8 min. senere.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Ostlymay oudyclay oughoutthray ethay ayday.":
+  "Skyet i løpet av dagen.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Ightlay eetslay artingstay inway ethay orningmay.":
+  "Veldig lett sludd som starter om morgenen.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Indyway untilway onighttay.":
+  "Sterk vind fram til i kveld.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Eavyhay ecipitationpray untilway afternoonway.":
+  "Kraftig regn fram til på ettermiddagen.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Eezybray inway ethay afternoonway.":
+  "Lett vind på ettermiddagen.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Owsnay aterlay isthay eveningway andway omorrowtay orningmay.":
+  "Snø senere på kvelden og i morgen tidlig.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Eavyhay ainray untilway aterlay isthay orningmay, artingstay againway isthay eveningway.":
+  "Regnskyll fram til senere på morgenen, som starter igjen i løpet av kvelden.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Overcastway artingstay inway ethay eveningway, ontinuingcay untilway ightnay.":
+  "Overskyet som starter om kvelden, fortsetter fram til om natten.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Ightlay eetslay aterlay isthay afternoonway andway oggyfay omorrowtay orningmay.":
+  "Lett sludd senere på ettermiddagen og tåke i morgen tidlig.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Angerouslyday indyway artingstay isthay orningmay, ontinuingcay untilway isthay afternoonway, andway eetslay omorrowtay orningmay.":
+  "Storm som starter i løpet av formiddagen, fortsetter fram til på ettermiddagen og sludd i morgen tidlig.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcastway artingstay aterlay onighttay andway eavyhay owsnay omorrowtay afternoonway.":
+  "Overskyet som starter senere i kveld og rikelig med snø i morgen ettermiddag.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Ydray onighttay andway ightlay ecipitationpray artingstay omorrowtay eveningway, ontinuingcay untilway omorrowtay ightnay.":
+  "Tørke i kveld og lett nedbør som starter i morgen kveld, fortsetter fram til i morgen natt.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,66 +179,59 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Owsnay (5 in.) overnightway.":
+  "Snø (5 in.) om natten.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Ightlay owsnay (2 cm.) aterlay isthay orningmay.":
+  "Lett snø (2 cm.) senere på morgenen.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Eavyhay owsnay (8\u201312 in.) oughoutthray ethay ayday.":
+  "Rikelig med snø (8\u201312 in.) i løpet av dagen.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Owsnay (underway 1 cm.) inway ethay afternoonway.":
+  "Snø (under 1 cm.) på ettermiddagen.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-
-  "Onay ecipitationpray oughoutthray ethay eekway, ithway emperaturestay eakingpay atway 85\u00B0F omorrowtay.":
+  "Ingen målbar nedbør i løpet av uken, med temperaturer opptil 85\u00B0F i morgen.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Ixedmay ecipitationpray overway ethay eekendway, ithway emperaturestay isingray otay 32\u00B0C onway ursdaythay.":
+  "Blandet nedbør over helgen, med temperaturer som stiger til 32\u00B0C på torsdag.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Izzledray onway ondaymay, ithway emperaturestay ottomingbay outway atway 15\u00B0F onway idayfray.":
+  "Duskregn på mandag, med temperaturer som stopper på 15\u00B0F på fredag.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Ightlay owsnay onway uesdaytay andway extnay ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
+  "Lett snø på tirsdag og onsdag, med temperaturer som synker til 0\u00B0C på søndag.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Ecipitationpray odaytay oughthray aturdaysay, ithway emperaturestay eakingpay atway 100\u00B0F onway ondaymay.":
+  "Nedbør i dag fram til på lørdag, med temperaturer opptil 100\u00B0F på mandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]],
-
-  "Ossiblepay Understormsthay":
-    ["title", "possible-thunderstorm"],
-
-  "Eavyhay Ainray andway Understormsthay":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+        "monday"]]]
 }

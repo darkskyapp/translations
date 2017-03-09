@@ -1,7 +1,7 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.20.1",
-  "description": "translate the Forecast API into any language",
+  "version": "1.34.0",
+  "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
     "email": "developer@forecast.io"
@@ -147,14 +147,75 @@
     {
       "name": "mrcina",
       "web": "https://github.com/mrcina"
+    },
+    {
+      "name": "Valgeir Björnsson",
+      "email": "valgeirb@gmail.com",
+      "web": "https://github.com/valgeirb"
+    },
+    {
+      "name": "steronydh",
+      "web": "https://github.com/steronydh"
+    },
+    {
+      "name": "Ville Tuomi",
+      "web": "https://github.com/vtuomi"
+    },
+    {
+      "name": "Bora DAN",
+      "email": "bora_dan@hotmail.com",
+      "web": "https://github.com/BQRA"
+    },
+    {
+      "name": "Alexander Nilsen",
+      "email": "alexander.nilsen.no@gmail.com",
+      "web": "https://github.com/alni"
+    },
+    {
+      "name": "egormetlitsky",
+      "web": "https://github.com/egormetlitsky"
+    },
+    {
+      "name": "Dana",
+      "web": "https://github.com/kovloq"
+    },
+    {
+      "name": "Shahin Mursalov",
+      "email": "contact@shahinmursalov.com",
+      "web": "https://github.com/shahinmursalov"
+    },
+    {
+      "name": "oskarkala",
+      "web": "https://github.com/oskarkala"
+    },
+    {
+      "name": "Metik",
+      "web": "https://github.com/Metik"
+    },
+    {
+      "name": "Eric Risco de la Torre",
+      "web": "http://www.ericrisco.com/"
+    },
+    {
+      "name": "Michaël Arnauts",
+      "email": "michael.arnauts@gmail.com",
+      "web": "https://github.com/michaelarnauts"
+    },
+    {
+      "name": "srmihnev",
+      "web": "https://github.com/srmihnev"
+    },
+    {
+      "name": "mrkcohen",
+      "web": "https://github.com/mrkcohen"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-api-translations"
+    "url": "git://github.com/darkskyapp/forecast-io-translations"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter dot --check-leaks"
+    "test": "mocha --reporter dot --check-leaks"
   },
   "devDependencies": {
     "mocha": "*"

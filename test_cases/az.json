@@ -1,166 +1,164 @@
 {
-  "Earclay":
+  "Buludsuz":
     ["title", "clear"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Yüngül Yağış Ehtimalı":
     ["title", "possible-very-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Yüngül Yağış":
     ["title", "very-light-precipitation"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Yüngül Yağış Ehtimalı":
     ["title", "possible-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Yüngül Yağış":
     ["title", "light-precipitation"],
 
-  "Ecipitationpray":
+  "Yağış":
     ["title", "medium-precipitation"],
 
-  "Eavyhay Ecipitationpray":
+  "Güclü Yağış":
     ["title", "heavy-precipitation"],
 
-  "Ossiblepay Izzledray":
+  "Çiskin Yağış Ehtimalı":
     ["title", "possible-very-light-rain"],
 
-  "Izzledray":
+  "Çiskin":
     ["title", "very-light-rain"],
 
-  "Ossiblepay Ightlay Ainray":
+  "Yüngül Yağış Ehtimalı":
     ["title", "possible-light-rain"],
 
-  "Ightlay Ainray":
+  "Yüngül Yağış":
     ["title", "light-rain"],
 
-  "Ainray":
+  "Yağış":
     ["title", "medium-rain"],
 
-  "Eavyhay Ainray":
+  "Güclü Yağış":
     ["title", "heavy-rain"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Yüngül Sulu Qar Ehtimalı":
     ["title", "possible-very-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Yüngül Sulu Qar":
     ["title", "very-light-sleet"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Yüngül Sulu Qar Ehtimalı":
     ["title", "possible-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Yüngül Sulu Qar":
     ["title", "light-sleet"],
 
-  "Eetslay":
+  "Sulu Qar":
     ["title", "medium-sleet"],
 
-  "Eavyhay Eetslay":
+  "Güclü Sulu Qar":
     ["title", "heavy-sleet"],
 
-  "Ossiblepay Urriesflay":
+  "Sulu Qar Ehtimalı":
     ["title", "possible-very-light-snow"],
 
-  "Urriesflay":
+  "Sulu Qar":
     ["title", "very-light-snow"],
 
-  "Ossiblepay Ightlay Owsnay":
+  "Yüngül Qar Ehtimalı":
     ["title", "possible-light-snow"],
 
-  "Ightlay Owsnay":
+  "Yüngül Qar":
     ["title", "light-snow"],
 
-  "Owsnay":
+  "Qar":
     ["title", "medium-snow"],
 
-  "Eavyhay Owsnay":
+  "Güclü Qar":
     ["title", "heavy-snow"],
 
-  "Indyway":
+  "Külək":
     ["title", "medium-wind"],
 
-  "Angerouslyday Indyway":
+  "Güclü Külək":
     ["title", "heavy-wind"],
 
-  "Oggyfay":
+  "Dumanlı":
     ["title", "fog"],
 
-  "Ostlymay Oudyclay":
+  "Əsasən Buludlu":
     ["title", "medium-clouds"],
 
-  "Overcastway":
+  "Tutqun Hava":
     ["title", "heavy-clouds"],
 
-  "Ydray andway Eezybray":
+  "Rütubətsiz və Sərin":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Izzledray andway Angerouslyday Indyway":
+  "Çiskin və Güclü Külək":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Umidhay andway Artlypay Oudyclay":
+  "Rütubətli və Qismən Buludlu":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Earclay orfay ethay hourway.":
+  "1 saat boyunca buludsuz olacaq.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Urriesflay artingstay inway 35 min.":
+  "35 dəq. sonra sulu qar başlayacaq.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Ightlay ainray oppingstay inway 15 min.":
+  "Yüngül yağış 15 dəq. sonra dayanacaq.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Eavyhay eetslay artingstay inway 20 min., oppingstay 30 min. aterlay.":
+  "Güclü sulu qar 20 dəq. sonra başlayacaq, 30 dəq. davam edib dayanacaq.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Ainray oppingstay inway 25 min., artingstay againway 8 min. aterlay.":
+  "Yağış 25 dəq. sonra dayanacaq, 8 dəq. sonra yenidən başlayacaq.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Ostlymay oudyclay oughoutthray ethay ayday.":
+  "Gün boyu əsasən buludlu olacaq.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Ightlay eetslay artingstay inway ethay orningmay.":
+  "Səhər yüngül sulu qar başlayacaq.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Indyway untilway onighttay.":
+  "Külək bu gün gecə dayanacaq.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Eavyhay ecipitationpray untilway afternoonway.":
+  "Güclü yağış günortadan sonra dayanacaq.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Eezybray inway ethay afternoonway.":
+  "Günortadan sonra sərin olacaq.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Owsnay aterlay isthay eveningway andway omorrowtay orningmay.":
+  "Bu gün axşam və sabah səhər qar olacaq.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Eavyhay ainray untilway aterlay isthay orningmay, artingstay againway isthay eveningway.":
+  "Güclü yağış bu gün səhərdən sonra dayanıb, bu gün axşam yenidən başlayacaq.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Overcastway artingstay inway ethay eveningway, ontinuingcay untilway ightnay.":
+  "Axşam tutqun hava başlayıb, gecə dayanacaq.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Ightlay eetslay aterlay isthay afternoonway andway oggyfay omorrowtay orningmay.":
+  "Bu gün günortadan sonra yüngül sulu qar olacaq və sabah səhər dumanlı olacaq.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Angerouslyday indyway artingstay isthay orningmay, ontinuingcay untilway isthay afternoonway, andway eetslay omorrowtay orningmay.":
+  "Bu gün səhər güclü külək başlayıb, bu gün günortadan sonra dayanacaq və sabah səhər sulu qar olacaq.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcastway artingstay aterlay onighttay andway eavyhay owsnay omorrowtay afternoonway.":
+  "Bu gün gecə tutqun hava başlayacaq və sabah günortadan sonra güclü qar olacaq.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Ydray onighttay andway ightlay ecipitationpray artingstay omorrowtay eveningway, ontinuingcay untilway omorrowtay ightnay.":
+  "Bu gün gecə rütubətsiz olacaq və sabah axşam yüngül yağış başlayıb, sabah gecə dayanacaq.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,55 +179,54 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Owsnay (5 in.) overnightway.":
+  "Gecə qar (5 düym) olacaq.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Ightlay owsnay (2 cm.) aterlay isthay orningmay.":
+  "Bu gün səhərdən sonra yüngül qar (2 sm.) olacaq.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Eavyhay owsnay (8\u201312 in.) oughoutthray ethay ayday.":
+  "Gün boyu güclü qar (8–12 düym) olacaq.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Owsnay (underway 1 cm.) inway ethay afternoonway.":
+  "Günortadan sonra qar (1 sm.-dən aşağı) olacaq.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-
-  "Onay ecipitationpray oughoutthray ethay eekway, ithway emperaturestay eakingpay atway 85\u00B0F omorrowtay.":
+  "Həftə boyunca yağmursuz olacaq, sabah hava kəskin istiləşəcək və temperatur 85°F-yə qalxacaq.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Ixedmay ecipitationpray overway ethay eekendway, ithway emperaturestay isingray otay 32\u00B0C onway ursdaythay.":
+  "Həftə sonu qarışıq yağış olacaq, cümə axşamı temperatur 32°C-yə qalxacaq.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Izzledray onway ondaymay, ithway emperaturestay ottomingbay outway atway 15\u00B0F onway idayfray.":
+  "Bazar ertəsi çiskin olacaq, cümə günü hava kəskin soyuyacaq və temperatur 15°F-yə düşəcək.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Ightlay owsnay onway uesdaytay andway extnay ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
+  "Çərşənbə axşamı və çərşənbə günü yüngül qar olacaq, bazar günü temperatur 0°C-yə düşəcək.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Ecipitationpray odaytay oughthray aturdaysay, ithway emperaturestay eakingpay atway 100\u00B0F onway ondaymay.":
+  "Bu gün ilə şənbə günü arası yağış olacaq, bazar ertəsi hava kəskin istiləşəcək və temperatur 100°F-yə qalxacaq.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -238,9 +235,14 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Ossiblepay Understormsthay":
-    ["title", "possible-thunderstorm"],
+  "Gün boyu qarışıq yağış (1–3 düym qar) olacaq.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
 
-  "Eavyhay Ainray andway Understormsthay":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+  "Güclü Qar (1–3 düym)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Güclü Qar (3–5 sm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
 }

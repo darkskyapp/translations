@@ -1,166 +1,164 @@
 {
-  "Earclay":
+  "Clar":
     ["title", "clear"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Possibles Pluges Lleugeres":
     ["title", "possible-very-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Precipitacions Lleugeres":
     ["title", "very-light-precipitation"],
 
-  "Ossiblepay Ightlay Ecipitationpray":
+  "Possibles Pluges Lleugeres":
     ["title", "possible-light-precipitation"],
 
-  "Ightlay Ecipitationpray":
+  "Precipitacions Lleugeres":
     ["title", "light-precipitation"],
 
-  "Ecipitationpray":
+  "Precipitació":
     ["title", "medium-precipitation"],
 
-  "Eavyhay Ecipitationpray":
+  "Fortes Precipitacions":
     ["title", "heavy-precipitation"],
 
-  "Ossiblepay Izzledray":
+  "Possible Plugim":
     ["title", "possible-very-light-rain"],
 
-  "Izzledray":
+  "Plugim":
     ["title", "very-light-rain"],
 
-  "Ossiblepay Ightlay Ainray":
+  "Possible Plugim":
     ["title", "possible-light-rain"],
 
-  "Ightlay Ainray":
+  "Pluja Lleugera":
     ["title", "light-rain"],
 
-  "Ainray":
+  "Pluja":
     ["title", "medium-rain"],
 
-  "Eavyhay Ainray":
+  "Plujes Fortes":
     ["title", "heavy-rain"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Aiguaneu":
     ["title", "possible-very-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Aiguaneu":
     ["title", "very-light-sleet"],
 
-  "Ossiblepay Ightlay Eetslay":
+  "Possible Aiguaneu":
     ["title", "possible-light-sleet"],
 
-  "Ightlay Eetslay":
+  "Aiguaneu":
     ["title", "light-sleet"],
 
-  "Eetslay":
+  "Aiguaneu":
     ["title", "medium-sleet"],
 
-  "Eavyhay Eetslay":
+  "Fortes Aiguaneu":
     ["title", "heavy-sleet"],
 
-  "Ossiblepay Urriesflay":
+  "Possible Nevada Lleugera":
     ["title", "possible-very-light-snow"],
 
-  "Urriesflay":
+  "Lleugeres Nevades":
     ["title", "very-light-snow"],
 
-  "Ossiblepay Ightlay Owsnay":
+  "Possible Nevada Lleugera":
     ["title", "possible-light-snow"],
 
-  "Ightlay Owsnay":
+  "Lleugeres Nevades":
     ["title", "light-snow"],
 
-  "Owsnay":
+  "Nevades":
     ["title", "medium-snow"],
 
-  "Eavyhay Owsnay":
+  "Fortes Nevades":
     ["title", "heavy-snow"],
 
-  "Indyway":
+  "Ventós":
     ["title", "medium-wind"],
 
-  "Angerouslyday Indyway":
+  "Perillosament Ventós":
     ["title", "heavy-wind"],
 
-  "Oggyfay":
+  "Ennuvolat":
     ["title", "fog"],
 
-  "Ostlymay Oudyclay":
+  "Majoritariament Ennuvolat":
     ["title", "medium-clouds"],
 
-  "Overcastway":
+  "Ennuvolat":
     ["title", "heavy-clouds"],
 
-  "Ydray andway Eezybray":
+  "Sec i Vents Fluixos":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Izzledray andway Angerouslyday Indyway":
+  "Plugim i Perillosament Ventós":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Umidhay andway Artlypay Oudyclay":
+  "Humit i Parcialment Ennuvolat":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Earclay orfay ethay hourway.":
+  "Clar cada hora.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Urriesflay artingstay inway 35 min.":
+  "Lleugeres nevades començant 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Ightlay ainray oppingstay inway 15 min.":
+  "Pluja lleugera parant a 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Eavyhay eetslay artingstay inway 20 min., oppingstay 30 min. aterlay.":
+  "Fortes aiguaneu començant d'aquí 20 min., després parant al cap 30 min.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Ainray oppingstay inway 25 min., artingstay againway 8 min. aterlay.":
+  "Pluja parant d'aquí 25 min., tornant a començar al cap 8 min.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Ostlymay oudyclay oughoutthray ethay ayday.":
+  "Majoritariament ennuvolat durant el dia.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Ightlay eetslay artingstay inway ethay orningmay.":
+  "Aiguaneu començant al matí.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Indyway untilway onighttay.":
+  "Ventós aquesta nit.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Eavyhay ecipitationpray untilway afternoonway.":
+  "Fortes precipitacions a la tarda.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Eezybray inway ethay afternoonway.":
+  "Vents fluixos a la tarda.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Owsnay aterlay isthay eveningway andway omorrowtay orningmay.":
+  "Nevades durant el vespre i demà al matí.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Eavyhay ainray untilway aterlay isthay orningmay, artingstay againway isthay eveningway.":
+  "Plujes fortes durant el matí, començant aquest vespre.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Overcastway artingstay inway ethay eveningway, ontinuingcay untilway ightnay.":
+  "Ennuvolat començant al vespre, continuant a la nit.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Ightlay eetslay aterlay isthay afternoonway andway oggyfay omorrowtay orningmay.":
+  "Aiguaneu durant la tarda i ennuvolat demà al matí.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Angerouslyday indyway artingstay isthay orningmay, ontinuingcay untilway isthay afternoonway, andway eetslay omorrowtay orningmay.":
+  "Perillosament ventós començant aquest matí, continuant aquesta tarda, i aiguaneu demà al matí.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcastway artingstay aterlay onighttay andway eavyhay owsnay omorrowtay afternoonway.":
+  "Ennuvolat començant durant la nit i fortes nevades demà a la tarda.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Ydray onighttay andway ightlay ecipitationpray artingstay omorrowtay eveningway, ontinuingcay untilway omorrowtay ightnay.":
+  "Sec aquesta nit i precipitacions lleugeres començant demà al vespre, continuant demà a la nit.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,55 +179,55 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Owsnay (5 in.) overnightway.":
+  "Nevades (5 in.) a la nit.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Ightlay owsnay (2 cm.) aterlay isthay orningmay.":
+  "Lleugeres nevades (2 cm.) durant el matí.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Eavyhay owsnay (8\u201312 in.) oughoutthray ethay ayday.":
+  "Fortes nevades (8–12 in.) durant el dia.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Owsnay (underway 1 cm.) inway ethay afternoonway.":
+  "Nevades (menys de 1 cm.) a la tarda.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
-  "Onay ecipitationpray oughoutthray ethay eekway, ithway emperaturestay eakingpay atway 85\u00B0F omorrowtay.":
+  "Sense precipitacions durant la setmana, amb temperatures aconseguint un màxim de 85\u00B0F demà.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Ixedmay ecipitationpray overway ethay eekendway, ithway emperaturestay isingray otay 32\u00B0C onway ursdaythay.":
+  "Precipitacions mixtes cap al cap de setmana, amb temperatures arribant a 32\u00B0C el Dijous.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Izzledray onway ondaymay, ithway emperaturestay ottomingbay outway atway 15\u00B0F onway idayfray.":
+  "Plugim el Dilluns, amb temperatures aconseguint un mínim de 15\u00B0F el Divendres.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Ightlay owsnay onway uesdaytay andway extnay ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
+  "Lleugeres nevades el Dimarts i Dimecres, amb temperatures per sota a 0\u00B0C el Diumenge.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Ecipitationpray odaytay oughthray aturdaysay, ithway emperaturestay eakingpay atway 100\u00B0F onway ondaymay.":
+  "Precipitació avui fins a el Dissabte, amb temperatures aconseguint un màxim de 100\u00B0F el Dilluns.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -238,9 +236,20 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Ossiblepay Understormsthay":
+  "Precipitacions mixtes (1\u20133 in.) durant el dia.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Fortes Nevades (1\u20133 In.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Fortes Nevades (3\u20135 Cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Possibles Tempestes":
     ["title", "possible-thunderstorm"],
 
-  "Eavyhay Ainray andway Understormsthay":
+  "Plujes Fortes i Tempesta":
     ["title", ["and", "heavy-rain", "thunderstorm"]]
 }
