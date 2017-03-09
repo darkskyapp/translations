@@ -222,9 +222,9 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Light snow on Tuesday and Wednesday, with temperatures falling to 0\u00B0C on Sunday.":
+  "Light snow on Tuesday and next Wednesday, with temperatures falling to 0\u00B0C on Sunday.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],

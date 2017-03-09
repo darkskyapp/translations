@@ -222,9 +222,9 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Ightlay owsnay onway uesdaytay andway ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
+  "Ightlay owsnay onway uesdaytay andway extnay ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
