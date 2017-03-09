@@ -251,6 +251,12 @@
   "Временни превалявания (1–3 in.) през целият ден.":
     ["sentence",
       ["for-day",
-        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]]
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Възможна Гръмотевична Буря":
+    ["title", "possible-thunderstorm"],
+
+  "Силен Дъжд и Гръмотевична Буря":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]		
 
 }
