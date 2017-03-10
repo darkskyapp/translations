@@ -35,13 +35,13 @@
   "Pioggia":
     ["title", "medium-rain"],
 
-  "Temporale":
+  "Temporali":
     ["title", "heavy-rain"],
 
-  "Possibilità Di Nevischio Leggero":
+  "Possibilità Di Nevischio Molto Leggero":
     ["title", "possible-very-light-sleet"],
 
-  "Nevischio Leggero":
+  "Nevischio Molto Leggero":
     ["title", "very-light-sleet"],
 
   "Possibilità Di Nevischio Leggero":
@@ -83,7 +83,7 @@
   "Nebbia":
     ["title", "fog"],
 
-  "Nuvoloso":
+  "Nubi Sparse":
     ["title", "medium-clouds"],
 
   "Nuvoloso":
@@ -141,7 +141,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Temporale fino a a mattina inoltrata, ricominciando da stasera.":
+  "Temporali fino a a mattina inoltrata, ricominciando da stasera.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -220,9 +220,9 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Neve leggera Martedì e Mercoledì, con temperature in diminuzione fino a 0\u00B0C Domenica.":
+  "Neve leggera Martedì e il prossimo Mercoledì, con temperature in diminuzione fino a 0\u00B0C Domenica.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
@@ -234,5 +234,22 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Precipitazioni miste (1\u20133 in. di neve) durante il giorno.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Forti Nevicate (1\u20133 In.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Forti Nevicate (3\u20135 Cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Possibili Nubifragi":
+    ["title", "possible-thunderstorm"],
+
+  "Temporali e Nubifragi":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }
