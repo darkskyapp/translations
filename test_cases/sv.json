@@ -247,17 +247,11 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
-  
-  
-  "Risk för åska":
+        "monday"]]],
 
+  "Risk för åska":
     ["title", "possible-thunderstorm"],
 
-
-
   "Skyfall och åska":
-
     ["title", ["and", "heavy-rain", "thunderstorm"]]
-  
 }
