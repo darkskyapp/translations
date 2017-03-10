@@ -260,5 +260,8 @@
     ["title", "possible-thunderstorm"],
 
   "Vydatný dážď a búrky":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Búrky až do budúceho pondelka.":
+    ["sentence", ["until", "thunderstorm", "next-monday"]]
 }
