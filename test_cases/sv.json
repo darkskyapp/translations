@@ -89,7 +89,7 @@
   "Mulet":
     ["title", "heavy-clouds"],
 
-  "Torka och svag vind":
+  "Torka och måttlig vind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Duggregn och storm":
@@ -133,21 +133,21 @@
   "Kraftigt nederbörd fram till eftermiddagen.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Svag vind under eftermiddagen.":
+  "Måttlig vind under eftermiddagen.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snöby senare under aftonen och imorgon bitti.":
+  "Snöby senare under kvällen och imorgon bitti.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Skyfall fram till senare under morgonen, som startar igen under aftonen.":
+  "Skyfall fram till senare under morgonen, som startar igen under kvällen.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Mulet som startar under aftonen, fortsätter fram till natten.":
+  "Mulet som startar under kvällen, fortsätter fram till natten.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -171,7 +171,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Torka ikväll och lätt nederbörd som startar imorgon afton, fortsätter fram till imorgon natt.":
+  "Torka ikväll och lätt nederbörd som startar imorgon kväll, fortsätter fram till imorgon natt.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -205,7 +205,7 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Blandat nederbörd över helgen, med temperaturer som stiger till 32\u00B0C under torsdagen.":
+  "Blandad nederbörd över helgen, med temperaturer som stiger till 32\u00B0C under torsdagen.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",

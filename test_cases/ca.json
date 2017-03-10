@@ -1,166 +1,164 @@
 {
-  "Vedro":
+  "Clar":
     ["title", "clear"],
 
-  "Moguće su slabe padavine":
+  "Possibles Pluges Lleugeres":
     ["title", "possible-very-light-precipitation"],
 
-  "Slabe padavine":
+  "Precipitacions Lleugeres":
     ["title", "very-light-precipitation"],
 
-  "Moguće su slabe padavine":
+  "Possibles Pluges Lleugeres":
     ["title", "possible-light-precipitation"],
 
-  "Slabe padavine":
+  "Precipitacions Lleugeres":
     ["title", "light-precipitation"],
 
-  "Padavine":
+  "Precipitació":
     ["title", "medium-precipitation"],
 
-  "Jake padavine":
+  "Fortes Precipitacions":
     ["title", "heavy-precipitation"],
 
-  "Moguće je sitna kiša":
+  "Possible Plugim":
     ["title", "possible-very-light-rain"],
 
-  "Sitna kiša":
+  "Plugim":
     ["title", "very-light-rain"],
 
-  "Moguće je sitna kiša":
+  "Possible Plugim":
     ["title", "possible-light-rain"],
 
-  "Sitna kiša":
+  "Pluja Lleugera":
     ["title", "light-rain"],
 
-  "Kiša":
+  "Pluja":
     ["title", "medium-rain"],
 
-  "Jaka kiša":
+  "Plujes Fortes":
     ["title", "heavy-rain"],
 
-  "Moguće je slaba susnježica":
+  "Aiguaneu":
     ["title", "possible-very-light-sleet"],
 
-  "Slaba susnježica":
+  "Aiguaneu":
     ["title", "very-light-sleet"],
 
-  "Moguće je slaba susnježica":
+  "Possible Aiguaneu":
     ["title", "possible-light-sleet"],
 
-  "Slaba susnježica":
+  "Aiguaneu":
     ["title", "light-sleet"],
 
-  "Susnježica":
+  "Aiguaneu":
     ["title", "medium-sleet"],
 
-  "Jaka susnježica":
+  "Fortes Aiguaneu":
     ["title", "heavy-sleet"],
 
-  "Moguće je sitan snijeg":
+  "Possible Nevada Lleugera":
     ["title", "possible-very-light-snow"],
 
-  "Sitan snijeg":
+  "Lleugeres Nevades":
     ["title", "very-light-snow"],
 
-  "Moguće je sitan snijeg":
+  "Possible Nevada Lleugera":
     ["title", "possible-light-snow"],
 
-  "Sitan snijeg":
+  "Lleugeres Nevades":
     ["title", "light-snow"],
 
-  "Snijeg":
+  "Nevades":
     ["title", "medium-snow"],
 
-  "Jak snijeg":
+  "Fortes Nevades":
     ["title", "heavy-snow"],
 
-  "Vjetrovito":
+  "Ventós":
     ["title", "medium-wind"],
 
-  "Opasno vjetrovito":
+  "Perillosament Ventós":
     ["title", "heavy-wind"],
 
-  "Maglovito":
+  "Ennuvolat":
     ["title", "fog"],
 
-  "Pretežno oblačno":
+  "Majoritariament Ennuvolat":
     ["title", "medium-clouds"],
 
-  "Oblačno":
+  "Ennuvolat":
     ["title", "heavy-clouds"],
 
-  "Suho i vjetrovito":
+  "Sec i Vents Fluixos":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Sitna kiša i opasno vjetrovito":
+  "Plugim i Perillosament Ventós":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vlažno i djelom oblačno":
+  "Humit i Parcialment Ennuvolat":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Vedro za ovaj sat.":
+  "Clar cada hora.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Sitan snijeg počinje za 35 minuta.":
+  "Lleugeres nevades començant 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Sitna kiša prekida za 15 minuta.":
+  "Pluja lleugera parant a 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Jaka susnježica počinje za 20 minuta, ondak prekida za 30 minuta.":
+  "Fortes aiguaneu començant d'aquí 20 min., després parant al cap 30 min.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Kiša prekida za 25 minuta, ondak počinje za 8 minuta.":
+  "Pluja parant d'aquí 25 min., tornant a començar al cap 8 min.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Pretežno oblačno tokom cijelog dana.":
+  "Majoritariament ennuvolat durant el dia.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Slaba susnježica počinje ujutro.":
+  "Aiguaneu començant al matí.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noć.":
+  "Ventós aquesta nit.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Jake padavine do popodne.":
+  "Fortes precipitacions a la tarda.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Vjetrovito popodne.":
+  "Vents fluixos a la tarda.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snijeg kasnije večeras i sutra ujutro.":
+  "Nevades durant el vespre i demà al matí.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Jaka kiša do kasnije ovog jutra, i opet poćinje večeras.":
+  "Plujes fortes durant el matí, començant aquest vespre.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Oblačno poćinje uveče, ostaje do u noć.":
+  "Ennuvolat començant al vespre, continuant a la nit.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Slaba susnježica kasnije ove podne i maglovito sutra ujutro.":
+  "Aiguaneu durant la tarda i ennuvolat demà al matí.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Opasno vjetrovito poćinje ovo jutro, ostaje do ove podne, i susnježica sutra ujutro.":
+  "Perillosament ventós començant aquest matí, continuant aquesta tarda, i aiguaneu demà al matí.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "Ennuvolat començant durant la nit i fortes nevades demà a la tarda.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noć i slabe padavine poćinje sutra uveče, ostaje do sutra u noć.":
+  "Sec aquesta nit i precipitacions lleugeres començant demà al vespre, continuant demà a la nit.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,60 +179,77 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snijeg (5 inča) u noć.":
+  "Nevades (5 in.) a la nit.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Sitan snijeg (2 centimetra) kasnije ovog jutra.":
+  "Lleugeres nevades (2 cm.) durant el matí.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Jak snijeg (8\u201312 inča) tokom cijelog dana.":
+  "Fortes nevades (8–12 in.) durant el dia.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snijeg (ispod 1 centimetra) popodne.":
+  "Nevades (menys de 1 cm.) a la tarda.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
-  "Nema padavina tokom sedmice, sa temperaturom najviše do 85°F sutra.":
+  "Sense precipitacions durant la setmana, amb temperatures aconseguint un màxim de 85\u00B0F demà.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padavine tokom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
+  "Precipitacions mixtes cap al cap de setmana, amb temperatures arribant a 32\u00B0C el Dijous.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Sitna kiša u ponedjeljak, sa temperaturom najniže do 15°F u petak.":
+  "Plugim el Dilluns, amb temperatures aconseguint un mínim de 15\u00B0F el Divendres.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijeda, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "Lleugeres nevades el Dimarts i Dimecres, amb temperatures per sota a 0\u00B0C el Diumenge.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Padavine danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
+  "Precipitació avui fins a el Dissabte, amb temperatures aconseguint un màxim de 100\u00B0F el Dilluns.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]     
+        "monday"]]],
+
+  "Precipitacions mixtes (1\u20133 in.) durant el dia.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Fortes Nevades (1\u20133 In.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Fortes Nevades (3\u20135 Cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Possibles Tempestes":
+    ["title", "possible-thunderstorm"],
+
+  "Plujes Fortes i Tempesta":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }

@@ -1,166 +1,164 @@
 {
-  "Vedro":
+  "Klart":
     ["title", "clear"],
 
-  "Moguće su slabe padavine":
+  "Sjanse for veldig lett nedbør":
     ["title", "possible-very-light-precipitation"],
 
-  "Slabe padavine":
+  "Veldig lett nedbør":
     ["title", "very-light-precipitation"],
 
-  "Moguće su slabe padavine":
+  "Sjanse for lett nedbør":
     ["title", "possible-light-precipitation"],
 
-  "Slabe padavine":
+  "Lett nedbør":
     ["title", "light-precipitation"],
 
-  "Padavine":
+  "Nedbør":
     ["title", "medium-precipitation"],
 
-  "Jake padavine":
+  "Kraftig regn":
     ["title", "heavy-precipitation"],
 
-  "Moguće je sitna kiša":
+  "Sjanse for lett duskregn":
     ["title", "possible-very-light-rain"],
 
-  "Sitna kiša":
+  "Duskregn":
     ["title", "very-light-rain"],
 
-  "Moguće je sitna kiša":
+  "Sjanse for lette regnbyger":
     ["title", "possible-light-rain"],
 
-  "Sitna kiša":
+  "Regnbyger":
     ["title", "light-rain"],
 
-  "Kiša":
+  "Regn":
     ["title", "medium-rain"],
 
-  "Jaka kiša":
+  "Regnskyll":
     ["title", "heavy-rain"],
 
-  "Moguće je slaba susnježica":
+  "Sjanse for veldig lett sludd":
     ["title", "possible-very-light-sleet"],
 
-  "Slaba susnježica":
+  "Veldig lett sludd":
     ["title", "very-light-sleet"],
 
-  "Moguće je slaba susnježica":
+  "Sjanse for lett sludd":
     ["title", "possible-light-sleet"],
 
-  "Slaba susnježica":
+  "Lett sludd":
     ["title", "light-sleet"],
 
-  "Susnježica":
+  "Sludd":
     ["title", "medium-sleet"],
 
-  "Jaka susnježica":
+  "Kraftig sludd":
     ["title", "heavy-sleet"],
 
-  "Moguće je sitan snijeg":
+  "Sjanse for vedlig lett snø":
     ["title", "possible-very-light-snow"],
 
-  "Sitan snijeg":
+  "Veldig lett snø":
     ["title", "very-light-snow"],
 
-  "Moguće je sitan snijeg":
+  "Sjanse for lett snø":
     ["title", "possible-light-snow"],
 
-  "Sitan snijeg":
+  "Lett snø":
     ["title", "light-snow"],
 
-  "Snijeg":
+  "Snø":
     ["title", "medium-snow"],
 
-  "Jak snijeg":
+  "Rikelig med snø":
     ["title", "heavy-snow"],
 
-  "Vjetrovito":
+  "Sterk vind":
     ["title", "medium-wind"],
 
-  "Opasno vjetrovito":
+  "Storm":
     ["title", "heavy-wind"],
 
-  "Maglovito":
+  "Tåke":
     ["title", "fog"],
 
-  "Pretežno oblačno":
+  "Skyet":
     ["title", "medium-clouds"],
 
-  "Oblačno":
+  "Overskyet":
     ["title", "heavy-clouds"],
 
-  "Suho i vjetrovito":
+  "Tørke og lett vind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Sitna kiša i opasno vjetrovito":
+  "Duskregn og storm":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vlažno i djelom oblačno":
+  "Fuktig og lettskyet":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Vedro za ovaj sat.":
+  "Klart i løpet av de neste timene.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Sitan snijeg počinje za 35 minuta.":
+  "Veldig lett snø som starter om 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Sitna kiša prekida za 15 minuta.":
+  "Regnbyger som avtar om 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Jaka susnježica počinje za 20 minuta, ondak prekida za 30 minuta.":
+  "Kraftig sludd som starter om 20 min., avtar 30 min. senere.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Kiša prekida za 25 minuta, ondak počinje za 8 minuta.":
+  "Regn avtar om 25 min., starter igjen 8 min. senere.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Pretežno oblačno tokom cijelog dana.":
+  "Skyet i løpet av dagen.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Slaba susnježica počinje ujutro.":
+  "Veldig lett sludd som starter om morgenen.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noć.":
+  "Sterk vind fram til i kveld.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Jake padavine do popodne.":
+  "Kraftig regn fram til på ettermiddagen.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Vjetrovito popodne.":
+  "Lett vind på ettermiddagen.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snijeg kasnije večeras i sutra ujutro.":
+  "Snø senere på kvelden og i morgen tidlig.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Jaka kiša do kasnije ovog jutra, i opet poćinje večeras.":
+  "Regnskyll fram til senere på morgenen, som starter igjen i løpet av kvelden.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Oblačno poćinje uveče, ostaje do u noć.":
+  "Overskyet som starter om kvelden, fortsetter fram til om natten.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Slaba susnježica kasnije ove podne i maglovito sutra ujutro.":
+  "Lett sludd senere på ettermiddagen og tåke i morgen tidlig.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Opasno vjetrovito poćinje ovo jutro, ostaje do ove podne, i susnježica sutra ujutro.":
+  "Storm som starter i løpet av formiddagen, fortsetter fram til på ettermiddagen og sludd i morgen tidlig.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "Overskyet som starter senere i kveld og rikelig med snø i morgen ettermiddag.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noć i slabe padavine poćinje sutra uveče, ostaje do sutra u noć.":
+  "Tørke i kveld og lett nedbør som starter i morgen kveld, fortsetter fram til i morgen natt.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,60 +179,59 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snijeg (5 inča) u noć.":
+  "Snø (5 in.) om natten.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Sitan snijeg (2 centimetra) kasnije ovog jutra.":
+  "Lett snø (2 cm.) senere på morgenen.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Jak snijeg (8\u201312 inča) tokom cijelog dana.":
+  "Rikelig med snø (8\u201312 in.) i løpet av dagen.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snijeg (ispod 1 centimetra) popodne.":
+  "Snø (under 1 cm.) på ettermiddagen.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-
-  "Nema padavina tokom sedmice, sa temperaturom najviše do 85°F sutra.":
+  "Ingen målbar nedbør i løpet av uken, med temperaturer opptil 85\u00B0F i morgen.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padavine tokom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
+  "Blandet nedbør over helgen, med temperaturer som stiger til 32\u00B0C på torsdag.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Sitna kiša u ponedjeljak, sa temperaturom najniže do 15°F u petak.":
+  "Duskregn på mandag, med temperaturer som stopper på 15\u00B0F på fredag.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijeda, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "Lett snø på tirsdag og onsdag, med temperaturer som synker til 0\u00B0C på søndag.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Padavine danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
+  "Nedbør i dag fram til på lørdag, med temperaturer opptil 100\u00B0F på mandag.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]     
+        "monday"]]]
 }

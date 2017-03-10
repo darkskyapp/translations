@@ -89,13 +89,13 @@
   "Overcastway":
     ["title", "heavy-clouds"],
 
-  "Ydray Andway Eezybray":
+  "Ydray andway Eezybray":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Izzledray Andway Angerouslyday Indyway":
+  "Izzledray andway Angerouslyday Indyway":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Umidhay Andway Artlypay Oudyclay":
+  "Umidhay andway Artlypay Oudyclay":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
@@ -222,9 +222,9 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Ightlay owsnay onway uesdaytay andway ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
+  "Ightlay owsnay onway uesdaytay andway extnay ednesdayway, ithway emperaturestay allingfay otay 0\u00B0C onway undaysay.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
@@ -236,5 +236,11 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Ossiblepay Understormsthay":
+    ["title", "possible-thunderstorm"],
+
+  "Eavyhay Ainray andway Understormsthay":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }

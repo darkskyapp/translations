@@ -1,121 +1,121 @@
 {
-  "Vedro":
+  "晴朗":
     ["title", "clear"],
 
-  "Moguće su slabe padavine":
+  "可能有少量降水":
     ["title", "possible-very-light-precipitation"],
 
-  "Slabe padavine":
+  "少量降水":
     ["title", "very-light-precipitation"],
 
-  "Moguće su slabe padavine":
+  "少量降水":
     ["title", "possible-light-precipitation"],
 
-  "Slabe padavine":
+  "少量降水":
     ["title", "light-precipitation"],
 
-  "Padavine":
+  "中度降水":
     ["title", "medium-precipitation"],
 
-  "Jake padavine":
+  "大量降水":
     ["title", "heavy-precipitation"],
 
-  "Moguće je sitna kiša":
+  "可能有毛毛雨":
     ["title", "possible-very-light-rain"],
 
-  "Sitna kiša":
+  "毛毛雨":
     ["title", "very-light-rain"],
 
-  "Moguće je sitna kiša":
+  "可能有小雨":
     ["title", "possible-light-rain"],
 
-  "Sitna kiša":
+  "小雨":
     ["title", "light-rain"],
 
-  "Kiša":
+  "降雨":
     ["title", "medium-rain"],
 
-  "Jaka kiša":
+  "傾盆大雨":
     ["title", "heavy-rain"],
 
-  "Moguće je slaba susnježica":
+  "可能有輕微雨夾雪":
     ["title", "possible-very-light-sleet"],
 
-  "Slaba susnježica":
+  "輕微的雨夾雪":
     ["title", "very-light-sleet"],
 
-  "Moguće je slaba susnježica":
+  "可能有輕微雨夾雪":
     ["title", "possible-light-sleet"],
 
-  "Slaba susnježica":
+  "輕微的雨夾雪":
     ["title", "light-sleet"],
 
-  "Susnježica":
+  "雨夾雪":
     ["title", "medium-sleet"],
 
-  "Jaka susnježica":
+  "較強的雨夾雪":
     ["title", "heavy-sleet"],
 
-  "Moguće je sitan snijeg":
+  "可能有輕微降雪":
     ["title", "possible-very-light-snow"],
 
-  "Sitan snijeg":
+  "輕微降雪":
     ["title", "very-light-snow"],
 
-  "Moguće je sitan snijeg":
+  "可能有小雪":
     ["title", "possible-light-snow"],
 
-  "Sitan snijeg":
+  "小雪":
     ["title", "light-snow"],
 
-  "Snijeg":
+  "降雪":
     ["title", "medium-snow"],
 
-  "Jak snijeg":
+  "鵝毛大雪":
     ["title", "heavy-snow"],
 
-  "Vjetrovito":
+  "有風":
     ["title", "medium-wind"],
 
-  "Opasno vjetrovito":
+  "推人大風":
     ["title", "heavy-wind"],
 
-  "Maglovito":
+  "有霧":
     ["title", "fog"],
 
-  "Pretežno oblačno":
+  "多雲":
     ["title", "medium-clouds"],
 
-  "Oblačno":
+  "多雲轉陰":
     ["title", "heavy-clouds"],
 
-  "Suho i vjetrovito":
+  "干燥，微風":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Sitna kiša i opasno vjetrovito":
+  "毛毛雨，推人大風":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vlažno i djelom oblačno":
+  "潮濕，局部多雲":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
-  "Vedro za ovaj sat.":
+  "在接下來一個小時內晴朗。":
     ["sentence", ["for-hour", "clear"]],
 
-  "Sitan snijeg počinje za 35 minuta.":
+  "輕微降雪將於35分鐘後開始。":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Sitna kiša prekida za 15 minuta.":
+  "小雨將於15分鐘後結束。":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Jaka susnježica počinje za 20 minuta, ondak prekida za 30 minuta.":
+  "較強的雨夾雪將於20分鐘後開始，並在之後的30分鐘結束。":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Kiša prekida za 25 minuta, ondak počinje za 8 minuta.":
+  "降雨將於25分鐘後結束，而在之後的8分鐘又將繼續。":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -123,44 +123,44 @@
         ["minutes", 8]]],
 
 
-  "Pretežno oblačno tokom cijelog dana.":
+  "多雲將持續一整天。":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Slaba susnježica počinje ujutro.":
+  "輕微的雨夾雪開始於早上。":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noć.":
+  "有風將持續至明晚。":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Jake padavine do popodne.":
+  "大量降水將持續至下午。":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Vjetrovito popodne.":
+  "微風持續至下午。":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snijeg kasnije večeras i sutra ujutro.":
+  "降雪持續至今天夜裡，明天上午。":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Jaka kiša do kasnije ovog jutra, i opet poćinje večeras.":
+  "傾盆大雨直到今天上午晚些時候，將於今晚再次出現。":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Oblačno poćinje uveče, ostaje do u noć.":
+  "多雲轉陰開始於晚上，將持續至當晚。":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Slaba susnježica kasnije ove podne i maglovito sutra ujutro.":
+  "輕微的雨夾雪持續至午後，有霧持續至明天上午。":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Opasno vjetrovito poćinje ovo jutro, ostaje do ove podne, i susnježica sutra ujutro.":
+  "推人大風開始於今天早上，將持續至今天下午，雨夾雪持續至明天上午。":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +168,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "多雲轉陰開始於今天夜裡。鵝毛大雪持續至明天下午。":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noć i slabe padavine poćinje sutra uveče, ostaje do sutra u noć.":
+  "干燥持續至明晚，少量降水開始於明晚，將持續至明晚。":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,60 +181,71 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snijeg (5 inča) u noć.":
+  "降雪(5英寸)持續至當晚。":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Sitan snijeg (2 centimetra) kasnije ovog jutra.":
+  "小雪(2釐米)持續至今天上午晚些時候。":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Jak snijeg (8\u201312 inča) tokom cijelog dana.":
+  "鵝毛大雪(8–12英寸)將持續一整天。":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snijeg (ispod 1 centimetra) popodne.":
+  "降雪(低於1釐米)持續至下午。":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
-  "Nema padavina tokom sedmice, sa temperaturom najviše do 85°F sutra.":
+  "無降水持續一整周，且明天溫度劇增到85°F。":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padavine tokom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
+  "多雲轉雨持續一整周，且周四升溫到32°C。":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Sitna kiša u ponedjeljak, sa temperaturom najniže do 15°F u petak.":
+  "毛毛雨持續至周一，且周五溫度驟降到15°F。":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijeda, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "小雪持續至周二，周三，且周日溫度下降到0°C。":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Padavine danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
+  "中度降水持續至今天直至周六，且周一溫度劇增到100°F。":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]     
+        "monday"]]],
+
+  "多雲轉雨(1–3英寸)將持續一整天。":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "鵝毛大雪(1–3英寸)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "鵝毛大雪(3–5釐米)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
 }

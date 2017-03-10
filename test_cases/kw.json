@@ -1,121 +1,121 @@
 {
-  "Vedro":
+  "Kler":
     ["title", "clear"],
 
-  "Moguće su slabe padavine":
+  "Kodhans Skav Possybyl":
     ["title", "possible-very-light-precipitation"],
 
-  "Slabe padavine":
+  "Kodhans Skav":
     ["title", "very-light-precipitation"],
 
-  "Moguće su slabe padavine":
+  "Kodhans Skav Possybyl":
     ["title", "possible-light-precipitation"],
 
-  "Slabe padavine":
+  "Kodhans Skav":
     ["title", "light-precipitation"],
 
-  "Padavine":
+  "Kodhans":
     ["title", "medium-precipitation"],
 
-  "Jake padavine":
+  "Kodhans Poos":
     ["title", "heavy-precipitation"],
 
-  "Moguće je sitna kiša":
+  "Glaw Skav Possybyl":
     ["title", "possible-very-light-rain"],
 
-  "Sitna kiša":
+  "Glaw Pur Skav":
     ["title", "very-light-rain"],
 
-  "Moguće je sitna kiša":
+  "Glaw Skav Possybyl":
     ["title", "possible-light-rain"],
 
-  "Sitna kiša":
+  "Glaw Skav":
     ["title", "light-rain"],
 
-  "Kiša":
+  "Glaw":
     ["title", "medium-rain"],
 
-  "Jaka kiša":
+  "Glaw Poos":
     ["title", "heavy-rain"],
 
-  "Moguće je slaba susnježica":
+  "Erghlaw Skav Possybyl":
     ["title", "possible-very-light-sleet"],
 
-  "Slaba susnježica":
+  "Erghlaw Pur Skav":
     ["title", "very-light-sleet"],
 
-  "Moguće je slaba susnježica":
+  "Erghlaw Skav Possybyl":
     ["title", "possible-light-sleet"],
 
-  "Slaba susnježica":
+  "Erghlaw Skav":
     ["title", "light-sleet"],
 
-  "Susnježica":
+  "Erghlaw":
     ["title", "medium-sleet"],
 
-  "Jaka susnježica":
+  "Erghlaw Poos":
     ["title", "heavy-sleet"],
 
-  "Moguće je sitan snijeg":
+  "Ergh Skav Possybyl":
     ["title", "possible-very-light-snow"],
 
-  "Sitan snijeg":
+  "Ergh Pur Skav":
     ["title", "very-light-snow"],
 
-  "Moguće je sitan snijeg":
+  "Ergh Skav Possybyl":
     ["title", "possible-light-snow"],
 
-  "Sitan snijeg":
+  "Ergh Skav":
     ["title", "light-snow"],
 
-  "Snijeg":
+  "Ergh":
     ["title", "medium-snow"],
 
-  "Jak snijeg":
+  "Ergh Poos":
     ["title", "heavy-snow"],
 
-  "Vjetrovito":
+  "Gwynsek":
     ["title", "medium-wind"],
 
-  "Opasno vjetrovito":
+  "Gwynsek Bys Yn Peryl":
     ["title", "heavy-wind"],
 
-  "Maglovito":
+  "Niwlek":
     ["title", "fog"],
 
-  "Pretežno oblačno":
+  "Komolek":
     ["title", "medium-clouds"],
 
-  "Oblačno":
+  "Komolek Poos":
     ["title", "heavy-clouds"],
 
-  "Suho i vjetrovito":
+  "Sygh Ha Nebes Gwynsek":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Sitna kiša i opasno vjetrovito":
+  "Glaw Pur Skav Ha Gwynsek Bys Yn Peryl":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vlažno i djelom oblačno":
+  "Glyb Ha Nebes Komolek":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
-  "Vedro za ovaj sat.":
+  "Kler rag an our.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Sitan snijeg počinje za 35 minuta.":
+  "Ergh pur skav ow talleth yn 35 myn.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Sitna kiša prekida za 15 minuta.":
+  "Glaw skav ow hedhi yn 15 myn.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Jaka susnježica počinje za 20 minuta, ondak prekida za 30 minuta.":
+  "Erghlaw poos ow talleth yn 20 myn., ow hedhi 30 myn. diwettha.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Kiša prekida za 25 minuta, ondak počinje za 8 minuta.":
+  "Glaw ow hedhi yn 25 myn., ow tastalleth 8 myn. diwettha.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -123,44 +123,44 @@
         ["minutes", 8]]],
 
 
-  "Pretežno oblačno tokom cijelog dana.":
+  "Komolek dres oll an jydh.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Slaba susnježica počinje ujutro.":
+  "Erghlaw pur skav ow talleth y'n myttin.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noć.":
+  "Gwynsek bys y'n nos ma.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Jake padavine do popodne.":
+  "Kodhans poos bys y'n dohajydh.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Vjetrovito popodne.":
+  "Nebes gwynsek y'n dohajydh.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snijeg kasnije večeras i sutra ujutro.":
+  "Ergh diwettha haneth ha ternos vyttin.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Jaka kiša do kasnije ovog jutra, i opet poćinje večeras.":
+  "Glaw poos bys yn diwettha hedhyw vyttin, ow tastalleth haneth.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Oblačno poćinje uveče, ostaje do u noć.":
+  "Komolek poos ow talleth y'n gorthugher, ow pesya bys y'n nos.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Slaba susnježica kasnije ove podne i maglovito sutra ujutro.":
+  "Erghlaw skav diwettha an dohajydh ma ha niwlek ternos vyttin.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Opasno vjetrovito poćinje ovo jutro, ostaje do ove podne, i susnježica sutra ujutro.":
+  "Gwynsek bys yn peryl ow talleth hedhyw vyttin, ow pesya bys y'n dohajydh ma, hag erghlaw ternos vyttin.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +168,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "Komolek poos ow talleth diwettha haneth hag ergh poos dohajydhweyth a-vorow.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noć i slabe padavine poćinje sutra uveče, ostaje do sutra u noć.":
+  "Sygh y'n nos ma ha kodhans skav ow talleth gorthugherweyth a-vorow, ow pesya bys yn nosweyth a-vorow.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,60 +181,77 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snijeg (5 inča) u noć.":
+  "Ergh (5 mv.) y'n nos.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Sitan snijeg (2 centimetra) kasnije ovog jutra.":
+  "Ergh skav (2 cm.) diwettha hedhyw vyttin.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Jak snijeg (8\u201312 inča) tokom cijelog dana.":
+  "Ergh poos (8\u201312 mv.) dres oll an jydh.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snijeg (ispod 1 centimetra) popodne.":
+  "Ergh (le ages 1 cm.) y'n dohajydh.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
 
-  "Nema padavina tokom sedmice, sa temperaturom najviše do 85°F sutra.":
+  "Kodhans vyth dres oll an seythun, gans ughella tempredhow a 85\u00B0F a-vorow.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padavine tokom vikenda, sa temperaturom raste do 32\u00B0C u četvrtak.":
+  "Kodhans kemyskys dres an bennseythun, gans tempredhow ow kressya dhe 32\u00B0C dy' Yow.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Sitna kiša u ponedjeljak, sa temperaturom najniže do 15°F u petak.":
+  "Glaw pur skav dy' Lun, gans tempredhow ow hedhi kodha dhe 15\u00B0F dy' Gwener.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijeda, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "Ergh skav dy' Meurth ha dy' Mergher a dheu, gans tempredhow ow kodha dhe 0\u00B0C dy' Sul.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Padavine danas do u subotu, sa temperaturom najviše do 100\u00B0F u ponedjeljak.":
+  "Kodhans hedhyw bys yn dy' Sadorn, gans ughella tempredhow a 100\u00B0F dy' Lun.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]     
+        "monday"]]],
+
+  "Kodhans kemyskys (1\u20133 mv. a ergh) dres oll an jydh.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Ergh Poos (1\u20133 Mv.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Ergh Poos (3\u20135 cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Tewedhow-Taran Possybyl":
+    ["title", "possible-thunderstorm"],
+
+  "Glaw Poos Ha Tewedhow-Taran":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }

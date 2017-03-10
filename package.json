@@ -1,7 +1,7 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.11.0",
-  "description": "translate the Forecast API into any language",
+  "version": "1.35.0",
+  "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
     "email": "developer@forecast.io"
@@ -91,14 +91,131 @@
     {
       "name": "sehers",
       "web": "https://github.com/sehers"
+    },
+    {
+      "name": "sofish",
+      "email": "sofish@icloud.com",
+      "web": "https://github.com/sofish"
+    },
+    {
+      "name": "FajrAljunaid",
+      "web": "https://github.com/FajrAljunaid"
+    },
+    {
+      "name": "Martin Sefcik",
+      "web": "https://martinsefcik.sk/"
+    },
+    {
+      "name": "Yuri Bonya",
+      "email": "yuri.bonya@gmail.com",
+      "web": "https://github.com/bonifatio"
+    },
+    {
+      "name": "Patrik Persson",
+      "web": "https://github.com/broderbluff"
+    },
+    {
+      "name": "Kostas Dizas",
+      "web": "https://github.com/kostasdizas"
+    },
+    {
+      "name": "Jacob Zhang",
+      "email": "jacob-zhang@live.de",
+      "web": "https://github.com/jacbz"
+    },
+    {
+      "name": "Kristijan Drača",
+      "email": "kristijandraca@gmail.com",
+      "web": "https://github.com/kristijandraca"
+    },
+    {
+      "name": "FlatWang",
+      "web": "https://github.com/FlatWang"
+    },
+    {
+      "name": "Szilard Pal",
+      "web": "https://github.com/szilardpal"
+    },
+    {
+      "name": "cygnus6",
+      "web": "https://github.com/cygnus6"
+    },
+    {
+      "name": "TiguCZ",
+      "web": "https://github.com/TiguCZ"
+    },
+    {
+      "name": "mrcina",
+      "web": "https://github.com/mrcina"
+    },
+    {
+      "name": "Valgeir Björnsson",
+      "email": "valgeirb@gmail.com",
+      "web": "https://github.com/valgeirb"
+    },
+    {
+      "name": "steronydh",
+      "web": "https://github.com/steronydh"
+    },
+    {
+      "name": "Ville Tuomi",
+      "web": "https://github.com/vtuomi"
+    },
+    {
+      "name": "Bora DAN",
+      "email": "bora_dan@hotmail.com",
+      "web": "https://github.com/BQRA"
+    },
+    {
+      "name": "Alexander Nilsen",
+      "email": "alexander.nilsen.no@gmail.com",
+      "web": "https://github.com/alni"
+    },
+    {
+      "name": "egormetlitsky",
+      "web": "https://github.com/egormetlitsky"
+    },
+    {
+      "name": "Dana",
+      "web": "https://github.com/kovloq"
+    },
+    {
+      "name": "Shahin Mursalov",
+      "email": "contact@shahinmursalov.com",
+      "web": "https://github.com/shahinmursalov"
+    },
+    {
+      "name": "oskarkala",
+      "web": "https://github.com/oskarkala"
+    },
+    {
+      "name": "Metik",
+      "web": "https://github.com/Metik"
+    },
+    {
+      "name": "Eric Risco de la Torre",
+      "web": "http://www.ericrisco.com/"
+    },
+    {
+      "name": "Michaël Arnauts",
+      "email": "michael.arnauts@gmail.com",
+      "web": "https://github.com/michaelarnauts"
+    },
+    {
+      "name": "srmihnev",
+      "web": "https://github.com/srmihnev"
+    },
+    {
+      "name": "mrkcohen",
+      "web": "https://github.com/mrkcohen"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-api-translations"
+    "url": "git://github.com/darkskyapp/forecast-io-translations"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter dot --check-leaks"
+    "test": "mocha --reporter dot --check-leaks"
   },
   "devDependencies": {
     "mocha": "*"
