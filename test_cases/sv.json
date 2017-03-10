@@ -159,7 +159,8 @@
       ["during", "fog", "tomorrow-morning"]]],
 
   "Storm som startar under morgonen, fortsätter fram till på eftermiddagen och snöblandat regn imorgon bitti.":
-    ["sentence", ["and",
+
+  ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
         "today-morning",
@@ -168,7 +169,8 @@
 
   "Mulet som startar senare ikväll och rikligt med snö imorgon eftermiddag.":
     ["sentence", ["and",
-      ["starting", "heavy-clouds", "later-today-night"],
+
+                  ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
   "Torka ikväll och lätt nederbörd som startar imorgon kväll, fortsätter fram till imorgon natt.":
@@ -225,6 +227,18 @@
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
+  
+    "Lätt snöfall på tisdag och nästa onsdag, med temperaturer som sjunker till 0\u00B0C under söndagen.":
+
+    ["sentence", ["with",
+
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+
+      ["temperatures-falling",
+
+        ["celsius", 0],
+
+        "sunday"]]],
 
   "Nederbörd idag fram till på lördag, med temperaturer upp till 100\u00B0F under måndagen.":
     ["sentence", ["with",
@@ -234,4 +248,16 @@
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]]
+  
+  
+  "Risk för åska":
+
+    ["title", "possible-thunderstorm"],
+
+
+
+  "Skyfall och åska":
+
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
+  
 }
