@@ -35,7 +35,7 @@
   "Regn":
     ["title", "medium-rain"],
 
-  "Regnskyll":
+  "Kraftige regnbyger":
     ["title", "heavy-rain"],
 
   "Sjanse for veldig lett sludd":
@@ -141,7 +141,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Regnskyll fram til senere på morgenen, som starter igjen i løpet av kvelden.":
+  "Kraftige regnbyger fram til senere på morgenen, som starter igjen i løpet av kvelden.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -233,5 +233,18 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Lett snø på tirsdag og neste onsdag, med temperaturer som synker til 0\u00B0C på søndag.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Tordenvær kan forekomme":
+    ["title", "possible-thunderstorm"],
+
+  "Kraftige regnbyger og tordenvær":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }
