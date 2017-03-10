@@ -35,7 +35,7 @@
   "Βροχή":
     ["title", "medium-rain"],
 
-  "Καταιγίδα":
+  "Ισχυρή βροχή":
     ["title", "heavy-rain"],
 
   "Πιθανό ασθενές χιονόνερο":
@@ -142,7 +142,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Καταιγίδα μέχρι αργότερα σήμερα το πρωί, που θα συνεχιστεί και σήμερα το απόγευμα.":
+  "Ισχυρή βροχή μέχρι αργότερα σήμερα το πρωί, που θα συνεχιστεί και σήμερα το απόγευμα.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -245,5 +245,11 @@
     ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
 
   "Ισχυρή χιονόπτωση (3\u20135 εκ.)":
-    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Πιθανή καταιγίδα":
+    ["title", "possible-thunderstorm"],
+
+  "Ισχυρή βροχή και καταιγίδα":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }
