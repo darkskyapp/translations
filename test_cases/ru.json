@@ -241,5 +241,18 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["celsius", 37],
-        "monday"]]]
+        "monday"]]],
+        
+  "Возможны Грозы":
+    ["title", "possible-thunderstorm"],
+
+  "Сильный Дождь и Грозы":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+    
+  "Небольшой снег во вторник и в следующую среду, с температурой, опускающейся до минимума 0°C в воскресенье.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]]
 }

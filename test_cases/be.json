@@ -241,5 +241,18 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["celsius", 37],
-        "monday"]]]
+        "monday"]]],
+        
+  "Магчымы Навальніцы":
+    ["title", "possible-thunderstorm"],
+
+  "Моцны Дождж і Навальніцы":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+    
+  "Невялікі снег у аўторак і наступную сераду, з тэмпературай, якая апускаецца да мінімуму 0°C у нядзелю.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]]
 }
