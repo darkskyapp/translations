@@ -252,5 +252,12 @@
     ["title", "possible-thunderstorm"],
 
   "Ulewa, burza":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "W poniedziałek i wtorek możliwy niewielki deszcz, we wtorek ochłodzenie do 18\u00B0C.":
+    ["sentence", ["with",
+      ["during", "possible-light-rain", ["and", "monday", "tuesday"]],
+      ["temperatures-falling",
+        ["celsius", 18],
+        "tuesday"]]]
 }
