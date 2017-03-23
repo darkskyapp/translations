@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
