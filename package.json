@@ -1,7 +1,7 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.23.2",
-  "description": "translate the Forecast API into any language",
+  "version": "1.39.0",
+  "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
     "email": "developer@forecast.io"
@@ -170,14 +170,56 @@
       "name": "Alexander Nilsen",
       "email": "alexander.nilsen.no@gmail.com",
       "web": "https://github.com/alni"
+    },
+    {
+      "name": "egormetlitsky",
+      "web": "https://github.com/egormetlitsky"
+    },
+    {
+      "name": "Dana",
+      "web": "https://github.com/kovloq"
+    },
+    {
+      "name": "Shahin Mursalov",
+      "email": "contact@shahinmursalov.com",
+      "web": "https://github.com/shahinmursalov"
+    },
+    {
+      "name": "oskarkala",
+      "web": "https://github.com/oskarkala"
+    },
+    {
+      "name": "Metik",
+      "web": "https://github.com/Metik"
+    },
+    {
+      "name": "Eric Risco de la Torre",
+      "web": "http://www.ericrisco.com/"
+    },
+    {
+      "name": "Michaël Arnauts",
+      "email": "michael.arnauts@gmail.com",
+      "web": "https://github.com/michaelarnauts"
+    },
+    {
+      "name": "srmihnev",
+      "web": "https://github.com/srmihnev"
+    },
+    {
+      "name": "mrkcohen",
+      "web": "https://github.com/mrkcohen"
+    },
+    {
+      "name": "santer-pl",
+      "web": "https://github.com/santer-pl"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-api-translations"
+    "url": "git://github.com/darkskyapp/forecast-io-translations"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter dot --check-leaks"
+    "test": "mocha --reporter dot --check-leaks"
   },
   "devDependencies": {
     "mocha": "*"

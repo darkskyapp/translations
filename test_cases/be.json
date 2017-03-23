@@ -1,176 +1,176 @@
 {
-  "Ясно":
+  "Ясна":
     ["title", "clear"],
 
-  "Можливі Незначні Опади":
+  "Магчымы Нязначныя Ападкі":
     ["title", "possible-very-light-precipitation"],
 
-  "Незначні Опади":
+  "Нязначныя Ападкі":
     ["title", "very-light-precipitation"],
 
-  "Можливі Невеликі Опади":
+  "Магчымы Невялікія Ападкі":
     ["title", "possible-light-precipitation"],
 
-  "Невеликі Опади":
+  "Невялікія Ападкі":
     ["title", "light-precipitation"],
 
-  "Опади":
+  "Ападкі":
     ["title", "medium-precipitation"],
 
-  "Сильні Опади":
+  "Моцныя Ападкі":
     ["title", "heavy-precipitation"],
 
-  "Можливий Незначний Дощ":
+  "Магчымы Нязначны Дождж":
     ["title", "possible-very-light-rain"],
 
-  "Незначний Дощ":
+  "Нязначны Дождж":
     ["title", "very-light-rain"],
 
-  "Можливий Невеликий Дощ":
+  "Магчымы Невялікі Дождж":
     ["title", "possible-light-rain"],
 
-  "Невеликий Дощ":
+  "Невялікі Дождж":
     ["title", "light-rain"],
 
-  "Дощ":
+  "Дождж":
     ["title", "medium-rain"],
 
-  "Сильний Дощ":
+  "Моцны Дождж":
     ["title", "heavy-rain"],
 
-  "Можливий Незначний Град":
+  "Магчымы Нязначны Град":
     ["title", "possible-very-light-sleet"],
 
-  "Незначний Град":
+  "Нязначны Град":
     ["title", "very-light-sleet"],
 
-  "Можливий Невеликий Град":
+  "Магчымы Невялікі Град":
     ["title", "possible-light-sleet"],
 
-  "Невеликий Град":
+  "Невялікі Град":
     ["title", "light-sleet"],
 
   "Град":
     ["title", "medium-sleet"],
 
-  "Сильний Град":
+  "Моцны Град":
     ["title", "heavy-sleet"],
 
-  "Можливий Незначний Сніг" :
+  "Магчымы Нязначны Снег" :
     ["title", "possible-very-light-snow"],
 
-  "Незначний Сніг" :
+  "Нязначны Снег" :
     ["title", "very-light-snow"],
 
-  "Можливий Невеликий Сніг":
+  "Магчымы Невялікі Снег":
     ["title", "possible-light-snow"],
 
-  "Невеликий Сніг":
+  "Невялікі Снег":
     ["title", "light-snow"],
 
-  "Сніг":
+  "Снег":
     ["title","medium-snow"],
 
-  "Снігопад":
+  "Снегапад":
     ["title", "heavy-snow"],
 
-  "Слабкий Вітер":
+  "Слабы Вецер":
     ["title", "light-wind"],
 
-  "Вітер":
+  "Вецер":
     ["title", "medium-wind"],
 
-  "Сильний Вітер":
+  "Моцны Вецер":
     ["title", "heavy-wind"],
 
-  "Сухо":
+  "Суха":
     ["title", "low-humidity"],
 
-  "Волого":
+  "Вільготна":
     ["title", "high-humidity"],
 
   "Туман":
     ["title", "fog"],
 
-  "Невелика Хмарність":
+  "Невялікая Воблачнасць":
     ["title", "light-clouds"],
 
-  "Хмарно":
+  "Воблачна":
     ["title", "medium-clouds"],
 
-  "Сильна Хмарність":
+  "Моцная Воблачнасць":
     ["title", "heavy-clouds"],
 
-  "Сухо і Слабкий Вітер":
+  "Суха і Слабы Вецер":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Незначний Дощ і Сильний Вітер":
+  "Нязначны Дождж і Моцны Вецер":
     ["title",["and","very-light-rain","heavy-wind"]],
 
-  "Волого і Невелика Хмарність":
+  "Вільготна і Невялікая Воблачнасць":
     ["title",["and","high-humidity","light-clouds"]],
 
-  "Ясно протягом наступної години.":
+  "Ясна на працягу наступнай гадзіны.":
     ["sentence",["for-hour","clear"]],
 
-  "Незначний сніг починається за 35 хв.":
+  "Нязначны снег пачынаецца на працягу 35 хв.":
     ["sentence",["starting-in","very-light-snow",["minutes", 35]]],
 
-  "Невеликий дощ закінчується за 15 хв.":
+  "Невялікі дождж заканчваецца на працягу 15 хв.":
     ["sentence",["stopping-in","light-rain", ["minutes", 15]]],
 
-  "Сильний град починається за 20 хв., і закінчується за 30 хв.":
+  "Моцны град пачынаецца на працягу 20 хв, і заканчваецца праз 30 хв.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Дощ закінчується за 25 хв., і починається знову за 8 хв.":
+  "Дождж заканчваецца на працягу 25 хв, і пачынаецца зноў праз 8 хв.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Хмарно протягом всього дня.":
+  "Воблачна на працягу ўсяго дня.":
     ["sentence",["for-day","medium-clouds"]],
 
-  "Незначний град починається вранці.":
+  "Нязначны град пачынаецца раніцай.":
     ["sentence",["starting", "very-light-sleet", "morning"]],
 
-  "Вітер до сьогоднішньої ночі.":
+  "Вецер да сённяшняй ночы.":
     ["sentence", ["until","medium-wind", "today-night"]],
 
-  "Сильні опади до середини дня.":
+  "Моцныя ападкі да сярэдзіны дня.":
     ["sentence",["until","heavy-precipitation","afternoon"]],
 
-  "Слабкий вітер вдень.":
+  "Слабы вецер днём.":
     ["sentence",["during","light-wind","afternoon"]],
 
-  "Сніг сьогодні пізно ввечері і завтра вранці.":
+  "Снег сёння познім вечарам і заўтра раніцай.":
     ["sentence",["during",
       "medium-snow",
       ["and","later-today-evening","tomorrow-morning"]]],
 
-  "Сильний дощ до сьогоднішнього пізнього ранку, починаючись знову сьогодні ввечері.":
+  "Моцны дождж да сённяшняй позняй раніцы, пачынаючыся зноў сёння ўвечары.":
     ["sentence",["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Сильна хмарність, починаючись з вечору, і до ночі.":
+  "Моцная воблачнасць, пачынаючыся з вечара, і да ночы.":
     ["sentence",["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Невеликий град сьогодні пізно вдень і туман завтра вранці.":
+  "Невялікі град сёння познім днём і туман заўтра раніцай.":
     ["sentence",["and",
       ["during","light-sleet", "later-today-afternoon"],
       ["during","fog","tomorrow-morning"]]],
 
-  "Сильний вітер, починаючись з ранку, і до середини дня, і град завтра вранці.":
+  "Моцны вецер, пачынаючыся з раніцы, і да сярэдзіны дня, і град заўтра раніцай.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -178,12 +178,12 @@
         "afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Сильна хмарність починається сьогодні пізно вночі і снігопад завтра вдень.":
+  "Моцная воблачнасць пачынаецца сёння позняй ноччу і снегапад заўтра днём.":
     ["sentence",["and",
     ["starting", "heavy-clouds", "later-today-night"],
     ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Сухо сьогодні вночі і невеликі опади, починаючись з завтрашнього вечору, і до завтрашньої ночі.":
+  "Суха сёння ноччу і невялікія ападкі, пачынаючыся з заўтрашняга вечара, і да заўтрашняй ночы.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -191,50 +191,50 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Сніг (5 см.) вночі.":
+  "Снег (5 см.) ноччу.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["centimeters", 5]],
       "night"]],
 
-  "Невеликий сніг (2 см.) сьогодні пізно вранці.":
+  "Невялікі снег (2 см.) сёння позняй раніцай.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Сніг (менше 1 см.) вдень.":
+  "Снег (менш за 1 см.) днём.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-  "Без опадів протягом всього тижня, з температурою, що піднімається до максимуму 35\u00B0C завтра.":
+  "Без ападкаў на працягу ўсяго тыдня, з тэмпературай, што ўздымаецца да максімуму 35\u00B0C заўтра.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["celsius", 35],
         "tomorrow"]]],
 
-  "Змішані опади протягом всіх вихідних, з температурою, що піднімається до 32\u00B0C в четвер.":
+  "Змешаныя ападкі на працягу ўсіх выходных, з тэмпературай, што ўздымаецца да 32\u00B0C у чацвер.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Незначний дощ в понеділок, з температурою, що знижується до 15\u00B0C в п'ятницю.":
+  "Нязначны дождж у панядзелак, з тэмпературай, якая апускаецца да 15\u00B0C у пятніцу.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["celsius", 15],
         "friday"]]],
 
-  "Невеликий сніг у вівторок і в середу, з температурою, що знижується до мінімуму 0°C в неділю.":
+  "Невялікі снег у аўторак і сераду, з тэмпературай, якая апускаецца да мінімуму 0°C у нядзелю.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Опади сьогодні і до суботи, з температурою, що піднімається до максимуму 37°C в понеділок.":
+  "Ападкі сёння і да суботы, з тэмпературай, што ўздымаецца да максімуму 37°C у панядзелак.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -243,13 +243,13 @@
         ["celsius", 37],
         "monday"]]],
         
-  "Можливі Грози":
+  "Магчымы Навальніцы":
     ["title", "possible-thunderstorm"],
 
-  "Сильний Дощ і Грози":
+  "Моцны Дождж і Навальніцы":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
     
-  "Невеликий сніг у вівторок і наступної середи, з температурою, що знижується до мінімуму 0°C в неділю.":
+  "Невялікі снег у аўторак і наступную сераду, з тэмпературай, якая апускаецца да мінімуму 0°C у нядзелю.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",

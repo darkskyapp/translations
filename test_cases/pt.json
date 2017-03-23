@@ -158,7 +158,7 @@
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
-  
+
   "Muito nublado começa esta noite, continua até à madrugada.":
     ["sentence",["starting-continuing-until",
       "heavy-clouds",
@@ -226,7 +226,7 @@
       ["temperatures-valleying",
         ["celsius", 15],
         "friday"]]],
-  
+
   "Neve fraca durante terça-feira e quarta-feira, com as temperaturas a descer até um minimo de 0\u00B0C domingo.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
@@ -241,6 +241,8 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["celsius", 37],
-        "monday"]]]
+        "monday"]]],
 
+  "Tempestades possíveis até próxima quarta-feira.":
+  ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
 }
