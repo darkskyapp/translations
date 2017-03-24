@@ -114,7 +114,7 @@
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
-  
+
   "Regenschauer bis zum späteren Vormittag und heute Abend wieder.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
@@ -132,7 +132,7 @@
       "heavy-clouds",
       "morning",
       "evening"]],
-      
+
   "Am späteren Nachmittag leichter Graupelregen und morgen Vormittag Nebel.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
@@ -159,7 +159,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  
+
   "Schneefall (5 Zoll) in der Nacht.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
@@ -169,7 +169,7 @@
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
-  
+
   "Den ganzen Tag lang starker Schneefall (8 bis 12 Zoll).":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
@@ -192,7 +192,7 @@
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
-  
+
   "Nieselregen heute mit einem Temperaturminimum von 15\u00B0F am Freitag.":
     ["sentence", ["with",
       ["during", "very-light-rain", "today"],
@@ -215,7 +215,7 @@
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]],
-	
+
   "Nachmittags leichter Regen.":
     ["sentence", ["starting", "light-rain", "afternoon"]],
 
@@ -223,5 +223,8 @@
     ["sentence", ["until", "light-rain", "evening"]],
 
   "Nieselregen bis zum Nachmittag und Nacht.":
-    ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]]
+    ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]],
+
+  "Mögliche Gewitter bis am nächsten Mittwoch.":
+    ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
 }
