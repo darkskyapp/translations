@@ -234,5 +234,8 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Tormentas posibles hasta el próximo Miércoles.":
+    ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
 }
