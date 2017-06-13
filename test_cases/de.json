@@ -2,10 +2,10 @@
   "Heiter":
     ["title", "clear"],
 
-  "Leichter Nieselregen":
+  "Leichter Niederschlag":
     ["title", "very-light-precipitation"],
 
-  "Nieselregen":
+  "Leichter Niederschlag":
     ["title", "light-precipitation"],
 
   "Niederschlag":
@@ -151,7 +151,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Heute Nacht niedrige Luftfeuchtigkeit sowie Nieselregen von morgen Abend bis morgen Nacht.":
+  "Heute Nacht niedrige Luftfeuchtigkeit sowie leichter Niederschlag von morgen Abend bis morgen Nacht.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
