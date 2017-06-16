@@ -195,7 +195,7 @@
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snow (under 1 cm.) in the afternoon.":
+  "Snow (< 1 cm.) in the afternoon.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
@@ -253,5 +253,9 @@
     ["title", "possible-thunderstorm"],
 
   "Heavy Rain and Thunderstorms":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Drizzle starting in < 1 min.":
+    ["sentence",
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
 }
