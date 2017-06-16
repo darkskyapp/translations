@@ -98,6 +98,11 @@
   "潮濕，局部多雲":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
+  "多雲，可能有雷暴":
+    ["title", ["and", "medium-clouds", "possible-thunderstorm"]],
+
+  "多雲，雷暴":
+    ["title", ["and", "medium-clouds", "thunderstorm"]],
 
   "在接下來一個小時內晴朗。":
     ["sentence", ["for-hour", "clear"]],
@@ -134,6 +139,9 @@
 
   "大量降水將持續至下午。":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "雷暴將持續至下周一。":
+  ["sentence", ["until", "thunderstorm", "next-monday"]],
 
   "微風持續至下午。":
     ["sentence", ["during", "light-wind", "afternoon"]],
