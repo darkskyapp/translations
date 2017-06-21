@@ -225,6 +225,6 @@
   "Nieselregen bis zum Nachmittag und Nacht.":
     ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]],
 
-  "Mögliche Gewitter bis am nächsten Mittwoch.":
+  "Gewitter möglich bis am nächsten Mittwoch.":
     ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
 }
