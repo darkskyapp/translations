@@ -221,6 +221,13 @@
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
+		
+	"ثلوج خفيفة يوم الثلاثاء و الأربعاء القادم مع درجات حرارة تنخفض حتى 0\u00B0C يوم الأحد":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
 
   "ثلوج خفيفة يومي الثلاثاء و الأربعاء مع درجات حرارة تنخفض حتى 0\u00B0C يوم الأحد":
     ["sentence", ["with",
@@ -237,6 +244,13 @@
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]],
+		
+		
+	"عواصف محتملة":
+    ["title", "possible-thunderstorm"],
+
+  "أمطار غزيرة و عواصف":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
 
   "هطول أمطار وثلوج (1\u20133 انش من الثلج) خلال اليوم":
     ["sentence",
