@@ -129,38 +129,38 @@
   "სუსტი თოვლჭყაპი დაიწყება დილას.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "ქარი გაგრძელდება საღამომდე":
+  "ქარი გაგრძელდება ღამე.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "ძლიერი ნალექი მოსალოდნელია შუადღემდე.":
+  "ძლიერი ნალექი გაგრძელდება შუადღეს.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "აცივდება დღის მეორე ნახევარში.":
+  "სუსტი ქარი შუადღეს.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "სუსტი თოვლი საღამოს და ხვალ დილით.":
+  "თოვლი ამ საღამოს და ხვალ დილით.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "ძლიერი წვიმა დილით, დაიწყება ისევ საღამოს.":
+  "ძლიერი წვიმა დღეს დილით, დაიწყება კვლავ საღამოს.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "მოღრუბლულობა საღამოს, გაგრძელდება მთელი ღამე.":
+  "მოღრუბლულობა დაიწყება საღამოს, გაგრძელდება ღამე.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "მცირე თოვლჭყაპი დღის მეორე ნახევარში და ნისლიანი ხვალ დილით.":
+  "მცირე თოვლჭყაპი ნაშუადღევს და ნისლი ხვალ დილით.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "ძლიერი ქარი დაიწყება დილით, გაგრძელდება დღის მეორე ნახევარში, მოსლაოდნელია თოვლჭყაპი ხვალ დილით.":
+  "ძლიერი ქარი დაიწყება დილით, გაგრძელდება შუადღეს და თოვლჭყაპი ხვალ დილით.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +168,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "ღრუბლიანობა გვიან ღამით და ძლიერი თოვლი მოსალოდნელია ხვალ დღის მეორე ნახევარში.":
+  "მოღრუბლულობა დაიწყება გვიან ღამით და ძლიერი თოვლი ხვალ შუადღეს.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "ტენიანობა დღეს ღამე, მცირე მოღრუბლულობა დაიწყება ხვალ ღამით.":
+  "მშრალი ღამე და მცირე ნალექი დაიწყება ხვალ საღამოს, გაგრძელდება ხვალ ღამით.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -186,7 +186,7 @@
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "მცირე თოვლი (2 სმ.) მოგვიანებით დღეს დილით.":
+  "მცირე თოვლი (2 სმ.) დღეს დილით.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
@@ -201,35 +201,35 @@
       "afternoon"]],
 
 
-  "ნალექი არარის მოსალოდნელი მთელი კვირის განმავლობაში, ტემპერატურა პიკს აღწევს 85\u00B0F ხვალ.":
+  "უნალექო მთელი კვირის განმავლობაში, თან ტემპერატურა პიკს აღწევს 85°F ხვალ":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "ცვალებადი ნალექი შენარჩუნდება მთელი კვირის განმავლობაში, ტემპერატურა მოიმატებს 32\u00B0C ხუთშაბათს.":
+  "ცვალებადი ნალექი შაბათ-კვირას, თან ტემპერატურა მოიმატებს 32°C ხუთშაბათს.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "წვიმა ორშაბათს, ტემპერატურის კიდე უფრო დაეცემა მოსალოდნელია 15\u00B0F პარასკევს.":
+  "სუსტი წვიმა ორშაბათს, თან ტემპერატურა დაიწევს 15°F პარასკევს.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "მცირე თოვლი მოსალოდნელია სამშაბათს და ოთხშაბათს, ტემპერატურა კიდევ უფრო დაეცემა 0\u00B0C კვირას.":
+  "მცირე თოვლი სამშაბათს და შემდეგ ოთხშაბათს, ტემპერატურა დაეცემა 0°C კვირას.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "ნალექი მოსალოდნელია დღეს შაბათშ, ტემპერატურა პიკს აღწევს 100\u00B0F ორშაბათს.":
+  "ნალექი დღეს შაბათს, თან ტემპერატურა პიკს აღწევს 100°F ორშაბათს.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -238,7 +238,7 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "შერეული ნალექი (1\u20133 ინ. თოვლი) მთელი დღის განმავლობაში.":
+  "ცვალებადი ნალექი (1–3 ინ. თოვლის გარეშე) მთელი დღის განმავლობაში.":
     ["sentence",
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
@@ -255,7 +255,7 @@
   "ძლიერი წვიმა და ჭექა-ქუხილი":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
-  "წვიმა მოსალოდნელია < 1 წუთში.":
+  "სუსტი წვიმა დაიწყება < 1 წთ.":
     ["sentence",
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
 }
