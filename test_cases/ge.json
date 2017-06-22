@@ -1,0 +1,261 @@
+{
+  "მოწმენდილი":
+    ["title", "clear"],
+
+  "მოსალოდნელია სუსტი ნალექი":
+    ["title", "possible-very-light-precipitation"],
+
+  "სუსტი ნალექი":
+    ["title", "very-light-precipitation"],
+
+  "მოსალოდნელია მცირე ნალექი":
+    ["title", "possible-light-precipitation"],
+
+  "მცირე ნალექი":
+    ["title", "light-precipitation"],
+
+  "ნალექი":
+    ["title", "medium-precipitation"],
+
+  "ძლიერი ნალექი":
+    ["title", "heavy-precipitation"],
+
+  "მოსალოდნელია სუსტი წვიმა":
+    ["title", "possible-very-light-rain"],
+
+  "სუსტი წვიმა":
+    ["title", "very-light-rain"],
+
+  "მოსალოდნელია მცირე წვიმა":
+    ["title", "possible-light-rain"],
+
+  "მცირე წვიმა":
+    ["title", "light-rain"],
+
+  "წვიმა":
+    ["title", "medium-rain"],
+
+  "ძლიერი წვიმა":
+    ["title", "heavy-rain"],
+
+  "მოსალოდნელია სუსტი თოვლჭყაპი":
+    ["title", "possible-very-light-sleet"],
+
+  "სუსტი თოვლწყაპი":
+    ["title", "very-light-sleet"],
+
+  "მოსალოდნელია მცირე თოვლჭყაპი":
+    ["title", "possible-light-sleet"],
+
+  "მცირე თოვლჭყაპი":
+    ["title", "light-sleet"],
+
+  "თოვლჭყაპი":
+    ["title", "medium-sleet"],
+
+  "ძლიერი თოვლჭყაპი":
+    ["title", "heavy-sleet"],
+
+  "მოსალოდნელია სუსტი თოვლი":
+    ["title", "possible-very-light-snow"],
+
+  "სუსტი თოვლი":
+    ["title", "very-light-snow"],
+
+  "მოსალოდნელია მცირე თოვლი":
+    ["title", "possible-light-snow"],
+
+  "მცირე თოვლი":
+    ["title", "light-snow"],
+
+  "თოვლი":
+    ["title", "medium-snow"],
+
+  "ძლიერი თოვლი":
+    ["title", "heavy-snow"],
+
+  "ქარი":
+    ["title", "medium-wind"],
+
+  "ძლიერი ქარი":
+    ["title", "heavy-wind"],
+
+  "ნისლიანი":
+    ["title", "fog"],
+
+  "უმეტესად ღრუბლიანი":
+    ["title", "medium-clouds"],
+
+  "მოღრუბლული":
+    ["title", "heavy-clouds"],
+
+  "ნესტიანი, სუსტი ქარით":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "სუსტი წვიმა, ძლიერი ქარით":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "ნესტიანი, ნაწილობრივ ღრუბლიანი":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+
+  "მოწმენდილი ამ დროისთვის.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "სუსტი თოვლი მოსალოდნელია 35 წუთში":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "მცირე წვიმა შეწყდება 15 წუთში":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "ძლიერი თოვლჭყაპი დაიწყება 20 წუთში და გაგრძელდება 30 წუთი":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "წვიმა შეწყდება 25 წუთში, მოსალოდნელია ისევ 8 წუთში":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "მოღრუბლული მთელი დღის განმავლობაში.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "მცირე თოვლჭყაპი მოსალოდნელია დილით.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "ქარი გაგრძელდება საღამომდე":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "ძლიერი ნალექი მოსალოდნელია შუადღემდე.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "აცივდება დღის მეორე ნახევარში.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "სუსტი თოვლი საღამოს და ხვალ დილით.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "ძლიერი წვიმა დილით, დაიწყება ისევ საღამოს.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "მოღრუბლულობა საღამოს, გაგრძელდება მთელი ღამე.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "მცირე თოვლჭყაპი დღის მეორე ნახევარში და ნისლიანი ხვალ დილით.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "ძლიერი ქარი დაიწყება დილით, გაგრძელდება დღის მეორე ნახევარში, მოსლაოდნელია თოვლჭყაპი ხვალ დილით.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "ღრუბლიანობა გვიან ღამით და ძლიერი თოვლი მოსალოდნელია ხვალ დღის მეორე ნახევარში.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "ტენიანობა დღეს ღამე, მცირე მოღრუბლულობა დაიწყება ხვალ ღამით.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "თოვლი (5 ინ.) ღამით.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "მცირე თოვლი (2 სმ.) მოგვიანებით დღეს დილით.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "ძლიერი თოვლი (8\u201312 ინ.) მთელი დღის განმავლობაში.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "თოვლი (< 1 სმ.) შუადღეს.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+
+  "ნალექი არარის მოსალოდნელი მთელი კვირის განმავლობაში, ტემპერატურა პიკს აღწევს 85\u00B0F ხვალ.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "ცვალებადი ნალექი შენარჩუნდება მთელი კვირის განმავლობაში, ტემპერატურა მოიმატებს 32\u00B0C ხუთშაბათს.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "წვიმა ორშაბათს, ტემპერატურის კიდე უფრო დაეცემა მოსალოდნელია 15\u00B0F პარასკევს.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "მცირე თოვლი მოსალოდნელია სამშაბათს და ოთხშაბათს, ტემპერატურა კიდევ უფრო დაეცემა 0\u00B0C კვირას.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "ნალექი მოსალოდნელია დღეს შაბათშ, ტემპერატურა პიკს აღწევს 100\u00B0F ორშაბათს.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]],
+
+  "შერეული ნალექი (1\u20133 ინ. თოვლი) მთელი დღის განმავლობაში.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "ძლიერი თოვლი (1\u20133 ინ.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "ძლიერი თოვლი (3\u20135 სმ.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "ჭექა-ქუხილი":
+    ["title", "possible-thunderstorm"],
+
+  "ძლიერი წვიმა და ჭექა-ქუხილი":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "წვიმა მოსალოდნელია < 1 წუთში.":
+    ["sentence",
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+}
