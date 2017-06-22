@@ -86,7 +86,7 @@
   "უმეტესად ღრუბლიანი":
     ["title", "medium-clouds"],
 
-  "მოღრუბლული":
+  "მოღრუბლულობა":
     ["title", "heavy-clouds"],
 
   "მშრალი და სუსტი ქარი":
@@ -181,7 +181,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "თოვლი (5 ინ.) ღამით.":
+  "თოვლი (5 ინ.) ღამე.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -201,21 +201,21 @@
       "afternoon"]],
 
 
-  "უნალექო მთელი კვირის განმავლობაში, თან ტემპერატურა პიკს აღწევს 85°F ხვალ":
+  "უნალექო მთელი კვირის განმავლობაში, ტემპერატურა პიკს აღწევს 85°F ხვალ":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "ცვალებადი ნალექი შაბათ-კვირას, თან ტემპერატურა მოიმატებს 32°C ხუთშაბათს.":
+  "ცვალებადი ნალექი შაბათ-კვირას, ტემპერატურა მოიმატებს 32°C ხუთშაბათს.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "სუსტი წვიმა ორშაბათს, თან ტემპერატურა დაიწევს 15°F პარასკევს.":
+  "სუსტი წვიმა ორშაბათს, ტემპერატურა დაიწევს 15°F პარასკევს.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
@@ -229,7 +229,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "ნალექი დღეს შაბათს, თან ტემპერატურა პიკს აღწევს 100°F ორშაბათს.":
+  "ნალექი დღეს შაბათს, ტემპერატურა პიკს აღწევს 100°F ორშაბათს.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
