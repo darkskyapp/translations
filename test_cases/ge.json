@@ -257,5 +257,5 @@
 
   "სუსტი წვიმა დაიწყება < 1 წთ.":
     ["sentence",
-      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]] 
 }
