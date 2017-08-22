@@ -1,0 +1,258 @@
+{
+  "晴れ":
+    ["title", "clear"],
+
+  "弱い降水の可能性あり":
+    ["title", "possible-very-light-precipitation"],
+
+  "弱い降水":
+    ["title", "very-light-precipitation"],
+
+  "弱い降水の可能性あり":
+    ["title", "possible-light-precipitation"],
+
+  "弱い降水":
+    ["title", "light-precipitation"],
+
+  "降水":
+    ["title", "medium-precipitation"],
+
+  "強い降水":
+    ["title", "heavy-precipitation"],
+
+  "霧雨の可能性あり":
+    ["title", "possible-very-light-rain"],
+
+  "霧雨":
+    ["title", "very-light-rain"],
+
+  "小雨の可能性あり":
+    ["title", "possible-light-rain"],
+
+  "小雨":
+    ["title", "light-rain"],
+
+  "雨":
+    ["title", "medium-rain"],
+
+  "大雨":
+    ["title", "heavy-rain"],
+
+  "弱いみぞれの可能性あり":
+    ["title", "possible-very-light-sleet"],
+
+  "弱いみぞれ":
+    ["title", "very-light-sleet"],
+
+  "弱いみぞれの可能性あり":
+    ["title", "possible-light-sleet"],
+
+  "弱いみぞれ":
+    ["title", "light-sleet"],
+
+  "みぞれ":
+    ["title", "medium-sleet"],
+
+  "強いみぞれ":
+    ["title", "heavy-sleet"],
+
+  "にわか雪の可能性があり":
+    ["title", "possible-very-light-snow"],
+
+  "にわか雪":
+    ["title", "very-light-snow"],
+
+  "小雪の可能性があり":
+    ["title", "possible-light-snow"],
+
+  "小雪":
+    ["title", "light-snow"],
+
+  "雪":
+    ["title", "medium-snow"],
+
+  "大雪":
+    ["title", "heavy-snow"],
+
+  "強い風":
+    ["title", "medium-wind"],
+
+  "猛烈な風":
+    ["title", "heavy-wind"],
+
+  "霧":
+    ["title", "fog"],
+
+  "曇り":
+    ["title", "medium-clouds"],
+
+  "曇り":
+    ["title", "heavy-clouds"],
+
+  "乾燥及び弱い風":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "霧雨及び猛烈な風":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "湿っぽい及び薄曇り":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+  "一時間晴れ。":
+    ["sentence", ["for-hour", "clear"]],
+
+  "にわか雪が35分に始まります。":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "小雨が15分に終わります。":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "強いみぞれが20分に始まり、30分後終わります。":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "雨が25分に終わり、また8分後始まります。":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+  "一日中曇り。":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "弱いみぞれは朝が始まります。":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "強い風今夜 まで。":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "強い降水昼過ぎ まで。":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "弱い風から昼過ぎにかけて。":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+ 
+ "雪から今日の夜遅く及び明日の朝にかけて。":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "大雨今日の午前中まで今日の夜の初め頃, また始まる 。":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "曇り夕方 始まって夜, まで続く 。":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "弱いみぞれから今日の夕方にかけて及び霧から明日の朝にかけて。":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "猛烈な風今朝 始まって今日の昼過ぎ, まで続く ,及びみぞれから明日の朝にかけて。":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "曇りは今夜遅くが始まります及び大雪から明日の昼過ぎにかけて。":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "乾燥から今夜にかけて及び弱い降水明日の夕方 始まって明日の夜, まで続く 。":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "雪 (5インチ)から夜にかけて。":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "小雪 (2センチメートル)から今日の午前中にかけて。":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "一日中大雪 (8–12インチ)。":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "雪 (1センチメートル未満)から昼過ぎにかけて。":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+  "一週間中降水なし及び最高気温85°F 明日。":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "土、日曜日にみぞれ及び気温は32°C 木曜日に上がります。":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "霧雨から月曜日にかけて及び最低気温15°F 金曜日。":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "小雪から火曜日及び次の水曜日にかけて及び気温は0°C 日曜日に下がります。":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "降水から今日 から 土曜日にかけて及び最高気温100°F 月曜日。":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]],
+
+  "一日中みぞれ (1–3インチ)。":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "大雪 (1–3インチ)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "大雪 (3–5センチメートル)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "激しい雷雨の可能性があり":
+    ["title", "possible-thunderstorm"],
+
+  "大雨及び雷雨":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "霧雨が1分未満に始まります。":
+    ["sentence",
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+}
