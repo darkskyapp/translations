@@ -79,7 +79,7 @@ working by running the tests:
 
       615 passing (343ms)
 
-[5]: http://visionmedia.github.io/mocha/
+[5]: http://mochajs.org/
 [6]: https://npmjs.org/
 
 Input Format
