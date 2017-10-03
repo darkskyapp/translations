@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.44.0",
+  "version": "1.45.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -217,6 +217,10 @@
       "name": "Mark Hendriks",
       "email": "mark@workbymark.nl",
       "web": "http://www.workbymark.nl/"
+    },
+    {
+      "name": "dayenite",
+      "web": "https://github.com/dayenite"
     }
   ],
   "repository": {
