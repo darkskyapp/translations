@@ -86,7 +86,7 @@
   "Seco":
     ["title", "low-humidity"],
 
-  "´Úmido":
+  "Úmido":
     ["title", "high-humidity"],
 
   "Nevoeiro":
@@ -107,7 +107,7 @@
   "Chuviscos e Vento Forte":
     ["title",["and","very-light-rain","heavy-wind"]],
 
-  "Húmido e Ligeiramente Nublado":
+  "Úmido e Ligeiramente Nublado":
     ["title",["and","high-humidity","light-clouds"]],
 
   "Limpo na próxima hora.":
@@ -178,7 +178,7 @@
         "afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Muito nublado começa durante a de madrugada e nevão durante amanhã à tarde.":
+  "Muito nublado começa durante a de madrugada e neve forte durante amanhã à tarde.":
     ["sentence",["and",
     ["starting", "heavy-clouds", "later-today-night"],
     ["during", "heavy-snow", "tomorrow-afternoon"]]],
