@@ -2,13 +2,13 @@
   "Limpo":
     ["title", "clear"],
 
-  "Possiveis Aguaceiros Muito Fracos":
+  "Possíveis Aguaceiros Muito Fracos":
     ["title", "possible-very-light-precipitation"],
 
   "Aguaceiros Muito Fracos":
     ["title", "very-light-precipitation"],
 
-  "Possiveis Aguaceiros Fracos":
+  "Possíveis Aguaceiros Fracos":
     ["title", "possible-light-precipitation"],
 
   "Aguaceiros Fracos":
@@ -20,13 +20,13 @@
   "Aguaceiros Fortes":
     ["title", "heavy-precipitation"],
 
-  "Possiveis Chuviscos":
+  "Possíveis Chuviscos":
     ["title", "possible-very-light-rain"],
 
   "Chuviscos":
     ["title", "very-light-rain"],
 
-  "Possivel Chuva Fraca":
+  "Possível Chuva Fraca":
     ["title", "possible-light-rain"],
 
   "Chuva Fraca":
@@ -38,13 +38,13 @@
   "Chuva Forte":
     ["title", "heavy-rain"],
 
-  "Possivel Granizo Muito Fraco":
+  "Possível Granizo Muito Fraco":
     ["title", "possible-very-light-sleet"],
 
   "Granizo Muito Fraco":
     ["title", "very-light-sleet"],
 
-  "Possivel Granizo Fraco":
+  "Possível Granizo Fraco":
     ["title", "possible-light-sleet"],
 
   "Granizo Fraco":
@@ -56,13 +56,13 @@
   "Granizo Forte":
     ["title", "heavy-sleet"],
 
-  "Possivel Neve Muito Fraca" :
+  "Possível Neve Muito Fraca" :
     ["title", "possible-very-light-snow"],
 
   "Neve Muito Fraca" :
     ["title", "very-light-snow"],
 
-  "Possivel Neve Fraca":
+  "Possível Neve Fraca":
     ["title", "possible-light-snow"],
 
   "Neve Fraca":
@@ -71,7 +71,7 @@
   "Neve":
     ["title","medium-snow"],
 
-  "Nevão":
+  "Neve Forte":
     ["title", "heavy-snow"],
 
   "Vento Fraco":
@@ -86,7 +86,7 @@
   "Seco":
     ["title", "low-humidity"],
 
-  "Húmido":
+  "Úmido":
     ["title", "high-humidity"],
 
   "Nevoeiro":
@@ -107,7 +107,7 @@
   "Chuviscos e Vento Forte":
     ["title",["and","very-light-rain","heavy-wind"]],
 
-  "Húmido e Ligeiramente Nublado":
+  "Úmido e Ligeiramente Nublado":
     ["title",["and","high-humidity","light-clouds"]],
 
   "Limpo na próxima hora.":
@@ -178,7 +178,7 @@
         "afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Muito nublado começa durante a de madrugada e nevão durante amanhã à tarde.":
+  "Muito nublado começa durante a de madrugada e neve forte durante amanhã à tarde.":
     ["sentence",["and",
     ["starting", "heavy-clouds", "later-today-night"],
     ["during", "heavy-snow", "tomorrow-afternoon"]]],
