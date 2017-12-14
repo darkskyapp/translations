@@ -138,7 +138,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Močan dež do kasneje to jutro, začelo bo zopet zvečer.":
+  "Močan dež do kasneje to jutro, začelo bo zopet danes zvečer.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -163,12 +163,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno od danes zvečer in močno sneženje jutri popoldne.":
+  "Oblačno od danes čez noč in močno sneženje jutri popoldne.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho danes zvečer in rahle padavine začel jutri zvečer, do jutri zvečer.":
+  "Suho danes ponoči in rahle padavine začel jutri zvečer, do jutri zvečer.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
