@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.46.1",
+  "version": "1.46.2",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -225,6 +225,11 @@
     {
       "name": "rereradu",
       "web": "https://github.com/rereradu"
+    },
+    {
+      "name": "AndyTempel",
+      "email": "andraz@korenc.eu",
+      "web": "https://ksoft.si"
     }
   ],
   "repository": {
