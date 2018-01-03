@@ -68,7 +68,7 @@
   "Mogelijk lichte ijzel":
     ["title", "possible-light-sleet"],
 
-  "Lage luchtvochtigheid en weinig wind":
+  "Lage luchtvochtigheid en lichte wind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Hoge luchtvochtigheid en licht bewolkt":
@@ -110,7 +110,7 @@
   "Zware neerslag tot de middag.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Weinig wind gedurende de middag.":
+  "Lichte wind gedurende de middag.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
   "Sneeuw gedurende later vanavond en morgenochtend.":
