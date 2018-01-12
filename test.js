@@ -1,10 +1,7 @@
 "use strict";
 const assert = require("assert");
-const fs = require("fs");
-const path = require("path");
 const Translation = require("./lib/translation");
 const translations = require("./");
-const util = require("util");
 
 describe("translations", () => {
   describe("Translation", () => {
@@ -117,26 +114,21 @@ describe("translations", () => {
   });
 
   describe("languages", () => {
-    fs.readdirSync(path.join(__dirname, "test_cases")).forEach(lang => {
-      if(lang.charAt(0) === ".") {
-        return;
-      }
-
-      const name = path.basename(lang, ".json");
-      const translation = translations[name];
-
-      describe(name, () => {
+    for(const lang in translations) {
+      describe(lang, () => {
+        const translation = translations[lang];
         const cases = require("./test_cases/" + lang);
 
-        Object.keys(cases).forEach(summary => {
+        for(const summary in cases) {
           const source = cases[summary];
 
           it(
-            util.format("should translate %j to \"%s\"", source, summary),
-            () => assert.strictEqual(translation.translate(source), summary),
+            "should translate " + JSON.stringify(source) +
+              " to " + JSON.stringify(summary), 
+            () => assert.strictEqual(translation.translate(source), summary)
           );
-        });
+        }
       });
-    });
+    }
   });
 });
