@@ -1,144 +1,164 @@
 {
-  "Heiter":
+  "Klart":
     ["title", "clear"],
 
-  "Leichter Niederschlag":
+  "Mulighed for meget let nedbør":
+    ["title", "possible-very-light-precipitation"],
+
+  "Meget let nedbør":
     ["title", "very-light-precipitation"],
 
-  "Leichter Niederschlag":
+  "Mulighed for let nedbør":
+    ["title", "possible-light-precipitation"],
+
+  "Let nedbør":
     ["title", "light-precipitation"],
 
-  "Niederschlag":
+  "Nedbør":
     ["title", "medium-precipitation"],
 
-  "Schwerer Niederschlag":
+  "Kraftig regn":
     ["title", "heavy-precipitation"],
 
-  "Nieselregen":
+  "Mulighed for let støvregn":
+    ["title", "possible-very-light-rain"],
+
+  "Støvregn":
     ["title", "very-light-rain"],
 
-  "Leichter Regen":
+  "Mulighed for lette regnbyger":
+    ["title", "possible-light-rain"],
+
+  "Regnbyger":
     ["title", "light-rain"],
 
-  "Regen":
+  "Regn":
     ["title", "medium-rain"],
 
-  "Regenschauer":
+  "Kraftige regnbyger":
     ["title", "heavy-rain"],
 
-  "Leichter Graupelregen":
+  "Mulighed for meget let slud":
+    ["title", "possible-very-light-sleet"],
+
+  "Meget let slud":
     ["title", "very-light-sleet"],
 
-  "Leichter Graupelregen":
+  "Mulighed for let slud":
+    ["title", "possible-light-sleet"],
+
+  "Let slud":
     ["title", "light-sleet"],
 
-  "Graupelregen":
+  "Slud":
     ["title", "medium-sleet"],
 
-  "Graupelschauer":
+  "Kraftig slud":
     ["title", "heavy-sleet"],
 
-  "Leichter Schneefall":
+  "Mulighed for meget let sne":
+    ["title", "possible-very-light-snow"],
+
+  "Meget let sne":
     ["title", "very-light-snow"],
 
-  "Leichter Schneefall":
+  "Mulighed for let sne":
+    ["title", "possible-light-snow"],
+
+  "Let sne":
     ["title", "light-snow"],
 
-  "Schneefall":
+  "Sne":
     ["title", "medium-snow"],
 
-  "Starker Schneefall":
+  "Rigelig med sne":
     ["title", "heavy-snow"],
 
-  "Frische Brise":
+  "Stærk vind":
     ["title", "medium-wind"],
 
-  "Sturm":
+  "Storm":
     ["title", "heavy-wind"],
 
-  "Nebel":
+  "Tåge":
     ["title", "fog"],
 
-  "Überwiegend bewölkt":
+  "Skyet":
     ["title", "medium-clouds"],
 
-  "Stark bewölkt":
+  "Overskyet":
     ["title", "heavy-clouds"],
 
-  "Niedrige Luftfeuchtigkeit und leichter Wind":
+  "Tørt og let vind":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Hohe Luftfeuchtigkeit und leicht bewölkt":
-    ["title",
-      ["and", "high-humidity", "light-clouds"]],
+  "Støvregn og storm":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "In der kommenden Stunde heiter.":
+  "Fugtigt og let skyet":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+  "Klart i løbet af de næste par timer.":
     ["sentence", ["for-hour", "clear"]],
 
-  "In 35 Min. leichter Schneefall.":
+  "Meget let sne om 35 min.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Leichter Regen, endet in 15 Min.":
+  "Regnbyger der aftager om 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Graupelschauer in 20 Min. für 30 Min.":
+  "Kraftig slud om 20 min., aftager 30 min. senere.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Regen endet in 25 Min. und beginnt 8 Min. danach erneut.":
+  "Regn aftager om 25 min., begynder igen 8 min. senere.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Den ganzen Tag lang überwiegend bewölkt.":
+  "Skyet i løbet af dagen.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Vormittags leichter Graupelregen.":
+  "Meget let slud om morgenen.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Frische Brise bis heute Nacht.":
+  "Stærk vind indtil i nat.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Schwerer Niederschlag bis Nachmittag.":
+  "Kraftig regn indtil om eftermiddagen.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Leichter Wind am Nachmittag.":
+  "Let vind om eftermiddagen.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Schneefall am späteren Abend und morgen Vormittag.":
+  "Sne senere i aften og i morgen tidlig.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Regenschauer bis zum späteren Vormittag und heute Abend wieder.":
+  "Kraftige regnbyger indtil senere på formiddagen, kommer igen i aften.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Stark bewölkt abends und nächtlich.":
+  "Overskyet om aftenen, fortsætter indtil natten.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Stark bewölkt von vormittags bis abends.":
-    ["sentence", ["starting-continuing-until",
-      "heavy-clouds",
-      "morning",
-      "evening"]],
-
-  "Am späteren Nachmittag leichter Graupelregen und morgen Vormittag Nebel.":
+  "Let slud senere i eftermiddag og tåge i morgen tidlig.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Sturm von heute Vormittag bis heute Nachmittag sowie morgen Vormittag Graupelregen.":
+  "Storm på formiddagen, fortsætter indtil i eftermiddag, og slud i morgen tidlig.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -146,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Heute in der späteren Nacht stark bewölkt und morgen Nachmittag starker Schneefall.":
+  "Overskyet senere i nat og rigelig med sne i morgen eftermiddag.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Heute Nacht niedrige Luftfeuchtigkeit sowie leichter Niederschlag von morgen Abend bis morgen Nacht.":
+  "Tørt i nat og let nedbør i morgen aften, fortsætter indtil i morgen nat.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -159,72 +179,72 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-
-  "Schneefall (5 Zoll) in der Nacht.":
+  "Sne (5 tommer) om natten.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Leichter Schneefall (2 cm) am späteren Vormittag.":
+  "Let sne (2 cm) senere på formiddagen.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Den ganzen Tag lang starker Schneefall (8 bis 12 Zoll).":
+  "Rigelig med sne (8\u201312 tommer) i løbet af dagen.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Schneefall (weniger als 1 cm) am Nachmittag.":
+  "Sne (under 1 cm) om eftermiddagen.":
     ["sentence", ["during",
-      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-  "Die ganze Woche kein Niederschlag mit einem Temperaturmaximum von 85\u00B0F morgen.":
+  "Ingen målbar nedbør i løbet af ugen, med temperaturer op til 85\u00B0F i morgen.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Wechselnder Niederschlag am Wochenende mit steigender Temperatur von 32\u00B0C am Donnerstag.":
+  "Blandet nedbør over weekenden, med temperaturer stigende til 32\u00B0C om torsdagen.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Nieselregen heute mit einem Temperaturminimum von 15\u00B0F am Freitag.":
+  "Støvregn på mandag, med temperaturer der stopper ved 15\u00B0F om fredagen.":
     ["sentence", ["with",
-      ["during", "very-light-rain", "today"],
+      ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Leichter Schneefall am Montag und Dienstag mit fallender Temperatur von 0\u00B0C am Sonntag.":
+  "Let sne på tirsdag og onsdag, med temperaturer faldende til 0\u00B0C om søndagen.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "monday", "tuesday"]],
+      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Niederschlag von Donnerstag bis Samstag mit einem Temperaturmaximum von 100\u00B0F am Montag.":
+  "Nedbør i dag indtil på lørdag, med temperaturer op til 100\u00B0F om mandagen.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
-        ["through", "thursday", "saturday"]],
+        ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Nachmittags leichter Regen.":
-    ["sentence", ["starting", "light-rain", "afternoon"]],
+  "Let sne på tirsdag og næste onsdag, med temperaturer faldende til 0\u00B0C om søndagen.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
 
-  "Leichter Regen bis abends.":
-    ["sentence", ["until", "light-rain", "evening"]],
+  "Tordenvejr kan forekomme":
+    ["title", "possible-thunderstorm"],
 
-  "Nieselregen bis zum Nachmittag und Nacht.":
-    ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]],
-
-  "Gewitter möglich bis am nächsten Mittwoch.":
-    ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
+  "Kraftige regnbyger og tordenvejr":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
 }

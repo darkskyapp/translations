@@ -221,9 +221,9 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sitan snijeg u utorak i srijedu, sa temperaturom pada do 0\u00B0C u nedjelju.":
+  "Sitan snijeg u utorak i sljedeću srijedu, sa temperaturom pada do 0\u00B0C u nedjelju.":
     ["sentence", ["with",
-      ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
@@ -235,5 +235,13 @@
         ["through", "today", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]     
+        "monday"]]],
+
+  "Moguća grmljavina":
+    ["title", "possible-thunderstorm"],
+
+  "Jaka kiša i grmljavina":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
+
+
 }

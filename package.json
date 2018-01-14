@@ -1,6 +1,6 @@
 {
   "name": "forecast-io-translations",
-  "version": "1.35.0",
+  "version": "1.46.3",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -208,6 +208,28 @@
     {
       "name": "mrkcohen",
       "web": "https://github.com/mrkcohen"
+    },
+    {
+      "name": "santer-pl",
+      "web": "https://github.com/santer-pl"
+    },
+    {
+      "name": "Mark Hendriks",
+      "email": "mark@workbymark.nl",
+      "web": "http://www.workbymark.nl/"
+    },
+    {
+      "name": "dayenite",
+      "web": "https://github.com/dayenite"
+    },
+    {
+      "name": "rereradu",
+      "web": "https://github.com/rereradu"
+    },
+    {
+      "name": "AndyTempel",
+      "email": "andraz@korenc.eu",
+      "web": "https://ksoft.si"
     }
   ],
   "repository": {

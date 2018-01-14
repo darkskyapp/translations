@@ -79,7 +79,7 @@ working by running the tests:
 
       615 passing (343ms)
 
-[5]: http://visionmedia.github.io/mocha/
+[5]: http://mochajs.org/
 [6]: https://npmjs.org/
 
 Input Format
@@ -282,18 +282,24 @@ For text summaries for the next hour (that is, `minutely.summary`), summaries
 of the following formats are produced:
 
 *   `["sentence", ["for-hour", WEATHER_CONDITION]]`
-*   `["sentence", ["starting-in", PRECIPITATION_TYPE, ["minutes", NUMBER]]]`
-*   `["sentence", ["stopping-in", PRECIPITATION_TYPE, ["minutes", NUMBER]]]`
-*   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
-*   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, ["minutes", NUMBER], ["minutes", NUMBER]]]`
+*   `["sentence", ["starting-in", PRECIPITATION_TYPE, DURATION]]`
+*   `["sentence", ["stopping-in", PRECIPITATION_TYPE, DURATION]]`
+*   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
+*   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
 
 Except for the first case, each such summary only takes precipitation into
 account, and tells how the intensity of precipitation will vary over the next
 hour or so.
 
+The `DURATION`s listed above may be either of:
+
+*   `["less-than", ["minutes", 1]]` ("less than a minute")
+*   `["minutes", NUMBER]` ("X minutes")
+
 `"for-hour"`, `"starting-in"`, `"stopping-in"`,
 `"starting-then-stopping-later"`, `"stopping-then-starting-later"`, and
-`"minutes"` are only used as above.
+`"minutes"` are only used as above. `"less-than"` is also used for snow
+accumulation (see below).
 
 ### Day Summaries
 
@@ -518,7 +524,7 @@ snowflakes.
 ##### Snow Accumulation
 
 Represents a distance measurement indicating the amount of snow accumulation is
-expected. These take the form of "N inches", "under N inches", or "M-N inches"
+expected. These take the form of "N inches", "< N inches", or "M-N inches"
 in English, respectively.
 
 *   `["inches", NUMBER]`
