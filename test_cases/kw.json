@@ -253,5 +253,9 @@
     ["title", "possible-thunderstorm"],
 
   "Glaw Poos Ha Tewedhow-Taran":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+	
+  "Glaw pur skav ow talleth le ages 1 myn.":
+    ["sentence",
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
 }
