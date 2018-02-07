@@ -1,15 +1,15 @@
 {
-  "name": "forecast-io-translations",
-  "version": "1.46.3",
+  "name": "translations",
+  "version": "2.0.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
-    "email": "developer@forecast.io"
+    "email": "developer@darksky.net"
   },
   "contributors": [
     {
       "name": "Jay LaPorte",
-      "email": "jay@forecast.io",
+      "email": "jay@darksky.net",
       "web": "https://github.com/ironwallaby"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "name": "Adam Grossman",
-      "email": "adam@forecast.io",
+      "email": "adam@darksky.net",
       "web": "https://github.com/thegrossman"
     },
     {
@@ -234,7 +234,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-io-translations"
+    "url": "git://github.com/darkskyapp/translations"
   },
   "scripts": {
     "test": "mocha --reporter dot --check-leaks"
