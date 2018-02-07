@@ -41,9 +41,9 @@ You will need to have [Node.JS][3] installed. You can check to see whether it
 is installed by running:
 
     $ node -v
-    v0.10.26
+    v8.9.4
 
-If the command gives an error message (or a version below 0.10), you should
+If the command gives an error message (or a version below 8), you should
 install Node from the Node.JS website and try again.
 
 ### Install Dependencies
@@ -52,7 +52,7 @@ While this package requires no dependencies to run in production, if you want
 to develop against it you will need the testing library [Mocha][5]. Installing
 it is simple:
 
-    $ cd /path/to/forecast-io-translations
+    $ cd /path/to/translations
     $ npm install
 
 [NPM][6] is the Node Package Manager, and is part of the Node software
@@ -62,22 +62,13 @@ working by running the tests:
 
     $ npm test
     
-    > forecast-io-translations@1.8.1 test /Users/jason/src/forecast-io-translations
+    > translations@2.0.0 test /path/to/translations
     > mocha --reporter dot --check-leaks
       
       ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․․
-      ․․․․․․․․․․․․․․․
+      [...]
 
-      615 passing (343ms)
+      2335 passing (732ms)
 
 [5]: http://mochajs.org/
 [6]: https://npmjs.org/
@@ -118,31 +109,14 @@ Adding a Translation
 ### Translation Submodules
 
 There is one translation submodule per language, all found in the `/lib/lang`
-directory. Each submodule is a single JavaScript function, taking a single
-argument (the expression described in the previous section) and returning a
-string representing that expression translated into the desired expression.
+directory. (Any source files in that directory are automatically loaded by the
+library at run-time, so nothing further needs to be done once the file is
+created.) Each submodule exports a JavaScript object, representing a collection
+of *translation templates*. An expression (as described above) will get looked
+up in the object and translated as the object's value dictates, recursively as
+necessary.
 
-    module.exports = function(expression) {
-      var translation;
-
-      /* ... do magic here ... */
-
-      return translation;
-    }
-
-Any JavaScript source files in the `/lib/lang` directory are automatically
-loaded by the library at run-time, so nothing further needs to be done once
-that file is created.
-
-### The Template Helper Library
-
-There is a small library sitting in `/lib/template.js` that can simplify the
-process of creating a translation submodule. If given an associative array of
-*translation templates* and an expression (as described above), it will look up
-the relevant template in the array and apply it to the expression, recursively
-as necessary.
-
-For example, suppose we have the following associative array:
+For example, suppose we have the following object:
 
     {
       "very-light-rain": "drizzle",
@@ -205,11 +179,6 @@ with a value of `["starting-in", "minutes"]` since `"minutes"` is a child of
 the `"starting-in"` template. (This is handy for languages like Dutch or German
 where, I hear, that the ordering of words are important.)
 
-Making use of this library is straightforward: simply call it with an
-associative array, and it will return your submodule function for you:
-
-    module.exports = require("../template")(/* INSERT ASSOC. ARRAY HERE */);
-
 Please see `/lib/lang/en.js` for an example of this in action.
 
 [8]: http://en.wikipedia.org/wiki/Sigil_(computer_programming)
@@ -228,11 +197,11 @@ them:
         ["starting-in", "very-light-rain", ["minutes", 15]]
     }
 
-The English test cases (`/test-cases/english.json`) may be used as an example
+The English test cases (`/test-cases/en.json`) may be used as an example
 and starting place. As noted above, you can verify your tests by running
-`./node_modules/.bin/mocha`. Pull requests without a full suite of passing
-tests will not be accepted. Please make every effort to ensure that your tests
-provide as full code coverage as possible.
+`npm test`. Pull requests without a full suite of passing tests will not
+be accepted. Please make every effort to ensure that your tests provide
+as full code coverage as possible.
 
 General Considerations
 ----------------------
