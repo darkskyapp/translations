@@ -201,35 +201,35 @@
       "afternoon"]],
 
 
-  "Pas de précipitations pendant toute la semaine, avec des températures atteignant 85\u00B0F demain.":
+  "Pas de précipitations pendant toute la semaine, avec des températures maximales atteignant 85\u00B0F demain.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Précipitations mêlées pendant tout le week-end, avec des températures montant jusqu’à 32\u00B0C jeudi.":
+  "Précipitations mêlées pendant tout le week-end, avec des températures maximales montant jusqu’à 32\u00B0C jeudi.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Bruine aujourd’hui, avec des températures atteignant 15\u00B0F vendredi.":
+  "Bruine aujourd’hui, avec des températures maximales atteignant 15\u00B0F vendredi.":
     ["sentence", ["with",
       ["during", "very-light-rain", "today"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Neige faible lundi et mardi, avec des températures descendant jusqu’à 0\u00B0C dimanche.":
+  "Neige faible lundi et mardi, avec des températures maximales descendant jusqu’à 0\u00B0C dimanche.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "monday", "tuesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Précipitations mercredi jusqu’à samedi, avec des températures atteignant 100\u00B0F lundi.":
+  "Précipitations mercredi jusqu’à samedi, avec des températures maximales atteignant 100\u00B0F lundi.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
