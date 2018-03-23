@@ -242,9 +242,11 @@
     "url": "git://github.com/darkskyapp/translations"
   },
   "scripts": {
-    "test": "mocha --reporter dot --check-leaks"
+    "test": "eslint . && mocha --reporter dot"
   },
   "devDependencies": {
-    "mocha": "*"
+    "@darkskyapp/eslint-config": "^1.1.1",
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
   }
 }

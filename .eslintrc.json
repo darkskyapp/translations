@@ -1,0 +1,9 @@
+{
+  "extends": "@darkskyapp",
+  "rules": {
+    "global-require": "off",
+    "max-len": "off",
+    "multiline-comment-style": ["error", "separate-lines"],
+    "no-unused-vars": ["error", {"args": "none"}]
+  }
+}

@@ -49,8 +49,8 @@ describe("translations", () => {
     });
 
     it("should recursively apply function templates", () => {
-      /* Actually, a "meeple meeple bar" sounds like it'd be a pretty tasty
-       * candy treat. */
+      // Actually, a "meeple meeple bar" sounds like it'd be a pretty tasty
+      // candy treat.
       assert.strictEqual(
         test.translate(["bar", 10, ["baz", 20, "foo"]]),
         "meeple meeple bar"
@@ -106,7 +106,7 @@ describe("translations", () => {
         "glorp": function(a) {
           assert.deepEqual(this, ["foo", "neem", "glorp"]);
           return "Rope?";
-        }
+        },
       });
 
       test.translate(["foo", "bar", ["baz", "quux"], ["neem", ["glorp", 42]]]);
@@ -124,7 +124,7 @@ describe("translations", () => {
 
           it(
             "should translate " + JSON.stringify(source) +
-              " to " + JSON.stringify(summary), 
+              " to " + JSON.stringify(summary),
             () => assert.strictEqual(translation.translate(source), summary)
           );
         }
