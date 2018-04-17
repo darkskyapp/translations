@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -235,6 +235,10 @@
       "name": "Hyejin Ahn",
       "email": "hyejinahn0619@gmail.com",
       "web": "https://github.com/powerwlsl"
+    },
+    {
+      "name": "Raz Yalov",
+      "web": "https://github.com/razyalov"
     }
   ],
   "repository": {
