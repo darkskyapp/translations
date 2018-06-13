@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -239,6 +239,11 @@
     {
       "name": "Raz Yalov",
       "web": "https://github.com/razyalov"
+    },
+    {
+      "name": "amirhoseinaliakbarian",
+      "email": "amirhosein@aliakbarian.com",
+      "web": "https://github.com/amirhoseinaliakbarian"
     }
   ],
   "repository": {
