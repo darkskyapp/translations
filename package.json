@@ -251,7 +251,8 @@
     "url": "git://github.com/darkskyapp/translations"
   },
   "scripts": {
-    "test": "eslint . && mocha --reporter dot"
+    "test": "eslint . && mocha --reporter dot",
+    "lint-fix": "eslint . --fix"
   },
   "devDependencies": {
     "@darkskyapp/eslint-config": "^1.1.1",
