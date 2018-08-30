@@ -1,166 +1,164 @@
 {
-  "Clear":
+  "Skaidrs":
     ["title", "clear"],
 
-  "Possible Light Precipitation":
+  "Iespējami nelieli nokrišņi":
     ["title", "possible-very-light-precipitation"],
 
-  "Light Precipitation":
+  "Nelieli nokrišņi":
     ["title", "very-light-precipitation"],
 
-  "Possible Light Precipitation":
-    ["title", "possible-light-precipitation"],
+  "Iespējami nelieli nokrišņi.":
+    ["sentence", "possible-light-precipitation"],
 
-  "Light Precipitation":
-    ["title", "light-precipitation"],
+  "Nelieli nokrišņi.":
+    ["sentence", "light-precipitation"],
 
-  "Precipitation":
+  "Nokrišņi":
     ["title", "medium-precipitation"],
 
-  "Heavy Precipitation":
+  "Stipri nokrišņi":
     ["title", "heavy-precipitation"],
 
-  "Possible Drizzle":
+  "Iespējams smidzinošs lietus":
     ["title", "possible-very-light-rain"],
 
-  "Drizzle":
+  "Smidzinošs lietus":
     ["title", "very-light-rain"],
 
-  "Possible Light Rain":
+  "Iespējams neliels lietus":
     ["title", "possible-light-rain"],
 
-  "Light Rain":
+  "Neliels lietus":
     ["title", "light-rain"],
 
-  "Rain":
+  "Lietus":
     ["title", "medium-rain"],
 
-  "Heavy Rain":
+  "Stiprs lietus":
     ["title", "heavy-rain"],
 
-  "Possible Light Sleet":
+  "Iespējams neliels slapjš sniegs":
     ["title", "possible-very-light-sleet"],
 
-  "Light Sleet":
+  "Neliels slapjš sniegs":
     ["title", "very-light-sleet"],
 
-  "Possible Light Sleet":
-    ["title", "possible-light-sleet"],
+  "Iespējams neliels slapjš sniegs.":
+    ["sentence", "possible-light-sleet"],
 
-  "Light Sleet":
-    ["title", "light-sleet"],
+  "Neliels slapjš sniegs.":
+    ["sentence", "light-sleet"],
 
-  "Sleet":
+  "Slapjš sniegs":
     ["title", "medium-sleet"],
 
-  "Heavy Sleet":
+  "Stiprs slapjš sniegs":
     ["title", "heavy-sleet"],
 
-  "Possible Flurries":
+  "Iespējams neliels sniegs":
     ["title", "possible-very-light-snow"],
 
-  "Flurries":
+  "Neliels sniegs":
     ["title", "very-light-snow"],
 
-  "Possible Light Snow":
-    ["title", "possible-light-snow"],
+  "Iespējams neliels sniegs.":
+    ["sentence", "possible-light-snow"],
 
-  "Light Snow":
-    ["title", "light-snow"],
+  "Neliels sniegs.":
+    ["sentence", "light-snow"],
 
-  "Snow":
+  "Sniegs":
     ["title", "medium-snow"],
 
-  "Heavy Snow":
+  "Stiprs sniegs":
     ["title", "heavy-snow"],
 
-  "Windy":
+  "Vējš":
     ["title", "medium-wind"],
 
-  "Dangerously Windy":
+  "Stiprs vējš":
     ["title", "heavy-wind"],
 
-  "Foggy":
+  "Migla":
     ["title", "fog"],
 
-  "Mostly Cloudy":
+  "Pārsvarā mākoņains":
     ["title", "medium-clouds"],
 
-  "Overcast":
+  "Apmācies":
     ["title", "heavy-clouds"],
 
-  "Dry and Breezy":
+  "Sauss un lēns vējš":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Drizzle and Dangerously Windy":
+  "Smidzinošs lietus un stiprs vējš":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Humid and Partly Cloudy":
+  "Mitrs un daļēji mākoņains":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-
-  "Clear for the hour.":
+  "Nākamo stundu skaidrs.":
     ["sentence", ["for-hour", "clear"]],
 
-  "Flurries starting in 35 min.":
+  "Neliels sniegs sāksies nākamo 35 min. laikā.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Light rain stopping in 15 min.":
+  "Neliels lietus beigsies nākamo 15 min. laikā.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Heavy sleet starting in 20 min., stopping 30 min. later.":
+  "Stiprs slapjš sniegs sāksies 20 min. laikā, beigsies 30 min. vēlāk.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Rain stopping in 25 min., starting again 8 min. later.":
+  "Lietus beigsies 25 min. laikā, atsāksies 8 min. vēlāk.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
         ["minutes", 25],
         ["minutes", 8]]],
 
-
-  "Mostly cloudy throughout the day.":
+  "Visu dienu pārsvarā mākoņains.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Light sleet starting in the morning.":
+  "No rīta sāksies neliels slapjš sniegs.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Windy until tonight.":
+  "Vējš līdz naktij.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Heavy precipitation until afternoon.":
+  "Stipri nokrišņi līdz pēcpusdienai.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Breezy in the afternoon.":
+  "Pēcpusdienā lēns vējš.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Snow later this evening and tomorrow morning.":
+  "Vēlāk vakarā un rīt no rīta sniegs.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Heavy rain until later this morning, starting again this evening.":
+  "Stiprs lietus līdz rītam, atsāksies vakarā.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Overcast starting in the evening, continuing until night.":
+  "No vakara līdz naktij apmācies.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Light sleet later this afternoon and foggy tomorrow morning.":
+  "Vēlāk pēcpusdienā neliels slapjš sniegs un rīt no rīta migla.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Dangerously windy starting this morning, continuing until this afternoon, and sleet tomorrow morning.":
+  "No rīta līdz pēcpusdienai stiprs vējš un rīt no rīta slapjš sniegs.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Overcast starting later tonight and heavy snow tomorrow afternoon.":
+  "Vēlāk naktī būs apmācies un rīt pēcpusdienā stiprs sniegs.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Dry tonight and light precipitation starting tomorrow evening, continuing until tomorrow night.":
+  "Naktī sauss un no rītvakara līdz rītdienas naktij nelieli nokrišņi.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -181,55 +179,54 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Snow (5 in.) overnight.":
+  "Naktī sniegs (5 collas).":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Light snow (2 cm.) later this morning.":
+  "Vēlāk no rīta neliels sniegs (2 cm.).":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Heavy snow (8\u201312 in.) throughout the day.":
+  "Visu dienu stiprs sniegs (8\u201312 collas).":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Snow (< 1 cm.) in the afternoon.":
+  "Pēcpusdienā sniegs (< 1 cm.).":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-
-  "No precipitation throughout the week, with high temperatures peaking at 85\u00B0F tomorrow.":
+  "Šonedēļ bez nokrišņiem, ar augstāko temperatūru 85\u00B0F rīt.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Mixed precipitation over the weekend, with high temperatures rising to 32\u00B0C on Thursday.":
+  "Nedēļas nogalē jaukti nokrišņi, temperatūrai sasniedzot 32\u00B0C ceturtdien.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Drizzle on Monday, with high temperatures bottoming out at 15\u00B0F on Friday.":
+  "Pirmdien smidzinošs lietus, ar zemāko temperatūru 15\u00B0F piektdien.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Light snow on Tuesday and next Wednesday, with high temperatures falling to 0\u00B0C on Sunday.":
+  "Otrdien un nākam trešdien neliels sniegs, temperatūrai nokrītoties līdz 0\u00B0C svētdien.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitation today through Saturday, with high temperatures peaking at 100\u00B0F on Monday.":
+  "No šodienas līdz sestdienai nokrišņi, ar augstāko temperatūru 100\u00B0F pirmdien.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -238,24 +235,24 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Mixed precipitation (1\u20133 in. of snow) throughout the day.":
+  "Visu dienu jaukti nokrišņi (1\u20133 collas).":
     ["sentence",
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
 
-  "Heavy Snow (1\u20133 in.)":
+  "Stiprs sniegs (1\u20133 collas)":
     ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
 
-  "Heavy Snow (3\u20135 cm.)":
+  "Stiprs sniegs (3\u20135 cm.)":
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
 
-  "Possible Thunderstorms":
+  "Iespējams negaiss":
     ["title", "possible-thunderstorm"],
 
-  "Heavy Rain and Thunderstorms":
+  "Stiprs lietus un negaiss":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
-  "Drizzle starting in < 1 min.":
+  "Smidzinošs lietus sāksies nākamo < 1 min. laikā.":
     ["sentence",
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
 }
