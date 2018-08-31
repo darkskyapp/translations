@@ -219,7 +219,7 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Otrdien un nākam trešdien neliels sniegs, temperatūrai nokrītoties līdz 0\u00B0C svētdien.":
+  "Otrdien un nākamtrešdien neliels sniegs, temperatūrai nokrītoties līdz 0\u00B0C svētdien.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
