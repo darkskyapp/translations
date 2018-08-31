@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -244,6 +244,10 @@
       "name": "amirhoseinaliakbarian",
       "email": "amirhosein@aliakbarian.com",
       "web": "https://github.com/amirhoseinaliakbarian"
+    },
+    {
+      "name": "Ivars Jukāms",
+      "web": "https://github.com/ivarsju"
     }
   ],
   "repository": {
