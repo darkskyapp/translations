@@ -89,7 +89,7 @@
   "Nublado":
     ["title", "heavy-clouds"],
 
-  "Seco y Pocos Vientos":
+  "Seco y Vientos Suaves":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Llovizna y Peligrosamente Ventoso":
@@ -124,19 +124,19 @@
   "Mayormente nublado durante el día.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Aguanieve ligera comenzando en la mañana.":
+  "Aguanieve ligera comenzando por la mañana.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Ventoso hasta esta noche.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Fuerte precipitación hasta en la tarde.":
+  "Fuerte precipitación hasta por la tarde.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Pocos vientos en la tarde.":
+  "Vientos suaves por la tarde.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Nevadas después esta noche y mañana en la mañana.":
+  "Nevadas después esta noche y mañana por la mañana.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
@@ -147,18 +147,18 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Nublado comenzando en la noche, continuando hasta en la noche.":
+  "Nublado comenzando por la noche, continuando hasta por la noche.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Aguanieve ligera después esta tarde y nublado mañana en la mañana.":
+  "Aguanieve ligera después esta tarde y nublado mañana por la mañana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Peligrosamente ventoso comenzando esta mañana, continuando hasta esta tarde, y aguanieve mañana en la mañana.":
+  "Peligrosamente ventoso comenzando esta mañana, continuando hasta esta tarde, y aguanieve mañana por la mañana.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -166,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Nublado comenzando después esta noche y fuertes nevadas mañana en la tarde.":
+  "Nublado comenzando después esta noche y fuertes nevadas mañana por la tarde.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Seco esta noche y precipitación ligera comenzando mañana en la noche, continuando hasta mañana en la noche.":
+  "Seco esta noche y precipitación ligera comenzando mañana por la noche, continuando hasta mañana por la noche.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -179,7 +179,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Nevadas (5 in.) en la noche.":
+  "Nevadas (5 in.) por la noche.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -193,7 +193,7 @@
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Nevadas (bajo 1 cm.) en la tarde.":
+  "Nevadas (bajo 1 cm.) por la tarde.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
