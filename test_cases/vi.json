@@ -1,0 +1,257 @@
+{
+  "Quang mây":
+    ["title", "clear"],
+
+  "Có thể có mưa nhẹ":
+    ["title", "possible-very-light-precipitation"],
+
+  "Mưa nhẹ":
+    ["title", "very-light-precipitation"],
+
+  "có thể có mưa nhẹ":
+    ["title", "possible-light-precipitation"],
+
+  "Mưa phùn":
+    ["title", "light-precipitation"],
+
+  "Mưa":
+    ["title", "medium-precipitation"],
+
+  "Mưa":
+    ["title", "heavy-precipitation"],
+
+  "Có thể có mưa phùn":
+    ["title", "possible-very-light-rain"],
+
+  "Mưa phùn":
+    ["title", "very-light-rain"],
+
+  "Có thể có mưa nhỏ":
+    ["title", "possible-light-rain"],
+
+  "Mưa nhỏ":
+    ["title", "light-rain"],
+
+  "Mưa":
+    ["title", "medium-rain"],
+
+  "Mưa to":
+    ["title", "heavy-rain"],
+
+  "Có thể có tuyết rơi":
+    ["title", "possible-very-light-sleet"],
+
+  "có tuyết rơi nhẹ":
+    ["title", "very-light-sleet"],
+
+  "có thể có tuyết rơi nhẹ":
+    ["title", "possible-light-sleet"],
+
+  "tuyết rơi nhẹ":
+    ["title", "light-sleet"],
+
+  "có tuyết rơi":
+    ["title", "medium-sleet"],
+
+  "tuyết rơi":
+    ["title", "heavy-sleet"],
+
+  "Có thể có tuyết rơi nhẹ":
+    ["title", "possible-very-light-snow"],
+
+  "gió nhẹ":
+    ["title", "very-light-snow"],
+
+  "có thể có tuyết rơi nhẹ":
+    ["title", "possible-light-snow"],
+
+  "tuyết rơi nhẹ":
+    ["title", "light-snow"],
+
+  "có tuyết rơi nhẹ":
+    ["title", "medium-snow"],
+
+  "tuyết rơi":
+    ["title", "heavy-snow"],
+
+  "gió n hẹ":
+    ["title", "medium-wind"],
+
+  "có dông":
+    ["title", "heavy-wind"],
+
+  "sương mù":
+    ["title", "fog"],
+
+  "nhiều mây":
+    ["title", "medium-clouds"],
+
+  "trời âm u":
+    ["title", "heavy-clouds"],
+
+  "trời hanh và có gió nhẹ":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Mưa phùn và dông":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "trời nồm và nhiều mây":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+
+  "thỉnh thoảng quang mây":
+    ["sentence", ["for-hour", "clear"]],
+
+  "có dông sau 35 phút":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "hết dông sau 15 phút":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Heavy sleet starting in 20 min., stopping 30 min. later.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "trời tạnh mưa sau 25 phút, và mưa tiếp sau 8 phút sau đó":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "cả ngày trời nhiều mây":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "có mưa tuyết vào sáng sớm.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "có gió đến tối.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "có mưa lớn cho đến chiều.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "chiều có gió nhẹ.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "có tuyết vào nửa đêm và rạng sáng.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "mưa to hết buổi sáng, và mưa lại vào tối nay.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "chiều và tối trời âm u.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "mưa tuyết vào chiều nay và có sương mù sáng mai.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "sáng đến chiều có dông, và mưa tuyết vào sáng mai.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "đêm trời âm u và có tuyết rơi chiều mai":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "trời hanh khô tối nay, chiều mai đến tối mai độ ẩm tăng dần":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "tuyết rơi (5 in.) suốt đêm.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "tuyết nhẹ (2 cm.) sau buổi sáng.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "tuyết rơi (8\u201312 in.) cả ngày.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "tuyết rơi (under 1 cm.) vào chiều nay.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+
+  "tuần này không mưa, nhiệt độ cao nhất là 85\u00B0F ngày mai.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "có mưa vài nơi cuối tuần nay, nhiệt độ tăng lên 32\u00B0C vào thứ 3.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Mưa phùn thứ 2, nhiệt độ thấp nhất là 15\u00B0F vào thứ 6.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "tuyết rơi nhẹ thứ 3 và thứ 4 tuần sau, nhiệt độ giảm xuống 0\u00B0C vào chủ nhật.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "mưa từ hôm nay đến thứ bảy, nhiệt độ tăng lên 100\u00B0F vào thứ 2.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]],
+
+  "mưa rải rác (1\u20133 in. tuyết rơi) cả ngày hôm nay.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "có tuyết nặng (1\u20133 in.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "tuyết nặng (3\u20135 cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "có thể có giông":
+    ["title", "possible-thunderstorm"],
+
+  "mưa to và có dông":
+    ["title", ["and", "heavy-rain", "thunderstorm"]]
+}
