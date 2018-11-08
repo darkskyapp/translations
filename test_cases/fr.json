@@ -38,22 +38,22 @@
   "Pluie Forte":
     ["title", "heavy-rain"],
 
-  "Très Faible Neige Fondue Possible":
+  "Très Faible Neige Fondante Possible":
     ["title", "possible-very-light-sleet"],
 
-  "Très Faible Neige Fondue":
+  "Très Faible Neige Fondante":
     ["title", "very-light-sleet"],
 
-  "Faible Neige Fondue Possible":
+  "Faible Neige Fondante Possible":
     ["title", "possible-light-sleet"],
 
-  "Faible Neige Fondue":
+  "Faible Neige Fondante":
     ["title", "light-sleet"],
 
-  "Neige Fondue":
+  "Neige Fondante":
     ["title", "medium-sleet"],
 
-  "Forte Neige Fondue":
+  "Forte Neige Fondante":
     ["title", "heavy-sleet"],
 
   "Averses De Neige Possibles":
@@ -74,7 +74,7 @@
   "Neige Abondante":
     ["title", "heavy-snow"],
 
-  "Venté":
+  "Vent Moyen":
     ["title", "medium-wind"],
 
   "Vent Fort":
