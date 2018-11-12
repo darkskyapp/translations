@@ -38,22 +38,22 @@
   "Pluie Forte":
     ["title", "heavy-rain"],
 
-  "Très Faible Neige Fondue Possible":
+  "Très Faible Neige Fondante Possible":
     ["title", "possible-very-light-sleet"],
 
-  "Très Faible Neige Fondue":
+  "Très Faible Neige Fondante":
     ["title", "very-light-sleet"],
 
-  "Faible Neige Fondue Possible":
+  "Faible Neige Fondante Possible":
     ["title", "possible-light-sleet"],
 
-  "Faible Neige Fondue":
+  "Faible Neige Fondante":
     ["title", "light-sleet"],
 
-  "Neige Fondue":
+  "Neige Fondante":
     ["title", "medium-sleet"],
 
-  "Forte Neige Fondue":
+  "Forte Neige Fondante":
     ["title", "heavy-sleet"],
 
   "Averses De Neige Possibles":
@@ -74,7 +74,7 @@
   "Neige Abondante":
     ["title", "heavy-snow"],
 
-  "Venté":
+  "Vent Moyen":
     ["title", "medium-wind"],
 
   "Vent Fort":
@@ -108,7 +108,7 @@
   "Pluie faible se terminant dans 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Forte neige fondue commençant dans 20 min., se terminant 30 min. plus tard.":
+  "Forte neige fondante commençant dans 20 min., se terminant 30 min. plus tard.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
@@ -126,10 +126,10 @@
   "Ciel nuageux toute la journée.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Très faible neige fondue commençant dans la matinée.":
+  "Très faible neige fondante commençant dans la matinée.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Venté jusqu’à cette nuit.":
+  "Vent moyen jusqu’à cette nuit.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
   "Fortes précipitations jusque dans l’après-midi.":
@@ -155,12 +155,12 @@
       "evening",
       "night"]],
 
-  "Faible neige fondue dans l’après-midi et brumeux demain matin.":
+  "Faible neige fondante dans l’après-midi et brumeux demain matin.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Vent fort commençant ce matin, se prolongeant jusqu’à cet après-midi, et neige fondue demain matin.":
+  "Vent fort commençant ce matin, se prolongeant jusqu’à cet après-midi, et neige fondante demain matin.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
