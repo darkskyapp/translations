@@ -172,7 +172,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho noćas i slabe padaline počinje sutra navečer, ostaje do sutra naveče.":
+  "Suho noćas i slabe padaline počinje sutra navečer, ostaje do sutra u noći.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
