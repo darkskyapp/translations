@@ -89,7 +89,7 @@
   "Oblačno":
     ["title", "heavy-clouds"],
 
-  "Suho i vjetrovito":
+  "Suho i malo vjetrovito":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Sitna kiša i jako vjetrovito":
