@@ -128,7 +128,7 @@
   "Slaba susnježica počinje ujutro.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Vjetrovito do u noći.":
+  "Vjetrovito do noćas.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
   "Jake padaline do popodne.":
@@ -142,7 +142,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Jaka kiša do kasnije ovog jutra, i opet počinje predveče.":
+  "Jaka kiša do kasnije ovog jutra, i opet počinje večeras.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -167,12 +167,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "Oblačno počinje kasnije noćas i jak snijeg sutra popodne.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Suho u noći i slabe padaline počinje sutra navečer, ostaje do sutra u noć.":
+  "Suho noćas i slabe padaline počinje sutra navečer, ostaje do sutra naveče.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
