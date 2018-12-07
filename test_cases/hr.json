@@ -74,7 +74,7 @@
   "Jak snijeg":
     ["title", "heavy-snow"],
 
-  "Malo vjetrovito":
+  "Vjetrovito":
     ["title", "medium-wind"],
 
   "Jako vjetrovito":
@@ -98,7 +98,7 @@
   "Vlažno i djelomice oblačno":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
-  "Vedro za ovaj sat.":
+  "Vedro za sat.":
     ["sentence", ["for-hour", "clear"]],
 
   "Sitan snijeg počinje za 35 minuta.":
@@ -167,7 +167,7 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije u noć i jak snijeg sutra popodne.":
+  "Oblačno počinje kasnije noćas i jak snijeg sutra popodne.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
