@@ -207,7 +207,7 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Različite padaline tijekom vikenda, s temperaturom u porastu do 32\u00B0C u četvrtak.":
+  "Mješavina padalina tijekom vikenda, s temperaturom u porastu do 32\u00B0C u četvrtak.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
