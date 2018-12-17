@@ -125,7 +125,7 @@
   "Pretežno oblačno tijekom cijelog dana.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Slaba susnježica počinje ujutro.":
+  "Slaba susnježica od ujutro.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Vjetrovito do noćas.":
@@ -167,7 +167,7 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Oblačno počinje kasnije noćas i jak snijeg sutra popodne.":
+  "Oblačno od kasnije noćas i jak snijeg sutra popodne.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
