@@ -83,10 +83,10 @@
   "Mlhavo":
     ["title", "fog"],
 
-  "Převážně zamračeno":
+  "Převážně zataženo":
     ["title", "medium-clouds"],
 
-  "Zamračeno":
+  "Zataženo":
     ["title", "heavy-clouds"],
 
   "Nízká vlhkost a slabý vítr":
@@ -95,7 +95,7 @@
   "Mrholení a silný vítr":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vysoká vlhkost a částečně zamračeno":
+  "Vysoká vlhkost a částečně zataženo":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
@@ -122,7 +122,7 @@
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Během dne převážně zamračeno.":
+  "Během dne převážně zataženo.":
     ["sentence", ["for-day", "medium-clouds"]],
 
   "Od rána slabý déšť se sněhem.":
@@ -148,13 +148,13 @@
       "later-today-morning",
       "today-evening"]],
 
-  "Od dnešní pozdní noci zamračeno a zítra odpoledne vydatné sněžení.":
+  "Od dnešní pozdní noci zataženo a zítra odpoledne vydatné sněžení.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
       "night"]],
 
-  "Od odpoledne částečně zamračeno a přetrvá až do večera.":
+  "Od odpoledne částečně zataženo a přetrvá až do večera.":
     ["sentence",
       ["starting-continuing-until",
         "light-clouds",
@@ -174,7 +174,7 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Od dnešní pozdní noci zamračeno a zítra odpoledne vydatné sněžení.":
+  "Od dnešní pozdní noci zataženo a zítra odpoledne vydatné sněžení.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
