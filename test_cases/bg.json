@@ -211,35 +211,35 @@
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
 
-  "Без превалявания през седмицата, с температури, достигащи максимум 35°F утре.":
+  "Без превалявания през седмицата, с максимални температури, достигащи 35°F утре.":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 35],
         "tomorrow"]]],
 
-  "Смесени превалявания през уикенда, с температури, покачващи се до 32°C в четвъртък.":
+  "Смесени превалявания през уикенда, с максимални температури, покачващи се до 32°C в четвъртък.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Ръмеж в понеделник, с температури, падащи до 15°C в петък.":
+  "Ръмеж в понеделник, с максимални температури, падащи до 15°C в петък.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["celsius", 15],
         "friday"]]],
 
-  "Слаб сняг във вторник и в сряда, с температури, падащи до минимум 0°C в неделя.":
+  "Слаб сняг във вторник и в сряда, с максимални температури, падащи до минимум 0°C в неделя.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Превалявания от днес до събота, с температури, достигащи максимум 37°C в понеделник.":
+  "Превалявания от днес до събота, с максимални температури, достигащи 37°C в понеделник.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -253,7 +253,7 @@
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
 
-  "Слаб сняг във вторник и следващата сряда, с температури, падащи до минимум 0\u00B0C в неделя.":
+  "Слаб сняг във вторник и следващата сряда, с максимални температури, падащи до минимум 0\u00B0C в неделя.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
