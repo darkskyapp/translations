@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.5.2",
+  "version": "2.6.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -252,6 +252,10 @@
     {
       "name": "Timothy Boronczyk",
       "web": "https://github.com/tboronczyk"
+    },
+    {
+      "name": "Rizki Aditya",
+      "web": "https://medium.com/@rizaditya"
     }
   ],
   "repository": {
