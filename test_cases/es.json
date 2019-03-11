@@ -80,7 +80,7 @@
   "Peligrosamente Ventoso":
     ["title", "heavy-wind"],
 
-  "Nublado":
+  "Niebla":
     ["title", "fog"],
 
   "Mayormente Nublado":
@@ -153,7 +153,7 @@
       "evening",
       "night"]],
 
-  "Aguanieve ligera después esta tarde y nublado mañana por la mañana.":
+  "Aguanieve ligera después esta tarde y niebla mañana por la mañana.":
     ["sentence", ["and",
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
