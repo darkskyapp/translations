@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.12.2",
+  "version": "2.13.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -256,6 +256,10 @@
     {
       "name": "Rizki Aditya",
       "web": "https://medium.com/@rizaditya"
+    },
+    {
+      "name": "stanno",
+      "web": "https://github.com/stanno"
     }
   ],
   "repository": {
