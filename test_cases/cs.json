@@ -83,7 +83,7 @@
   "Mlhavo":
     ["title", "fog"],
 
-  "Převážně zataženo":
+  "Převážně oblačno":
     ["title", "medium-clouds"],
 
   "Zataženo":
@@ -95,7 +95,7 @@
   "Mrholení a silný vítr":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Vysoká vlhkost a částečně zataženo":
+  "Vysoká vlhkost a částečně oblačno":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
@@ -122,7 +122,7 @@
         ["minutes", 25],
         ["minutes", 8]]],
 
-  "Během dne převážně zataženo.":
+  "Během dne převážně oblačno.":
     ["sentence", ["for-day", "medium-clouds"]],
 
   "Od rána slabý déšť se sněhem.":
@@ -154,7 +154,7 @@
       "evening",
       "night"]],
 
-  "Od odpoledne částečně zataženo a přetrvá až do večera.":
+  "Od odpoledne částečně oblačno a přetrvá až do večera.":
     ["sentence",
       ["starting-continuing-until",
         "light-clouds",
