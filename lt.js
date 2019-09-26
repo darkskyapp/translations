@@ -23,7 +23,7 @@ function time2(time) {
     case "šiandien ryte": return "šiandienos ryto";
     case "šiandien priešpiet": return "šiandienos priešpiečio";
     case "šiandien dieną": return "vidurdienio";
-    case "vakare": return "pavakario";
+    case "šiandien popiet": return "popiečio";
     case "šiandien vakare": return "vakaro";
     case "vėlai vakare": return "vėlyvo vakaro";
     case "šianakt": return "šios nakties";
