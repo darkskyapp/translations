@@ -253,5 +253,18 @@
     ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
 
   "Vydatné sněžení (3-5 cm)":
-    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]]
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "V úterý a příští středu slabé sněžení, v neděli s teplotami klesajícími k 0°C.":
+  ["sentence", ["with",
+    ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+    ["temperatures-falling",
+      ["celsius", 0],
+      "sunday"]]],
+
+  "Možnost bouřek":
+  ["title", "possible-thunderstorm"],
+
+  "Vydatný déšť a bouřky":
+  ["title", ["and", "heavy-rain", "thunderstorm"]]
 }
