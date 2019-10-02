@@ -1,6 +1,6 @@
 {
   "name": "translations",
-  "version": "2.14.3",
+  "version": "2.14.4",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
@@ -264,6 +264,10 @@
     {
       "name": "phungdoanh",
       "web": "https://github.com/phungdoanh"
+    },
+    {
+      "name": "Martin Macko",
+      "web": "https://github.com/LinkedList"
     }
   ],
   "repository": {
