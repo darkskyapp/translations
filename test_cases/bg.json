@@ -264,6 +264,8 @@
     ["title", "possible-thunderstorm"],
 
   "Силен Дъжд и Гръмотевична Буря":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]		
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
 
+  "Липсващи данни за валежи поради станция, която не докладва.":
+  ["sentence",["missing-radar", "station-down"]]
 }
