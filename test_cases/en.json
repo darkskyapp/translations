@@ -259,6 +259,6 @@
     ["sentence",
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
 
-  "Radar data missing due to station being down.":
-  ["sentence",["missing-radar", "station-down"]]
+  "Next hour forecasts are temporarily unavailable due to all nearby radar stations being offline.":
+  ["sentence",["unavailable-radar", "station-offline"]]
 }
