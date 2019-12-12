@@ -257,5 +257,8 @@
 
   "Drizzle starting in < 1 min.":
     ["sentence",
-      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
+
+  "Next hour forecasts are temporarily unavailable due to all nearby radar stations being offline.":
+  ["sentence",["unavailable-radar", "station-offline"]]
 }
