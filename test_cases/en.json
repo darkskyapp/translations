@@ -260,5 +260,7 @@
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
 
   "Next hour forecasts are temporarily unavailable due to all nearby radar stations being offline.":
-  ["sentence",["unavailable-radar", "station-offline"]]
+  ["sentence",["unavailable-radar", "temporarily", "station-offline"]],
+  "Next hour forecasts are partially unavailable due to nearby radar stations reporting incomplete data sets.":
+  ["sentence",["unavailable-radar", "partially", "station-spotty"]]
 }
