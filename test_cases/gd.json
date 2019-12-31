@@ -238,7 +238,7 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Sileadh measgaichte (1\u20133 òir. sneachda) fad an latha.":
+  "Sileadh measgaichte (1\u20133 òir.) fad an latha.":
     ["sentence",
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
