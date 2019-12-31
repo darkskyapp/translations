@@ -249,10 +249,10 @@
   "Sneachda Trom (3\u20135 cm.)":
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
 
-  "Tha Cothrom Ann Gum Bi Stoirmean Tàirneannaich":
+  "Tha Cothrom Ann Gum Bi Stoirmean Tàirneanaich":
     ["title", "possible-thunderstorm"],
 
-  "Uisge Trom Agus Stoirmean Tàirneannaich":
+  "Uisge Trom Agus Stoirmean Tàirneanaich":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
   "Uisge glè aotrom a' tòiseachadh ann an < 1 mion.":
