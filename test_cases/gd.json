@@ -2,82 +2,82 @@
   "Soilleir":
     ["title", "clear"],
 
-  "Tha cothrom ann gum bi sileadh glè aotrom":
+  "Tha Cothrom Ann Gum Bi Sileadh Glè Aotrom":
     ["title", "possible-very-light-precipitation"],
 
-  "Sileadh glè aotrom":
+  "Sileadh Glè Aotrom":
     ["title", "very-light-precipitation"],
 
-  "Tha cothrom ann gum bi sileadh ann":
+  "Tha Cothrom Ann Gum Bi Sileadh Ann":
     ["title", "possible-light-precipitation"],
 
-  "Sileadh aotrom":
+  "Sileadh Aotrom":
     ["title", "light-precipitation"],
 
   "Sileadh":
     ["title", "medium-precipitation"],
 
-  "Sileadh trom":
+  "Sileadh Trom":
     ["title", "heavy-precipitation"],
 
-  "Tha cothrom ann gum bi uisge glè aotrom":
+  "Tha Cothrom Ann Gum Bi Uisge Glè Aotrom":
     ["title", "possible-very-light-rain"],
 
-  "Uisge glè aotrom":
+  "Uisge Glè Aotrom":
     ["title", "very-light-rain"],
 
-  "Tha cothrom ann gum bi uisge aotrom":
+  "Tha Cothrom Ann Gum Bi Uisge Aotrom":
     ["title", "possible-light-rain"],
 
-  "Uisge aotrom":
+  "Uisge Aotrom":
     ["title", "light-rain"],
 
   "Uisge":
     ["title", "medium-rain"],
 
-  "Uisge trom":
+  "Uisge Trom":
     ["title", "heavy-rain"],
 
-  "Tha cothrom ann gum bi flin glè aotrom":
+  "Tha Cothrom Ann Gum Bi Flin Glè Aotrom":
     ["title", "possible-very-light-sleet"],
 
-  "Flin glè aotrom":
+  "Flin Glè Aotrom":
     ["title", "very-light-sleet"],
 
-  "Tha cothrom ann gum bi flin aotrom":
+  "Tha Cothrom Ann Gum Bi Flin Aotrom":
     ["title", "possible-light-sleet"],
 
-  "Flin aotrom":
+  "Flin Aotrom":
     ["title", "light-sleet"],
 
   "Flin":
     ["title", "medium-sleet"],
 
-  "Flin trom":
+  "Flin Trom":
     ["title", "heavy-sleet"],
 
-  "Tha cothrom ann gum bi fras sneachda":
+  "Tha Cothrom Ann Gum Bi Fras Sneachda":
     ["title", "possible-very-light-snow"],
 
-  "Frasan sneachda":
+  "Frasan Sneachda":
     ["title", "very-light-snow"],
 
-  "Tha cothrom ann gum bi sneachd aotrom":
+  "Tha Cothrom Ann Gum Bi Sneachd Aotrom":
     ["title", "possible-light-snow"],
 
-  "Sneachd aotrom":
+  "Sneachd Aotrom":
     ["title", "light-snow"],
 
   "Sneachd":
     ["title", "medium-snow"],
 
-  "Sneachd trom":
+  "Sneachd Trom":
     ["title", "heavy-snow"],
 
   "Gaothach":
     ["title", "medium-wind"],
 
-  "Goath chunnartach":
+  "Goath Chunnartach":
     ["title", "heavy-wind"],
 
   "Ceòthach":
@@ -86,16 +86,16 @@
   "Sgothach":
     ["title", "medium-clouds"],
 
-  "Sgothan trom":
+  "Sgothan Trom":
     ["title", "heavy-clouds"],
 
-  "Tioram agus gaoth aotrom":
+  "Tioram Agus Gaoth Aotrom":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Uisge aotrom agus gaoth chunnartach":
+  "Uisge Aotrom Agus Gaoth Chunnartach":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Tais agus sgothan aotrom":
+  "Tais Agus Sgothan Aotrom":
     ["title", ["and", "high-humidity", "light-clouds"]],
 
 
