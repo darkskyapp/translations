@@ -2,13 +2,13 @@
   "Soilleir":
     ["title", "clear"],
 
-  "Tha Cothrom Ann Gum Bi Sileadh Glè Aotrom":
+  "Tha Cothrom Ann Gum Bi Sileadh Glè Aotrom Ann":
     ["title", "possible-very-light-precipitation"],
 
   "Sileadh Glè Aotrom":
     ["title", "very-light-precipitation"],
 
-  "Tha Cothrom Ann Gum Bi Sileadh Aotrom":
+  "Tha Cothrom Ann Gum Bi Sileadh Aotrom Ann":
     ["title", "possible-light-precipitation"],
 
   "Sileadh Aotrom":
@@ -20,13 +20,13 @@
   "Sileadh Trom":
     ["title", "heavy-precipitation"],
 
-  "Tha Cothrom Ann Gum Bi Uisge Glè Aotrom":
+  "Tha Cothrom Ann Gum Bi Uisge Glè Aotrom Ann":
     ["title", "possible-very-light-rain"],
 
   "Uisge Glè Aotrom":
     ["title", "very-light-rain"],
 
-  "Tha Cothrom Ann Gum Bi Uisge Aotrom":
+  "Tha Cothrom Ann Gum Bi Uisge Aotrom Ann":
     ["title", "possible-light-rain"],
 
   "Uisge Aotrom":
@@ -38,13 +38,13 @@
   "Uisge Trom":
     ["title", "heavy-rain"],
 
-  "Tha Cothrom Ann Gum Bi Flin Glè Aotrom":
+  "Tha Cothrom Ann Gum Bi Flin Glè Aotrom Ann":
     ["title", "possible-very-light-sleet"],
 
   "Flin Glè Aotrom":
     ["title", "very-light-sleet"],
 
-  "Tha Cothrom Ann Gum Bi Flin Aotrom":
+  "Tha Cothrom Ann Gum Bi Flin Aotrom Ann":
     ["title", "possible-light-sleet"],
 
   "Flin Aotrom":
@@ -56,13 +56,13 @@
   "Flin Trom":
     ["title", "heavy-sleet"],
 
-  "Tha Cothrom Ann Gum Bi Fras Sneachda":
+  "Tha Cothrom Ann Gum Bi Fras Sneachda Ann":
     ["title", "possible-very-light-snow"],
 
   "Frasan Sneachda":
     ["title", "very-light-snow"],
 
-  "Tha Cothrom Ann Gum Bi Sneachd Aotrom":
+  "Tha Cothrom Ann Gum Bi Sneachd Aotrom Ann":
     ["title", "possible-light-snow"],
 
   "Sneachd Aotrom":
@@ -249,7 +249,7 @@
   "Sneachda Trom (3\u20135 cm.)":
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
 
-  "Tha Cothrom Ann Gum Bi Stoirmean Tàirneanaich":
+  "Tha Cothrom Ann Gum Bi Stoirmean Tàirneanaich Ann":
     ["title", "possible-thunderstorm"],
 
   "Uisge Trom Agus Stoirmean Tàirneanaich":
