@@ -237,4 +237,10 @@
       ["temperatures-peaking",
         ["fahrenheit", 100],
         "monday"]]],
+
+  "Tha cothrom ann gum bi stoirmean tàirneanaich ann Diciadain an ath sheachdain agus Diardaoin an ath sheachdain.":
+    ["sentence", ["during",
+      "possible-thunderstorm",
+        ["and", "next-wednesday", "next-thursday"]
+    ]]
 }
