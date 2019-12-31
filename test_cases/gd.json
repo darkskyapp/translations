@@ -74,7 +74,7 @@
   "Sneachda Trom":
     ["title", "heavy-snow"],
 
-  "Gaothach":
+  "Gaoth":
     ["title", "medium-wind"],
 
   "Gaoth Chunnartach":
@@ -89,7 +89,7 @@
   "Sgothan Trom":
     ["title", "heavy-clouds"],
 
-  "Tioram Agus Oiteag shocair":
+  "Tioram Agus Oiteag Shocair":
     ["title", ["and", "low-humidity", "light-wind"]],
 
   "Uisge Glè Aotrom Agus Gaoth Chunnartach":
@@ -168,7 +168,7 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Sgothan trom a' tòiseachadh nas anmoiche a-nochd agus sneachds trom feasgar a-màireach.":
+  "Sgothan trom a' tòiseachadh nas anmoiche a-nochd agus sneachda trom feasgar a-màireach.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
@@ -181,7 +181,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Sneachd (5 òir.) tron oidhche.":
+  "Sneachd (5 òir.) a-nochd.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -191,7 +191,7 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Sneachd trom (8\u201312 òir.) fad an latha.":
+  "Sneachda trom (8\u201312 òir.) fad an latha.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
@@ -259,6 +259,6 @@
     ["sentence",
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
 
-  "Cha deach dad a lorg an-dràsta air sgàth 's gu bheil a h-uile stèisean-radar far loidhne'.":
+  "Cha deach dad a lorg an-dràsta air sgàth 's gu bheil a h-uile stèisean-radar far loidhne.":
   ["sentence",["unavailable-radar", "station-offline"]]
 }
