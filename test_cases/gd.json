@@ -1,0 +1,265 @@
+{
+  "Soilleir":
+    ["title", "clear"],
+
+  "Tha cothrom ann gum bi sileadh glè aotrom":
+    ["title", "possible-very-light-precipitation"],
+
+  "Sileadh glè aotrom":
+    ["title", "very-light-precipitation"],
+
+  "Tha cothrom ann gum bi sileadh ann":
+    ["title", "possible-light-precipitation"],
+
+  "Sileadh aotrom":
+    ["title", "light-precipitation"],
+
+  "Sileadh":
+    ["title", "medium-precipitation"],
+
+  "Sileadh trom":
+    ["title", "heavy-precipitation"],
+
+  "Tha cothrom ann gum bi uisge glè aotrom":
+    ["title", "possible-very-light-rain"],
+
+  "Uisge glè aotrom":
+    ["title", "very-light-rain"],
+
+  "Tha cothrom ann gum bi uisge aotrom":
+    ["title", "possible-light-rain"],
+
+  "Uisge aotrom":
+    ["title", "light-rain"],
+
+  "Uisge":
+    ["title", "medium-rain"],
+
+  "Uisge trom":
+    ["title", "heavy-rain"],
+
+  "Tha cothrom ann gum bi flin glè aotrom":
+    ["title", "possible-very-light-sleet"],
+
+  "Flin glè aotrom":
+    ["title", "very-light-sleet"],
+
+  "Tha cothrom ann gum bi flin aotrom":
+    ["title", "possible-light-sleet"],
+
+  "Flin aotrom":
+    ["title", "light-sleet"],
+
+  "Flin":
+    ["title", "medium-sleet"],
+
+  "Flin trom":
+    ["title", "heavy-sleet"],
+
+  "Tha cothrom ann gum bi fras sneachda":
+    ["title", "possible-very-light-snow"],
+
+  "Frasan sneachda":
+    ["title", "very-light-snow"],
+
+  "Tha cothrom ann gum bi sneachd aotrom":
+    ["title", "possible-light-snow"],
+
+  "Sneachd aotrom":
+    ["title", "light-snow"],
+
+  "Sneachd":
+    ["title", "medium-snow"],
+
+  "Sneachd trom":
+    ["title", "heavy-snow"],
+
+  "Gaothach":
+    ["title", "medium-wind"],
+
+  "Goath chunnartach":
+    ["title", "heavy-wind"],
+
+  "Ceòthach":
+    ["title", "fog"],
+
+  "Sgothach":
+    ["title", "medium-clouds"],
+
+  "Sgothan trom":
+    ["title", "heavy-clouds"],
+
+  "Tioram agus gaoth aotrom":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Uisge aotrom agus gaoth chunnartach":
+    ["title", ["and", "very-light-rain", "heavy-wind"]],
+
+  "Tais agus sgothan aotrom":
+    ["title", ["and", "high-humidity", "light-clouds"]],
+
+
+  "Soilleir fad uair a thìde.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "Frasan sneachda a' tòiseachadh ann an 35 mion.":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "Uisge aotrom a' stad ann an 15 mìon.":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Flin a' tòiseachadh ann an 20 mìon., a' stad as dèidh 30 mìn.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Uisge a' stad ann an 25 mìon., a' tòiseachadh a-rithist as dèidh 8 mìon.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+
+  "Sgòthach fad an latha.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "Flin a' tòiseachadh anns a' mhadainn.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Gaothach gus a-nochd.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Sileadh trom gus an fheasgar.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "Oiteag shocair anns an fheasgar.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Sneachd feasgar an-diugh agus madainn a-màireach.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Uisge trom gu nas anmoiche madainn an-diugh, a' tòiseachadh a-rithist feasgar.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Sgothan trom a' tòiseachadh anns an fheasgar, a' maireachdainn gus an oidhche.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Flin aotrom nas anmoiche feasgar an-diugh agus ceòthach madainn a-màireach.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "Gaoth chunnartach a' tòiseachadh madainn an-diugh, a' maireachdain gus an fheasgar, agus flin madainn a-màireach.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Sgothan trom a' tòiseachadh nas anmoiche a-nochd agus sneachd trom feasgar a-màireach.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Tioram a-noch agus sileadh aotrom a' tòiseachadh feasgar a-màireach, a' maireachdainn gu oidhche a-màireach.":
+  "Dry tonight and light precipitation starting tomorrow evening, continuing until tomorrow night.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Sneachd (5 òir.) tron oidhche.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Sneachd aotrom (2 cm.) nas anmoiche madainn an-diugh.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Sneachd trom (8\u201312 òir.) tron latha.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Sneachd (< 1 cm.) anns an fheasgar.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+      "afternoon"]],
+
+
+  "Gun sileadh fad na seachdain, agus an teòthard as àirde a' ruigsinn 85\u00B0F a-màireach":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "Sileadh measgaichte thairis air an deireadh-sheachdain, agus an teòtachd as àirde a' ruigsinn 32\u00B0C Diardaoin.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Uisge glè aotrom Diluain, agus an teòthachd as àirde a' tuiteam gu 15\u00B0F Dihaoine.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "monday"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "Sneachd aotrom Dimàirt agus Diciadain an ath sheachdain, agus an teòthachd as àirde a' tuiteam gu 0\u00B0C Didòmhnaich.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Sileadh an-diugh gu Disathairne, agus an teòthachd as àirde a' ruigsinn 100\u00B0F Diluain.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "today", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]],
+
+  "Sileadh measgaichte (1\u20133 òir. de shneachda) tron latha.":
+    ["sentence",
+      ["for-day",
+        ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
+
+  "Sneachd trom (1\u20133 òir.)":
+    ["title", ["parenthetical", "heavy-snow", ["inches", ["range", 1, 3]]]],
+
+  "Sneachd trom (3\u20135 cm.)":
+    ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
+
+  "Tha cothromm ann gum bi stoirmean tàirneannaich":
+    ["title", "possible-thunderstorm"],
+
+  "Uisge trom agus stoirmean tàirneannaich":
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Uisge glè aotrom a' tòiseachadh ann an < 1 mìon.":
+    ["sentence",
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
+
+  "Cha deach dad a lorg an-dràsta air sgàth 's gu bheil a h-uile stèisean-radar far loidhne'.":
+  ["sentence",["unavailable-radar", "station-offline"]]
+}
