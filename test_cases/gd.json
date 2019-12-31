@@ -105,17 +105,17 @@
   "Frasan sneachda a' tòiseachadh ann an 35 mion.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Uisge aotrom a' stad ann an 15 mìon.":
+  "Uisge aotrom a' stad ann an 15 mion.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Flin a' tòiseachadh ann an 20 mìon., a' stad as dèidh 30 mìn.":
+  "Flin a' tòiseachadh ann an 20 mion., a' stad as dèidh 30 mion.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Uisge a' stad ann an 25 mìon., a' tòiseachadh a-rithist as dèidh 8 mìon.":
+  "Uisge a' stad ann an 25 mion., a' tòiseachadh a-rithist as dèidh 8 mion.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -126,30 +126,30 @@
   "Sgòthach fad an latha.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Flin a' tòiseachadh anns a' mhadainn.":
+  "Flin glè aotrom a' tòiseachadh anns a' mhadainn.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Gaothach gus a-nochd.":
+  "Gaothach gu a-nochd.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Sileadh trom gus an fheasgar.":
+  "Sileadh trom gu an fheasgar.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Oiteag shocair anns an fheasgar.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
-  "Sneachd feasgar an-diugh agus madainn a-màireach.":
+  "Sneachd nas anmoiche feasgar an-diugh agus madainn a-màireach.":
     ["sentence", ["during",
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Uisge trom gu nas anmoiche madainn an-diugh, a' tòiseachadh a-rithist feasgar.":
+  "Uisge trom gu nas anmoiche madainn an-diugh, a' tòiseachadh a-rithist feasgar an-diugh.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Sgothan trom a' tòiseachadh anns an fheasgar, a' maireachdainn gus an oidhche.":
+  "Sgothan trom a' tòiseachadh anns an fheasgar, a' stad a-nochd.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -160,7 +160,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Gaoth chunnartach a' tòiseachadh madainn an-diugh, a' maireachdain gus an fheasgar, agus flin madainn a-màireach.":
+  "Gaoth chunnartach a' tòiseachadh madainn an-diugh, a' stad feasgar an-diugh, agus flin madainn a-màireach.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -173,8 +173,7 @@
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Tioram a-noch agus sileadh aotrom a' tòiseachadh feasgar a-màireach, a' maireachdainn gu oidhche a-màireach.":
-  "Dry tonight and light precipitation starting tomorrow evening, continuing until tomorrow night.":
+  "Tioram a-nochd agus sileadh aotrom a' tòiseachadh feasgar a-màireach, a' stad oidhche a-màireach.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -192,7 +191,7 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Sneachd trom (8\u201312 òir.) tron latha.":
+  "Sneachd trom (8\u201312 òir.) fad an latha.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
@@ -202,35 +201,35 @@
       "afternoon"]],
 
 
-  "Gun sileadh fad na seachdain, agus an teòthard as àirde a' ruigsinn 85\u00B0F a-màireach":
+  "Gun sileadh fad na seachdain, le an teòthachd as àirde a' ruigsinn 85\u00B0F a-màireach":
     ["sentence", ["with",
       ["for-week", "no-precipitation"],
       ["temperatures-peaking",
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Sileadh measgaichte thairis air an deireadh-sheachdain, agus an teòtachd as àirde a' ruigsinn 32\u00B0C Diardaoin.":
+  "Sileadh measgaichte thairis air an deireadh-sheachdain, le an teòthachd as àirde a' ruigsinn 32\u00B0C Diardaoin.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Uisge glè aotrom Diluain, agus an teòthachd as àirde a' tuiteam gu 15\u00B0F Dihaoine.":
+  "Uisge glè aotrom Diluain, le an teòthachd as àirde a' tuiteam gu 15\u00B0F Dihaoine.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sneachd aotrom Dimàirt agus Diciadain an ath sheachdain, agus an teòthachd as àirde a' tuiteam gu 0\u00B0C Didòmhnaich.":
+  "Sneachd aotrom Dimàirt agus Diciadain an ath sheachdain, le an teòthachd as àirde a' tuiteam gu 0\u00B0C Didòmhnaich.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Sileadh an-diugh gu Disathairne, agus an teòthachd as àirde a' ruigsinn 100\u00B0F Diluain.":
+  "Sileadh an-diugh tro Disathairne, agus an teòthachd as àirde a' ruigsinn 100\u00B0F Diluain.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -239,7 +238,7 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Sileadh measgaichte (1\u20133 òir. de shneachda) tron latha.":
+  "Sileadh measgaichte (1\u20133 òir. de shneachda) fad an latha.":
     ["sentence",
       ["for-day",
         ["parenthetical", "mixed-precipitation", ["inches", ["range", 1, 3]]]]],
@@ -256,7 +255,7 @@
   "Uisge trom agus stoirmean tàirneannaich":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
-  "Uisge glè aotrom a' tòiseachadh ann an < 1 mìon.":
+  "Uisge glè aotrom a' tòiseachadh ann an < 1 mion.":
     ["sentence",
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
 
