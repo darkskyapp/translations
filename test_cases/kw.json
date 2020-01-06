@@ -257,5 +257,8 @@
 	
   "Glaw pur skav ow talleth le ages 1 myn.":
     ["sentence",
-      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
+
+  "Darganow rag an our a dheu yw ankavadow drefen bos pub gorsav radar y'n ranndir dhywarlinen.":
+    ["sentence",["unavailable-radar", "station-offline"]]
 }
