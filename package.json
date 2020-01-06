@@ -1,15 +1,15 @@
 {
-  "name": "forecast-io-translations",
-  "version": "1.46.3",
+  "name": "translations",
+  "version": "2.16.0",
   "description": "translate the Dark Sky API into any language",
   "author": {
     "name": "The Dark Sky Company",
-    "email": "developer@forecast.io"
+    "email": "developer@darksky.net"
   },
   "contributors": [
     {
       "name": "Jay LaPorte",
-      "email": "jay@forecast.io",
+      "email": "jay@darksky.net",
       "web": "https://github.com/ironwallaby"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "name": "Adam Grossman",
-      "email": "adam@forecast.io",
+      "email": "adam@darksky.net",
       "web": "https://github.com/thegrossman"
     },
     {
@@ -230,16 +230,63 @@
       "name": "AndyTempel",
       "email": "andraz@korenc.eu",
       "web": "https://ksoft.si"
+    },
+    {
+      "name": "Hyejin Ahn",
+      "email": "hyejinahn0619@gmail.com",
+      "web": "https://github.com/powerwlsl"
+    },
+    {
+      "name": "Raz Yalov",
+      "web": "https://github.com/razyalov"
+    },
+    {
+      "name": "amirhoseinaliakbarian",
+      "email": "amirhosein@aliakbarian.com",
+      "web": "https://github.com/amirhoseinaliakbarian"
+    },
+    {
+      "name": "Ivars Jukāms",
+      "web": "https://github.com/ivarsju"
+    },
+    {
+      "name": "Timothy Boronczyk",
+      "web": "https://github.com/tboronczyk"
+    },
+    {
+      "name": "Rizki Aditya",
+      "web": "https://medium.com/@rizaditya"
+    },
+    {
+      "name": "stanno",
+      "web": "https://github.com/stanno"
+    },
+    {
+      "name": "phungdoanh",
+      "web": "https://github.com/phungdoanh"
+    },
+    {
+      "name": "Martin Macko",
+      "web": "https://github.com/LinkedList"
+    },
+    {
+      "name": "Chris Mitchell",
+      "web": "https://geidh.uk/"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/forecast-io-translations"
+    "url": "git://github.com/darkskyapp/translations"
   },
   "scripts": {
-    "test": "mocha --reporter dot --check-leaks"
+    "test": "eslint . && mocha --reporter dot",
+    "lint-fix": "eslint . --fix"
   },
   "devDependencies": {
-    "mocha": "*"
+    "@darkskyapp/eslint-config": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "mocha": "^5.0.5"
   }
 }

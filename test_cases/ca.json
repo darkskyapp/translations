@@ -35,7 +35,7 @@
   "Pluja":
     ["title", "medium-rain"],
 
-  "Plujes Fortes":
+  "Pluges Fortes":
     ["title", "heavy-rain"],
 
   "Aiguaneu":
@@ -141,7 +141,7 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Plujes fortes durant el matí, començant aquest vespre.":
+  "Pluges fortes durant el matí, començant aquest vespre.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
@@ -206,28 +206,28 @@
         ["fahrenheit", 85],
         "tomorrow"]]],
 
-  "Precipitacions mixtes cap al cap de setmana, amb temperatures arribant a 32\u00B0C el Dijous.":
+  "Precipitacions mixtes cap al cap de setmana, amb temperatures arribant a 32\u00B0C el dijous.":
     ["sentence", ["with",
       ["over-weekend", "mixed-precipitation"],
       ["temperatures-rising",
         ["celsius", 32],
         "thursday"]]],
 
-  "Plugim el Dilluns, amb temperatures aconseguint un mínim de 15\u00B0F el Divendres.":
+  "Plugim el dilluns, amb temperatures aconseguint un mínim de 15\u00B0F el divendres.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Lleugeres nevades el Dimarts i Dimecres, amb temperatures per sota a 0\u00B0C el Diumenge.":
+  "Lleugeres nevades el dimarts i dimecres, amb temperatures per sota a 0\u00B0C el diumenge.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "wednesday"]],
       ["temperatures-falling",
         ["celsius", 0],
         "sunday"]]],
 
-  "Precipitació avui fins a el Dissabte, amb temperatures aconseguint un màxim de 100\u00B0F el Dilluns.":
+  "Precipitació avui fins a el dissabte, amb temperatures aconseguint un màxim de 100\u00B0F el dilluns.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
@@ -250,6 +250,6 @@
   "Possibles Tempestes":
     ["title", "possible-thunderstorm"],
 
-  "Plujes Fortes i Tempesta":
+  "Pluges Fortes i Tempesta":
     ["title", ["and", "heavy-rain", "thunderstorm"]]
 }

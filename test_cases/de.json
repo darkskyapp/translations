@@ -1,5 +1,5 @@
 {
-  "Heiter":
+  "Klar":
     ["title", "clear"],
 
   "Leichter Niederschlag":
@@ -72,7 +72,7 @@
     ["title",
       ["and", "high-humidity", "light-clouds"]],
 
-  "In der kommenden Stunde heiter.":
+  "In der kommenden Stunde Klar.":
     ["sentence", ["for-hour", "clear"]],
 
   "In 35 Min. leichter Schneefall.":
@@ -226,5 +226,11 @@
     ["sentence", ["until-starting-again", "very-light-rain", "afternoon", "night"]],
 
   "Gewitter möglich bis am nächsten Mittwoch.":
-    ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
+    ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]],
+
+  "Leichter Regen heute.":
+    ["sentence", ["during", "light-rain", "today"]],
+
+  "Leichter Regen morgen.":
+    ["sentence", ["during", "light-rain", "tomorrow"]]
 }
