@@ -266,8 +266,8 @@
   "Силен Дъжд и Гръмотевична Буря":
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
-  "Прогнозата за идния час временно не е на разположение поради липса на информация от всички близки станции.":
-  ["sentence",["unavailable-radar", "temporarily", "station-offline"]],
+  "Прогнозата за идния час временно не е на разположение поради това че всички близки станции не са на линия.":
+  ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
   "Прогнозата за идния час е частична поради пропуски в покритието от близки станции.":
-  ["sentence",["unavailable-radar", "partially", "station-incomplete"]]
+  ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]]
 }
