@@ -268,6 +268,6 @@
 
   "Прогнозата за идния час временно не е на разположение поради липса на информация от всички близки станции.":
   ["sentence",["unavailable-radar", "temporarily", "station-offline"]],
-  "Прогнозата за идния час е частична поради недостатъчно информация от близки станции.":
-  ["sentence",["unavailable-radar", "partially", "station-spotty"]]
+  "Прогнозата за идния час е частична поради пропуски в покритието от близки станции.":
+  ["sentence",["unavailable-radar", "partially", "station-incomplete"]]
 }
