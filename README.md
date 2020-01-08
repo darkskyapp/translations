@@ -250,13 +250,18 @@ capitalized, and the sentence is to end with a period).
 For text summaries for the next hour (that is, `minutely.summary`), summaries
 of the following formats are produced:
 
+*   `["sentence", ["next-hour-forecast-status", PERSISTENCE, STATION_STATUS]]`
 *   `["sentence", ["for-hour", WEATHER_CONDITION]]`
 *   `["sentence", ["starting-in", PRECIPITATION_TYPE, DURATION]]`
 *   `["sentence", ["stopping-in", PRECIPITATION_TYPE, DURATION]]`
 *   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
 *   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
 
-Except for the first case, each such summary only takes precipitation into
+The first case is an error case when nearby radar stations are experiencing issues
+and describe the persistence of the problem as well as some information on the
+stations' status.
+
+Except for the first two case, each such summary only takes precipitation into
 account, and tells how the intensity of precipitation will vary over the next
 hour or so.
 
