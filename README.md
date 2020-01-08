@@ -226,6 +226,36 @@ Below is a listing of every possible machine-readable summary produced by
 Dark Sky. The listing is recursive so as to better describe how the various
 structural components interact.
 
+### Status Information
+
+Instead of producing a summary of weather information, we may sometimes generate
+a status message indicating an error of some sort. Such messages may take one of
+the following forms:
+
+*   `["sentence", [STATUS_MESSAGE, STATUS_TYPE, REASON]]`
+
+`STATUS_MESSAGE` may be one of the following:
+
+*   `"next-hour-forecast-status"`: we have information to convey about our
+    hyperlocal next-hour forecasts
+
+`STATUS_TYPE` may be one of the following:
+
+*   `"unavailable"`: no forecast is available for this request
+*   `"partially-unavailable"`: only a partial forecast is available for this request
+*   `"temporarily-unavailable"`: no forecast is available for this request, but we
+    expect it to be available again in the future
+
+`REASON` may be one of the following:
+
+*   `"station-offline"`: we cannot generate a forecast because all nearby weather
+    stations are offline (e.g. for maintenance)
+*   `"station-incomplete"`: we cannot generate a forecast because of gaps in the
+    coverage of all nearby weather stations (e.g. radar beams are blocked by
+    local terrain)
+
+`"next-hour-forecast-status"`, `"unavailable"`, `"partially-unavailable"`, `"temporarily-unavailable"`, `"station-offline"`, and `"station-incomplete"` are not used in any other forms.
+
 ### Moment Summaries
 
 When the API is producing a text summary for a single moment in time (that is,
@@ -250,18 +280,13 @@ capitalized, and the sentence is to end with a period).
 For text summaries for the next hour (that is, `minutely.summary`), summaries
 of the following formats are produced:
 
-*   `["sentence", ["next-hour-forecast-status", PERSISTENCE, STATION_STATUS]]`
 *   `["sentence", ["for-hour", WEATHER_CONDITION]]`
 *   `["sentence", ["starting-in", PRECIPITATION_TYPE, DURATION]]`
 *   `["sentence", ["stopping-in", PRECIPITATION_TYPE, DURATION]]`
 *   `["sentence", ["starting-then-stopping-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
 *   `["sentence", ["stopping-then-starting-later", PRECIPITATION_TYPE, DURATION, DURATION]]`
 
-The first case is an error case when nearby radar stations are experiencing issues
-and describe the persistence of the problem as well as some information on the
-stations' status.
-
-Except for the first two case, each such summary only takes precipitation into
+Except for the first case, each such summary only takes precipitation into
 account, and tells how the intensity of precipitation will vary over the next
 hour or so.
 
