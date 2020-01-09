@@ -246,5 +246,12 @@
     ["title", "possible-thunderstorm"],
 
   "Kraftige regnbyger og tordenvær":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Værvarsel for neste time er midertidlig ikke tilgjengelig på grunn av ingen kontakt med radarstasjoner i nærheten.":
+  ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+  "Værvarsel for neste time er delvis ikke tilgjengelig på grunn av hull i dekningen fra radarstasjoner i nærheten.":
+  ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+  "Værvarsel for neste time er ikke tilgjengelig på grunn av ingen kontakt med radarstasjoner i nærheten.":
+  ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
