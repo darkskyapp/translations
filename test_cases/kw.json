@@ -257,5 +257,12 @@
 	
   "Glaw pur skav ow talleth le ages 1 myn.":
     ["sentence",
-      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
+
+  "Darganow herwydh an our yw ankavadow dres pols drefen bos pub gorsav radar y'n ranndir dhywarlinen.":
+    ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+  "Darganow herwydh an our yw ankavadow yn rann drefen bos aswaow y'n gorherans dhyworth gorsavow radar y'n ranndir.":
+    ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+  "Darganow herwydh an our yw ankavadow drefen bos pub gorsav radar y'n ranndir dhywarlinen.":
+    ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]] 
 }
