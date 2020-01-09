@@ -226,6 +226,36 @@ Below is a listing of every possible machine-readable summary produced by
 Dark Sky. The listing is recursive so as to better describe how the various
 structural components interact.
 
+### Status Information
+
+Instead of producing a summary of weather information, we may sometimes generate
+a status message indicating an error of some sort. Such messages may take one of
+the following forms:
+
+*   `["sentence", [STATUS_MESSAGE, STATUS_TYPE, REASON]]`
+
+`STATUS_MESSAGE` may be one of the following:
+
+*   `"next-hour-forecast-status"`: we have information to convey about our
+    hyperlocal next-hour forecasts
+
+`STATUS_TYPE` may be one of the following:
+
+*   `"unavailable"`: no forecast is available for this request
+*   `"partially-unavailable"`: only a partial forecast is available for this request
+*   `"temporarily-unavailable"`: no forecast is available for this request, but we
+    expect it to be available again in the future
+
+`REASON` may be one of the following:
+
+*   `"station-offline"`: we cannot generate a forecast because all nearby weather
+    stations are offline (e.g. for maintenance)
+*   `"station-incomplete"`: we cannot generate a forecast because of gaps in the
+    coverage of all nearby weather stations (e.g. radar beams are blocked by
+    local terrain)
+
+`"next-hour-forecast-status"`, `"unavailable"`, `"partially-unavailable"`, `"temporarily-unavailable"`, `"station-offline"`, and `"station-incomplete"` are not used in any other forms.
+
 ### Moment Summaries
 
 When the API is producing a text summary for a single moment in time (that is,

@@ -57,13 +57,13 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-	"Glaw trwm hyd at hwyrach bore yma, gan gychwyn eto fin nos heno.":
+	"Glaw trwm hyd at hwyrach bore yma, gan gychwyn eto gyda’r hwyr heno.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-	"Cymylau trwchus yn cychwyn fin nos, gan barhau hyd at y nos.":
+	"Cymylau trwchus yn cychwyn gyda’r hwyr, gan barhau hyd at y nos.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -158,5 +158,18 @@
         ["through", "friday", "saturday"]],
       ["temperatures-peaking",
         ["fahrenheit", 100],
-        "monday"]]]
+        "monday"]]],
+
+  "Glaw ysgafn yn bosib yn y bore a’r prynhawn.":
+    ["sentence", ["during",
+      "possible-light-rain", ["and",
+        "morning", "afternoon"]]],
+
+  "Dydi rhagolygon yr awr nesa ddim ar gael ar hyn o bryd oherwydd diffyg gwybodaeth o orsafoedd radar gerllaw.":
+    ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+  "Dydi rhagolygon yr awr nesa ddim yn gyflawn oherwydd bylchau yn narpariaeth gorsafoedd radar gerllaw.":
+    ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+  "Dydi rhagolygon yr awr nesa ddim ar gael oherwydd diffyg gwybodaeth o orsafoedd radar gerllaw.":
+    ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
+
 }

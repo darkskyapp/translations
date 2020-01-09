@@ -242,5 +242,15 @@
     ["sentence", ["during",
       "possible-thunderstorm",
         ["and", "next-wednesday", "next-thursday"]
-    ]]
+    ]],
+
+  "Les prévisions pour la prochaine heure sont temporairement indisponibles car les stations radars voisines sont hors-ligne.":
+  ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Les prévisions pour la prochaine heure sont partiellement indisponibles car il y a des lacunes dans la couverture des stations radars voisines.":
+  ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Les prévisions pour la prochaine heure sont indisponibles car les stations radars voisines sont hors-ligne.":
+  ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
+  
 }
