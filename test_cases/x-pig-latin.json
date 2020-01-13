@@ -242,5 +242,12 @@
     ["title", "possible-thunderstorm"],
 
   "Eavyhay Ainray andway Understormsthay":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Extnay hourway orecastsfay areway emporarilytay unavailableway ueday otay allway earbynay adarray tationssay eingbay offlineway.":
+    ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+  "Extnay hourway orecastsfay areway artiallypay unavailableway ueday otay apsgay inway overagecay romfay earbynay adarray ationsstay.":
+    ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+  "Extnay hourway orecastsfay areway unavailableway ueday otay allway earbynay adarray tationssay eingbay offlineway.":
+    ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
