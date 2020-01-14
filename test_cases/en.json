@@ -249,6 +249,9 @@
   "Heavy Snow (3\u20135 cm.)":
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
 
+  "Rain (Chance of 2\u20134 in. of Snow)":
+    ["title", ["parenthetical", "medium-rain", ["inches", ["range", 2, 4]]]],
+
   "Possible Thunderstorms":
     ["title", "possible-thunderstorm"],
 
@@ -260,9 +263,11 @@
       ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
 
   "Next hour forecasts are temporarily unavailable due to all nearby radar stations being offline.":
-  ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
   "Next hour forecasts are partially unavailable due to gaps in coverage from nearby radar stations.":
-  ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
   "Next hour forecasts are unavailable due to all nearby radar stations being offline.":
-  ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
