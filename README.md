@@ -456,10 +456,15 @@ would be `["during", "rain", "next-wednesday"]`.
 *   `RAIN_TYPE`
 *   `SLEET_TYPE`
 *   `SNOW_TYPE`
-*   `["parenthetical", SNOW_TYPE, SNOW_ACCUMULATION]`: For daily or weekly
-    summaries, if a significant amount of snow is expected, we will qualify it
-    with the amount of expected snow accumulation on the ground. (For example,
-    "snow (3-4 in.) throughout the day".)
+*   `["parenthetical", EXPECTED_PRECIP_TYPE, SNOW_ACCUMULATION]`: For daily or
+    weekly summaries, if a significant amount of snow is expected, we will
+    qualify it with the amount of expected snow accumulation. (For example,
+    "snow (3-4 in.) throughout the day".) PLEASE NOTE that it is possible for a
+    chance of snow accumulation to be forecasted even if the expected
+    precipitation type is rain or sleet: this may occur if the forecasted
+    temperature is right around the freezing point. Translations should clarify
+    that the parenthetical refers to a chance of snow in such circumstances.
+    (For example, "sleet (chance of 3-4 in. of snow) throughout the day".)
 
 In each of the below precipitation types, the intensity of precipitation is
 (very approximately) as follows:
