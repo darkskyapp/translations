@@ -263,5 +263,12 @@
     ["title", ["and", "heavy-rain", "thunderstorm"]],
 
   "Búrky až do budúceho pondelka.":
-    ["sentence", ["until", "thunderstorm", "next-monday"]]
+    ["sentence", ["until", "thunderstorm", "next-monday"]],
+	
+  "Predpoveď na ďalšiu hodinu je dočasne nedostupná, pretože všetky radarové stanice v okolí sú v režime offline.":
+    ["sentence",["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+  "Predpoveď na ďalšiu hodinu je čiastočne nedostupná, pretože vznikli medzery v pokrytí radarovými stanicami v okolí.":
+    ["sentence",["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+  "Predpoveď na ďalšiu hodinu je nedostupná, pretože všetky radarové stanice v okolí sú v režime offline.":
+    ["sentence",["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
