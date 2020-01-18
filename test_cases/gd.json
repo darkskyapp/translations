@@ -240,5 +240,13 @@
     ["sentence", ["during",
       "possible-thunderstorm",
         ["and", "next-wednesday", "next-thursday"]
-    ]]
+    ]],
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn airson grèis air sgàth 's gu bheil gu bheil a h-uile stèisean-radar a tha faisg air làimh far loidhne.":
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn gu h-iomlan air sgàth 's gu bheil beàrnan anns an fhiosrachadh bho na stèisean-radar a tha faisg air làimh.":
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn air sgàth 's gu bheil gu bheil a h-uile stèisean-radar a tha faisg air làimh far loidhne":
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
