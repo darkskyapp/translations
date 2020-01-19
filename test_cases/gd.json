@@ -2,13 +2,13 @@
   "Soilleir":
     ["title", "clear"],
 
-  "Tha Cothrom Ann Gum Bi Sileadh Glè Aotrom Ann":
+  "Ma Dh'fhaoidte Gu Sil I Beagan":
     ["title", "possible-very-light-precipitation"],
 
   "Sileadh Glè Aotrom":
     ["title", "very-light-precipitation"],
 
-  "Tha Cothrom Ann Gum Bi Sileadh Aotrom Ann":
+  "Ma Dh'fhaoidte Gu Sil I":
     ["title", "possible-light-precipitation"],
 
   "Sileadh Aotrom":
@@ -20,13 +20,13 @@
   "Sileadh Trom":
     ["title", "heavy-precipitation"],
 
-  "Tha Cothrom Ann Gum Bi Uisge Glè Aotrom Ann":
+  "Ma Dh'fhaoidte Gum Bi Uisge Glè Aotrom":
     ["title", "possible-very-light-rain"],
 
   "Uisge Glè Aotrom":
     ["title", "very-light-rain"],
 
-  "Tha Cothrom Ann Gum Bi Uisge Aotrom Ann":
+  "Ma Dh'fhaoidte Gum Bi Uisge Aotrom":
     ["title", "possible-light-rain"],
 
   "Uisge Aotrom":
@@ -38,13 +38,13 @@
   "Uisge Trom":
     ["title", "heavy-rain"],
 
-  "Tha Cothrom Ann Gum Bi Flin Glè Aotrom Ann":
+  "Ma Dh'fhaoidte Gum Bi Frasan Flin":
     ["title", "possible-very-light-sleet"],
 
-  "Flin Glè Aotrom":
+  "Frasan Flin":
     ["title", "very-light-sleet"],
 
-  "Tha Cothrom Ann Gum Bi Flin Aotrom Ann":
+  "Ma Dh'fhaoidte Gum Bi Flin Aotrom":
     ["title", "possible-light-sleet"],
 
   "Flin Aotrom":
@@ -56,13 +56,13 @@
   "Flin Trom":
     ["title", "heavy-sleet"],
 
-  "Tha Cothrom Ann Gum Bi Fras Sneachda Ann":
+  "Ma Dh'fhaoidte Gum Bi Frasan Sneachda":
     ["title", "possible-very-light-snow"],
 
   "Frasan Sneachda":
     ["title", "very-light-snow"],
 
-  "Tha Cothrom Ann Gum Bi Sneachd Aotrom Ann":
+  "Ma Dh'fhaoidte Gun Cur I Sneachda":
     ["title", "possible-light-snow"],
 
   "Sneachd Aotrom":
@@ -77,7 +77,7 @@
   "Gaoth":
     ["title", "medium-wind"],
 
-  "Gaoth Chunnartach":
+  "Gaoth Làidir":
     ["title", "heavy-wind"],
 
   "Ceòthach":
@@ -86,18 +86,17 @@
   "Sgothach":
     ["title", "medium-clouds"],
 
-  "Sgothan Trom":
+  "Sgothan Truime":
     ["title", "heavy-clouds"],
 
   "Tioram Agus Oiteag Shocair":
     ["title", ["and", "low-humidity", "light-wind"]],
 
-  "Uisge Glè Aotrom Agus Gaoth Chunnartach":
+  "Uisge Glè Aotrom Agus Gaoth Làidir":
     ["title", ["and", "very-light-rain", "heavy-wind"]],
 
-  "Tais Agus Sgothan Aotrom":
+  "Tais Agus Sgothan Aotruime":
     ["title", ["and", "high-humidity", "light-clouds"]],
-
 
   "Soilleir fad uair a thìde.":
     ["sentence", ["for-hour", "clear"]],
@@ -122,20 +121,19 @@
         ["minutes", 25],
         ["minutes", 8]]],
 
-
   "Sgothach fad an latha.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Flin glè aotrom a' tòiseachadh anns a' mhadainn.":
+  "Frasan flin a' tòiseachadh anns a' mhadainn.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Gaoth a' stad a-nochd.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Sileadh trom a' stad anns an fheasgar.":
+  "Sileadh trom a' stad tràth san fheasgar.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
-  "Oiteag shocair anns an fheasgar.":
+  "Oiteag shocair tràth san fheasgar.":
     ["sentence", ["during", "light-wind", "afternoon"]],
 
   "Sneachd nas anmoiche feasgar an-diugh agus madainn a-màireach.":
@@ -143,13 +141,13 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Uisge trom a' stad nas anmoiche madainn an-diugh, a' tòiseachadh a-rithist feasgar an-diugh.":
+  "Uisge trom a' stad nas anmoiche madainn an-diugh, a' tòiseachadh a-rithist anmoch feasgar an-diugh.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Sgothan trom a' tòiseachadh anns an fheasgar, a' stad a-nochd.":
+  "Sgothan truime a' tòiseachadh anmoch san fheasgar, a' stad a-nochd.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -160,7 +158,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Gaoth chunnartach a' tòiseachadh madainn an-diugh, a' stad feasgar an-diugh, agus flin madainn a-màireach.":
+  "Gaoth làidir a' tòiseachadh madainn an-diugh, a' stad tràth feasgar an-diugh, agus flin madainn a-màireach.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -168,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Sgothan trom a' tòiseachadh nas anmoiche a-nochd agus sneachda trom feasgar a-màireach.":
+  "Sgothan truime a' tòiseachadh nas anmoiche a-nochd agus sneachda trom tràth feasgar a-màireach.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Tioram a-nochd agus sileadh aotrom a' tòiseachadh feasgar a-màireach, a' stad an ath oidhche.":
+  "Tioram a-nochd agus sileadh aotrom a' tòiseachadh anmoch feasgar a-màireach, a' stad an ath oidhche.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -195,7 +193,7 @@
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
-  "Sneachd (< 1 cm.) anns an fheasgar.":
+  "Sneachd (< 1 cm.) tràth san fheasgar.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
       "afternoon"]],
@@ -238,9 +236,17 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Tha cothrom ann gum bi stoirmean tàirneanaich ann Diciadain an ath sheachdain agus Diardaoin an ath sheachdain.":
+  "Ma dh'fhaoidte gum bi stoirmean tàirneanaich Diciadain an ath sheachdain agus Diardaoin an ath sheachdain.":
     ["sentence", ["during",
       "possible-thunderstorm",
         ["and", "next-wednesday", "next-thursday"]
-    ]]
+    ]],
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn airson grèis air sgàth 's gu bheil gu bheil a h-uile stèisean-radar a tha faisg air làimh far loidhne.":
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn gu h-iomlan air sgàth 's gu bheil beàrnan anns an fhiosrachadh bho na stèisean-radar a tha faisg air làimh.":
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Chan eil ro-aithrisean an ath uair ri fhaoitinn air sgàth 's gu bheil gu bheil a h-uile stèisean-radar a tha faisg air làimh far loidhne.":
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
