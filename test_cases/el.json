@@ -251,5 +251,15 @@
     ["title", "possible-thunderstorm"],
 
   "Ισχυρή βροχή και καταιγίδα":
-    ["title", ["and", "heavy-rain", "thunderstorm"]]
+    ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "Η ωριαία πρόγνωση καιρού είναι προσωρινά μη διαθέσιμη λόγω του ότι όλοι οι γύρω μετεωρολογικοί σταθμοί είναι εκτός λειτουργίας.":
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Η ωριαία πρόγνωση καιρού είναι μερικώς μη διαθέσιμη λόγω χαμηλής κάλυψης από κοντινούς μετεωρολογικούς σταθμούς.":
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Η ωριαία πρόγνωση καιρού δεν είναι διαθέσιμη λόγω του ότι όλοι οι γύρω μετεωρολογικοί σταθμοί είναι εκτός λειτουργίας.":
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
+
 }
