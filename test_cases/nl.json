@@ -221,6 +221,15 @@
   ["title", "possible-thunderstorm"],
 
   "Zware regenbuien en onweer":
-  ["title", ["and", "heavy-rain", "thunderstorm"]]
+  ["title", ["and", "heavy-rain", "thunderstorm"]],
+
+  "De eerstvolgende voorspelling is tijdelijk niet beschikbaar omdat alle radar stations in de buurt offline zijn.":
+  ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "De eerstvolgende voorspelling is gedeeltelijk niet beschikbaar omdat de dekking van radar stations in de buurt niet volledig is.":
+  ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "De eerstvolgende voorspelling is niet beschikbaar omdat alle radar stations in de buurt offline zijn.":
+  ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 
 }
