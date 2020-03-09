@@ -254,5 +254,15 @@
 
   "Smidzinošs lietus sāksies nākamo < 1 min. laikā.":
     ["sentence",
-      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]]
+      ["starting-in", "very-light-rain", ["less-than", ["minutes", 1]]]],
+
+  "Tuvākās stundas laikā, laikaziņas ir īslaicīgi nepieejamas, jo nav pieejami apgabala staciju radari.":
+  ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Tuvākās stundas laikā, laikaziņas ir daļēji nepieejamas, jo ir traucējumi starp staciju radariem.":
+  ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Tuvākās stundas laikā, laikaziņas ir nepieejamas, jo nav pieejami apgabala staciju radari.":
+  ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
+
 }
