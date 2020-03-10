@@ -220,7 +220,7 @@
         ["fahrenheit", 15],
         "friday"]]],
 
-  "Sneachta éadrom Dé Máirt agus Dé Céadaoin seo chugainn, le an teocht dul chomh íseal le 0\u00B0C Dé Domhnaigh.":
+  "Sneachta éadrom Dé Máirt agus DéCéadaoin seo chugainn, le an teocht dul chomh íseal le 0\u00B0C Dé Domhnaigh.":
     ["sentence", ["with",
       ["during", "light-snow", ["and", "tuesday", "next-wednesday"]],
       ["temperatures-falling",
@@ -236,7 +236,7 @@
         ["fahrenheit", 100],
         "monday"]]],
 
-  "Seans ar stoirm thoirní Dé Céadaoin seo chugainn agus Déardaoin seo chugainn.":
+  "Seans ar stoirm thoirní DéCéadaoin seo chugainn agus Déardaoin seo chugainn.":
     ["sentence", ["during",
       "possible-thunderstorm",
         ["and", "next-wednesday", "next-thursday"]
