@@ -158,7 +158,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Laoithne láidir ag tosú maidin inniu, ag stopadh iarnóin inniu, agus flichshneachta maidin amárach.":
+  "Laoithne láidir ag tosú maidin inniu, ag stopadh iarnóin inniu agus flichshneachta maidin amárach.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -227,7 +227,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Frasaíocht inniu do dtí Dé Sathairn, le an teocht dul chomh hard le 100\u00B0F Dé Luain.":
+  "Frasaíocht inniu go dtí Dé Sathairn, le an teocht dul chomh hard le 100\u00B0F Dé Luain.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
