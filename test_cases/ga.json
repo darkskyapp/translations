@@ -26,7 +26,7 @@
   "Fearthainn An-éadrom":
     ["title", "very-light-rain"],
 
-  "Seans ar Fearthainn Éadrom":
+  "Seans Ar Fearthainn Éadrom":
     ["title", "possible-light-rain"],
 
   "Fearthainn Éadrom":
@@ -104,17 +104,17 @@
   "Sneachta an-éadrom ag tosú i 35 nóim.":
     ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
 
-  "Fearthainn éadrom ag stopadh i 15 nóin.":
+  "Fearthainn éadrom ag stopadh i 15 nóim.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Flichshneachta trom ag tosú i 20 nóin., ag stopadh i 30 nóin.":
+  "Flichshneachta trom ag tosú i 20 nóim., ag stopadh i 30 nóim.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
         ["minutes", 20],
         ["minutes", 30]]],
 
-  "Fearthainn ag stopadh i 25 nóin., ag tosú arís i 8 nóin.":
+  "Fearthainn ag stopadh i 25 nóim., ag tosú arís i 8 nóim.":
     ["sentence",
       ["stopping-then-starting-later",
         "medium-rain",
@@ -124,7 +124,7 @@
   "Scamaill mheasartha ar feadh an lae.":
     ["sentence", ["for-day", "medium-clouds"]],
 
-  "Flichshneachta ag tosú ar maidin.":
+  "Flichshneachta an-éadrom ag tosú ar maidin.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
   "Laoithne mheasarth ag stopadh anocht.":
@@ -184,7 +184,7 @@
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
 
-  "Sneachta eadrom (2 cm.) níos déanaí ar maidin inniu.":
+  "Sneachta éadrom (2 cm.) níos déanaí ar maidin inniu.":
     ["sentence", ["during",
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
