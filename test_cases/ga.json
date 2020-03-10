@@ -227,7 +227,7 @@
         ["celsius", 0],
         "sunday"]]],
 
-  "Frasaíocht inniu ar feadh Dé Sathairn, le an teocht dul chomh hard le 100\u00B0F Dé Luain.":
+  "Frasaíocht inniu do dtí Dé Sathairn, le an teocht dul chomh hard le 100\u00B0F Dé Luain.":
     ["sentence", ["with",
       ["during",
         "medium-precipitation",
