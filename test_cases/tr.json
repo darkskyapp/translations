@@ -268,5 +268,14 @@
     ["title", ["parenthetical", "heavy-snow", ["centimeters", ["range", 3, 5]]]],
 
   "Haftaya Çarşamba'ya kadar yoğun yağmur":
-    ["during", "heavy-rain", "next-wednesday"]
+    ["during", "heavy-rain", "next-wednesday"],
+
+  "Yakındaki tüm radar istasyonlarının çevrimdışı olması nedeniyle sonraki saat tahminleri geçici olarak kullanılamıyor.":
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Yakındaki tüm radar istasyonlarının kapsama alanı dışında olması nedeniyle sonraki saat tahminleri kısmen kullanılamıyor.":
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Yakındaki tüm radar istasyonlarının çevrimdışı olması nedeniyle sonraki saat tahminleri kullanılamıyor.":
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
