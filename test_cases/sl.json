@@ -210,7 +210,7 @@
         ["celsius", 32],
         "thursday"]]],
 
-  "Rosenje v ponedeljek, s najnižjimi temperaturamiokoli 15\u00B0F v petek.":
+  "Rosenje v ponedeljek, s najnižjimi temperaturami okoli 15\u00B0F v petek.":
     ["sentence", ["with",
       ["during", "very-light-rain", "monday"],
       ["temperatures-valleying",
