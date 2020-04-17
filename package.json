@@ -1,7 +1,8 @@
 {
   "name": "translations",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "description": "translate the Dark Sky API into any language",
+  "license": "bsd-2-clause",
   "author": {
     "name": "The Dark Sky Company",
     "email": "developer@darksky.net"
