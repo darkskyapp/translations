@@ -244,5 +244,14 @@
         "monday"]]],
 
   "Tempestades possíveis até próxima quarta-feira.":
-  ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]]
+  ["sentence", ["until", "possible-thunderstorm", "next-wednesday"]],
+  
+  "Previsões para a próxima hora estão temporariamente indisponíveis, devido a todas as estações de radar próximas estarem offline.":
+    ["sentence", ["next-hour-forecast-status", "temporarily-unavailable", "station-offline"]],
+
+  "Previsões para a próxima hora estão parcialmente indisponíveis, devido a falhas na cobertura nas estações de radar próximas.":
+    ["sentence", ["next-hour-forecast-status", "partially-unavailable", "station-incomplete"]],
+
+  "Previsões para a próxima hora estão indisponíveis, devido a todas as estações de radar próximas estarem offline.":
+    ["sentence", ["next-hour-forecast-status", "unavailable", "station-offline"]]
 }
